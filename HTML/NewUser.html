@@ -10,5 +10,38 @@
 </head>
 <body>
 
+<center>
+	<h1>Create your Log-In Credentials</h1>
+</center>
+
+<ul>
+	<label for="Name">First Name:</label>
+	<input type="Name" name="FirstName id="FirstName" required>
+</ul>
+
+<ul>
+	<label for="Name">Last Name:</label>
+	<input type="Name" name="LastName" id="LastName" required>
+</ul>
+
+<ul>
+	<label for="Email">Email:</label>
+	<input type="Email" name="Email" id="Email" required>
+</ul>
+
+<ul>
+	<label for="Password">Password:</label>
+	<input type="Password" name="Password" pattern=".{5,20}" required>
+	<label for="ConfirmPassword">Confirm Password:</label>
+	<input type="Password" name="ConfirmPassword" pattern=".{5,20}" required>
+	<p>Minimum of 5 characters in length with at least one uppercase letter (A-Z), one lowercase letter (a-z) and one number (0-9)</p>
+</ul>
+<div>
+	<button onclick="window.location.href = 'Index.html';">Back</button>
+	<button>Submit</button>
+</div>
+
+
+
 </body>
 </html>
