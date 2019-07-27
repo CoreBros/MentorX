@@ -1,16 +1,38 @@
 
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
 
 body{
-	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(pic1.jpg);
-	height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(pic1.jpg);
 	background-size: cover;
-	background-position: center;
-	font: cursive;
 }
 
-.login-page{
-	width: 360px;
-	padding: 10% 0 0;
-	margin: auto;
+.login-box{
+	width: auto;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
 
+.login-box h1{
+	float: left top;
+	font-size: 40px;
+	border-bottom: 6px solid;
+	border-color: #c0a5e6;
+	margin-bottom: 50px;
+	padding: 13px;
+}
+
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #c0a5e6;
 }
