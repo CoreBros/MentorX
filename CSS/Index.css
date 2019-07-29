@@ -2,13 +2,27 @@
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+.welcome {
+	width: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: purple;
+}
 
 
-.btn-primary {
+.login {
 	float: left top;
 	font-size: 40px;
-	border-bottom: 6px solid;
-	border-color: #c0a5e6;
-	margin-bottom: 50px;
+	top: 50%;
+	left: 50%;
+	padding: 13px;
+}
+
+.newUser {
+	float: left top;
+	font-size: 40px;
+	top: 50%;
+	left: 50%;
 	padding: 13px;
 }
