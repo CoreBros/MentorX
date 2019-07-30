@@ -23,17 +23,18 @@ body {
 
 .login {
 	width: 80%;
-	padding: 13px;
+	padding: 5px;
 	background: none;
 	border: 2px solid #c0a5e6;
 	color: white;
 	font-size: 18px;
 	cursor: pointer;
+	margin: 12px 0;
 }
 
 .newUser {
 	width: 80%;
-	padding: 13px;
+	padding: 5px;
 	background: none;
 	border: 2px solid #c0a5e6;
 	color: white;

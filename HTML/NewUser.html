@@ -1,47 +1,56 @@
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- Include these declarations one very HTML page -->
+
 <html>
 <head>
+	<!-- Importing fontAwesome Icons -->
+	<script src="https://kit.fontawesome.com/e3f947f40e.js"></script>
 	<meta charset="utf-8">
+	<!-- Linking to CSS stylesheet -->
+	<link rel="stylesheet" href="../css/NewUser.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<link rel="stylesheet" type="text/css" href="..Index.css">
 
 	<title>New User</title>
 </head>
 <body>
 
-<center>
+
+
+
+<form action="action_page.php">
+	<div class="container">
 	<h1>Create your Log-In Credentials</h1>
-</center>
+	<p>Please fill in this form to create an account</p>
+	<hr>
 
-<ul>
-	<label for="Name">First Name:</label>
-	<input type="Name" name="FirstName id="FirstName" required>
-</ul>
+	<label for="name"><b>First Name:</b></label>
+	<input type="text" name="firstName" required placeholder="Enter First Name">
 
-<ul>
-	<label for="Name">Last Name:</label>
-	<input type="Name" name="LastName" id="LastName" required>
-</ul>
+	<label for="name"><b>Last Name:</b></label>
+	<input type="text" name="lastName" required placeholder="Enter Last Name">
 
-<ul>
-	<label for="Email">Email:</label>
-	<input type="Email" name="Email" id="Email" required>
-</ul>
+	<label for="email"><b>Email:</b></label>
+	<input type="text" name="email" required placeholder="Enter Email">
 
-<ul>
-	<label for="Password">Password:</label>
-	<input type="Password" name="Password" pattern=".{5,20}" required>
-	<label for="ConfirmPassword">Confirm Password:</label>
-	<input type="Password" name="ConfirmPassword" pattern=".{5,20}" required>
+	<label for="psw"><b>Password:</b></label>
+	<input type="password" name="psw" required placeholder="Enter Password">
+	
+	<label for="psw-repeat"><b>Confirm Password:</b></label>
+	<input type="password" name="psw-repeat" required placeholder="Confirm Password">
+	
 	<p>Minimum of 5 characters in length with at least one uppercase letter (A-Z), one lowercase letter (a-z) and one number (0-9)</p>
-</ul>
-<div>
-	<button onclick="window.location.href = 'Index.html';">Back</button>
-	<button>Submit</button>
+
+	<hr>
+
+	<p>By creating an accountm you agree to our <a href="#">Terms & Privacy</a>.</p>
+
 </div>
+</form>
 
-
+<div>	
+	<input type="button" value="Back" onclick="window.location.href = 'Index.html';">
+</div>
 
 </body>
 </html>
