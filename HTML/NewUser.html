@@ -20,37 +20,46 @@
 
 <form action="action_page.php">
 	<div class="container">
-	<h1>Create your Log-In Credentials</h1>
+	<h1>Create your MentorX Account</h1>
 	<p>Please fill in this form to create an account</p>
 	<hr>
 
-	<label for="name"><b>First Name:</b></label>
-	<input type="text" name="firstName" required placeholder="Enter First Name">
+	
 
-	<label for="name"><b>Last Name:</b></label>
+	<i class="fas fa-user"></i>
+	<input type="text" name="firstName" required placeholder="Enter First Name">
+	<div></div>
+	<i class="fas fa-user"></i>
 	<input type="text" name="lastName" required placeholder="Enter Last Name">
 
-	<label for="email"><b>Email:</b></label>
-	<input type="text" name="email" required placeholder="Enter Email">
+	<div></div>
+	<i class="far fa-envelope"></i>
+	<input type="text" name="email" required placeholder="Email Address">
 
-	<label for="psw"><b>Password:</b></label>
+	<div></div>
+	<i class="fas fa-lock"></i>
 	<input type="password" name="psw" required placeholder="Enter Password">
-	
-	<label for="psw-repeat"><b>Confirm Password:</b></label>
+	<div></div>
+
+	<!-- <label for="psw-repeat"><b>Confirm Password:</b></label> -->
+	<div></div>
+	<i class="fas fa-lock"></i>
 	<input type="password" name="psw-repeat" required placeholder="Confirm Password">
-	
+	<div></div>
+
 	<p>Minimum of 5 characters in length with at least one uppercase letter (A-Z), one lowercase letter (a-z) and one number (0-9)</p>
 
 	<hr>
 
 	<p>By creating an accountm you agree to our <a href="#">Terms & Privacy</a>.</p>
 
+	<CENTER>
+	<input class="submit" type="button" name="registerbtn" value="Submit">
+	<input class="submit" type="button" value="Back" onclick="window.location.href = 'Index.html';">
+	</CENTER>
+
 </div>
 </form>
-
-<div>	
-	<input type="button" value="Back" onclick="window.location.href = 'Index.html';">
-</div>
 
 </body>
 </html>
