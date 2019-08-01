@@ -3,12 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
 	<link rel="stylesheet" href="../css/Index.css">
-
-
+	
 
 	<!-- Figure out how to dynamic link CSS files agnostic to computer -->
 	<title>MentorX</title>
@@ -20,14 +16,47 @@
 			<h2><em>Infuse your life with action</em></h2>
 
 				<input type="button" value="Log in" class="login" onclick="window.location.href = 'Login.html';">
+				
 
+				<!-- <button onclick="document.getElementById('id01').style.display='block'"" style="width:auto;">Login</button> -->
+
+				<button type="button"  class="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log in</button>
+			
 				<input type="button" value="New User" class="newUser" onclick="window.location.href = 'NewUser.html';">
-	
 	</div>
 	</center>
 
+<div id="id01" class="modal">
+	<form class="modal-content animate">
+		<div class="imgcontainer">
+			<span onclick="document.getElementByID('id01').style.display='hidden'" class="close" title="Close">&times;</span>
+			<img src="img_avatar2.png" alt="Image" class="avatar">
+		</div>
 
+		<div class="container">
+			<label for="uname"><b>Username</b></label>
+			<input type="text" placeholder="Enter Username" name="uname" required="">
+			<label for="psw"><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="psw" required="">
 
+			<button type="submit">Log in</button>
+			<label>
+				<input type="checkbox" checked="checked" name="remember">Remember Credentials</label>
+		</div>
+
+		<div class="container" style="background-color: #f1f1f1">
+			<button type="button" onclick="document.getElementByID('id01').style.display='none'" class="cancelbtn">Cancel</button>
+			<span class="psw">Forgot<a href="#">password?</a></span>
+		</div>
+	</form>
+</div>
+
+<script>
+	var	model = document.getElementByID('id01');
+	window.onclick = function(event) {
+		modal.style.display = "none";
+	}
+</script>
 
 
 </body>
