@@ -5,7 +5,7 @@
 body {
 	font-family: sans-serif;
 /*	background-color: rgba(69, 6, 115,0.8);*/
-	background: url(pic1.jpg);
+	background: url(pic3.jpg);
 	background-size: cover;
 }
 
@@ -15,15 +15,21 @@ body {
 
 
 
+.imageContainer {
+	border-radius: 10%;
+	text-align: center;
+}
+
 /*Add padding to entire user form*/
 .container {
 	border: 2px solid white;
+	font-size: 18px;
 	padding: 15px;
 	width: 600px;
 	position: relative;
 	left: 50%;
 	transform: translate(-50%);
-	background-color: #A0A0A0;
+	background-color: #8e8e8e;
 	color: white;
 }
 
@@ -31,7 +37,7 @@ body {
 input[type=text], input[type=password] {
 	width: 60%;
 	border: none;
-	border-bottom: 2px solid #c0a5e6;
+	border-bottom: 2px solid rgb(146,221,253);
 	overflow: hidden;
 	color: white;
 	font-size: 18px;
@@ -43,9 +49,8 @@ input[type=text], input[type=password] {
 
 /*not sure what this is doing*/
 input[type=text]:focus, input[type=password]:focus {
-	background-color: #726C86;
-	color: white;
-	outline: none;
+  color: white;
+  outline: 1px solid white;
 }
 
 /*Overwrite default styles of hr breaks*/
@@ -57,19 +62,18 @@ hr {
 /*Setting a style for the submit button*/
 
 .submit {
-	background-color: #f1f1f1;
-	font-size: 18px;
-	color: #3F568B;
-	padding: 16px 20px;
-	margin: 8px 0;
-	border: 2px solid #c0a5e6;
-	cursor: pointer;
-	width: 60%;
-	opacity: 0.7;
+  background-color: rgba(82,207,245,1);
+  color: white;
+  font-size: 20px;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
 }
 
 .submit:hover {
-	opacity: 1;
+	opacity: 0.8;
 }
 
 /*Adding a blue text color to links*/

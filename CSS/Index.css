@@ -8,8 +8,9 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Source Sans Pro', sans-serif;
-	background: url(pic1.jpg);
-	background-size: cover;
+	background: url(pic3.jpg);
+	/*background-color: #8e8e8e; */
+  background-size: stretch;
 }
 
 input[type=text], input[type=password] {
@@ -19,19 +20,19 @@ input[type=text], input[type=password] {
   background: none;
   display: inline-block;
   border: none;
+  color: white;
   border-bottom: 2px solid rgb(146,221,253);
   box-sizing: border-box;
   font-size: 20px;
 }
 
 input[type=text]:focus, input[type=password]:focus {
-  background-color: rgb(200,221,253);
   color: white;
-  outline: none;
+  outline: 1px solid white;
 }
 
 button {
-  background-color: rgb(200,221,253);
+  background-color: rgba(82,207,245,1);
   color: white;
   font-size: 20px;
   padding: 15px 20px;
@@ -69,8 +70,8 @@ img.Logo {
 
 /*Padding for text and boxes in log in form*/
 .container {
-  padding: 16px;
-  font-size: 15px;
+  padding: 2px 20px 50px 20px;
+  font-size: 18px;
   color: white;
 }
 
@@ -121,7 +122,7 @@ span.psw {
 .modal-content {
   background-color: #8e8e8e;
   color: white;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  margin: 5% auto 20px; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
   width: 350px; /* Could be more or less, depending on screen size */
 }
@@ -141,6 +142,7 @@ span.psw {
 	padding-top: 60px; 
 }
 
+ /*CSS for home page*/
 
 .welcome {
 	width: auto;
@@ -153,33 +155,31 @@ span.psw {
 
 
 .login {
-	background-color: #f1f1f1;
-	font-size: 18px;
-	color: #3F568B;
-	padding: 10px 15px;
-	margin: 8px 0;
-	border: 2px solid #c0a5e6;
-	cursor: pointer;
-	width: 60%;
-	opacity: 0.7;
+  background-color: rgba(82,207,245,1);
+  color: white;
+  font-size: 20px;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
 }
 
 .login:hover{
-	opacity: 1;
+	opacity: 0.8;
 }
 
 .newUser {
-	background-color: #f1f1f1;
-	font-size: 18px;
-	color: #3F568B;
-	padding: 10px 15px;
-	margin: 8px 0;
-	border: 2px solid #c0a5e6;
-	cursor: pointer;
-	width: 60%;
-	opacity: 0.7;
+  background-color: rgba(82,207,245,1);
+  color: white;
+  font-size: 20px;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
 }
 
 .newUser:hover{
-	opacity: 1;
+	opacity: 0.8;
 }
