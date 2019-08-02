@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../css/Index.css">
-	
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
 	<!-- Figure out how to dynamic link CSS files agnostic to computer -->
 	<title>MentorX</title>
@@ -13,49 +13,54 @@
 	<center>
 		<div class="welcome">
 			<h1>Welcome to MentorX</h1>
-			<h2><em>Infuse your life with action</em></h2>
+			<h2><em>Infuse your life with action</em></h2>				
 
-				<input type="button" value="Log in" class="login" onclick="window.location.href = 'Login.html';">
-				
+				<input type="button" value="Log in" class="login" onclick="document.getElementById('id01').style.display='block'">
 
-				<!-- <button onclick="document.getElementById('id01').style.display='block'"" style="width:auto;">Login</button> -->
-
-				<button type="button"  class="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log in</button>
 			
 				<input type="button" value="New User" class="newUser" onclick="window.location.href = 'NewUser.html';">
+
+				<input type="button" value="Log In OG" class="login" onclick="window.location.href = 'LogIn.html';">
 	</div>
 	</center>
 
 <div id="id01" class="modal">
 	<form class="modal-content animate">
 		<div class="imgcontainer">
-			<span onclick="document.getElementByID('id01').style.display='hidden'" class="close" title="Close">&times;</span>
-			<img src="img_avatar2.png" alt="Image" class="avatar">
+		      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+			<img src="../css/Logo.jpg" alt="Image" class="avatar">
 		</div>
 
 		<div class="container">
-			<label for="uname"><b>Username</b></label>
+			<i class="fas fa-user"></i>
 			<input type="text" placeholder="Enter Username" name="uname" required="">
-			<label for="psw"><b>Password</b></label>
+			
+			<i class="fas fa-lock"></i>
 			<input type="password" placeholder="Enter Password" name="psw" required="">
 
-			<button type="submit">Log in</button>
+			<button class="submit" type="submit">Log in</button>
 			<label>
 				<input type="checkbox" checked="checked" name="remember">Remember Credentials</label>
 		</div>
 
-		<div class="container" style="background-color: #f1f1f1">
-			<button type="button" onclick="document.getElementByID('id01').style.display='none'" class="cancelbtn">Cancel</button>
-			<span class="psw">Forgot<a href="#">password?</a></span>
+		<div class="container" style="background-color: #8e8e8e">
+			<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+			<span class="psw"><a href="#">Forgot password?</a></span>
 		</div>
 	</form>
 </div>
 
 <script>
-	var	model = document.getElementByID('id01');
-	window.onclick = function(event) {
-		modal.style.display = "none";
-	}
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
 </script>
 
 
