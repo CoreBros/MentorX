@@ -1,0 +1,60 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+
+body {
+	font-family: sans-serif;
+/*	background-color: rgba(69, 6, 115,0.8);*/
+	background: url(pic3.jpg);
+	background-size: stretch;
+}
+
+.topNav {
+  background-color: #8e8e8e;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topNav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topNav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topNav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.menuNav a {
+	float: left;
+}
+
+.modal{
+	display: none;
+	width: 200px;
+	float: left;
+	margin-left: 0;
+}
+
+.modal a{
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.modal a:hover {
+	background-color: #ccc;
+}
