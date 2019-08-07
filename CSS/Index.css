@@ -149,7 +149,7 @@ span.psw {
 	position: absolute;
 	top: 40%;
 	left: 50%;
-	color: rgba(82,207,245,1);
+	color: white;
 	transform: translate(-50%,-50%);
 }
 
