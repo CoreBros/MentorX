@@ -6,7 +6,8 @@ body {
 	font-family: sans-serif;
 /*	background-color: rgba(69, 6, 115,0.8);*/
 	background: url(pic3.jpg);
-	background-size: stretch;
+	background-size: fill;
+  background-repeat: no-repeat;
 }
 
 .topNav {
@@ -16,20 +17,24 @@ body {
 
 /* Style the links inside the navigation bar */
 
-.navLogo {
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  font-size: 17px;
-}
 
-.topNav a {
-  float: right;
+.menuNav a {
+  vertical-align: middle;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 30px;
+}
+
+.homeNav a {
+  vertical-align: middle;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  float: right;
 }
 
 /* Change the color of links on hover */
@@ -61,6 +66,17 @@ body {
   display: block; /* Make the links appear below each other */
   padding: 12px;  /*Add some padding */
   text-decoration: none; /* Remove underline from links */
+}
+
+.navIcons a {
+  vertical-align: middle;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 16px;
+  margin-top: 300px;
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: 80px;
 }
 
 .modal a:hover {
