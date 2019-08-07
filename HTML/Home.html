@@ -26,7 +26,6 @@
 <div id="id02" class="modal">
 	<form class="modal-content animate">
 		<div class="container">
-			<ul>
 			<a href="index.html">Home</a>
   			<a href="#about">My Profile</a>
   			<a href="#news">Mentoring</a>
@@ -37,11 +36,22 @@
   			<a href="#about">MentorX Products</a>
   			<a href="#about">Settings</a>
   			<a href="#about">Help & Supp</a>
-  			</ul>
 		</div>
 	</form>
 </div>
 
+<script>
+// Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
 
 </body>
 </html>
