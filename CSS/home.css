@@ -13,30 +13,32 @@ body {
 .topNav {
   background-color: #8e8e8e;
   overflow: hidden;
+  align-items: center;
 }
 
 /* Style the links inside the navigation bar */
 
 
-.menuNav a {
+.topNav a {
   vertical-align: middle;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 30px;
-  float: left;
 }
 
-.homeNav a {
-  vertical-align: middle;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 30px;
+.homeNav {
   float: right;
 }
+
+.xLogo {
+  position: relative;
+  display: inline-block;
+  padding-left: 30%;
+  padding-right: 25%;
+}
+
 
 /* Change the color of links on hover */
 .topNav a:hover {
@@ -44,12 +46,6 @@ body {
   color: black;
 }
 
-.xLogo a {
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  vertical-align: middle;
-}
 
 .close {
   position: absolute;
@@ -97,3 +93,7 @@ body {
   font-size: 80px;
 }
 
+.myProfile {
+  text-align: center;
+
+}
