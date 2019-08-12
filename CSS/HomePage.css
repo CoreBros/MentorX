@@ -1,0 +1,168 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+/*Height of image box*/
+.page-body{
+  height:800px;top:0
+}
+
+/*Overall page layour with backgorund image*/
+.page-content{
+  width:810px;
+  left:0;
+  height:100%;
+  margin:0 auto;
+  position:relative;
+  background-color:rgba(255,255,255,1.0);
+  background-color:#FFF;
+  background-image:url(https://landerstorage.blob.core.windows.net/lander-images/templates/0000000090/desktop/image_dda17a92-88c2-4cbc-9703-08408d02da4a_);
+  background-repeat:no-repeat;
+  background-position:top center
+}
+
+/*Logo Placement*/
+#_67e0925b-ce71-b89f-46ce-29888846181a {
+    position:absolute;
+    top:40px;
+    left:307px;
+    width:200px;
+    height:60px;
+    z-index:3;
+    border-top:1px none #000;
+    border-right:1px none #000;
+    border-bottom:1px none #000;
+    border-left:1px none #000
+  }
+
+/*My Profile Image*/
+#_e3d5a6a8-fd2e-dee5-3e5c-63022325afa0{
+    position:absolute;
+    top:480px;
+    left:72px;
+    text-decoration: none;
+    width:150px;
+    height:150px;
+    z-index:8;
+    border-top:1px none #000;
+    border-right:1px none #000;
+    border-bottom:1px none #000;
+    border-left:1px none #000
+  }
+
+/*Mentoring Image*/
+#_dd0ab966-c747-6698-3f28-22c3527f84d0{
+    position:absolute;
+    top:480px;
+    left:330px;
+    width:150px;
+    height:150px;
+    z-index:13;
+    border-top:1px none #000;border-right:1px none #000;
+    border-bottom:1px none #000;
+    border-left:1px none #000
+  }
+
+
+/*Goals Image*/
+#_b6a4d197-7e23-bab3-85fe-6b4ce1288612{
+    position:absolute;top:480px;
+    left:592px;width:150px;
+    height:150px;z-index:18;
+    border-top:1px none #000;
+    border-right:1px none #000;
+    border-bottom:1px none #000;
+    border-left:1px none #000
+  }
+
+
+/*Welcome text box placement*/
+._4cfd8453-3dea-808f-7072-5d0a26248995{
+    height:110px;
+    left:0;
+    top:125px;
+    width:810px;
+    z-index:28;
+    position:absolute;
+    background-color:transparent;
+    border-style:none none none none;
+    border-color:#000;
+    border-width:1px;
+    border-radius:0;
+    font-size:10pt
+  }
+
+/*My Profile text*/
+._424da105-7861-b0a6-1a76-f1f736f7980e{
+    height:25px;
+    left:27px;
+    top:645px;
+    width:240px;
+    z-index:45;
+    position:absolute;
+    background-color:transparent;
+    border-style:none none none none;
+    border-color:#000;
+    border-width:1px;
+    border-radius:0;
+    font-size:10pt
+  }
+
+/*Mentoring text*/
+._125a0c4e-50ac-489a-4ed8-dc169451e70e{
+    height:25px;
+    left:287px;
+    top:645px;
+    width:240px;
+    z-index:48;
+    position:absolute;
+    background-color:transparent;
+    border-style:none none none none;
+    border-color:#000;
+    border-width:1px;
+    border-radius:0;
+    font-size:10pt
+  }
+
+/*Goals text*/
+._4d1ebced-664d-52da-f720-9a3983807e80{
+    height:25px;
+    left:547px;
+    top:645px;
+    width:240px;
+    z-index:51;
+    position:absolute;
+    background-color:transparent;
+    border-style:none none none none;
+    border-color:#000;
+    border-width:1px;
+    border-radius:0;
+    font-size:10pt
+  }
+
+/*Padding for entire module that is centered on the page*/
+.inner_body{
+    border-width:0;
+    margin:0;
+    padding:0
+  }
+
+/*Footer*/
+.branding-footer-fixed{
+    position:fixed;
+    bottom:0;
+    width:80%
+  }
+
+/*Footer*/
+#brandfooterbottom{
+    background:white !important;
+    padding-top:30px;
+    color:black !important
+  }
+
+/*Footer*/
+#brandfooterbottom a {
+    font-size:25px;
+    text-decoration: none;
+    color:blue !important
+  }
