@@ -6,6 +6,78 @@
   height:800px;top:0
 }
 
+.homeNav {
+  float: right;
+}
+
+.xLogo {
+  position: relative;
+  display: inline-block;
+  padding-left: 30%;
+  padding-right: 25%;
+}
+
+.topNav {
+  background-color: #8e8e8e;
+  overflow: hidden;
+  align-items: center;
+}
+
+/* Style the links inside the navigation bar */
+
+
+.topNav a {
+  vertical-align: middle;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/* Change the color of links on hover */
+.topNav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    width: 200px;
+    z-index: 60;
+    float: left;
+    margin-left: 0;
+}
+
+.modal a{
+  background-color: #eee; /* white background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px;  /*Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.modal a:hover {
+  background-color: #ccc;
+}
+
+
 /*Overall page layour with backgorund image*/
 .page-content{
   width:810px;
@@ -21,7 +93,7 @@
 }
 
 /*Logo Placement*/
-#_67e0925b-ce71-b89f-46ce-29888846181a {
+#_yourlogoImage{
     position:absolute;
     top:40px;
     left:307px;
@@ -35,7 +107,7 @@
   }
 
 /*My Profile Image*/
-#_e3d5a6a8-fd2e-dee5-3e5c-63022325afa0{
+#_myprofileImage{
     position:absolute;
     top:480px;
     left:72px;
@@ -50,7 +122,7 @@
   }
 
 /*Mentoring Image*/
-#_dd0ab966-c747-6698-3f28-22c3527f84d0{
+#_mentoringImage{
     position:absolute;
     top:480px;
     left:330px;
@@ -64,7 +136,7 @@
 
 
 /*Goals Image*/
-#_b6a4d197-7e23-bab3-85fe-6b4ce1288612{
+#_goalsImage{
     position:absolute;top:480px;
     left:592px;width:150px;
     height:150px;z-index:18;
@@ -76,7 +148,7 @@
 
 
 /*Welcome text box placement*/
-._4cfd8453-3dea-808f-7072-5d0a26248995{
+._welcometextBox{
     height:110px;
     left:0;
     top:125px;
@@ -92,7 +164,7 @@
   }
 
 /*My Profile text*/
-._424da105-7861-b0a6-1a76-f1f736f7980e{
+._myprofiletextBox{
     height:25px;
     left:27px;
     top:645px;
@@ -108,7 +180,7 @@
   }
 
 /*Mentoring text*/
-._125a0c4e-50ac-489a-4ed8-dc169451e70e{
+._mentoringtextBox{
     height:25px;
     left:287px;
     top:645px;
@@ -124,7 +196,7 @@
   }
 
 /*Goals text*/
-._4d1ebced-664d-52da-f720-9a3983807e80{
+._goalstextBox{
     height:25px;
     left:547px;
     top:645px;
