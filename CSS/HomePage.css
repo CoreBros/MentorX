@@ -2,6 +2,8 @@
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
 
 /*Height of image box*/
+
+
 .page-body{
   height:800px;top:0
 }
@@ -11,16 +13,16 @@
 }
 
 .xLogo {
-  position: relative;
+  left:100%;
   display: inline-block;
-  padding-left: 30%;
-  padding-right: 25%;
 }
 
 .topNav {
   background-color: #8e8e8e;
   overflow: hidden;
   align-items: center;
+  position: relative;
+  width: 100%;
 }
 
 /* Style the links inside the navigation bar */
