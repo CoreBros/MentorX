@@ -2,16 +2,12 @@
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
 @import "https://fonts.googleapis.com/css?family=Muli&display=swap";
 
-/*Height of image box*/
+/*START OF MENU AND NAV BAR */
 
 *{
   font-family: 'Muli', sans-serif;
 }
 
-.page-body{
-  height:800px;
-  top:0;
-}
 
 .homeNav {
   float: right;
@@ -91,20 +87,38 @@
   background-color: #ccc;
 }
 
+/*END OF MENU AND NAVIGATION BAR*/
+
+
+
+.page-body{
+  height:800px;
+  top:0;
+}
+
+/*Padding for entire module that is centered on the page*/
+.inner_body{
+    border-width:0;
+    margin:0;
+    padding:0;
+  }
+
+
 
 /*Overall page layout with backgorund image*/
 .page-content{
+  /*align-content: center;*/
+  left: 15%;
   width:70%;
-  left:0;
-  height:100%;
-  margin:0 auto;
-  position:relative;
+  height:40%;
+  margin-bottom: 20%;
+  position: relative;
   background-color:rgba(255,255,255,1.0);
   background-color:#FFF;
-  background-image:url(https://landerstorage.blob.core.windows.net/lander-images/templates/0000000090/desktop/image_dda17a92-88c2-4cbc-9703-08408d02da4a_);
+  background-image: url("pic3.jpg");
   background-repeat:no-repeat;
-  background-position:top center
 }
+
 
 /*Logo Placement*/
 #_yourlogoImage{
@@ -124,105 +138,51 @@
     top: 8%;
     text-align: center;
     position:relative;
-    font-size:40px;
+    font-size:30px;
     color: white;
   }
 
+
+.iconMenu {
+  top: 100%;
+  width: 90%;
+  padding-left: 5%;
+  padding-top: 5%;
+  display: inline-block;
+  position: absolute;
+  font-size: 80px;
+  text-align: center!important;
+}
+
 /*My Profile Image*/
 #_myprofileImage{
-    position:absolute;
-    top:480px;
-    left:72px;
-    text-decoration: none;
-    width:150px;
-    height:150px;
-    z-index:8;
-    border-top:1px none #000;
-    border-right:1px none #000;
-    border-bottom:1px none #000;
-    border-left:1px none #000
+    float: left;
+    color: #8e8e8e;
+    display: inline-block;
   }
 
 /*Mentoring Image*/
 #_mentoringImage{
-    position:absolute;
-    top:480px;
-    left:330px;
-    width:150px;
-    height:150px;
-    z-index:13;
-    border-top:1px none #000;border-right:1px none #000;
-    border-bottom:1px none #000;
-    border-left:1px none #000
+    display: inline-block;
+    color: #8e8e8e;
   }
-
 
 /*Goals Image*/
 #_goalsImage{
-    position:absolute;top:480px;
-    left:592px;width:150px;
-    height:150px;z-index:18;
-    border-top:1px none #000;
-    border-right:1px none #000;
-    border-bottom:1px none #000;
-    border-left:1px none #000
+    float: right;
+    color: #8e8e8e;
+    display: inline-block;
   }
 
+.iconText {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  color: #8e8e8e;
+  font-size: 20px;
+  text-align: center!important;
+}
 
-/*My Profile text*/
-._myprofiletextBox{
-    height:25px;
-    left:27px;
-    top:645px;
-    width:240px;
-    z-index:45;
-    position:absolute;
-    background-color:transparent;
-    border-style:none none none none;
-    border-color:#000;
-    border-width:1px;
-    border-radius:0;
-    font-size:10pt
-  }
-
-/*Mentoring text*/
-._mentoringtextBox{
-    height:25px;
-    left:287px;
-    top:645px;
-    width:240px;
-    z-index:48;
-    position:absolute;
-    background-color:transparent;
-    border-style:none none none none;
-    border-color:#000;
-    border-width:1px;
-    border-radius:0;
-    font-size:10pt
-  }
-
-/*Goals text*/
-._goalstextBox{
-    height:25px;
-    left:547px;
-    top:645px;
-    width:240px;
-    z-index:51;
-    position:absolute;
-    background-color:transparent;
-    border-style:none none none none;
-    border-color:#000;
-    border-width:1px;
-    border-radius:0;
-    font-size:10pt
-  }
-
-/*Padding for entire module that is centered on the page*/
-.inner_body{
-    border-width:0;
-    margin:0;
-    padding:0
-  }
 
 /*Footer*/
 .branding-footer-fixed{
