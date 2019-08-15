@@ -93,48 +93,28 @@
 
 .page-body{
   height:800px;
-  top:0;
 }
-
-/*Padding for entire module that is centered on the page*/
-.inner_body{
-    border-width:0;
-    margin:0;
-    padding:0;
-  }
-
-
 
 /*Overall page layout with backgorund image*/
 .page-content{
-  /*align-content: center;*/
   left: 15%;
   width:70%;
-  height:40%;
+  height: 40%;
   margin-bottom: 20%;
   position: relative;
-  background-color:rgba(255,255,255,1.0);
-  background-color:#FFF;
   background-image: url("pic3.jpg");
   background-repeat:no-repeat;
 }
-
 
 /*Logo Placement*/
 #_yourlogoImage{
     position:relative;
     top:5%;
     text-align: center;
-    z-index:3;
-    border-top:1px none #000;
-    border-right:1px none #000;
-    border-bottom:1px none #000;
-    border-left:1px none #000
   }
 
 /*Welcome text box placement*/
 ._welcometextBox{
-    z-index:28;
     top: 8%;
     text-align: center;
     position:relative;
@@ -156,6 +136,7 @@
 
 /*My Profile Image*/
 #_myprofileImage{
+    width: 33%;
     float: left;
     color: #8e8e8e;
     display: inline-block;
@@ -163,25 +144,47 @@
 
 /*Mentoring Image*/
 #_mentoringImage{
+    width: 33%;
     display: inline-block;
     color: #8e8e8e;
   }
 
 /*Goals Image*/
 #_goalsImage{
+    width: 33%;
     float: right;
     color: #8e8e8e;
     display: inline-block;
   }
 
 .iconText {
-  width: 100%;
-  display: inline-block;
-  position: relative;
   color: #8e8e8e;
   font-size: 20px;
-  text-align: center!important;
 }
+
+
+#_myprofiletextBox{
+    width: 33%;
+    float: left;
+    color: #8e8e8e;
+    display: inline-block;
+  }
+
+
+#_mentoringtextBox{
+    width: 33%;
+    color: #8e8e8e;
+    display: inline-block;
+  }
+
+#_goalstextBox{
+    width: 33%;
+    float: right;
+    color: #8e8e8e;
+    display: inline-block;
+  }
+
+
 
 
 /*Footer*/
