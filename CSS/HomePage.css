@@ -20,6 +20,7 @@
 }
 
 .topNav {
+  padding-top: 0;
   background-color: #8e8e8e;
   overflow: hidden;
   width: 100%;
@@ -117,6 +118,9 @@
     color: white;
   }
 
+.iconMenu a {
+    color: #8e8e8e;
+}
 
 .iconMenu {
   top: 100%;
@@ -157,6 +161,10 @@
   font-size: 20px;
 }
 
+.iconText a{
+  text-decoration: none;
+}
+
 
 #_myprofiletextBox{
     width: 33%;
@@ -178,8 +186,6 @@
     color: #8e8e8e;
     display: inline-block;
   }
-
-
 
 
 /*Footer*/
