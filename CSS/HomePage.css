@@ -98,7 +98,7 @@
   height: 40%;
   margin-bottom: 20%;
   position: relative;
-  background-image: url("pic3.jpg");
+  background-image: url("pic4.jpg");
   background-repeat:no-repeat;
 }
 
@@ -133,24 +133,32 @@
   text-align: center!important;
 }
 
-/*My Profile Image*/
-#_myprofileImage{
-    width: 33%;
-    float: left;
-    color: #8e8e8e;
-    display: inline-block;
-  }
-
 /*Mentoring Image*/
 #_mentoringImage{
-    width: 33%;
+    width: 25%;
+    float: left;
     display: inline-block;
     color: #8e8e8e;
   }
 
 /*Goals Image*/
 #_goalsImage{
-    width: 33%;
+    width: 25%;
+    float: left;
+    color: #8e8e8e;
+    display: inline-block;
+  }
+
+/*Calendar Image*/
+#_calendarImage{
+    width: 25%;
+    color: #8e8e8e;
+    display: inline-block;
+  }
+
+/*Resources Image*/
+#_resourcesImage{
+    width: 25%;
     float: right;
     color: #8e8e8e;
     display: inline-block;
@@ -165,27 +173,32 @@
   text-decoration: none;
 }
 
-
-#_myprofiletextBox{
-    width: 33%;
+#_mentoringtextBox{
+    width: 25%;
     float: left;
     color: #8e8e8e;
     display: inline-block;
   }
 
-
-#_mentoringtextBox{
-    width: 33%;
-    color: #8e8e8e;
-    display: inline-block;
-  }
-
 #_goalstextBox{
-    width: 33%;
-    float: right;
+    width: 25%;
+    float: left;
     color: #8e8e8e;
     display: inline-block;
   }
+
+#_calendartextBox{
+    width: 25%;
+    color: #8e8e8e;
+    display: inline-block;
+  }
+
+#_resourcestextBox{
+  width: 25%;
+  float: right;
+  color: #8e8e8e;
+  display: inline-block;
+}
 
 
 /*Footer*/
