@@ -5,8 +5,7 @@
 body {
 	font-family: sans-serif;
 /*	background-color: rgba(69, 6, 115,0.8);*/
-	background: url(pic3.jpg);
-	background-size: cover;
+  	background-color: #388AB2;
 }
 
 * {
