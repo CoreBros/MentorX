@@ -2,9 +2,15 @@
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
 @import "https://fonts.googleapis.com/css?family=Muli&display=swap";
 
+body {
+  padding: 0; 
+  margin: 0;
+  background-color: #364045;
+}
+
 
 *{
-  font-family: 'Nunito';
+  font-family: "Segoe UI",Arial,sans-serif;
 }
 
 /*START OF MENU AND NAV BAR */
@@ -24,9 +30,10 @@
   background-color: #8e8e8e;
   overflow: hidden;
   width: 100%;
-  min-width: 80%;
+  min-width: 600px;
   position: relative;
   text-align: center!important;
+
 }
 
 .menuNav {
@@ -90,7 +97,6 @@
 
 .page-body{
   height:800px;
-  background-color: #FFFFFF;
 }
 
 /*Overall page layout with backgorund image*/
@@ -120,8 +126,8 @@
     color: white;
   }
 
-.iconMenu a {
-    color: #8e8e8e;
+.iconMenu a:hover {
+  opacity: 0.4;
 }
 
 .iconMenu {
@@ -139,21 +145,18 @@
     width: 25%;
     float: left;
     display: inline-block;
-    color: #8e8e8e;
   }
 
 /*Goals Image*/
 #_goalsImage{
     width: 25%;
     float: left;
-    color: #8e8e8e;
     display: inline-block;
   }
 
 /*Calendar Image*/
 #_calendarImage{
     width: 25%;
-    color: #8e8e8e;
     display: inline-block;
   }
 
@@ -161,13 +164,17 @@
 #_resourcesImage{
     width: 25%;
     float: right;
-    color: #8e8e8e;
     display: inline-block;
   }
 
+.fas {
+  color: white;
+}
+
+
 .iconText {
-  color: #8e8e8e;
   font-size: 20px;
+  color: white;
 }
 
 .iconText a{
@@ -177,27 +184,23 @@
 #_mentoringtextBox{
     width: 25%;
     float: left;
-    color: #8e8e8e;
     display: inline-block;
   }
 
 #_goalstextBox{
     width: 25%;
     float: left;
-    color: #8e8e8e;
     display: inline-block;
   }
 
 #_calendartextBox{
     width: 25%;
-    color: #8e8e8e;
     display: inline-block;
   }
 
 #_resourcestextBox{
   width: 25%;
   float: right;
-  color: #8e8e8e;
   display: inline-block;
 }
 
