@@ -206,10 +206,7 @@ body {
 
 
 /*Alan's add*/
-._first{
-    top: 18%;
-    text-align: center;
-    position:relative;
+#first{
     font-size:30px;
     color: white;
   }
