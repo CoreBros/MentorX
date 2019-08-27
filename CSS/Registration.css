@@ -205,6 +205,15 @@ body {
 }
 
 
+/*Alan's add*/
+._first{
+    top: 18%;
+    text-align: center;
+    position:relative;
+    font-size:30px;
+    color: white;
+  }
+
 /*Footer*/
 .branding-footer-fixed{
     position:fixed;
@@ -225,3 +234,7 @@ body {
     text-decoration: none;
     color:blue !important
   }
+
+
+
+
