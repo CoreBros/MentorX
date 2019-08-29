@@ -101,14 +101,15 @@ body {
 
 /*Overall page layout with backgorund image*/
 .page-content{
-  left: 20%;
-  width: 60%;
+  margin-left: 50%
+  width: 80%;
   min-width: 500px;
   height: 40%;
   margin-bottom: 20%;
   position: relative;
-  background-color: #388AB2;
+  background-color: orange;
 }
+
 
 /*Logo Placement*/
 #_yourlogoImage{
@@ -116,6 +117,7 @@ body {
     top:5%;
     text-align: center;
   }
+
 
 /*Welcome text box placement*/
 ._welcometextBox{
