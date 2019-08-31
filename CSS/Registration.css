@@ -114,7 +114,7 @@ body {
 /*Logo Placement*/
 #_yourlogoImage{
     position:relative;
-    top:5%;
+    top:15%;
     text-align: center;
   }
 
@@ -207,12 +207,6 @@ body {
 }
 
 
-/*Alan's add*/
-#first{
-    font-size:30px;
-    color: white;
-  }
-
 /*Footer*/
 .branding-footer-fixed{
     position:fixed;
@@ -234,6 +228,12 @@ body {
     color:blue !important
   }
 
-
+.mentorPreference{
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10%;
+  color: white;
+ 
+}
 
 
