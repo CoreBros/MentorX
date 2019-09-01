@@ -33,7 +33,6 @@ body {
   min-width: 600px;
   position: relative;
   text-align: center!important;
-
 }
 
 .menuNav {
@@ -96,7 +95,7 @@ body {
 
 
 .page-body{
-  height:800px;
+  height:1500px;
 }
 
 /*Overall page layout with backgorund image*/
@@ -104,7 +103,7 @@ body {
   margin-left: 50%
   width: 80%;
   min-width: 500px;
-  height: 40%;
+  height: 13%;
   margin-bottom: 20%;
   position: relative;
   background-color: orange;
@@ -114,18 +113,17 @@ body {
 /*Logo Placement*/
 #_yourlogoImage{
     position:relative;
-    top:15%;
+    top:5%;
     text-align: center;
   }
 
 
 /*Welcome text box placement*/
 ._welcometextBox{
-    top: 18%;
     text-align: center;
-    position:relative;
     font-size:30px;
     color: white;
+    padding-top: 2%
   }
 
 .iconMenu a:hover {
@@ -232,8 +230,10 @@ body {
   font-size: 20px;
   text-align: left;
   padding-left: 10%;
-  color: white;
- 
+  color: black;
 }
+
+
+
 
 
