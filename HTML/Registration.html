@@ -12,47 +12,45 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>MentorX Home</title>
+<title>MentorX Enrollment</title>
 
 </head>
+
+<!-- Start of Navigation Bar -->
 <body>
-
-<div class="topNav">
-    
-    <div class="menuNav">
-    <a href="#menu" i class="fas fa-bars" onclick="document.getElementById('_dropdownMenu').style.display='block'"></a>
-	</div>
-
-    <div class="xLogo">
-    <a href="Index.html">MentorX</a>
-    </div>
-    
-    <div class="homeNav">
-    <a href="#MyProfile" i class="fas fa-user"></a>
-    </div>
-
-</div>
-
-<div id="_dropdownMenu" class="modal">
-    <form class="modal-content animate">
-        <div class="container">
-            <span onclick="document.getElementById('_dropdownMenu').style.display='none'" class="close" title="Close">&times;</span>
-            <a href="index.html">Home v2</a>
-            <a href="#about">My Profile</a>
-            <a href="#news">Mentoring</a>
-            <a href="#contact">Goal Setting</a>
-            <a href="#about">Calendar</a>
-            <a href="#about">News Feed</a>
-            <a href="#about">Resources</a>
-            <a href="#about">MentorX Products</a>
-            <a href="#about">Settings</a>
-            <a href="#about">Help & Supp</a>
+    <div class="topNav">
+        <div class="menuNav">
+            <a href="#menu" i class="fas fa-bars" onclick="document.getElementById('_dropdownMenu').style.display='block'"></a>
+    	</div>
+        <div class="xLogo">
+            <a href="Index.html">MentorX</a>
         </div>
-    </form>
-</div>
+        <div class="homeNav">
+            <a href="#MyProfile" i class="fas fa-user"></a>
+        </div>
+    </div>
 
+    <div id="_dropdownMenu" class="modal">
+        <form class="modal-content animate">
+            <div class="container">
+                <span onclick="document.getElementById('_dropdownMenu').style.display='none'" class="close" title="Close">&times;</span>
+                <a href="index.html">Home v2</a>
+                <a href="#about">My Profile</a>
+                <a href="#news">Mentoring</a>
+                <a href="#contact">Goal Setting</a>
+                <a href="#about">Calendar</a>
+                <a href="#about">News Feed</a>
+                <a href="#about">Resources</a>
+                <a href="#about">MentorX Products</a>
+                <a href="#about">Settings</a>
+                <a href="#about">Help & Supp</a>
+            </div>
+        </form>
+    </div>
+</body>
+<!-- End of Navigation Bar -->
 
-
+<!-- Start of Page Content -->
 <body id="inner_body" class="inner_body">
     
     <div id="page-body" class="page-body">
@@ -64,79 +62,83 @@
                 <img src="https://i.pinimg.com/originals/24/5a/bc/245abc96f48ea27c6b504c6437877dcc.jpg" class="img-circle" class=".img-responsive" alt="Responsive image" width="120ppx"> 
             </div>
 
-            <!-- Welcome text box -->
+            <!-- Header Text below image -->
             <div class="_welcometextBox">
                 <p align="center"class="text-uppercase">
-                <span style="display: block;">Join the Mentorship Program
+                <span style="display: block;">Enroll in the Mentorship Program
                 </span>
                 </p>
             </div>
 
-        <!-- Adding a new section -->
-            <div class="mentorPreference">
-                
-                <h5>Register for the Mentorship Program</h5>
+            <hr>
 
+        <!-- Enrollment Form -->
+            <div class="mentorPreference">
+
+                <!-- Enrollment Buttons -->
                 <button type="button" class="btn btn-primary">Mentee Enrollment</button>
 
                 <button type="button" class="btn btn-primary">Mentor Enrollment</button>
 
+                <!-- Name Inputs -->
                 <form class="form">
-
-                    <label for="first">First Name:</label>
-                    <input type="text" name="first" id="first" placeholder="John" required>
-                    <label for="last">Last Name:</label>
-                    <input type="text" name="last" id="last" placeholder="Doe" required>
-
                     <div>
-                        <label> Email:</label>
-                        <input type="email" name="email" placeholder="John.Doe@gmail.com">
+                        <label for="first">First Name:</label>
+                        <input type="text" name="first" id="first" placeholder="John" required>
                     </div>
-
                     <div>
-                        <p>Mentoring Preferences</p>
+                        <label for="last">Last Name:</label>
+                        <input type="text" name="last" id="last" placeholder="Doe" required>
                     </div>
-
                 </form>
 
+                <!-- Email & Password Inputs -->
                 <form>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+
+                        <!-- Email -->
+                        <!-- class="form-control" -->
+                        <div>
+                            <label for="exampleInputEmail1">Email Address:</label>
+                            <input type="email" id="exampleInputEmail1" placeholder="Email">
+                        </div>
+                        
+                        <!-- Password -->
+                        <div>
+                            <label for="exampleInputPassword1">Password:</label>
+                            <input type="password" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                            
+                        <!-- File Input -->
+                        <div>
+                            <label for="exampleInputFile">File input</label>
+                            <input type="file" id="exampleInputFile">
+                        </div>
                     </div>
 
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
                     
-                    <div class="form-group">
-                        <label for="exampleInputFile">File input</label>
-                        <input type="file" id="exampleInputFile">
-                        <p class="help-block">Example block-level help text here.</p>
-                    </div>
-                    
+                    <!-- Checkbox -->
                     <div class="checkbox">
                         <label>
-                            <input type="checkbox"> Check me out
+                            <input type="checkbox"> I Agree to the terms & conditions
                         </label>
                     </div>
-                  
+                    
+                    <!-- Submit Button -->
                     <button type="submit" class="btn btn-default">Submit</button>
-                </form>
+               
                 
-                <select class="form-control">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                </select>
-
+                    <!-- Drop Down Input -->
+                    <select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </form>
             </div>
         </div>
     </div>
-
-</body>
 </body>
 </html>

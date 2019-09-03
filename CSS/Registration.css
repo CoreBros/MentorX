@@ -92,12 +92,6 @@ body {
 
 /*END OF MENU AND NAVIGATION BAR*/
 
-
-
-.page-body{
-  height:1500px;
-}
-
 /*Overall page layout with backgorund image*/
 .page-content{
   margin-left: 50%
@@ -109,14 +103,12 @@ body {
   background-color: orange;
 }
 
-
 /*Logo Placement*/
 #_yourlogoImage{
     position:relative;
-    top:5%;
+    top:10%;
     text-align: center;
   }
-
 
 /*Welcome text box placement*/
 ._welcometextBox{
@@ -126,111 +118,12 @@ body {
     padding-top: 2%
   }
 
-.iconMenu a:hover {
-  opacity: 0.4;
-}
-
-.iconMenu {
-  top: 100%;
-  width: 100%;
-  min-width: 500px;
-  padding-top: 5%;
-  position: absolute;
-  font-size: 80px;
-  text-align: center!important;
-}
-
-/*Mentoring Image*/
-#_mentoringImage{
-    width: 25%;
-    float: left;
-    display: inline-block;
-  }
-
-/*Goals Image*/
-#_goalsImage{
-    width: 25%;
-    float: left;
-    display: inline-block;
-  }
-
-/*Calendar Image*/
-#_calendarImage{
-    width: 25%;
-    display: inline-block;
-  }
-
-/*Resources Image*/
-#_resourcesImage{
-    width: 25%;
-    float: right;
-    display: inline-block;
-  }
-
-.fas {
-  color: white;
-}
-
-
-.iconText {
-  font-size: 20px;
-  color: white;
-}
-
-.iconText a{
-  text-decoration: none;
-}
-
-#_mentoringtextBox{
-    width: 25%;
-    float: left;
-    display: inline-block;
-  }
-
-#_goalstextBox{
-    width: 25%;
-    float: left;
-    display: inline-block;
-  }
-
-#_calendartextBox{
-    width: 25%;
-    display: inline-block;
-  }
-
-#_resourcestextBox{
-  width: 25%;
-  float: right;
-  display: inline-block;
-}
-
-
-/*Footer*/
-.branding-footer-fixed{
-    position:fixed;
-    bottom:0;
-    width:80%
-  }
-
-/*Footer*/
-#brandfooterbottom{
-    background:white !important;
-    padding-top:30px;
-    color:black !important
-  }
-
-/*Footer*/
-#brandfooterbottom a {
-    font-size:25px;
-    text-decoration: none;
-    color:blue !important
-  }
-
+/*Enrollment Form*/
 .mentorPreference{
   font-size: 20px;
   text-align: left;
   padding-left: 10%;
-  color: black;
+  color: white;
 }
 
 
