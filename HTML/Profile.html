@@ -1,28 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 <head>
 
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://kit.fontawesome.com/e3f947f40e.js"></script>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Helvetica+Neue">
 
-	<title>Mentor X Profile</title>
+<!-- Change link to your CSS file -->
+<link type="text/css" rel="stylesheet" href="../css/HomePage.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+<title>Profile Page</title>
 
 </head>
 <body>
 
+<div class="topNav">
+    
+    <div class="menuNav">
+    <a href="#menu" i class="fas fa-bars" onclick="document.getElementById('_dropdownMenu').style.display='block'"></a>
+	</div>
 
-<h1>Profile Page</h1>
+    <div class="xLogo">
+    <a href="Index.html">MentorX</a>
+    </div>
+    
+    <div class="homeNav">
+    <a href="Profile.html" i class="fas fa-user"></a>
+    </div>
+
+</div>
+
+<div id="_dropdownMenu" class="modal">
+    <form class="modal-content animate">
+        <div class="container">
+            <span onclick="document.getElementById('_dropdownMenu').style.display='none'" class="close" title="Close">&times;</span>
+            <a href="index.html">Home v2</a>
+            <a href="Profile.html">My Profile</a>
+            <a href="#news">Mentoring</a>
+            <a href="#contact">Goal Setting</a>
+            <a href="#about">Calendar</a>
+            <a href="#about">News Feed</a>
+            <a href="#about">Resources</a>
+            <a href="#about">MentorX Products</a>
+            <a href="#about">Settings</a>
+            <a href="#about">Help & Supp</a>
+        </div>
+    </form>
+</div>
+
+<!-- Delete below here for new file -->
 
 
+<!-- <form name="newad" method="post" enctype="multipart/form-data" action="">
+<title></title>
+<h1>Let's Get Started</h1>
+<h2>Mentor X</h2>
+<h1></h1>
+</head>
+<body>
+<table>
+<i class="far fa-user-circle fa-10x"></i>
+<tr><td><input type="file" name="image" ></td></tr>
+<tr><td><input name="Submit" type="submit" value="Upload image"></td></tr>
+</table>
+</form> -->
+
+<h1>Finding a the Right Mentor is Just a Few Steps Away!</h1>
+<h2>Let's create your Profile</h2>
+
+<p><i class="far fa-user-circle fa-10x"></i></p><
+<input type="file" name="image">
 
 
-<i class="fas fa-user fa-8x"></i>
+<p>
+    <i class="fas fa-user"></i>
+    <input type="text" name="firstName" required placeholder="Enter First Name">
+</p>
+
+<p>
+    <i class="fas fa-user"></i>
+    <input type="text" name="lastName" required placeholder="Enter Last Name">
+</p>
+
+<p>
+    <i class="fas fa-university"></i>
+    <input type="text" name="Education 1" required placeholder="Enter Education">
+</p>
+
+<p>
+    <i class="fas fa-university"></i>
+    <input type="text" name="Education 2" required placeholder="Enter Education 2">
+</p>
+
+<p>
+    <i class="fas fa-briefcase"></i>
+    <input type="text" name="Current Employer" required placeholder="Enter Current Employer">
+</p>
+
+<p>
+    <i class="fas fa-briefcase"></i>
+    <input type="text" name="Current Employer 2" required placeholder="Enter Current Employer 2">
+</p>
+
+<p>
+    <i class="fas fa-briefcase"></i>
+    <input type="text" name="Current Employer 3" required placeholder="Enter Current Employer 3">
+</p>
+
+<p>
+    <i class="fas fa-star"></i>
+    <input type="text" name="Interesting Fact about Me" required placeholder="Interesting Fact About Me">
+</p>
+
+<!-- <form action="/action_page.php">
+  First name: <input type="text" name="firstName" value=""><br>
+  Last name: <input type="text" name="lastName" value=""><br>
+<h4>Employment History</h4>
+  Current Employer: <input type="text" name="lname" value=""><br>
+  Current Title: <input type="text" name="lname" value=""><br>
+  Previous Employer 1: <input type="text" name="lname" value=""><br>
+  Previous Employer 2: <input type="text" name="lname" value=""><br>
+<h4>Education</h4>
+  University Name <input type="text" name="lname" value=""><br>
+  Current Major: <input type="text" name="lname" value=""><br>
+  Current Minor: <input type="text" name="lname" value=""><br>`
+  <input type="submit" value="Submit form">
+</form> -->
+
+<!-- Version 2 -->
 
 
-<p>Upload an image</p>
+</div>
 
-
-
-
+</body>
 </body>
 </html>
