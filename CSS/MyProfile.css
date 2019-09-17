@@ -105,6 +105,64 @@ h2 {
   color: white;
 }
 
+.iconMenu a {
+  color: white;
+}
 
+
+.iconMenu a:hover {
+  opacity: 0.4;
+}
+
+.iconMenu {
+  top: 200px;
+  left: 10px;
+  padding-top: 5%;
+  position: absolute;
+  font-size: 40px;
+}
+
+
+.iconText a {
+  color: white;
+}
+
+
+.iconText a:hover {
+  opacity: 0.4;
+}
+
+.iconText {
+  top: 200px;
+  left: 80px;
+  padding-top: 5%;
+  text-align: left;
+  position: absolute;
+  font-size: 40px;
+}
+
+#_educationImage {
+  padding-top: 30px;
+}
+
+#_educationText {
+  padding-top: 30px;
+}
+
+#_hobbiesImage {
+  padding-top: 30px;
+}
+
+#_hobbiesText {
+  padding-top: 30px;
+}
+
+#_motivationsImage {
+  padding-top: 30px;
+}
+
+#_motivationsText {
+  padding-top: 30px;
+}
 
 
