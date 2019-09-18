@@ -102,11 +102,11 @@ h1 {
 h2 {
   width: 100%;
   text-align: center;
-  color: grey;
+  color: white;
 }
 
 .iconMenu a {
-  color: grey;
+  color: white;
 }
 
 
@@ -115,7 +115,7 @@ h2 {
 }
 
 .iconMenu {
-  top: 700px;
+  top: 650px;
   left: 10px;
   padding-top: 5%;
   position: absolute;
@@ -124,11 +124,11 @@ h2 {
 
 
 .iconText {
-  color: grey;
+  color: white;
 }
 
 .iconText {
-  top: 700px;
+  top: 650px;
   left: 60px;
   padding-top: 5%;
   text-align: left;
@@ -201,7 +201,7 @@ body {
 .side {
   -ms-flex: 30%; /* IE10 */
   flex: 30%;
-  background-color: #f1f1f1;
+  background-color: grey;
   padding: 20px;
 }
 
@@ -209,7 +209,7 @@ body {
 .main {   
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
-  background-color: grey;
+  background-color: #364045;
   padding: 20px;
 }
 
@@ -224,7 +224,7 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: #388AB2;
 }
 
 .main h2 {
