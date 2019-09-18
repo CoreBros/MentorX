@@ -115,7 +115,7 @@ h2 {
 }
 
 .iconMenu {
-  top: 650px;
+  top: 700px;
   left: 10px;
   padding-top: 5%;
   position: absolute;
@@ -128,7 +128,7 @@ h2 {
 }
 
 .iconText {
-  top: 650px;
+  top: 700px;
   left: 60px;
   padding-top: 5%;
   text-align: left;
@@ -216,8 +216,18 @@ body {
 /* Fake image, just for this example */
 .profileImage {
   background-color: #aaa;
-  width: 100%;
-  padding: 20px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.dimcamImage {
+  border-radius: 50%;
+  padding: 5px;
 }
 
 /* Footer */
@@ -226,6 +236,11 @@ body {
   text-align: center;
   background: #388AB2;
 }
+
+.side h2 {
+  font-size: 40px;
+}
+
 
 .main h2 {
   color: white;
