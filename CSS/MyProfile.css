@@ -102,11 +102,11 @@ h1 {
 h2 {
   width: 100%;
   text-align: center;
-  color: white;
+  color: grey;
 }
 
 .iconMenu a {
-  color: white;
+  color: grey;
 }
 
 
@@ -115,30 +115,25 @@ h2 {
 }
 
 .iconMenu {
-  top: 200px;
+  top: 700px;
   left: 10px;
   padding-top: 5%;
   position: absolute;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 
-.iconText a {
-  color: white;
-}
-
-
-.iconText a:hover {
-  opacity: 0.4;
+.iconText {
+  color: grey;
 }
 
 .iconText {
-  top: 200px;
-  left: 80px;
+  top: 700px;
+  left: 60px;
   padding-top: 5%;
   text-align: left;
   position: absolute;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 #_educationImage {
@@ -166,3 +161,81 @@ h2 {
 }
 
 
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #388AB2;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+.header h2 {
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: grey;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.profileImage {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+.main h2 {
+  color: white;
+}
+
+.main h5 {
+  color: white;
+}
+
+
+.main p {
+  color: white;
+}
