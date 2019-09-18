@@ -106,11 +106,15 @@ h2 {
   color: white;
 }
 
+. {
+
+  display: inline-block;
 
 
-.fa_fa-user{
+}
 
-  position: absolute;
+
+
 }
 
 }
