@@ -1,28 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 <head>
 
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://kit.fontawesome.com/e3f947f40e.js"></script>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Helvetica+Neue">
 
-	<title>Mentor X Profile</title>
+<!-- Change link to your CSS file -->
+<link type="text/css" rel="stylesheet" href="../css/Profile.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+<title>Profile Page</title>
 
 </head>
 <body>
 
+<div class="topNav">
+    
+    <div class="menuNav">
+    <a href="#menu" i class="fas fa-bars" onclick="document.getElementById('_dropdownMenu').style.display='block'"></a>
+	</div>
 
-<h1>Profile Page</h1>
+    <div class="xLogo">
+    <a href="Index.html">MentorX</a>
+    </div>
+    
+    <div class="homeNav">
+    <a href="MyProfile.html" i class="fas fa-user"></a>
+    </div>
+
+</div>
+
+<div id="_dropdownMenu" class="modal">
+    <form class="modal-content animate">
+        <div class="container">
+            <span onclick="document.getElementById('_dropdownMenu').style.display='none'" class="close" title="Close">&times;</span>
+            <a href="HomePage.html">Home</a>
+            <a href="MyProfile.html">My Profile</a>
+            <a href="Registration.html">Mentoring</a>
+            <a href="Goals.html">Goal Setting</a>
+            <a href="Calendar.html">Calendar</a>
+            <a href="NewsFeed.html">News Feed</a>
+            <a href="Resources.html">Resources</a>
+            <a href="MentorXProducts.html">MentorX Products</a>
+            <a href="Settings.html">Settings</a>
+            <a href="HelpSupport.html">Help & Supp</a>
+        </div>
+    </form>
+</div>
+
+<!-- Delete below here for new file -->
+
+
+<h1>Finding a the Right Mentor is Just a Few Steps Away!</h1>
+<h2>Let's create your Profile</h2>
+
+
+<div class="profile-container">
+    <i class="far fa-user-circle fa-10x"></i>
+
+    <p><input type="file" name="image"></p>
+    
+</div>
+
+ <!-- Fill-in Text boxes OLD VERSION-->
+<!-- <p>
+    <i class="fas fa-user"></i>
+    <input type="text" name="firstName" required placeholder="Enter First Name">
+</p>
+
+<p>
+    <i class="fas fa-user"></i>
+    <input type="text" name="lastName" required placeholder="Enter Last Name">
+</p>
+
+<p>
+    <i class="fas fa-university"></i>
+    <input type="text" name="Education 1" required placeholder="Enter Education">
+</p>
+
+<p>
+    <i class="fas fa-university"></i>
+    <input type="text" name="Education 2" required placeholder="Enter Education 2">
+</p>
+
+<p>
+    <i class="fas fa-briefcase"></i>
+    <input type="text" name="Current Employer" required placeholder="Enter Current Employer">
+</p>
+
+<p>
+    <i class="fas fa-briefcase"></i>
+    <input type="text" name="Current Employer 2" required placeholder="Enter Current Employer 2">
+</p>
+
+<p>
+    <i class="fas fa-briefcase"></i>
+    <input type="text" name="Current Employer 3" required placeholder="Enter Current Employer 3">
+</p>
+
+<p>
+    <i class="fas fa-star"></i>
+    <input type="text" name="Interesting Fact about Me" required placeholder="Interesting Fact About Me">
+</p> -->
+
+
+
+<!-- These should be pulled from the "NewUser" Page. these icons can change based on the inputs we want to creat a profile.
+ -->
+
+<div>
+    <i class="fas fa-user"></i>
+    <input type="text" name="Input 1" required placeholder="Enter Input 1">
+    <div></div>
+    <i class="fas fa-user"></i>
+    <input type="text" name="Input 2" required placeholder="Enter Input 2">
+
+    <div></div>
+    <i class="far fa-envelope"></i>
+    <input type="text" name="Input 3" required placeholder="Enter Input 3">
+
+    <div></div>
+    <i class="fas fa-lock"></i>
+    <input type="password" name="Input 4" required placeholder="Enter Input 4">
+    <div></div>
+
+    <div></div>
+    <i class="fas fa-briefcase"></i>
+    <input type="text" name="Input 5" required placeholder="Enter Input 5">
+ </div>  
+    
 
 
 
 
-<i class="fas fa-user fa-8x"></i>
 
+</div>
 
-<p>Upload an image</p>
-
-
-
-
+</body>
 </body>
 </html>

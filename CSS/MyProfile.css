@@ -1,0 +1,241 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  padding: 0; 
+  margin: 0;
+  background-color: #364045;
+}
+
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*START OF MENU AND NAV BAR */
+
+.homeNav {
+  float: right; 
+  display: inline-block;
+}
+
+.xLogo {
+  display: inline-block;
+  line-height: 50px;
+}
+
+.topNav {
+  padding-top: 0;
+  background-color: #8e8e8e;
+  overflow: hidden;
+  width: 100%;
+  min-width: 600px;
+  position: relative;
+  text-align: center!important;
+
+}
+
+.menuNav {
+  float: left;
+  vertical-align: middle;
+}
+
+.topNav a {
+  vertical-align: middle;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topNav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.modal{
+    display: none;
+    position: absolute;
+    width: 200px;
+    z-index: 60;
+    float: left;
+    margin-left: 0;
+}
+
+.modal a{
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.modal a:hover {
+  background-color: #ccc;
+}
+
+/*END OF MENU AND NAVIGATION BAR*/
+
+h1 {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.iconMenu a {
+  color: white;
+}
+
+
+.iconMenu a:hover {
+  opacity: 0.4;
+}
+
+.iconMenu {
+  top: 650px;
+  left: 10px;
+  padding-top: 5%;
+  position: absolute;
+  font-size: 30px;
+}
+
+
+.iconText {
+  color: white;
+}
+
+.iconText {
+  top: 650px;
+  left: 60px;
+  padding-top: 5%;
+  text-align: left;
+  position: absolute;
+  font-size: 30px;
+}
+
+#_educationImage {
+  padding-top: 30px;
+}
+
+#_educationText {
+  padding-top: 30px;
+}
+
+#_hobbiesImage {
+  padding-top: 30px;
+}
+
+#_hobbiesText {
+  padding-top: 30px;
+}
+
+#_motivationsImage {
+  padding-top: 30px;
+}
+
+#_motivationsText {
+  padding-top: 30px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #388AB2;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+.header h2 {
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: grey;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #364045;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.profileImage {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #388AB2;
+}
+
+.main h2 {
+  color: white;
+}
+
+.main h5 {
+  color: white;
+}
+
+
+.main p {
+  color: white;
+}
