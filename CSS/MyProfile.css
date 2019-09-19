@@ -58,7 +58,7 @@ body {
 .close {
   position: absolute;
   right: 25px;
-  top: 0;
+  top: 10px;
   color: #000;
   font-size: 35px;
   font-weight: bold;
@@ -70,11 +70,11 @@ body {
   cursor: pointer;
 }
 
-.modal{
+.modal {
     display: none;
     position: absolute;
     width: 200px;
-    z-index: 60;
+    z-index: 700;
     float: left;
     margin-left: 0;
 }
@@ -115,23 +115,7 @@ h2 {
 }
 
 .iconMenu {
-  top: 700px;
-  left: 10px;
   padding-top: 5%;
-  position: absolute;
-  font-size: 30px;
-}
-
-
-.iconText {
-  color: white;
-}
-
-.iconText {
-  top: 700px;
-  left: 60px;
-  padding-top: 5%;
-  text-align: left;
   position: absolute;
   font-size: 30px;
 }
@@ -171,14 +155,6 @@ body {
   margin: 0;
 }
 
-/* Header/logo Title */
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #388AB2;
-  color: white;
-}
-
 /* Increase the font size of the heading */
 .header h1 {
   font-size: 40px;
@@ -189,20 +165,16 @@ body {
 }
 
 /* Column container */
-.row {  
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: grey;
-  padding: 20px;
+.container {  
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 58px;
+  left: 0;
+  background-color: #388AB2;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
 /* Main column */
@@ -220,8 +192,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 }
 
@@ -230,14 +202,7 @@ body {
   padding: 5px;
 }
 
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #388AB2;
-}
-
-.side h2 {
+.container h2 {
   font-size: 40px;
 }
 
