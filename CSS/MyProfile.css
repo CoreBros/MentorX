@@ -132,6 +132,20 @@ body {
   color: white;
 }
 
+.card h5 {
+  padding-left: 5px;
+  display: inline-block;
+  font-size: 20px;
+  color: #364045;
+}
+
+.card .fas {
+  display: inline-block;
+  font-size: 20px;
+  color: #364045;
+  width: 25px;
+}
+
 
 /* Main column */
 .mainBody {   
@@ -157,6 +171,84 @@ body {
 .dimcamImage {
   border-radius: 50%;
   padding: 5px;
+}
+
+
+.iconMenu a:hover {
+  opacity: 0.4;
+}
+
+.iconMenu {
+  top: 100%;
+  width: 100%;
+  min-width: 500px;
+  padding-top: 5%;
+  position: absolute;
+  font-size: 80px;
+  text-align: center!important;
+}
+
+#iconMenu .fas{
+    color:white;
+  }
+
+/*Mentoring Image*/
+#_mentoringImage{
+    width: 25%;
+    float: left;
+    display: inline-block;
+  }
+
+/*Goals Image*/
+#_goalsImage{
+    width: 25%;
+    float: left;
+    display: inline-block;
+  }
+
+/*Calendar Image*/
+#_calendarImage{
+    width: 25%;
+    display: inline-block;
+  }
+
+/*Resources Image*/
+#_resourcesImage{
+    width: 25%;
+    float: right;
+    display: inline-block;
+  }
+
+.iconText {
+  font-size: 20px;
+  color: white;
+}
+
+.iconText a{
+  text-decoration: none;
+}
+
+#_mentoringtextBox{
+    width: 25%;
+    float: left;
+    display: inline-block;
+  }
+
+#_goalstextBox{
+    width: 25%;
+    float: left;
+    display: inline-block;
+  }
+
+#_calendartextBox{
+    width: 25%;
+    display: inline-block;
+  }
+
+#_resourcestextBox{
+  width: 25%;
+  float: right;
+  display: inline-block;
 }
 
 
