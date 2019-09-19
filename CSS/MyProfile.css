@@ -76,6 +76,7 @@ body {
     width: 200px;
     z-index: 700;
     float: left;
+    margin-top: 57px;
     margin-left: 0;
 }
 
@@ -93,79 +94,22 @@ body {
 
 /*END OF MENU AND NAVIGATION BAR*/
 
-h1 {
-  width: 100%;
-  text-align: center;
-  color: white;
-}
-
-h2 {
-  width: 100%;
-  text-align: center;
-  color: white;
-}
-
-.iconMenu a {
-  color: white;
-}
-
-
-.iconMenu a:hover {
-  opacity: 0.4;
-}
-
-.iconMenu {
-  padding-top: 5%;
-  position: absolute;
-  font-size: 30px;
-}
-
-#_educationImage {
-  padding-top: 30px;
-}
-
-#_educationText {
-  padding-top: 30px;
-}
-
-#_hobbiesImage {
-  padding-top: 30px;
-}
-
-#_hobbiesText {
-  padding-top: 30px;
-}
-
-#_motivationsImage {
-  padding-top: 30px;
-}
-
-#_motivationsText {
-  padding-top: 30px;
-}
-
-
-* {
-  box-sizing: border-box;
-}
-
-/* Style the body */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-/* Increase the font size of the heading */
-.header h1 {
+.mainBody h1 {
   font-size: 40px;
+  width: 100%;
+  text-align: center;
+  color: white;
 }
 
-.header h2 {
+.mainBody h2 {
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
   color: white;
 }
 
 /* Column container */
-.container {  
+.leftContainer {  
   height: 100%;
   width: 300px;
   position: fixed;
@@ -177,10 +121,23 @@ body {
   padding-top: 20px;
 }
 
+.leftContainer #accordion {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.leftContainer h2 {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+
 /* Main column */
-.main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
+.mainBody {   
+  position: fixed;
+  left: 300px;
+  right: 300px;
   background-color: #364045;
   padding: 20px;
 }
@@ -202,20 +159,25 @@ body {
   padding: 5px;
 }
 
-.container h2 {
+
+.rightContainer {  
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 58px;
+  right: 0;
+  background-color: #388AB2;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.rightContainer h2 {
   font-size: 40px;
-}
-
-
-.main h2 {
   color: white;
-}
-
-.main h5 {
-  color: white;
-}
-
-
-.main p {
-  color: white;
+  text-align: center; 
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
