@@ -58,7 +58,7 @@ body {
 .close {
   position: absolute;
   right: 25px;
-  top: 10px;
+  top: 0;
   color: #000;
   font-size: 35px;
   font-weight: bold;
@@ -70,13 +70,12 @@ body {
   cursor: pointer;
 }
 
-.modal {
+.modal{
     display: none;
     position: absolute;
     width: 200px;
-    z-index: 700;
+    z-index: 60;
     float: left;
-    margin-top: 57px;
     margin-left: 0;
 }
 
@@ -94,85 +93,38 @@ body {
 
 /*END OF MENU AND NAVIGATION BAR*/
 
-.mainBody h1 {
-  font-size: 40px;
-  width: 100%;
-  text-align: center;
-  color: white;
+
+
+.page-body{
+  height:800px;
 }
 
-.mainBody h2 {
-  font-size: 40px;
-  width: 100%;
-  text-align: center;
-  color: white;
-}
-
-/* Column container */
-.leftContainer {  
-  height: 100%;
-  width: 300px;
-  position: fixed;
-  z-index: 1;
-  top: 58px;
-  left: 0;
+/*Overall page layout with backgorund image*/
+.page-content{
+  left: 20%;
+  width: 60%;
+  min-width: 500px;
+  height: 40%;
+  margin-bottom: 20%;
+  position: relative;
   background-color: #388AB2;
-  overflow-x: hidden;
-  padding-top: 20px;
 }
 
-.leftContainer #accordion {
-  padding-left: 5%;
-  padding-right: 5%;
-}
+/*Logo Placement*/
+#_yourlogoImage{
+    position:relative;
+    top:5%;
+    text-align: center;
+  }
 
-.leftContainer h2 {
-  width: 100%;
-  text-align: center;
-  color: white;
-}
-
-.card h5 {
-  padding-left: 5px;
-  display: inline-block;
-  font-size: 20px;
-  color: #364045;
-}
-
-.card .fas {
-  display: inline-block;
-  font-size: 20px;
-  color: #364045;
-  width: 25px;
-}
-
-
-/* Main column */
-.mainBody {   
-  position: fixed;
-  left: 300px;
-  right: 300px;
-  background-color: #364045;
-  padding: 20px;
-}
-
-/* Fake image, just for this example */
-.profileImage {
-  background-color: #aaa;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-
-.dimcamImage {
-  border-radius: 50%;
-  padding: 5px;
-}
-
+/*Welcome text box placement*/
+._welcometextBox{
+    top: 18%;
+    text-align: center;
+    position:relative;
+    font-size:30px;
+    color: white;
+  }
 
 .iconMenu a:hover {
   opacity: 0.4;
@@ -187,10 +139,6 @@ body {
   font-size: 80px;
   text-align: center!important;
 }
-
-#iconMenu .fas{
-    color:white;
-  }
 
 /*Mentoring Image*/
 #_mentoringImage{
@@ -218,6 +166,11 @@ body {
     float: right;
     display: inline-block;
   }
+
+.fas {
+  color: white;
+}
+
 
 .iconText {
   font-size: 20px;
@@ -252,24 +205,23 @@ body {
 }
 
 
-.rightContainer {  
-  height: 100%;
-  width: 300px;
-  position: fixed;
-  z-index: 1;
-  top: 58px;
-  right: 0;
-  background-color: #388AB2;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
+/*Footer*/
+.branding-footer-fixed{
+    position:fixed;
+    bottom:0;
+    width:80%
+  }
 
+/*Footer*/
+#brandfooterbottom{
+    background:white !important;
+    padding-top:30px;
+    color:black !important
+  }
 
-.rightContainer h2 {
-  font-size: 40px;
-  color: white;
-  text-align: center; 
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
+/*Footer*/
+#brandfooterbottom a {
+    font-size:25px;
+    text-decoration: none;
+    color:blue !important
+  }
