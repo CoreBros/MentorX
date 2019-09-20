@@ -72,70 +72,117 @@
 
             <hr>
 
-        <!-- Enrollment Form -->
+       <!-- Enrollment Form -->
             <div class="mentorPreference">
 
                 <!-- Enrollment Buttons -->
+                <div class="col text-center">
                     <a href="RegistrationMentee.html" type="button" class="btn btn-primary">Mentee Enrollment</a>
 
                     <a href="RegistrationMentor.html" type="button" class="btn btn-primary">Mentor Enrollment</a>
+                </div>
 
                 <!-- Name Inputs -->
                 <form class="form">
                     <div>
-                        <label for="first">First Name:</label>
-                        <input type="text" name="first" id="first" placeholder="John" required>
-                    </div>
-                    <div>
-                        <label for="last">Last Name:</label>
-                        <input type="text" name="last" id="last" placeholder="Doe" required>
+                        <label for="LinkedIn">LinkedIn URL:</label>
+                        <input type="text" name="LinkedIn" id="LinkedIn" placeholder="www.https://linkedin.com/corebros" required>
                     </div>
                 </form>
+                        
+                <!-- File Input -->
+                <div>
+                    <label for="resumeInputFile">Attach your Resume (optional)</label>
+                    <input type="file" id="resumeInputFile">
+                </div>
 
                 <!-- Email & Password Inputs -->
                 <form>
                     <div class="form-group">
 
-                        <!-- Email -->
                         <!-- class="form-control" -->
-                        <div>
+                        <!-- <div>
                             <label for="exampleInputEmail1">Email Address:</label>
                             <input type="email" id="exampleInputEmail1" placeholder="Email">
-                        </div>
+                        </div> -->
                         
                         <!-- Password -->
-                        <div>
+                        <!-- <div>
                             <label for="exampleInputPassword1">Password:</label>
                             <input type="password" id="exampleInputPassword1" placeholder="Password">
-                        </div>
+                        </div> -->
                             
-                        <!-- File Input -->
-                        <div>
-                            <label for="exampleInputFile">File input</label>
-                            <input type="file" id="exampleInputFile">
-                        </div>
-                    </div>
 
                     
+
+                    
+                  
+               
+                
+                    <!-- Drop Down Input -->
+                    <div>
+                        <label for="functionalArea">Functional Area</label>
+                        <select class="form-control">   
+                            <option>Finance</option>
+                            <option>Accounting</option>
+                            <option>Technology</option>
+                            <option>Human Resources</option>
+                            <option>Engineering</option>
+                        </select>
+                    </div>
+
+                    <!-- Drop Down Input -->
+                    <div>
+                        <label for="timing">How often do you want to meet with your Mentor?</label>
+                        <select class="form-control">   
+                            <option>Weekly</option>
+                            <option>Bi-Weekly</option>
+                            <option>Monthly</option>
+                            <option>Quarterly</option>
+                            <option>As needed</option>
+                        </select>
+                    </div>
+
+                    <!-- Drop Down Input -->
+                    <div>
+                        <label for="timing">How do you want to be mentored?</label>
+                        <select class="form-control">   
+                            <option>Formal meetings</option>
+                            <option>In-formal meetings with ad hoc discussions</option>
+                        </select>
+                    </div>
+                    
+                    <!-- Drop Down Input -->
+                    <div>
+                        <label for="timing">How do you want to meet?</label>
+                        <select class="form-control">   
+                            <option>In person only</option>
+                            <option>In person if possible, but open to video or phone calls</option>
+                        </select>
+                    </div>
+
+                    <!-- Free Response -->
+                    <div class="form-group">
+                        <label for="FreeFormControlTextarea1">What are you looking for in a Mentor?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <!-- Free Response -->
+                    <div class="form-group">
+                        <label for="FreeFormControlTextarea1">What are your previous work experiences?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
                     <!-- Checkbox -->
                     <div class="checkbox">
                         <label>
                             <input type="checkbox"> I Agree to the terms & conditions
                         </label>
                     </div>
-                    
-                    <!-- Submit Button -->
-                    <button type="submit" class="btn btn-default">Submit</button>
-               
-                
-                    <!-- Drop Down Input -->
-                    <select class="form-control">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                    </select>
+
+                      <!-- Submit Button -->
+                    <!-- <button type="submit" class="btn btn-default">Submit</button> -->
+                    <a href="Registration.html" type="button" class="btn btn-primary">Submit</a>
                 </form>
             </div>
         </div>
