@@ -125,6 +125,10 @@ body {
   padding-top: 20px;
 }
 
+.profileSection {
+  margin-top: 20px;
+}
+
 .leftContainer #accordion {
   padding-left: 5%;
   padding-right: 5%;
@@ -163,18 +167,20 @@ body {
 
 /* Fake image, just for this example */
 .profileImage {
-  background-color: #aaa;
+  background-color: white;
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   width: 150px;
-  height: 150px;
+  height: 140px;
   border-radius: 50%;
 }
 
 .dimcamImage {
   border-radius: 50%;
+  margin-top: 5%;
   padding: 5px;
 }
 
@@ -188,6 +194,7 @@ body {
   width: 100%;
   min-width: 500px;
   padding-top: 5%;
+  padding-right: 30px;
   position: absolute;
   font-size: 80px;
   text-align: center!important;
