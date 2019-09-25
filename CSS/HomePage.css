@@ -13,8 +13,6 @@ html, body {
 
 
 body {
-  padding: 0; 
-  margin: 0;
   background-color: #364045;
   min-width: 1200px;
 }
@@ -109,7 +107,7 @@ body {
   font-size: 40px;
   width: 100%;
   text-align: center;
-  color: white;
+  color: #FFF;
 }
 
 
@@ -125,8 +123,16 @@ body {
   padding-top: 20px;
 }
 
+.profileImageUpload > input {
+  display: none;
+}
+
+.profileImageUpload img {
+  cursor: pointer;
+}
+
 .profileSection {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .leftContainer #accordion {
@@ -137,7 +143,7 @@ body {
 .leftContainer h2 {
   width: 100%;
   text-align: center;
-  color: white;
+  color: #FFF;
 }
 
 .card h5 {
@@ -167,7 +173,7 @@ body {
 
 /* Fake image, just for this example */
 .profileImage {
-  background-color: white;
+  background-color: #FFF;
   text-align: center;
   display: block;
   margin-left: auto;
@@ -201,7 +207,7 @@ body {
 }
 
 #iconMenu .fas{
-    color:white;
+    color:#FFF;
   }
 
 /*Mentoring Image*/
@@ -233,12 +239,14 @@ body {
 
 .iconText {
   font-size: 20px;
-  color: white;
 }
 
-.iconText a{
+.iconText a {
+  font-size: 20px;
+  color: #FFF;
   text-decoration: none;
 }
+
 
 #_mentoringtextBox{
     width: 25%;
@@ -277,9 +285,114 @@ body {
 
 .rightContainer h2 {
   font-size: 40px;
-  color: white;
+  color: #FFF;
   text-align: center; 
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
 }
+
+
+/*Start of News Feed Section*/
+
+#newsFeedUpdate1 {
+  width: 95%;
+  border: 5px solid grey;
+  height: 150px;
+  background-color: #FFF;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#newsFeedUpdate2 {
+  width: 95%;
+  border: 5px solid grey;
+  height: 150px;
+  background-color: #FFF;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#newsFeedUpdate3 {
+  width: 95%;
+  border: 5px solid grey;
+  height: 150px;
+  background-color: #FFF;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#newsFeedUpdate4 {
+  width: 95%;
+  border: 5px solid grey;
+  height: 150px;
+  background-color: #FFF;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#newsFeedUpdate5 {
+  width: 95%;
+  border: 5px solid grey;
+  height: 150px;
+  background-color: #FFF;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#newsFeedUpdate6 {
+  width: 95%;
+  border: 5px solid grey;
+  height: 150px;
+  background-color: #FFF;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#newsFeedUpdate7 {
+  width: 95%;
+  border: 5px solid grey;
+  height: 150px;
+  background-color: #FFF;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#newsFeedUpdate8 {
+  width: 95%;
+  border: 5px solid grey;
+  height: 150px;
+  background-color: #FFF;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#newsFeedUpdate9 {
+  width: 95%;
+  border: 5px solid grey;
+  height: 150px;
+  background-color: #FFF;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#newsFeedUpdate10 {
+  width: 95%;
+  border: 5px solid grey;
+  height: 150px;
+  background-color: #FFF;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
