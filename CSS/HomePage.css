@@ -2,10 +2,21 @@
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+
+
+html, body {
+  margin:0;
+  padding:0;
+  height:100%
+}
+
+
+
 body {
   padding: 0; 
   margin: 0;
   background-color: #364045;
+  min-width: 1200px;
 }
 
 
@@ -106,7 +117,7 @@ body {
 .leftContainer {  
   height: 100%;
   width: 300px;
-  position: fixed;
+  position: absolute;
   top: 58px;
   left: 0;
   background-color: #388AB2;
@@ -142,10 +153,10 @@ body {
 
 /* Main column */
 .mainBody {   
-  position: fixed;
+  position: absolute;
   left: 300px;
   right: 300px;
-  z-index: 1;
+  min-width: 600px;
   background-color: #364045;
   padding: 20px;
 }
@@ -249,9 +260,8 @@ body {
 .rightContainer {  
   height: 100%;
   width: 300px;
-  position: fixed;
-  top: 58px;
-  right: 0;
+  position: relative;
+  float: right;
   background-color: #388AB2;
   overflow-x: hidden;
   padding-top: 20px;
