@@ -305,6 +305,31 @@ body {
   margin-left: auto;
 }
 
+.newsFeedImage1 {
+  background-color: grey;
+  margin-left: 5px;
+  margin-top:  5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.newsFeedImageStock1 {
+  color: white;
+  margin-left: 6px;
+  padding: 7px;
+}
+
+.newsFeedName1 {
+  color: blue;
+  top: 0;
+  margin-left: 6px;
+  padding: 7px;
+}
+
+
+
+
 #newsFeedUpdate2 {
   width: 95%;
   border: 5px solid grey;
