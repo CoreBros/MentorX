@@ -123,11 +123,8 @@ body {
   padding-top: 20px;
 }
 
-.profileImageUpload > input {
-  display: none;
-}
 
-.profileImageUpload img {
+.profileImageLink img {
   cursor: pointer;
 }
 
@@ -307,6 +304,7 @@ body {
 
 .newsFeedImage1 {
   background-color: grey;
+  display: inline-flex;
   margin-top:  5px;
   margin-left: 5px;
   width: 40px;
@@ -321,7 +319,10 @@ body {
 }
 
 .newsFeedName1 {
-  color: gray;
+ position: relative;
+ align-content: center;
+ left: 10px;
+ color: gray;
 }
 
 
