@@ -106,7 +106,7 @@ body {
 /*Logo Placement*/
 #_yourlogoImage{
     position:relative;
-    top:10%;
+    top:5px;
     text-align: center;
   }
 
