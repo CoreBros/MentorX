@@ -204,11 +204,13 @@ body {
 
 #iconMenu .fas{
     color:#FFF;
+    margin-right: 10px;
   }
 
 #iconMenu hr{
   margin-top: 50px;
-  border-color: white;
+  border: 2px solid white;
+  margin-right: 10px;
 }
 
 /*Mentoring Image*/
@@ -240,6 +242,7 @@ body {
 
 .iconText {
   font-size: 20px;
+  margin-right: 10px;
 }
 
 .iconText a {
@@ -272,6 +275,7 @@ body {
   display: inline-block;
 }
 
+/*Start of right container*/
 
 .rightContainer {  
   height: 100%;
