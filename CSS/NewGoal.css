@@ -9,11 +9,13 @@ html, body {
   height:100%
 }
 
+
 body {
   padding: 0; 
   margin: 0;
   min-width: 1200px;
   background-color: #364045;
+  overflow-y: scroll;
 }
 
 
@@ -101,23 +103,13 @@ body {
 
 /*END OF MENU AND NAVIGATION BAR*/
 
-.mainBody h1 {
-  font-size: 40px;
-  width: 100%;
-  text-align: center;
-  color: #FFF;
-}
-
 
 /* Column container */
 .leftContainer {  
   height: 100%;
   width: 300px;
-  position: absolute;
-  top: 58px;
-  left: 0;
+  bottom: 0;
   background-color: #388AB2;
-  overflow-x: hidden;
   padding-top: 20px;
 }
 
@@ -146,21 +138,27 @@ body {
   margin-top: 10px;
 }
 
-.leftContainer h2 {
-  width: 100%;
-  text-align: center;
-  color: #FFF;
-}
-
-
 /* Main column */
 .mainBody {   
   position: absolute;
+  height: 100%;
+  overflow-y: auto;
   left: 300px;
   right: 300px;
   min-width: 560px;
   background-color: #364045;
   padding: 20px;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
 }
 
 .goalCategory1 {
@@ -184,31 +182,31 @@ body {
 /*Start of second row*/
 
 #_goalCategory2 {
-  display: inline-flex;
+  display: inline-block;
   float: left;
   width: 33%;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 
 #_goalCategory3 {
   width: 33%;
-  margin: auto;
-  display: inline-flex;
-  padding-top: 20px;
+  display: inline-block;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 
 #_goalCategory4 {
   width: 33%;
-  display: inline-flex;
+  display: inline-block;
   float: right;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 
 .goalCategory2 {
   background-color: gray;
+  margin: auto;
   text-align: center;
   width: 150px;
   height: 140px;
@@ -226,6 +224,7 @@ body {
 
 .goalCategory3 {
   background-color: gray;
+  margin: auto;
   text-align: center;
   width: 150px;
   height: 140px;
@@ -243,6 +242,7 @@ body {
 
 .goalCategory4 {
   background-color: gray;
+  margin: auto;
   text-align: center;
   width: 150px;
   height: 140px;
@@ -261,31 +261,32 @@ body {
 /*Start of third row*/
 
 #_goalCategory5 {
-  display: inline-flex;
+  display: inline-block;
   float: left;
   width: 33%;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 
 #_goalCategory6 {
   width: 33%;
   margin: auto;
-  display: inline-flex;
-  padding-top: 20px;
+  display: inline-block;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 
 #_goalCategory7 {
   width: 33%;
-  display: inline-flex;
+  display: inline-block;
   float: right;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 
 .goalCategory5 {
   background-color: gray;
+  margin: auto;
   text-align: center;
   width: 150px;
   height: 140px;
@@ -303,6 +304,7 @@ body {
 
 .goalCategory6 {
   background-color: gray;
+  margin: auto;
   text-align: center;
   width: 150px;
   height: 140px;
@@ -320,6 +322,7 @@ body {
 
 .goalCategory7 {
   background-color: gray;
+  margin: auto;
   text-align: center;
   width: 150px;
   height: 140px;
@@ -338,28 +341,29 @@ body {
 /*Start of forth row*/
 
 #_goalCategory8 {
-  display: inline-flex;
+  display: inline-block;
   float: left;
   width: 33%;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 #_goalCategory9 {
   width: 33%;
   margin: auto;
-  display: inline-flex;
-  padding-top: 20px;
+  display: inline-block;
+  padding-top: 10px;
 }
 
 #_goalCategory10 {
   width: 33%;
-  display: inline-flex;
+  display: inline-block;
   float: right;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .goalCategory8 {
   background-color: gray;
+  margin: auto;
   text-align: center;
   width: 150px;
   height: 140px;
@@ -377,6 +381,7 @@ body {
 
 .goalCategory9 {
   background-color: gray;
+  margin: auto;
   text-align: center;
   width: 150px;
   height: 140px;
@@ -394,6 +399,7 @@ body {
 
 .goalCategory10 {
   background-color: gray;
+  margin: auto;
   text-align: center;
   width: 150px;
   height: 140px;
@@ -420,7 +426,6 @@ body {
   position: relative;
   float: right;
   background-color: #388AB2;
-  overflow-x: hidden;
   padding-top: 20px;
 }
 
