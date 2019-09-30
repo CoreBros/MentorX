@@ -98,67 +98,74 @@ body {
   min-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 40px;
   color: white;
   text-align: center!important;
 }
 
-#_mentoringImage a:hover {
+#_dashboardImage a:hover {
   opacity: 0.4;
 }
 
-#_mentoringImage .fas{
+#_dashboardImage .fas{
     color:#FFF;
   }
 
-#_mentoringImage{
+#_dashboardImage{
   width: 100%;
   padding-top: 5%;
-  font-size: 80px;
+  font-size: 100px;
   text-align: center!important;
 }
 
-#_mentoringtextBox{
+#_dashboardTextBox{
   width: 100%;
   font-size: 20px;
   padding-bottom: 50px;
   width: 100%;
 }
 
-#_mentoringtextBox a {
+#_dashboardTextBox a {
   font-size: 20px;
   color: #FFF;
   text-decoration: none;
 }
 
+#_dashboardTextBox a:hover {
+  opacity: 0.4;
+}
+
 /*Goals Image*/
-#_goalsImage{
+#_newGoalImage{
   width: 100%;
-  font-size: 80px;
+  font-size: 100px;
   padding-top: 80px;
   text-align: center!important;
 }
 
-#_goalsImage a:hover {
+#_newGoalImage a:hover {
   opacity: 0.4;
 }
 
-#_goalsImage .fas{
+#_newGoalImage .fas{
     color:#FFF;
 }
 
-#_goalstextBox{
+#_newGoalTextBox{
   width: 100%;
   font-size: 20px;
   width: 100%;
 }
 
-#_goalstextBox a {
+#_newGoalTextBox a:hover {
+  opacity: 0.4;
+}
+
+#_newGoalTextBox a {
   font-size: 20px;
   color: #FFF;
   text-decoration: none;
 }
-
-
 
 .mainBody hr{
   width: 90%;
