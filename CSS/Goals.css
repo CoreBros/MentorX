@@ -93,107 +93,77 @@ body {
 
 /*END OF MENU AND NAVIGATION BAR*/
 
-/* Main column */
+
 .mainBody {   
-  position: absolute;
-  left: 300px;
-  right: 300px;
   min-width: 600px;
-  background-color: #364045;
-  padding: 20px;
-}
-
-.mainBody h1{   
-  text-align: center!important;
+  margin-left: auto;
+  margin-right: auto;
   color: white;
-  font-weight: bold;
+  text-align: center!important;
 }
 
-.iconMenu a:hover {
+#_mentoringImage a:hover {
   opacity: 0.4;
 }
 
-.iconMenu {
-  top: 100%;
+#_mentoringImage .fas{
+    color:#FFF;
+  }
+
+#_mentoringImage{
   width: 100%;
-  min-width: 500px;
   padding-top: 5%;
-  padding-right: 30px;
-  position: absolute;
   font-size: 80px;
   text-align: center!important;
 }
 
-#iconMenu .fas{
-    color:#FFF;
-    margin-right: 10px;
-  }
-
-#iconMenu hr{
-  margin-top: 50px;
-  border: 2px solid white;
-  margin-right: 10px;
+#_mentoringtextBox{
+  width: 100%;
+  font-size: 20px;
+  padding-bottom: 50px;
+  width: 100%;
 }
 
-/*Mentoring Image*/
-#_mentoringImage{
-    width: 25%;
-    float: left;
-    display: inline-block;
-  }
+#_mentoringtextBox a {
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+}
 
 /*Goals Image*/
 #_goalsImage{
-    width: 25%;
-    float: left;
-    display: inline-block;
-  }
-
-/*Calendar Image*/
-#_calendarImage{
-    width: 25%;
-    display: inline-block;
-  }
-
-/*Resources Image*/
-#_resourcesImage{
-    width: 25%;
-    float: right;
-    display: inline-block;
-  }
-
-.iconText {
-  font-size: 20px;
-  margin-right: 10px;
+  width: 100%;
+  font-size: 80px;
+  padding-top: 80px;
+  text-align: center!important;
 }
 
-.iconText a {
+#_goalsImage a:hover {
+  opacity: 0.4;
+}
+
+#_goalsImage .fas{
+    color:#FFF;
+}
+
+#_goalstextBox{
+  width: 100%;
+  font-size: 20px;
+  width: 100%;
+}
+
+#_goalstextBox a {
   font-size: 20px;
   color: #FFF;
   text-decoration: none;
 }
 
 
-#_mentoringtextBox{
-    width: 25%;
-    float: left;
-    display: inline-block;
-  }
 
-#_goalstextBox{
-    width: 25%;
-    float: left;
-    display: inline-block;
-  }
-
-#_calendartextBox{
-    width: 25%;
-    display: inline-block;
-  }
-
-#_resourcestextBox{
-  width: 25%;
-  float: right;
-  display: inline-block;
+.mainBody hr{
+  width: 90%;
+  margin-top: 50px;
+  border: 2px solid white;
+  margin-right: auto;
 }
 
