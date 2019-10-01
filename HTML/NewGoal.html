@@ -56,31 +56,34 @@
 <!-- End of Menu / Nav Bar -->
 
 <div class="mainBody">
-    <div class="goalCategory1">
-        <a href="#goalCategory1"><i class="fas fa-plus-circle"></i></a>
+	<div id="_goalCategory1">
+	    <div class="goalCategory1">
+	        <i class="fas fa-plus-circle" onclick="document.getElementById('id01').style.display='block'"></i>
+	    </div>
+	    <h3>New Custom Goal</h3>
     </div>
     <hr>
-    <h2>Skill Development</h2>
+    <h2>University Related</h2>
     <div id="_goalCategory2">
         <div class="goalCategory2">
-            <a href="#goalCategory2"><i class="fas fa-user"></i></a>
+            <a href="#goalCategory2"><i class="fas fa-chalkboard-teacher"></i></a>
         </div>
-        <h3>Enhancement</h3>
+        <h3>Course Exploration</h3>
     </div>
     <div id="_goalCategory3">
         <div class="goalCategory3">
-            <a href="#goalCategory3"><i class="fas fa-shapes"></i></a>
+            <a href="#goalCategory3"><i class="fas fa-school"></i></a>
         </div>
-        <h3>New Skill</h3>
+        <h3>Campus Involvement</h3>
     </div>
     <div id="_goalCategory4">
         <div class="goalCategory4">
-            <a href="#goalCategory4"><i class="fas fa-user"></i></a>
+            <a href="#goalCategory4"><i class="fas fa-graduation-cap"></i></a>
         </div>
-        <h3>Creativity</h3>
+        <h3>Academic Achievements</h3>
     </div>
     <hr>
-    <h2>Relationship Building</h2>
+    <h2>Career Development</h2>
     <div id="_goalCategory5">
         <div class="goalCategory5">
             <a href="#goalCategory5"><i class="fas fa-handshake"></i></a>
@@ -89,15 +92,15 @@
     </div>
     <div id="_goalCategory6">
         <div class="goalCategory6">
-            <a href="#goalCategory6"><i class="fas fa-user"></i></a>
+            <a href="#goalCategory6"><i class="fas fa-briefcase"></i></a>
         </div>
-        <h3>Emotional Intelligence</h3>
+        <h3>Job Exploration</h3>
     </div>
     <div id="_goalCategory7">
         <div class="goalCategory7">
-            <a href="#goalCategory7"><i class="fas fa-user"></i></a>
+            <a href="#goalCategory7"><i class="fas fa-shapes"></i></a>
         </div>
-        <h3>TBD</h3>
+        <h3>Skill Acquisiton</h3>
     </div>
     <hr>
     <h2>Self Management</h2>
@@ -132,9 +135,46 @@
   <div class="profileImage";>
     <div class="profileImageLink">
         <a href="ProfileHome.html"><i class="fas fa-user"></i></a>   
+        <h2>User Name</h2>
     </div>
   </div>
 </div>
+
+<!-- Start of Pop Up Modal -->
+
+<div id="id01" class="modal">
+	<form class="modal-content animate">
+		<div class="imgcontainer">
+		      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
+		</div>
+
+		<div class="container">
+			<h2>Category</h2>
+			<h2>Name of Goal</h2>
+			<h2>Description</h2>
+			<h2>Start Date</h2>
+			<h2>End Date (optional)</h2>
+			<h2>Frequency</h2>
+			<h2>Enable Reminders?</h2>
+			<h2>Lync to Mentor?</h2>
+		</div>
+
+		<div class="container" style="background-color: #8e8e8e; padding-bottom: 20px;">
+		</div>
+	</form>
+</div>
+
+<script>
+var modal = document.getElementById('id01');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<!-- End of Pop Up Modal -->
 
 
 </body>
