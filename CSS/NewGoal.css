@@ -108,8 +108,11 @@ body {
 .leftContainer {  
   height: 100%;
   width: 300px;
-  bottom: 0;
+  position: absolute;
+  top: 58px;
+  left: 0;
   background-color: #388AB2;
+  overflow-x: hidden;
   padding-top: 20px;
 }
 
@@ -138,6 +141,35 @@ body {
   margin-top: 10px;
 }
 
+.leftContainer #accordion {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.leftContainer h2 {
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+}
+
+.card h5 {
+  padding-left: 5px;
+  display: inline-block;
+  font-size: 20px;
+  color: #364045;
+}
+
+.card .fas {
+  display: inline-block;
+  font-size: 20px;
+  color: #364045;
+  width: 25px;
+}
+
+
+
+
+
 /* Main column */
 .mainBody {   
   position: absolute;
@@ -145,13 +177,14 @@ body {
   overflow-y: auto;
   left: 300px;
   right: 300px;
-  min-width: 560px;
+  min-width: 600px;
   background-color: #364045;
   padding: 20px;
 }
 
 h2 {
   color: white;
+  text-decoration: underline;
 }
 
 h3 {
@@ -159,6 +192,19 @@ h3 {
   width: 100%;
   display: inline-block;
   text-align: center;
+  font-size: 25px;
+  padding-top: 20px;
+  line-height: 10px;
+}
+
+h4 {
+  color: white;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+  line-height: 10px;
 }
 
 #_goalCategory1 {
