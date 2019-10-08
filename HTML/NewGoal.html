@@ -130,6 +130,31 @@
     </div>
 </div>
 
+<!-- Custom Goal pop up -->
+
+<div id="id01" class="modal">
+    <form class="modal-content animate">
+        <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
+            <img src="../css/Logo.jpg" alt="Image" class="logo">
+        </div>
+
+        <div class="container">
+            <input type="text" placeholder="Name of Goal" name="uname" required="">
+            
+            <input type="text" placeholder="Goal Description" name="psw" required="">
+
+            <button class="submit" type="submit">Save Goal</button>
+
+        </div>
+
+        <div class="container" style="background-color: #8e8e8e; padding-bottom: 20px;">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        </div>
+    </form>
+</div>
+
+
 <!-- Start of Right Column -->
 
 <div class="rightContainer">
