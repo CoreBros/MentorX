@@ -4,12 +4,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 
 <!-- Change link to your CSS file -->
 <link type="text/css" rel="stylesheet" href="../css/NewGoal.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="../Javascript/NewGoal.js"></script>
 
 
@@ -133,7 +131,7 @@
 
 <!-- Custom Goal pop up -->
 
-<div id="id01" class="customGoal">
+<div id="id01" class="customGoal1">
     <form class="goal-content-animate">
         <div class="imgcontainer">
               <span onclick="document.getElementById('id01').style.display='none'" class="exit" title="Close">&times;</span>
@@ -156,7 +154,7 @@
 
         <div class="container" style="background-color: #8e8e8e; padding-bottom: 20px;">
             <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-            <button class="submit" onclick="newCustomGoal() ">Next</button>
+            <button type="button" class="submit" onclick="newCustomGoal()">Next</button>
         </div>
     </form>
 </div>
@@ -165,23 +163,27 @@
 
 <!-- Start of custom goal pop up #2 -->
 
-<div id="id02" class="customGoal">
-    <form class="goal-content-animate">
+<div id="id02" class="customGoal2">
+    <form class="goal-content-animate2">
         <div class="imgcontainer">
               <span onclick="document.getElementById('id02').style.display='none'" class="exit" title="Close">&times;</span>
         </div>
+        <div class="newGoalTitle">
+            < New Goal Title >
+        </div>
 
-        <div class="container">
-            <label>Description of Goal:</label>            
+
+        <div class="container2">
+            <label>Description of Goal:</label>  
+            <input type="text">
             <label>Start Date</label>
             <label>Goal Date (optional)</label>
             <label>Goal Frequency</label>
             <label>Enable Reminders?</label>
             <label>Lync to Mentor?</label>
-
         </div>
 
-        <div class="container" style="background-color: #8e8e8e; padding-bottom: 20px;">
+        <div class="container2" style="background-color: #8e8e8e; padding-bottom: 20px;">
             <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
         </div>
     </form>
