@@ -37,7 +37,7 @@
 
 <div id="_dropdownMenu" class="modalMenu">
     <form class="modal-content animate">
-        <div class="container">
+        <div class="menucontainer">
             <span onclick="document.getElementById('_dropdownMenu').style.display='none'" class="close" title="Close">&times;</span>
             <a href="HomePage.html">Home</a>
             <a href="Profile.html">My Profile</a>
@@ -132,24 +132,30 @@
 
 <!-- Custom Goal pop up -->
 
-<div id="id01" class="modal">
-    <form class="modal-content animate">
+<div id="id01" class="customGoal">
+    <form class="goal-content-animate">
         <div class="imgcontainer">
-              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
-            <img src="../css/Logo.jpg" alt="Image" class="logo">
+              <span onclick="document.getElementById('id01').style.display='none'" class="exit" title="Close">&times;</span>
         </div>
 
         <div class="container">
-            <input type="text" placeholder="Name of Goal" name="uname" required="">
+            <label>Name of Goal</label>
+            <input type="text" required="">
             
-            <input type="text" placeholder="Goal Description" name="psw" required="">
-
-            <button class="submit" type="submit">Save Goal</button>
-
+            <div class="categoryDropdown">
+              <label for="_categoryDropdown">Category (select one):</label>
+              <select class="form-control" id="_categoryDropdown">
+                <option>Personal Goals</option>
+                <option>Mentor Goals</option>
+                <option>University Goals</option>
+                <option>Career Development</option>
+              </select>
+            </div>
         </div>
 
         <div class="container" style="background-color: #8e8e8e; padding-bottom: 20px;">
             <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <button class="submit" type="submit" onclick="document.getElementById('id02').style.display='block'">Next</button>
         </div>
     </form>
 </div>

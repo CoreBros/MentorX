@@ -168,8 +168,6 @@ body {
 
 
 
-
-
 /* Main column */
 .mainBody {   
   position: absolute;
@@ -183,9 +181,17 @@ body {
 }
 
 h2 {
-  color: white;
-  text-decoration: underline;
+  color: rgba(82,207,245,1);
 }
+
+hr { 
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid white;
+    margin: 1em 0; 
+    padding: 0; 
+  }
 
 h3 {
   color: white;
@@ -463,22 +469,25 @@ h4 {
 
 /*Start of custom goal pop up*/
 
-input[type=text], input[type=password] {
-  width: 90%;
-  padding: 12px 0px;
-  margin: 5px 0 10px 0;
+input[type=text] {
+  width: 100%;
   background: none;
   display: inline-block;
   border: none;
   color: white;
   border-bottom: 2px solid rgb(146,221,253);
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 30px;
+  text-align: center!important
 }
 
-input[type=text]:focus, input[type=password]:focus {
-  color: white;
+input[type=text]:focus {
+  background-color: none;
   outline: 1px solid white;
+}
+
+#id01 label {
+  padding-top: 50px;
 }
 
 button {
@@ -489,7 +498,9 @@ button {
   margin: 10px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 120px;
+  height: 60px;
+  vertical-align: middle;
 }
 
 button:hover {
@@ -497,41 +508,35 @@ button:hover {
 }
 
 .cancelbtn {
-  width: auto;
   padding: 10px 18px;
   color: white;
   background-color: #f44336;
+  width: 120px;
+}
+
+.submit {
+  float: right;
 }
 
 .imgcontainer {
   text-align: center;
-  margin: 24px 0 12px 0;
   position: relative;
-}
-
-img.Logo {
-  width: 150px;
-  border-radius: 50%;
 }
 
 .container {
   padding: 2px 20px 50px 20px;
   font-size: 18px;
   color: white;
+  width: 90%;
 }
 
-span.psw a{
-  float: right;
-  padding-top: 16px;
+.container label {
+  text-align: center!important;
+  width: 100%;
+  font-size: 30px;
 }
 
-.container i{
-  width: 20px;
-  size: 80px;
-  text-align: left;
-}
-
-.animate {
+.goal-content-animate {
   -webkit-animation: animatezoom 0.6s;
   animation: animatezoom 0.6s
 }
@@ -546,7 +551,7 @@ span.psw a{
   to {transform: scale(1)}
 }
 
-.close {
+.exit {
   position: absolute;
   right: 25px;
   top: 0;
@@ -555,21 +560,21 @@ span.psw a{
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.exit:hover,
+.exit:focus {
   color: red;
   cursor: pointer;
 }
 
-.modal-content {
+.goal-content-animate {
   background-color: #8e8e8e;
   color: white;
   margin: 5% auto 20px; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
-  width: 600px; /* Could be more or less, depending on screen size */
+  width: 400px; /* Could be more or less, depending on screen size */
 }
 
-.modal{
+.customGoal{
   display: none;
   position: fixed;
   z-index: 1;
