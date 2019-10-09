@@ -10,6 +10,7 @@
 <!-- Change link to your CSS file -->
 <link type="text/css" rel="stylesheet" href="../css/NewGoal.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="../Javascript/NewGoal.js"></script>
 
 
 <!-- Menu / Nav Bar -->
@@ -140,7 +141,7 @@
 
         <div class="container">
             <label>Name of Goal</label>
-            <input type="text" required="">
+            <input type="text">
             
             <div class="categoryDropdown">
               <label for="_categoryDropdown">Category (select one):</label>
@@ -155,10 +156,37 @@
 
         <div class="container" style="background-color: #8e8e8e; padding-bottom: 20px;">
             <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-            <button class="submit" type="submit" onclick="document.getElementById('id02').style.display='block'">Next</button>
+            <button class="submit" onclick="newCustomGoal() ">Next</button>
         </div>
     </form>
 </div>
+
+<!-- End of custom goal pop up #1 -->
+
+<!-- Start of custom goal pop up #2 -->
+
+<div id="id02" class="customGoal">
+    <form class="goal-content-animate">
+        <div class="imgcontainer">
+              <span onclick="document.getElementById('id02').style.display='none'" class="exit" title="Close">&times;</span>
+        </div>
+
+        <div class="container">
+            <label>Description of Goal:</label>            
+            <label>Start Date</label>
+            <label>Goal Date (optional)</label>
+            <label>Goal Frequency</label>
+            <label>Enable Reminders?</label>
+            <label>Lync to Mentor?</label>
+
+        </div>
+
+        <div class="container" style="background-color: #8e8e8e; padding-bottom: 20px;">
+            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+        </div>
+    </form>
+</div>
+
 
 
 <!-- Start of Right Column -->
