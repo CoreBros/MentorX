@@ -175,16 +175,21 @@
 
         <div class="container2">
             <label>Description of Goal:</label>  
-            <textarea name="goalDescription" cols="50" rows="10"></textarea>
-            <label>Start Date</label>
-            <label>Goal Date (optional)</label>
-            <label>Goal Frequency</label>
-            <label>Enable Reminders?</label>
-            <label>Lync to Mentor?</label>
+            <textarea name="goalDescription"></textarea>
+            <label class="newGoalStartDate">Start Date</label>
+            <label class="newGoalEndDate">Goal Date (optional)</label>
+            <label class="newGoalFrequency">Goal Frequency</label>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="reminderCheck1">
+                <label class="form-check-label" for="reminderCheck1">Enable Reminders</label>
+                <input type="checkbox" class="form-check-input" id="mentorCheck1">
+                <label class="form-check-label" for="mentorCheck1">Lync to Mentor</label>
+            </div>
         </div>
 
         <div class="container2" style="background-color: #8e8e8e; padding-bottom: 20px;">
             <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="button" onclick="addCustomGoal()" class="submit">Save</button>
         </div>
 
  </form>
