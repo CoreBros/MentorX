@@ -176,7 +176,12 @@
         <div class="container2">
             <label>Description of Goal:</label>  
             <textarea name="goalDescription"></textarea>
-            <label class="newGoalStartDate">Start Date</label>
+                  <div class="form-row">
+                    <div class="col-md-4 mb-3 md-form">
+                      <input type="text" name="date" id="date" class="form-control datepicker" value="" required/>
+                      <label for="date">Date</label>
+                    </div>
+                  </div>
             <label class="newGoalEndDate">Goal Date (optional)</label>
             <label class="newGoalFrequency">Goal Frequency</label>
             <div class="form-check">
