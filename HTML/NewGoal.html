@@ -14,6 +14,16 @@
 <script src="../Javascript/NewGoal.js"></script>
 <script src="../Javascript/Library/jquery.js"></script>
 
+<!--  jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Isolated Version of Bootstrap, not needed if your site already uses Bootstrap -->
+<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+
+<!-- Bootstrap Date-Picker Plugin -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
 
 
 <!-- Menu / Nav Bar -->
@@ -181,6 +191,8 @@
         <div class="container2">
             <label>Description of Goal:</label>  
             <textarea name="goalDescription"></textarea>
+            <label for="datepicker">Start Date</label>
+                <input type="text" id="datepicker">
             <label class="newGoalEndDate">Goal Date (optional)</label>
             <label class="newGoalFrequency">Goal Frequency</label>
             <div class="form-check">
