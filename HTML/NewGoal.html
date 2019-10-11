@@ -2,14 +2,13 @@
 <html lang="en" dir="ltr">
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://kit.fontawesome.com/e3f947f40e.js"></script>
-<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Helvetica+Neue">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
 
 <!-- Change link to your CSS file -->
 <link type="text/css" rel="stylesheet" href="../css/NewGoal.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="../Javascript/NewGoal.js"></script>
 
 
 <!-- Menu / Nav Bar -->
@@ -37,7 +36,7 @@
 
 <div id="_dropdownMenu" class="modalMenu">
     <form class="modal-content animate">
-        <div class="container">
+        <div class="menucontainer">
             <span onclick="document.getElementById('_dropdownMenu').style.display='none'" class="close" title="Close">&times;</span>
             <a href="HomePage.html">Home</a>
             <a href="Profile.html">My Profile</a>
@@ -68,19 +67,22 @@
         <div class="goalCategory2">
             <a href="#goalCategory2"><i class="fas fa-chalkboard-teacher"></i></a>
         </div>
-        <h3>Course Exploration</h3>
+        <h3>Course</h3> 
+        <h4>Exploration</h4>
     </div>
     <div id="_goalCategory3">
         <div class="goalCategory3">
             <a href="#goalCategory3"><i class="fas fa-school"></i></a>
         </div>
-        <h3>Campus Involvement</h3>
+        <h3>Campus</h3> 
+    	<h4>Involvement</h4>
     </div>
     <div id="_goalCategory4">
         <div class="goalCategory4">
             <a href="#goalCategory4"><i class="fas fa-graduation-cap"></i></a>
         </div>
-        <h3>Academic Achievements</h3>
+        <h3>Academic</h3>
+    	<h4>Achievements</h4>
     </div>
     <hr>
     <h2>Career Development</h2>
@@ -94,13 +96,15 @@
         <div class="goalCategory6">
             <a href="#goalCategory6"><i class="fas fa-briefcase"></i></a>
         </div>
-        <h3>Job Exploration</h3>
+        <h3>Job</h3>
+        <h4>Exploration</h4>
     </div>
     <div id="_goalCategory7">
         <div class="goalCategory7">
             <a href="#goalCategory7"><i class="fas fa-shapes"></i></a>
         </div>
-        <h3>Skill Acquisiton</h3>
+        <h3>Skill</h3>
+        <h4>Acquisiton</h4>
     </div>
     <hr>
     <h2>Self Management</h2>
@@ -108,13 +112,14 @@
         <div class="goalCategory8">
             <a href="#goalCategory8"><i class="fas fa-running"></i></a>
         </div>
-        <h3>Health</h3>
+        <h4>Health</h4>
     </div>
     <div id="_goalCategory9">
         <div class="goalCategory9">
             <a href="#goalCategory9"><i class="fas fa-user-clock"></i></a>
         </div>
-        <h3>Time Management</h3>
+        <h3>Time</h3>
+        <h4>Management</h4>
     </div>
     <div id="_goalCategory10">
         <div class="goalCategory10">
@@ -124,6 +129,76 @@
     </div>
 </div>
 
+<!-- Custom Goal pop up -->
+
+<div id="id01" class="customGoal1">
+    <form class="goal-content-animate">
+        <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="exit" title="Close">&times;</span>
+        </div>
+
+        <div class="container">
+            <label>Name of Goal</label>
+            <input type="text">
+            
+            <div class="categoryDropdown">
+              <label for="_categoryDropdown">Category (select one):</label>
+              <select class="form-control" id="_categoryDropdown">
+                <option>Personal Goals</option>
+                <option>Mentor Goals</option>
+                <option>University Goals</option>
+                <option>Career Development</option>
+              </select>
+            </div>
+        </div>
+
+        <div class="container" style="background-color: #8e8e8e; padding-bottom: 20px;">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="button" class="submit" onclick="newCustomGoal()">Next</button>
+        </div>
+    </form>
+</div>
+
+<!-- End of custom goal pop up #1 -->
+
+<!-- Start of custom goal pop up #2 -->
+
+<div id="id02" class="customGoal2">
+    <form class="goal-content-animate2">
+        <div class="imgcontainer">
+              <span onclick="document.getElementById('id02').style.display='none'" class="exit" title="Close">&times;</span>
+        </div>
+        <div class="newGoalTitle">
+            < New Goal Title >
+        </div>
+
+
+        <div class="container2">
+            <label>Description of Goal:</label>  
+            <textarea name="goalDescription"></textarea>
+                  <div class="form-row">
+                    <div class="col-md-4 mb-3 md-form">
+                      <input type="text" name="date" id="date" class="form-control datepicker" value="" required/>
+                      <label for="date">Date</label>
+                    </div>
+                  </div>
+            <label class="newGoalEndDate">Goal Date (optional)</label>
+            <label class="newGoalFrequency">Goal Frequency</label>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="reminderCheck1">
+                <label class="form-check-label" for="reminderCheck1">Enable Reminders</label>
+                <input type="checkbox" class="form-check-input" id="mentorCheck1">
+                <label class="form-check-label" for="mentorCheck1">Lync to Mentor</label>
+            </div>
+        </div>
+
+        <div class="container2" style="background-color: #8e8e8e; padding-bottom: 20px;">
+            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="button" onclick="addCustomGoal()" class="submit">Save</button>
+        </div>
+
+ </form>
+</div>
 <!-- Start of Right Column -->
 
 <div class="rightContainer">
@@ -135,7 +210,70 @@
   <div class="profileImage";>
     <div class="profileImageLink">
         <a href="ProfileHome.html"><i class="fas fa-user"></i></a>   
-        <h2>User Name</h2>
+    </div>
+  </div>
+    <h2>User Name</h2>
+
+  <div class="profileSection">
+    <div id="accordion">
+
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          <i class="fas fa-child"></i>
+            <h5>Personal Goals</h5>
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            BLANK
+          </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+            <i class="fas fa-user-friends"></i>
+            <h5>Mentor Goals</h5>
+          </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            BLANK
+          </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+            <i class="fas fa-graduation-cap"></i>
+            <h5>University Goals</h5>
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            BLANK 
+          </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+            <i class="fas fa-briefcase"></i>
+            <h5>Career Development</h5>
+          </a>
+        </div>
+        <div id="collapseFour" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+           BLANK  
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </div>
 </div>
