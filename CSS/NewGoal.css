@@ -591,7 +591,7 @@ button:hover {
 /*Start of second pop up*/
 
 .customGoal2{
-  display: none;
+  display: block;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -650,10 +650,6 @@ button:hover {
   outline: 5px solid gray;
 }
 
-.md-form {
-  margin-top: 40px;
-}
-
 .newGoalEndDate {
 }
 
@@ -687,4 +683,5 @@ button:hover {
   padding-left: 5%;
   padding-right: 5%;
 }
+
 
