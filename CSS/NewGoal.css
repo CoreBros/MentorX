@@ -605,7 +605,7 @@ button:hover {
 }
 
 .container2 {
-  padding: 2px 20px 50px 20px;
+  padding: 20px 20px 50px 20px;
   font-size: 18px;
   color: white;
 }
@@ -649,37 +649,41 @@ button:hover {
   outline: 5px solid gray;
 }
 
+.newGoalStartDate {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
 #datepicker {
-  margin-left: 20px;
-  margin-bottom: 50px;
-  display: inline-flex;
-  text-align: center;
-  vertical-align: middle;
   font-size: 20px;
   height: 40px;
+  float: right; 
+  text-align: center;
   width: 200px;
 }
 
-.newGoalStartDate {
-  display: inline-flex;
-  margin-top: 20px;
-}
 
 .newGoalStartDate label {
-  display: inline-flex;
-  width: auto;
   height: 40px;
-  vertical-align: middle;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  width: auto;
 }
 
 .newGoalEndDate {
+  margin-bottom: 30px;
 }
 
-.newGoalFrequency {
+.newGoalEndDate label {
+  height: 40px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  width: auto;
 }
 
 .form-check {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 /*End of custom goal pop up*/
