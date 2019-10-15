@@ -611,7 +611,6 @@ button:hover {
 }
 
 .container2 label {
-  /*padding-top: 20px; */
   text-align: left;
   width: 100%;
   font-size: 20px;
@@ -640,7 +639,7 @@ button:hover {
   display: inline-block;
   color: black;
   box-sizing: border-box;
-  font-size: 30px;
+  font-size: 20px;
   text-align: left!important;
   text-overflow: hidden;
   vertical-align: top;
@@ -648,6 +647,29 @@ button:hover {
 
 .container2 textarea:focus {
   outline: 5px solid gray;
+}
+
+#datepicker {
+  margin-left: 20px;
+  margin-bottom: 50px;
+  display: inline-flex;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  height: 40px;
+  width: 200px;
+}
+
+.newGoalStartDate {
+  display: inline-flex;
+  margin-top: 20px;
+}
+
+.newGoalStartDate label {
+  display: inline-flex;
+  width: auto;
+  height: 40px;
+  vertical-align: middle;
 }
 
 .newGoalEndDate {
