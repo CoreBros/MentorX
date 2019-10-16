@@ -111,10 +111,22 @@ h3 {
 text-align: center;
 }
 
+.profileInformation {
+  text-align: center;
+  display: block;
+
+}
+
+
+.profileImage {
+  text-align: center;
+  display: block;
+
+}
+
 .personalTitle {
   padding-bottom: 20px;
 }
-
 
 
 .importProfile {
