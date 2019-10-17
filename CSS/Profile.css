@@ -100,40 +100,29 @@ h1 {
   color: white;
 }
 
-h2 {
-  width: 100%;
-  text-align: center;
-  color: white;
-}
-
-h3 {
-
-text-align: center;
-}
-
-.profileInformation {
-  text-align: center;
-  display: block;
-
-}
-
 
 .profileImage {
   text-align: center;
   display: block;
-
-}
-
-.personalTitle {
   padding-bottom: 20px;
+
 }
 
-
-.importProfile {
+.personalInformation {
+  text-align: center;
   display: block;
+  padding-bottom: 50px;
+
 }
 
+.firstName {
+  text-align: center;
+  padding-bottom: 10px
 
+}
 
+.lastName {
+  text-align: center;
 
+}
 
