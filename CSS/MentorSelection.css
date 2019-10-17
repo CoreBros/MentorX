@@ -15,6 +15,7 @@ html, body {
 body {
   background-color: #364045;
   min-width: 1200px;
+  height: 100%;
 }
 
 
@@ -177,17 +178,40 @@ body {
 /* Main column */
 .mainBody {   
   position: absolute;
-    left: 300px;
+  left: 300px;
   right: 300px;
   min-width: 600px;
   background-color: #364045;
   padding: 20px;
 }
 
+.row {
+  text-align: center!important;
+}
+
+.profileSlot1 {
+  margin: 20px;
+}
+
+.profileSlot2 {
+  margin: 20px;
+}
+
+.profileSlot3 {
+  margin: 20px;
+}
+
+.profileSlot4 {
+  margin: 20px;
+}
+
+
 .our-team {
   padding: 30px 0 40px;
   margin-bottom: 30px;
-  background-color: #f7f5ec;
+  width: 200px;
+  height: 400px;
+  background-color: #DDDD;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -207,7 +231,7 @@ body {
   width: 100%;
   height: 0;
   border-radius: 50%;
-  background-color: #1369ce;
+  background-color: #388AB2;
   position: absolute;
   bottom: 135%;
   right: 0;
@@ -226,7 +250,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #1369ce;
+  background-color: #388AB2;
   position: absolute;
   top: 0;
   left: 0;
@@ -235,7 +259,7 @@ body {
 
 .our-team .picture img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 50%;
   transform: scale(1);
   transition: all 0.9s ease 0s;
@@ -257,7 +281,7 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background-color: #1369ce;
+  background-color: #388AB2;
   position: absolute;
   bottom: -100px;
   left: 0;
