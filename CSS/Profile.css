@@ -123,6 +123,66 @@ h1 {
 
 .lastName {
   text-align: center;
+  padding-bottom: 10px
 
 }
 
+.headline{
+  text-align: center;
+  padding-bottom: 10px
+
+}
+
+
+.locationCountry {
+  text-align: center;
+  padding-bottom: 10px
+
+}
+
+.locationState {
+  text-align: center;
+  padding-bottom: 10px
+
+}
+
+.aboutMeTextArea {
+  text-align: center;
+  padding-bottom: 10px
+  width: 50px
+  height: 20px
+
+}
+
+
+
+.education {
+  text-align: center;
+  display: block;
+  padding-bottom: 50px;
+
+}
+
+.university {
+  text-align: center;
+  padding-bottom: 10px
+
+}
+
+.program {
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+
+.grade {
+  text-align: center;
+  padding-bottom: 10px
+
+}
+
+
+.form-group {
+  text-align: center;
+
+}
