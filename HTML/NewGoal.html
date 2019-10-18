@@ -195,7 +195,15 @@
                 <label for="datepicker">Goal Date (optional)</label>
                     <input type="text" id="datepicker" data-provide="datepicker-inline">
             </div>
-            <label class="newGoalFrequency">Goal Frequency</label>
+            <div class="newGoalFrequency">
+              <label for="newGoalFrequency">New Goal Frequency</label>
+              <select class="form-control" id="newGoalFrequency">
+                <option>One Time</option>
+                <option>Daily</option>
+                <option>Weekly</option>
+                <option>Monthly</option>
+              </select>
+            </div>
             <div class="form-check">
                 <input type="checkbox" class="form-check-input" id="reminderCheck1">
                 <label class="form-check-label" for="reminderCheck1">Enable Reminders</label>
