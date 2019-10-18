@@ -185,33 +185,36 @@ body {
   padding: 20px;
 }
 
-.row {
-  text-align: center!important;
-}
-
 .profileSlot1 {
-  margin: 20px;
+    display: inline-block;
+    width: 200px;
 }
 
 .profileSlot2 {
-  margin: 20px;
-}
+    display: inline-block;
+    width: 200px;
+  }
 
 .profileSlot3 {
-  margin: 20px;
-}
+    display: inline-block;
+    width: 200px;
+  }
 
 .profileSlot4 {
-  margin: 20px;
-}
+    display: inline-block;
+    width: 200px;
+  }
 
+.our-team h3 {
+  font-size: 25px;
+  color: white;
+}
 
 .our-team {
   padding: 30px 0 40px;
-  margin-bottom: 30px;
-  width: 200px;
-  height: 400px;
-  background-color: #DDDD;
+  border-radius: 25px;
+  height: 300px;
+  background-color: #8e8e8e;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -221,7 +224,7 @@ body {
   display: inline-block;
   height: 130px;
   width: 130px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   z-index: 1;
   position: relative;
 }
@@ -273,7 +276,7 @@ body {
 .our-team .title {
   display: block;
   font-size: 15px;
-  color: #4e5052;
+  color: white;
   text-transform: capitalize;
 }
 
@@ -299,7 +302,7 @@ body {
 .our-team .social li a {
   display: block;
   padding: 10px;
-  font-size: 17px;
+  font-size: 15px;
   color: white;
   transition: all 0.3s ease 0s;
   text-decoration: none;
