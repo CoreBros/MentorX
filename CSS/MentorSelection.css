@@ -185,25 +185,42 @@ body {
   padding: 20px;
 }
 
-.profileSlot1 {
-    display: inline-block;
-    width: 200px;
+.profileSlotSizing {
+  width: 33.33%;
+  margin: 10px;
 }
 
-.profileSlot2 {
-    display: inline-block;
-    width: 200px;
-  }
+.profileRow1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 
-.profileSlot3 {
-    display: inline-block;
-    width: 200px;
-  }
+.profileRow2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 
-.profileSlot4 {
-    display: inline-block;
-    width: 200px;
-  }
+.profileRow3 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.profileRow4 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.profileRow5 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
 
 .our-team h3 {
   font-size: 25px;
@@ -273,11 +290,31 @@ body {
   transform: scale(0.7);
 }
 
+
+.our-team .picture i {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+.our-team:hover .picture i {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+}
+
 .our-team .title {
   display: block;
   font-size: 15px;
   color: white;
   text-transform: capitalize;
+}
+
+.picture i {
+  font-size: 80px;
+  color: white;
+  padding: 20px;
 }
 
 .our-team .social {
