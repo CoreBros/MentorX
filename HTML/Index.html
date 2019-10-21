@@ -29,7 +29,89 @@
 	</center>
 
 <div id="id01" class="modal">
-	<form class="modal-content animate">
+<!-- New Form -->
+ <div class="sign-log-wrap">
+	<div class="container">
+        <div class="form-area">
+            <div class="form-sign">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="	#login" aria-controls="Log In" role="tab" data-toggle="tab">Sign In</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Sign Up</a></li>
+                </ul>
+
+
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active form-are" id="login">
+                                <form action="">
+                                    <div class="form-bor">
+                                        <div class="form-input-group">
+                                            <label for="">Username</label>
+                                                <input type="text" name="username">
+                                        </div>
+
+                                        <div class="form-input-group">
+                                            <label for="">Password</label>
+                                            <input type="password" name="password">
+	                                    </div>
+                                        <div class="form-input-checkbox">
+                                            <input type="checkbox" id="test1" />
+                                            <label for="test1">Keep me Signed in</label>
+                                        </div>
+                                            <div class="form-input-group">
+                                                <button>Sign in</button>
+                                            </div>
+                                        </div><a class="forgot-pass" href="">Forgot Password?</a>
+                                    </form>
+
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="profile">
+                                    <form action="">
+                                        <div class="form-bor">
+                                            <div class="form-input-group">
+                                                <label for="">Username</label>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <input type="text" name="fst-username" placeholder="Frist Name">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="text" name="lst-username" placeholder="Last Name">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-input-group">
+                                                <label for="">Email</label>
+                                                <input type="text" name="email" placeholder="Email">
+                                                <input type="text" name="re-email" placeholder="Confirm Email">
+                                            </div>
+
+                                            <div class="form-input-group">
+                                                <label for="">Password</label>
+                                                <input type="password" name="password" placeholder="Password">
+                                                <input type="password" name="password" placeholder="Confirm Password">
+                                            </div>
+                                          
+                                          
+                                            <div class="form-input-group">
+                                                <button>Sign Up</button>
+                                            </div>
+                                        </div>
+                                        <a class="forgot-pass" href="index.html">Already have an account? <strong>Sign in</strong> </a>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- Old Form -->
+<!-- 	<form class="modal-content animate">
 		<div class="imgcontainer">
 		      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
 			<img src="../css/Logo.jpg" alt="Image" class="logo">
@@ -51,7 +133,7 @@
 			<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
 			<span class="psw"><a href="#">Forgot password?</a></span>
 		</div>
-	</form>
+	</form> -->
 </div>
 
 <script>

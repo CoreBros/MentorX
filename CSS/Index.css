@@ -11,59 +11,14 @@ body {
 	background-color: #364045;
 }
 
-input[type=text], input[type=password] {
-  width: 90%;
-  padding: 12px 0px;
-  margin: 5px 0 10px 0;
-  background: none;
-  display: inline-block;
-  border: none;
-  color: white;
-  border-bottom: 2px solid rgb(146,221,253);
-  box-sizing: border-box;
-  font-size: 20px;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  color: white;
-  outline: 1px solid white;
-}
 
 button {
   background-color: rgba(82,207,245,1);
   color: white;
   font-size: 20px;
-  padding: 15px 20px;
-  margin: 10px 0;
   border: none;
   cursor: pointer;
   width: 100%;
-}
-
-/*Hover over button opacity*/
-button:hover {
-  opacity: 0.8;
-}
-
-
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  color: white;
-  background-color: #f44336;
-}
-
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-/*styles size of log in image*/
-img.Logo {
-  width: 150px;
-  border-radius: 50%;
 }
 
 /*Padding for text and boxes in log in form*/
@@ -73,20 +28,143 @@ img.Logo {
   color: white;
 }
 
-/*Aligns forgot password to bottom right of box*/
-span.psw a{
-  float: right;
-  padding-top: 16px;
+
+/*New Form*/
+
+.form-area {
+    background-position: center bottom;
+    background-color: #364045;
+    position: relative;
+    z-index: 1;
 }
 
-.container i{
-  width: 20px;
-  size: 80px;
-  text-align: left;
+.form-area:before {
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.form-area {
+    box-shadow: 0 0 38px #666;
+    margin: 40px auto;
+    max-width: 500px;
+}
+
+.form-sign {
+    padding: 46px 60px;
+}
+
+.nav-tabs {
+    border: none;
+    padding-left:17px;
+}
+
+.sign-log-wrap .tab-content {
+    margin-top: 70px;
+}
+
+.sign-log-wrap .nav.nav-tabs li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-right: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    text-transform: uppercase;
+}
+
+.sign-log-wrap .nav > li > a:focus,
+.sign-log-wrap .nav > li > a:hover {
+    background: none;
+    border: 1px solid transparent;
+    color: #1066F9;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+    color: #fff;
+    cursor: default;
+    background: none;
+    border: 0px solid #ddd;
+    border-bottom: 2px solid #1066F9;
+}
+
+.sign-log-wrap label {
+    width: 100%;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.form-input-group label,
+.form-input-checkbox {
+    padding-left: 17px;
+}
+
+.sign-log-wrap .form-input-group input {
+  background: rgba(255, 255, 255, .3) none repeat scroll 0 0;
+  margin-top: 10px;
+}
+
+.sign-log-wrap .form-input-group input,
+.form-input-group button {
+    border: medium none;
+    border-radius: 20px;
+    color: #222;
+    padding: 9px 17px;
+    width: 100%;
+}
+
+.form-input-checkbox label {
+    width: auto;
+    text-transform: none;
+}
+
+.form-input-group label {
+    opacity: .8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+}
+
+.form-input-group button {
+    background: #1161ee none repeat scroll 0 0;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 17px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.form-input-group button:hover {
+    background: #fff none repeat scroll 0 0;
+    color: #1161ee;
+}
+
+.form-bor {
+    border-bottom: 1px solid #36384d;
+    margin-bottom: 33px;
+    padding-bottom: 62px;
+}
+
+.forgot-pass {
+    color: #dddd;
+    display: block;
+    text-align: center;
+}
+
+.forgot-pass:hover {
+    color: #fff
+}
+
+.sign-log-wrap .form-input-group {
+    margin-bottom: 17px;
 }
 
 
-
+/*Old Form*/
 .animate {
   -webkit-animation: animatezoom 0.6s;
   animation: animatezoom 0.6s
@@ -102,20 +180,6 @@ span.psw a{
   to {transform: scale(1)}
 }
 
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
 
 .modal-content {
   background-color: #8e8e8e;
