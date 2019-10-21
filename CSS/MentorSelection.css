@@ -183,6 +183,7 @@ body {
   min-width: 600px;
   background-color: #364045;
   padding: 20px;
+  overflow-x: hidden;
 }
 
 .profileSlotSizing {
