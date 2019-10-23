@@ -14,49 +14,63 @@ body {
 
 .initialWelcome {
   width: 50%;
-  color: grey;
+  color: white;
+  margin-top: 200px;
   min-width: 400px;
+  max-width: 550px;
 }
 
 .initialWelcome h1{
   width: 50%;
-  color: grey;
+  color: white;
   min-width: 400px;
 }
 
 
 
 .initialLogin {
-  background-color: rgba(82,207,245,1);
-  color: white;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 8px;
+  width: 80%;
+  max-width: 300px;
+  height: 60px;
+  line-height: 40px;
   border: none;
-  cursor: pointer;
-  height: 80px;
-  width: 50%;
-  margin-top: 20px;  
-  border-radius: 5px;
+  border-radius: 20px;
+  margin-top: 23px;
+  background-color: #1059FF;
 }
+
 
 .initialLogin:hover{
   opacity: 0.8;
+  cursor: pointer;
+  background-color: #1059FF;
 }
 
 .initialNewUser {
-  background-color: rgba(82,207,245,1);
-  color: white;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 8px;
+  width: 80%;
+  max-width: 300px;
+  height: 60px;
+  line-height: 40px;
   border: none;
-  cursor: pointer;
-  width: 50%;
-  margin-top: 20px;
-  border-radius: 5px;
-  height: 80px;
-  text-align: center!important;
+  border-radius: 20px;
+  margin-top: 23px;
+  background-color: #1059FF;
 }
 
 .initialNewUser:hover{
   opacity: 0.8;
+  cursor: pointer;
+  background-color: #1059FF;
 }
 
 /*End of first page*/
@@ -70,21 +84,20 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(255,255,255,0.5);
 }
 
 html, body * { 
   box-sizing: border-box; 
-  font-family: 'Open Sans', sans-serif; }
+}
 
 body {
   background:
     linear-gradient(
-    rgba(246,247,249,0.8),
-    rgba(246,247,249,0.8)),
-    url(https://dl.dropboxusercontent.com/u/22006283/preview/codepen/sky-clouds-cloudy-mountain.jpg) no-repeat center center fixed;
-    background-size: cover;
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(../html/pictures/college.jpg) no-repeat center fixed;
+  background-size: cover;
 }
 
 .container {
@@ -98,15 +111,15 @@ body {
   width: 430px;
   background:
     linear-gradient(
-    rgba(35,43,85,0.75),
-    rgba(35,43,85,0.95)),
-    url(https://dl.dropboxusercontent.com/u/22006283/preview/codepen/clouds-cloudy-forest-mountain.jpg) no-repeat center center;
+    rgba(100,100,100,1),
+    rgba(100,100,100,1)),
+    url(../html/pictures/purpleclouds.jpg) no-repeat center center;
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  border-top: solid 1px rgba(255,255,255,.5);
+  border-top: solid 1px rgba(255,255,255,0.8);
   border-radius: 5px;
-  box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 7px rgba(0,0,0,1);
   overflow: hidden;
   transition: all .5s ease;
 }
@@ -146,7 +159,7 @@ li {
 
 .signin-active a {
   padding-bottom: 10px;
-  color: #ffffff;
+  color: white;
   text-decoration: none;
   border-bottom: solid 2px #1059FF;
   transition: all .25s ease;
@@ -163,7 +176,7 @@ li {
 
 .signup-active a {
   cursor: pointer;
-  color: #ffffff;
+  color: white;
   text-decoration: none;
   border-bottom: solid 2px #1059FF;
   padding-bottom: 10px;
@@ -387,7 +400,8 @@ label {
   color: #ffffff;
   padding-top: 8px;
   width: 100%;
-  height: 35px;
+  height: 50px;
+  line-height: 35px;
   border: none;
   border-radius: 20px;
   margin-top: 23px;
@@ -398,8 +412,9 @@ label {
   float: left;
   padding-top: 8px;
   width: 100%;
-  height: 35px;
+  height: 50px;
   border: none;
+  line-height: 35px;
   border-radius: 20px;
   margin-top: -8px;
 }
@@ -413,7 +428,7 @@ label {
   color: rgba(255,255,255, 1);
   padding-top: 8px;
   width: 100%;
-  height: 35px;
+  height: 50px;
   border: none;
   border-radius: 20px;
   margin-top: 23px;
@@ -482,14 +497,14 @@ a.btn-signup:hover, a.btn-signin:hover {
 }
 
 .cover-photo {
-  height: 150px;
+  height: 200px;
   position: relative;
-  left: 0px;  top: -900px;
+  left: 0px;
   background:
     linear-gradient(
-    rgba(35,43,85,0.75),
-    rgba(35,43,85,0.95)),
-    url(https://dl.dropboxusercontent.com/u/22006283/preview/codepen/landscape-nature-man-person.jpeg);
+    rgba(100,100,100,0.8),
+    rgba(100,100,100,0.4)),
+    url(../html/pictures/purpleclouds.jpg);
   background-size: cover;
   opacity: 0;
   transition: all 1.5s ease 0.55s;
@@ -507,7 +522,7 @@ a.btn-signup:hover, a.btn-signin:hover {
   border-radius: 70px;
   left: 155px;
   top: -1000px;
-  background: url(https://dl.dropboxusercontent.com/u/22006283/preview/codepen/nature-water-rocks-hiking.jpg);
+  background: url(../html/pictures/purpleclouds.jpg);
   background-size: 100% 135%;
   background-position: 100% 100%;
   opacity: 0;
@@ -516,7 +531,7 @@ a.btn-signup:hover, a.btn-signin:hover {
 }
 
 .profile-photo-down {
-  top: -636px;
+  top: -736px;
   opacity: 1;
 }
 
@@ -536,7 +551,8 @@ h1 {
   width: 83%;
   margin-left: 37px;
   margin-right: 37px;
-  height: 35px;
+  height: 50px;
+  line-height: 35px;
   border-radius: 20px;
   font-weight: 700;
   text-transform: uppercase;
