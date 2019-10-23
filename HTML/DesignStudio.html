@@ -75,6 +75,10 @@
 
 
             <!-- Header Text below image -->
+            <div id="DesignStudioGIF">
+                <img src="https://studio.telecom-paristech.fr/img/wrapper-img.gif" class="img-circle" alt="Center Images" width="200ppx; margin: 0 auto;"> 
+            </div>
+            
             <div class="_welcometextBox">
                 <p align="center"class="text-uppercase">
                     <span style="display: block;">Program Design Studio
@@ -162,3 +166,80 @@
                 <label for="datepicker">End Date</label>
                     <input type="text" id="datepicker" data-provide="datepicker-inline">
             </div>
+            <div>
+                <Label for="timing">Add Program Administrators (Must create a mentee/mentor profile before Administration permissions can be granted)</Label>
+                <Select class="form-control">
+                    <option>Administrator 1</option>
+                            <option>Administrator 2</option>
+                            <option>Administrator 3</option>
+                            <option>Administrator 4</option>
+                        </select>
+                    </div>
+            <div>
+                <Label for="timing">Enrollment Cycling</Label>
+                Single Cycle
+                <input type="radio" name="Single" Value="abc">
+                Multi-Cycle
+                <input type="radio" name="Single" Value="abc">
+                    </div>
+            <div>
+                <Label for="timing">Allow participants to keep existing Mentor/Mentee</Label>
+                <input type="checkbox" name="Keep" value="yes"> Keep
+                    </div>
+            <div>
+                <Label for="timing">Maximum Allowable Mentees per Mentor</Label>
+                <Select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        </select>
+                    </div>       
+            <div>
+                <Label for="timing">Maximum Allowable Mentors per Mentee</Label>
+                <Select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        </select>
+                    </div>
+            <div>  
+
+<!-- Email Developer pop up -->
+<div class="mainBody">
+    <div id="_goalCategory1">
+        <div class="goalCategory1">
+            <i class="fas fa-plus-circle" onclick="document.getElementById('id01').style.display='block'"></i>
+        </div>
+        <h3>New Email Template</h3>
+    </div>
+<div id="id01" class="customGoal1">
+    <form class="goal-content-animate">
+        <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="exit" title="Close">&times;</span>
+        </div>
+
+        <div class="container">
+            <label>Name of Email/Notification</label>
+            <input type="text">
+            
+            <div class="categoryDropdown">
+              <label for="_categoryDropdown">Category (select one):</label>
+              <select class="form-control" id="_categoryDropdown">
+                <option>New Mentor Email</option>
+                <option>New Mentee Email</option>
+                <option>Program Cycle Begin Email</option>
+                <option>Program Cycle End Email</option>
+              </select>
+            </div>
+        </div>
+
+        <div class="container" style="background-color: #8e8e8e; padding-bottom: 20px;">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="button" class="submit" onclick="newCustomGoal()">Next</button>
+        </div>
+    </form>
+</div>
+
+<!-- End of email developer pop up #1 -->       
