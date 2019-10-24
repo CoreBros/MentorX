@@ -30,8 +30,9 @@ body {
 
 .initialLogin {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
+  text-transform: uppercase;
   color: #ffffff;
   padding-top: 8px;
   width: 80%;
@@ -53,7 +54,8 @@ body {
 
 .initialNewUser {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
   text-align: center;
   color: #ffffff;
   padding-top: 8px;
@@ -309,11 +311,12 @@ label {
   font-size: 13px;
   padding-left: 15px;
   padding-bottom: 10px;
-  color: rgba(255,255,255,.7);
+  color: white;
   display: block;
 }
 
-:focus {outline: none;
+:focus {
+  outline: none;
 }
 
 .form-signin input:focus, textarea:focus, .form-signup input:focus, textarea:focus {
@@ -497,6 +500,11 @@ a.btn-signup:hover, a.btn-signin:hover {
   font-weight: 400;
   font-size: 13px;
   text-decoration: none;
+}
+
+.forgot a:hover {
+  color: white;
+  font-weight: bold;
 }
 
 .welcome {

@@ -31,3 +31,15 @@ $(function() {
   $(".forgot").toggleClass("forgot-fade");
   });
 });
+
+
+// When the user clicks anywhere outside of the login form, close it
+$(function(){
+var modal = document.getElementById('id01');
+var loginForm = document.getElementById('id02');
+window.onclick = function(event) {
+  if (event.target == loginForm) {
+    modal.style.display = "none";
+  }
+}
+});
