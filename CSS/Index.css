@@ -87,6 +87,22 @@ body {
   background-color: rgba(255,255,255,0.5);
 }
 
+.container {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+
 html, body * { 
   box-sizing: border-box; 
 }
@@ -113,7 +129,7 @@ body {
     linear-gradient(
     rgba(100,100,100,1),
     rgba(100,100,100,1)),
-    url(../html/pictures/purpleclouds.jpg) no-repeat center center;
+    url(../html/pictures/college.jpg) no-repeat center center;
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
@@ -174,12 +190,13 @@ li {
   cursor: pointer;
 }
 
-.signup-active a {
-  cursor: pointer;
+#links .signup-active a {
+  padding-bottom: 10px;
   color: white;
   text-decoration: none;
   border-bottom: solid 2px #1059FF;
-  padding-bottom: 10px;
+  transition: all .25s ease;
+  cursor: pointer;
 }
 
 .signup-inactive a {
@@ -504,7 +521,7 @@ a.btn-signup:hover, a.btn-signin:hover {
     linear-gradient(
     rgba(100,100,100,0.8),
     rgba(100,100,100,0.4)),
-    url(../html/pictures/purpleclouds.jpg);
+    url(../html/pictures/college.jpg);
   background-size: cover;
   opacity: 0;
   transition: all 1.5s ease 0.55s;
@@ -522,7 +539,7 @@ a.btn-signup:hover, a.btn-signin:hover {
   border-radius: 70px;
   left: 155px;
   top: -1000px;
-  background: url(../html/pictures/purpleclouds.jpg);
+  background-color: grey;
   background-size: 100% 135%;
   background-position: 100% 100%;
   opacity: 0;
@@ -558,11 +575,12 @@ h1 {
   text-transform: uppercase;
   font-size: 13px;
   text-align: center;
-  color: #1059FF;
+  color: white;
   margin-top: -8px;
-  border: solid 1px #1059FF;
+  background-color: #0F4FE6;
+  border: solid 1px grey;
   opacity: 0;
-  transition: top 1.5s ease 0.35s, opacity .75s ease .5s;
+  transition: top 1.5s ease 0.35s;
 }
 
 .btn-goback-up {
@@ -572,9 +590,7 @@ h1 {
 
 a.btn-goback:hover {
     cursor: pointer; 
-    background-color: #0F4FE6;
-    transition: all .5s; 
-    color: #ffffff;
+    opacity: 0.8;
 }
 
 /* refresh button styling */

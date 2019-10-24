@@ -35,7 +35,7 @@
   <div class="frame">
     
     <div class="nav">
-      <ul class="links">
+      <ul class="links" id="links">
         <li class="signin-active"><a class="btn">Sign in</a></li>
         <li class="signup-inactive"><a class="btn">Sign up </a></li>
       </ul>
@@ -47,7 +47,7 @@
         <label for="username">Username</label>
         <input class="form-styling" type="text" name="username" placeholder="" />
         <label for="password">Password</label>
-        <input class="form-styling" type="text" name="password" placeholder="" />
+        <input class="form-styling" type="password" name="password" placeholder="" />
         <input type="checkbox" id="checkbox" />
         <label for="checkbox"><span class="ui"></span>Keep me signed in</label>
         
@@ -68,6 +68,7 @@
         <a ng-click="checked = !checked" class="btn-signup">Sign Up</a>
       </form>
 
+<!-- Need to understand what this section is doing -->
       <div class="success">
         <svg width="270" height="270" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" id="check" ng-class="checked ? 'checked' : ''">
         <path fill="#ffffff" d="M40.61,23.03L26.67,36.97L13.495,23.788c-1.146-1.147-1.359-2.936-0.504-4.314
@@ -81,19 +82,25 @@
       </div>
     </div>
       
+<!-- work on making this a live link  -->
       <div class="forgot">
         <a href="#">Forgot your password?</a>
       </div>
       
       <div>
+<!-- Add a better background image -->
         <div class="cover-photo"></div>
+
+<!-- Add a placeholder image for the profile photo -->
         <div class="profile-photo"></div>
-        <h1 class="welcome">Welcome, Broham Lincoln</h1>
+        <h1 class="welcome">Welcome, #User Name</h1>
+<!-- Add a home page button (ST), LT add a delay to direct to home page -->
         <a class="btn-goback" value="Refresh" onClick="history.go()">Go back</a>
       </div>
 
   </div>
     
+<!-- refresh button at bottom of page.... utltimately need to remove -->
   <a id="refresh" value="Refresh" onClick="history.go()">
     <svg class="refreshicon"   version="1.1" id="Capa_1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      width="25px" height="25px" viewBox="0 0 322.447 322.447" style="enable-background:new 0 0 322.447 322.447;"
