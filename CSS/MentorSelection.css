@@ -11,7 +11,6 @@ html, body {
 }
 
 
-
 body {
   background-color: #364045;
   min-width: 1200px;
@@ -42,6 +41,7 @@ body {
   width: 100%;
   min-width: 600px;
   position: relative;
+  border-bottom: solid 1px rgba(255,255,255,0.8);
   text-align: center!important;
 
 }
@@ -111,6 +111,17 @@ body {
   color: #FFF;
 }
 
+.mainBody h2 {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 30px;
+}
+
+.mainBody hr {
+  border: 1px solid white;
+}
 
 /* Column container */
 .leftContainer {  
@@ -121,6 +132,7 @@ body {
   left: 0;
   background-color: #388AB2;
   overflow-x: hidden;
+  border-top: solid 1px rgba(255,255,255,0.8);
   padding-top: 20px;
 }
 
@@ -157,7 +169,6 @@ body {
 
 
 .filterSection {
-
 }
 
 .filterSection h2 {
@@ -174,6 +185,7 @@ body {
   min-width: 600px;
   background-color: #364045;
   padding: 20px;
+  height: 100%;
   overflow-x: hidden;
 }
 
@@ -216,14 +228,22 @@ body {
 
 .our-team h3 {
   font-size: 25px;
-  color: white;
+  color: #388AB2;
+  font-weight: bold;
 }
+
 
 .our-team {
   padding: 30px 0 40px;
   border-radius: 25px;
   height: 300px;
-  background-color: #8e8e8e;
+  background:
+    linear-gradient(
+    rgba(100,100,100,1),
+    rgba(255,255,255,1)),
+    url(../html/pictures/college.jpg) no-repeat center center;
+  border-top: solid 1px rgba(255,255,255,0.8);
+  box-shadow: 0px 2px 7px rgba(0,0,0,1);
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -299,7 +319,7 @@ body {
 .our-team .title {
   display: block;
   font-size: 15px;
-  color: white;
+  color: #388AB2;
   text-transform: capitalize;
 }
 
@@ -348,11 +368,10 @@ body {
 .rightContainer {  
   height: 100%;
   width: 300px;
+  height: 100%;
   position: relative;
   float: right;
   background-color: #388AB2;
-  overflow-x: hidden;
-  padding-top: 20px;
 }
 
 
