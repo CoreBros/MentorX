@@ -149,29 +149,20 @@ body {
   margin-top: 10px;
 }
 
-.leftContainer #accordion {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
 .leftContainer h2 {
   width: 100%;
   text-align: center;
   color: #FFF;
 }
 
-.card h5 {
-  padding-left: 5px;
-  display: inline-block;
-  font-size: 20px;
-  color: #364045;
+
+.filterSection {
+
 }
 
-.card .fas {
-  display: inline-block;
-  font-size: 20px;
-  color: #364045;
-  width: 25px;
+.filterSection h2 {
+  text-align: left;
+  margin-left: 10px; 
 }
 
 
