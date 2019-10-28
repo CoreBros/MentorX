@@ -144,7 +144,37 @@ body {
   font-size: 20px
 }
 
-/*Start of custom goal pop up*/
+/*Start of email template pop up*/
+
+.mainBody {   
+  position: absolute;
+  height: 100%;
+  overflow-y: auto;
+  left: 300px;
+  right: 300px;
+  min-width: 600px;
+  background-color: #008000;
+  padding: 20px;
+}
+/*old background color #36045*/
+
+#_goalCategory1 {
+  display: inline-block;
+  width: 100%;
+}
+
+.goalCategory1 {
+  margin: auto;
+  text-align: center;
+}
+
+.goalCategory1 i {
+  cursor: pointer;
+  font-size: 50px;
+  color: white;
+}
+
+
 
 .container input[type=text] {
   width: 100%;
