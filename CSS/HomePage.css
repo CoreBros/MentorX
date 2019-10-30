@@ -300,6 +300,7 @@ body {
 #newsFeedUpdate1 {
   width: 95%;
   border: 5px solid grey;
+  border-radius: 25px;
   height: 150px;
   background-color: #FFF;
   margin-top: 10px;

@@ -104,25 +104,6 @@ body {
 
 /*END OF MENU AND NAVIGATION BAR*/
 
-.mainBody h1 {
-  font-size: 40px;
-  width: 100%;
-  text-align: center;
-  color: #FFF;
-}
-
-.mainBody h2 {
-  font-size: 20px;
-  width: 100%;
-  text-align: center;
-  color: #FFF;
-  margin-bottom: 30px;
-}
-
-.mainBody hr {
-  border: 1px solid white;
-}
-
 /* Column container */
 .leftContainer {  
   height: 100%;
@@ -157,30 +138,66 @@ body {
   color: white;
 }
 
-.profileSection {
-  margin-top: 10px;
-}
-
 .leftContainer h2 {
   width: 100%;
   text-align: center;
   color: #FFF;
 }
 
+.leftContainer h3 {
+  width: 100%;
+  margin-left: 5px;
+  color: #FFF;
+}
+
+.leftContainer hr {
+  border: 2px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .categoryDropdown {
   width: 100%;
   color: white;
-  margin-top: 20px;
-  margin-left: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
+.yearDropdown {
+  margin-top: 40px;
+  width: 250px
+}
+
+.matchDropdown {
+  margin-top: 40px;
+  width: 250px;
+}
 
 /* Main column */
+.mainBody h1 {
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+}
+
+.mainBody h2 {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 30px;
+}
+
+.mainBody hr {
+  border: 1px solid white;
+}
+
 .mainBody {   
   position: absolute;
   left: 300px;
-  right: 300px;
-  min-width: 600px;
+  width: 79%;
+  min-width: 900px;
   background-color: #364045;
   padding: 20px;
   height: 100%;
@@ -188,7 +205,7 @@ body {
 }
 
 .profileSlotSizing {
-  width: 33.33%;
+  width: 20%;
   margin: 10px;
 }
 
@@ -222,14 +239,11 @@ body {
   width: 100%;
 }
 
-
-
 .our-team h3 {
   font-size: 25px;
   color: #388AB2;
   font-weight: bold;
 }
-
 
 .our-team {
   padding: 30px 0 40px;
@@ -363,7 +377,7 @@ body {
 
 /*Start of right container*/
 
-.rightContainer {  
+/*.rightContainer {  
   height: 100%;
   width: 300px;
   height: 100%;
@@ -380,5 +394,5 @@ body {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
-}
+}*/
 
