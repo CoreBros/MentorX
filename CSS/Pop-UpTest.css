@@ -9,7 +9,6 @@ html, body {
   height:100%
 }
 
-
 body {
   padding: 0; 
   margin: 0;
@@ -105,7 +104,7 @@ body {
 
 
 /* Column container */
-.leftContainer {  
+/*.leftContainer {  
   height: 100%;
   width: 300px;
   position: absolute;
@@ -164,12 +163,12 @@ body {
   font-size: 20px;
   color: #364045;
   width: 25px;
-}
+}*/
 
 
 
 /* Main column */
-.mainBody {   
+/*.mainBody {   
   position: absolute;
   height: 100%;
   overflow-y: auto;
@@ -227,11 +226,11 @@ h4 {
   cursor: pointer;
   font-size: 100px;
   color: white;
-}
+}*/
 
 /*Start of second row*/
 
-#_goalCategory2 {
+/*#_goalCategory2 {
   display: inline-block;
   float: left;
   width: 33%;
@@ -310,7 +309,7 @@ h4 {
 
 /*Start of third row*/
 
-#_goalCategory5 {
+/*#_goalCategory5 {
   display: inline-block;
   float: left;
   width: 33%;
@@ -390,7 +389,7 @@ h4 {
 
 /*Start of forth row*/
 
-#_goalCategory8 {
+/*#_goalCategory8 {
   display: inline-block;
   float: left;
   width: 33%;

@@ -2,12 +2,19 @@
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
 @import "https://fonts.googleapis.com/css?family=Muli&display=swap";
 
-body {
+html, body {
   padding: 0; 
   margin: 0;
   background-color: #364045;
 }
 
+body {
+  padding: 0; 
+  margin: 0;
+  min-width: 1200px;
+  background-color: #364045;
+  overflow-y: scroll;
+}
 
 *{
   font-family: "Segoe UI",Arial,sans-serif;
@@ -69,7 +76,7 @@ body {
   cursor: pointer;
 }
 
-.modal{
+.modalMenu{
     display: none;
     position: absolute;
     width: 200px;
@@ -78,7 +85,7 @@ body {
     margin-left: 0;
 }
 
-.modal a{
+.modalMenu a{
   background-color: #eee;
   color: black;
   display: block;
@@ -86,7 +93,7 @@ body {
   text-decoration: none;
 }
 
-.modal a:hover {
+.modalMenu a:hover {
   background-color: #ccc;
 }
 
@@ -118,7 +125,7 @@ body {
     padding-top: 2%
   }
 
-/*Enrollment Form*/
+/*Program Design Form*/
 .mentorPreference{
   font-size: 20px;
   text-align: left;
@@ -146,7 +153,7 @@ body {
 
 /*Start of email template pop up*/
 
-#_goalCategory1 {
+/*#_goalCategory1 {
   display: inline-block;
   width: 100%;
 }
@@ -162,7 +169,7 @@ body {
   color: white;
 }
 
-
+*/
 
 .container input[type=text] {
   width: 100%;
@@ -282,3 +289,117 @@ button:hover {
   background-color: rgba(0,0,0,0.4);
   padding-top: 60px; 
 }
+/*Start of click through to second pop up for email template*/
+
+.customGoal2{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px; 
+}
+
+.container2 {
+  padding: 20px 20px 20px 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.container2 label {
+  text-align: left;
+  width: 100%;
+  font-size: 20px;
+}
+
+.goal-content-animate2 {
+  background-color: #8e8e8e;
+  color: white;
+  margin: 5% auto 20px; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 500px; /* Could be more or less, depending on screen size */
+}
+
+.newGoalTitle {
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  text-align: center!important;
+  padding-top: 30px;
+}
+
+.container2 textarea {
+  width: 100%;
+  height: 200px;
+  background: white;
+  display: inline-block;
+  color: black;
+  box-sizing: border-box;
+  font-size: 20px;
+  text-align: left!important;
+  text-overflow: hidden;
+  vertical-align: top;
+}
+
+.container2 textarea:focus {
+  outline: 5px solid gray;
+}
+
+.newGoalStartDate {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
+#datepicker {
+  font-size: 20px;
+  height: 40px;
+  float: right; 
+  text-align: center;
+  width: 200px;
+}
+
+
+.newGoalStartDate label {
+  height: 40px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  width: auto;
+}
+
+.newGoalEndDate {
+  margin-bottom: 30px;
+}
+
+.newGoalEndDate label {
+  height: 40px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  width: auto;
+}
+
+.form-check {
+  margin-top: 40px;
+}
+
+#newGoalFrequency {
+  font-size: 20px;
+  height: 40px;
+  float: right; 
+  width: 200px;
+}
+
+
+.newGoalFrequency label {
+  height: 40px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  width: auto;
+}
+
+/*End of second click through of template up*/
