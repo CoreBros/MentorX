@@ -70,7 +70,7 @@
 	    <div class="goalCategory1">
 	        <i class="fas fa-plus-circle" onclick="document.getElementById('id01').style.display='block'"></i>
 	    </div>
-	    <h3>New Custom Goal</h3>
+	    <h3>New Notification</h3>
     </div>
     <hr>
 </div>
@@ -84,16 +84,19 @@
         </div>
 
         <div class="container">
-            <label>Name of Goal</label>
+            <label>Name of Notification</label>
             <input type="text">
             
             <div class="categoryDropdown">
               <label for="_categoryDropdown">Category (select one):</label>
               <select class="form-control" id="_categoryDropdown">
-                <option>Personal Goals</option>
-                <option>Mentor Goals</option>
-                <option>University Goals</option>
-                <option>Career Development</option>
+                <option>New Mentor</option>
+                <option>New Mentee</option>
+                <option>Program Start</option>
+                <option>Program End</option>
+                <option>Profile Update</option>
+                <option>Received Message</option>
+                <option>**Custom New Notification**</option>
               </select>
             </div>
         </div>
@@ -120,14 +123,14 @@
 
 
         <div class="container2">
-            <label>Description of Goal:</label>  
+            <label>Notification Message:</label>  
             <textarea name="goalDescription"></textarea>
             <div class="newGoalStartDate">
-            	<label for="datepicker">Start Date</label>
+            	<label for="datepicker">Notification Date</label>
                 	<input type="text" id="datepicker" data-provide="datepicker-inline">
             </div>
             <div class="newGoalEndDate">
-                <label for="datepicker">Goal Date (optional)</label>
+                <label for="datepicker">Optional Reminder Date</label>
                     <input type="text" id="datepicker" data-provide="datepicker-inline">
             </div>
             <div class="newGoalFrequency">
