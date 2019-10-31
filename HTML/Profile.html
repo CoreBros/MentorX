@@ -62,6 +62,11 @@
 <!-- Need to Insert button to select image from file -->
 </div>
 
+<div class="resumeUpload">
+    <label for="resumeInputFile">Attach your Resume</label>
+    <input type="file" id="resumeUpload">
+</div>
+
 <div class="personalInformation">Personal Information
     <div class="firstName">
         <div class="firstNameTextBox">
@@ -73,6 +78,17 @@
             <input type="text" name="Last Name" required placeholder="Enter Last Name"> 
         </div>
     </div>
+
+    <div class="Gender">
+        <label for="Gender">Gender</label>
+        <select> class="form-control"
+            <option>Male</option>
+            <option>Female</option>
+            <option>Ute</option>
+        </select>
+        </div>
+    </div>
+
     <div class="headline">
         <div class="headlineTextBox">
             <input type="text" name="Headline" required placeholder="Enter Headline"> 
@@ -101,6 +117,11 @@
             <input type="text" name="university" required placeholder="Enter University"> 
         </div>
     </div>
+    <div class="major">
+        <div class="majorTextbox">
+        <input type="text" name="major" required placeholder="Enter Major"> 
+        </div>
+    </div>
     <div class="program">
         <div class="programTextbox">
             <input type="text" name="program" required placeholder="Enter Program"> 
@@ -114,12 +135,11 @@
             <option>Junior</option>
             <option>Senior</option>
         </select>
-
         </div>
     </div>
 </div>
 
-<div class="experience">Intership Experience
+<div class="experience">Internship Experience
     <div class="Internships">
         <div class="internshipTextBox">
             <input type="text" name="Internship" required placeholder="Company"> 
