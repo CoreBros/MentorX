@@ -9,6 +9,7 @@ html, body {
   height:100%
 }
 
+
 body {
   padding: 0; 
   margin: 0;
@@ -102,9 +103,8 @@ body {
 
 /*END OF MENU AND NAVIGATION BAR*/
 
-
 /* Column container */
-.leftContainer {  
+/*.leftContainer {  
   height: 100%;
   width: 300px;
   position: absolute;
@@ -166,8 +166,8 @@ body {
 }*/
 
 
-
 /* Main column */
+
 /*.mainBody {   
   position: absolute;
   height: 100%;
@@ -466,6 +466,7 @@ h4 {
 
 /*End of goal categories*/
 
+
 /*Start of custom goal pop up*/
 
 .container input[type=text] {
@@ -724,4 +725,8 @@ button:hover {
   padding-right: 5%;
 }
 
-
+/*Created Notification Buttons*/
+.mentorPrograms{
+  font-size: 20px;
+  text-align: left;
+  color: black;
