@@ -11,7 +11,7 @@
 
 <!-- Change link to your CSS file -->
 <link type="text/css" rel="stylesheet" href="../css/NewGoal.css">
-<script src="../Javascript/NewGoal.js"></script>
+<script src="../Javascript/Pop-UpTest.js"></script>
 <script src="../Javascript/Library/jquery.js"></script>
 
 
@@ -70,74 +70,9 @@
 	    <div class="goalCategory1">
 	        <i class="fas fa-plus-circle" onclick="document.getElementById('id01').style.display='block'"></i>
 	    </div>
-	    <h3>New Custom Goal</h3>
+	    <h3>New Notification</h3>
     </div>
     <hr>
-    <h2>University Related</h2>
-    <div id="_goalCategory2">
-        <div class="goalCategory2">
-            <a href="#goalCategory2"><i class="fas fa-chalkboard-teacher"></i></a>
-        </div>
-        <h3>Course</h3> 
-        <h4>Exploration</h4>
-    </div>
-    <div id="_goalCategory3">
-        <div class="goalCategory3">
-            <a href="#goalCategory3"><i class="fas fa-school"></i></a>
-        </div>
-        <h3>Campus</h3> 
-    	<h4>Involvement</h4>
-    </div>
-    <div id="_goalCategory4">
-        <div class="goalCategory4">
-            <a href="#goalCategory4"><i class="fas fa-graduation-cap"></i></a>
-        </div>
-        <h3>Academic</h3>
-    	<h4>Achievements</h4>
-    </div>
-    <hr>
-    <h2>Career Development</h2>
-    <div id="_goalCategory5">
-        <div class="goalCategory5">
-            <a href="#goalCategory5"><i class="fas fa-handshake"></i></a>
-        </div>
-        <h3>Networking</h3>
-    </div>
-    <div id="_goalCategory6">
-        <div class="goalCategory6">
-            <a href="#goalCategory6"><i class="fas fa-briefcase"></i></a>
-        </div>
-        <h3>Job</h3>
-        <h4>Exploration</h4>
-    </div>
-    <div id="_goalCategory7">
-        <div class="goalCategory7">
-            <a href="#goalCategory7"><i class="fas fa-shapes"></i></a>
-        </div>
-        <h3>Skill</h3>
-        <h4>Acquisiton</h4>
-    </div>
-    <hr>
-    <h2>Self Management</h2>
-    <div id="_goalCategory8">
-        <div class="goalCategory8">
-            <a href="#goalCategory8"><i class="fas fa-running"></i></a>
-        </div>
-        <h4>Health</h4>
-    </div>
-    <div id="_goalCategory9">
-        <div class="goalCategory9">
-            <a href="#goalCategory9"><i class="fas fa-user-clock"></i></a>
-        </div>
-        <h3>Time</h3>
-        <h4>Management</h4>
-    </div>
-    <div id="_goalCategory10">
-        <div class="goalCategory10">
-            <a href="#goalCategory10"><i class="fas fa-comment-dollar"></i></a>
-        </div>
-        <h3>Finances</h3>
-    </div>
 </div>
 
 <!-- Custom Goal pop up -->
@@ -149,16 +84,19 @@
         </div>
 
         <div class="container">
-            <label>Name of Goal</label>
+            <label>Name of Notification</label>
             <input type="text">
             
             <div class="categoryDropdown">
               <label for="_categoryDropdown">Category (select one):</label>
               <select class="form-control" id="_categoryDropdown">
-                <option>Personal Goals</option>
-                <option>Mentor Goals</option>
-                <option>University Goals</option>
-                <option>Career Development</option>
+                <option>New Mentor</option>
+                <option>New Mentee</option>
+                <option>Program Start</option>
+                <option>Program End</option>
+                <option>Profile Update</option>
+                <option>Received Message</option>
+                <option>**Custom New Notification**</option>
               </select>
             </div>
         </div>
@@ -185,14 +123,14 @@
 
 
         <div class="container2">
-            <label>Description of Goal:</label>  
+            <label>Notification Message:</label>  
             <textarea name="goalDescription"></textarea>
             <div class="newGoalStartDate">
-            	<label for="datepicker">Start Date</label>
+            	<label for="datepicker">Notification Date</label>
                 	<input type="text" id="datepicker" data-provide="datepicker-inline">
             </div>
             <div class="newGoalEndDate">
-                <label for="datepicker">Goal Date (optional)</label>
+                <label for="datepicker">Optional Reminder Date</label>
                     <input type="text" id="datepicker" data-provide="datepicker-inline">
             </div>
             <div class="newGoalFrequency">
@@ -219,88 +157,6 @@
 
  </form>
 </div>
-<!-- Start of Right Column -->
-
-<div class="rightContainer">
-</div>
-
-<!-- Start of Left Column -->
-
-<div class="leftContainer">
-  <div class="profileImage";>
-    <div class="profileImageLink">
-        <a href="ProfileHome.html"><i class="fas fa-user"></i></a>   
-    </div>
-  </div>
-    <h2>User Name</h2>
-
-  <div class="profileSection">
-    <div id="accordion">
-
-      <div class="card">
-        <div class="card-header">
-          <a class="card-link" data-toggle="collapse" href="#collapseOne">
-          <i class="fas fa-child"></i>
-            <h5>Personal Goals</h5>
-          </a>
-        </div>
-        <div id="collapseOne" class="collapse" data-parent="#accordion">
-          <div class="card-body">
-            BLANK
-          </div>
-        </div>
-      </div>
-      
-      <div class="card">
-        <div class="card-header">
-          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-            <i class="fas fa-user-friends"></i>
-            <h5>Mentor Goals</h5>
-          </a>
-        </div>
-        <div id="collapseTwo" class="collapse" data-parent="#accordion">
-          <div class="card-body">
-            BLANK
-          </div>
-        </div>
-      </div>
-      
-      <div class="card">
-        <div class="card-header">
-          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-            <i class="fas fa-graduation-cap"></i>
-            <h5>University Goals</h5>
-          </a>
-        </div>
-        <div id="collapseThree" class="collapse" data-parent="#accordion">
-          <div class="card-body">
-            BLANK 
-          </div>
-        </div>
-      </div>
-      
-      <div class="card">
-        <div class="card-header">
-          <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
-            <i class="fas fa-briefcase"></i>
-            <h5>Career Development</h5>
-          </a>
-        </div>
-        <div id="collapseFour" class="collapse" data-parent="#accordion">
-          <div class="card-body">
-           BLANK  
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-  </div>
-</div>
-
-<!-- Start of Pop Up Modal -->
-
-<!-- Bootstrap JS Tie-ins -->
 
 
 </body>
