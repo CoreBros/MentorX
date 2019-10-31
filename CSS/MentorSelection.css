@@ -186,8 +186,33 @@ body {
   width: 100%;
   text-align: center;
   color: #FFF;
+}
+
+.viewMentorButton {
+  text-align: center;
+}
+
+.viewMentorButton button {
+  font-size: 15px;
+  text-align: center;
+  width: 300px;
+  text-transform: uppercase;
+  color: #ffffff;
+  height: 60px;
+  line-height: 40px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: #1059FF;
   margin-bottom: 30px;
 }
+
+.viewMentorButton button:hover{
+  opacity: 0.8;
+  cursor: pointer;
+  background-color: #1059FF;
+}
+
 
 .mainBody hr {
   border: 1px solid white;
