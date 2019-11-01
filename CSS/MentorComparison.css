@@ -251,7 +251,7 @@ body {
 }
 
 .gradYear {
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
   margin-left: 10px;
   color: white;
@@ -263,17 +263,32 @@ body {
 }
 
 .aboutMe {
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
   margin-left: 10px;
   color: white;
 }
 
-.motivations {
-  margin-top: 30px;
-  text-align: center;
-  margin-left: 10px;
-  color: white;
+.aboutMeTextBox {
+  width: 95%;
+  border: 2px solid #388AB2;
+  border-radius: 25px;
+  height: 150px;
+  background-color: #FFF;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.aboutMeText {
+  width: 100%;
+  overflow: hidden;
+  height: 95%;
+  padding-left: 10px;
+  padding-top: 5px;
+  text-align: left;
+  color: black;
+  font-size: 15px;
 }
 
 
@@ -399,7 +414,7 @@ body {
 
 .our-team .social a {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
 }
 
