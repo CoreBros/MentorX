@@ -213,10 +213,27 @@ body {
   border: 2px solid white;
 }
 
+.checked {
+  color: yellow;
+}
+
+.fas {
+  color: yellow;
+}
+
+.far {
+  color: yellow;
+}
 
 .profileSlotSizing {
   width: 25%;
   margin: 10px;
+}
+
+.profileSlotSizing hr {
+  border: 2px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .profileRow1 {
@@ -228,35 +245,33 @@ body {
 
 .matchRating {
   margin-top: 20px;
-  text-align: left;
-  margin-left: 10px;
-  color: white;
-}
-
-.hometown {
-  margin-top: 20px;
-  text-align: left;
+  text-align: center;
   margin-left: 10px;
   color: white;
 }
 
 .gradYear {
-  margin-top: 20px;
-  text-align: left;
+  margin-top: 40px;
+  text-align: center;
   margin-left: 10px;
   color: white;
 }
 
+.gradYearData {
+  text-align: center;
+  color: yellow;
+}
+
 .aboutMe {
-  margin-top: 20px;
-  text-align: left;
+  margin-top: 30px;
+  text-align: center;
   margin-left: 10px;
   color: white;
 }
 
 .motivations {
-  margin-top: 20px;
-  text-align: left;
+  margin-top: 30px;
+  text-align: center;
   margin-left: 10px;
   color: white;
 }
@@ -373,6 +388,7 @@ body {
   position: absolute;
   bottom: -100px;
   left: 0;
+  line-height: 50px;
   transition: all 0.5s ease 0s;
 }
 
@@ -380,23 +396,21 @@ body {
   bottom: 0;
 }
 
-.our-team .social li {
-  display: inline-block;
-}
 
-.our-team .social li a {
-  display: block;
-  padding: 10px;
-  font-size: 15px;
+.our-team .social a {
   color: white;
-  transition: all 0.3s ease 0s;
+  font-size: 25px;
   text-decoration: none;
 }
 
-.our-team .social li a:hover {
-  color: #1369ce;
-  background-color: #f7f5ec;
+.social:hover {
+  background-color: white;
+}
+
+.social:hover a {
+  color: #388AB2;
 }
 
 
-/*Start of right container*/
+
+/*End of Middle section*/
