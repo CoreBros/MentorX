@@ -115,7 +115,6 @@ h1 {
 }
 
 
-
 .personalInformation {
   text-align: center;
   display: block;
@@ -214,15 +213,3 @@ h1 {
 
 }
 
-.experience {
-  text-align: center;
-  display: block;
-  padding-bottom: 50px;
-
-}
-
-.interships {
-  text-align: center;
-  padding-bottom: 10px
-
-}

@@ -59,7 +59,13 @@
 
 <div class="profileImage">
     <i class="far fa-user-circle fa-10x"></i> 
-<!-- Need to Insert button to select image from file -->
+         <input type="file" id="file" accept="image/"> 
+</form>
+
+<input type="radio" name="mentorRelationship" value="Mentee"> Mentee<br>
+<input type="radio" name="mentorRelationship" value="Mentor"> Mentor<br>
+<input type="radio" name="mentorRelationship" value="other"> Administrator
+
 </div>
 
 <div class="resumeUpload">
@@ -135,14 +141,6 @@
             <option>Junior</option>
             <option>Senior</option>
         </select>
-        </div>
-    </div>
-</div>
-
-<div class="experience">Internship Experience
-    <div class="Internships">
-        <div class="internshipTextBox">
-            <input type="text" name="Internship" required placeholder="Company"> 
         </div>
     </div>
 </div>
