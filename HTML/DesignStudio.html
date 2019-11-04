@@ -210,104 +210,42 @@
                     </div>
             <div>  
 
-<!-- Email Developer pop up -->
-
-<div class="mainBody">
-    <div id="_goalCategory1">
-        <div class="goalCategory1">
-            <i class="fas fa-plus-circle" onclick="document.getElementById('id01').style.display='block'"></i>
-        </div>
-        <h3>New Email Template</h3>
-    </div>
-</div>
-<hr>
-<div id="id01" class="customGoal1">
-    <form class="goal-content-animate">
-        <div class="imgcontainer">
-              <span onclick="document.getElementById('id01').style.display='none'" class="exit" title="Close">&times;</span>
-        </div>
-
-        <div class="container">
-            <label>Name of Goal</label>
-            <input type="text">
-            
-            <div class="categoryDropdown">
-              <label for="_categoryDropdown">Category (select one):</label>
-              <select class="form-control" id="_categoryDropdown">
-                <option>New Mentor Email</option>
-                <option>New Mentee Email</option>
-                <option>Program Cycle Begin Email</option>
-                <option>Program Cycle End Email</option>
-              </select>
-            </div>
-        </div>
-
-        <div class="container" style="background-color: #8e8e8e; padding-bottom: 20px;">
-            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-            <button type="button" class="submit" onclick="newCustomGoal()">Next</button>
-        </div>
-    </form>
-</div>
-<div id="id02" class="customGoal2">
-    <form class="goal-content-animate2">
-        <div class="imgcontainer">
-              <span onclick="document.getElementById('id02').style.display='none'" class="exit" title="Close">&times;</span>
-        </div>
-        <div class="newGoalTitle">
-            < New Goal Title >
-        </div>
-
-
-        <div class="container2">
-            <label>Description of Goal:</label>  
-            <textarea name="goalDescription"></textarea>
-            <div class="newGoalStartDate">
-                <label for="datepicker">Start Date</label>
-                    <input type="text" id="datepicker" data-provide="datepicker-inline">
-            </div>
-            <div class="newGoalEndDate">
-                <label for="datepicker">Goal Date (optional)</label>
-                    <input type="text" id="datepicker" data-provide="datepicker-inline">
-            </div>
-            <div class="newGoalFrequency">
-              <label for="newGoalFrequency">New Goal Frequency</label>
-              <select class="form-control" id="newGoalFrequency">
-                <option>One Time</option>
-                <option>Daily</option>
-                <option>Weekly</option>
-                <option>Monthly</option>
-              </select>
-            </div>
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="reminderCheck1">
-                <label class="form-check-label" for="reminderCheck1">Enable Reminders</label>
-                <input type="checkbox" class="form-check-input" id="mentorCheck1">
-                <label class="form-check-label" for="mentorCheck1">Lync to Mentor</label>
-            </div>
-        </div>
-
-        <div class="container2" style="background-color: #8e8e8e; padding-bottom: 20px;">
-            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
-            <button type="button" onclick="addCustomGoal()" class="submit">Save</button>
-        </div>
-
- </form>
-</div>
-<!-- End of email developer pop up #1 -->
 
 <!-- Mentor Matching Design -->
 
 <div>
-    <label for="timing">Mentor Matching Question #1</label>
+    <label for="timing">Total Matching Questions</label>
     <select class="form-control">   
-    <option>6 Months</option>
-    <option>12 Months</option>
-    <option>18 Months</option>
-    <option>24 Months</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
     </select>
 </div>
 
 
+<!-- Mentor/Mentee Matching Questions -->
+<div class="form-group">
+                        <label for="FreeFormControlTextarea1">Mentor/Mentee Matching Question #1</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"required placeholder="Enter Matching Question #1">
+                        </textarea>
+                        <label for="FreeFormControlTextarea1">Mentor/Mentee Matching Question #2</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"required placeholder="Enter Matching Question #2">
+                        </textarea>
+                        <label for="FreeFormControlTextarea1">Mentor/Mentee Matching Question #3</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"required placeholder="Enter Matching Question #3">
+                        </textarea>
+                        <label for="FreeFormControlTextarea1">Mentor/Mentee Matching Question #4</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"required placeholder="Enter Matching Question #4">
+                        </textarea>
+                        <label for="FreeFormControlTextarea1">Mentor/Mentee Matching Question #5</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"required placeholder="Enter Matching Question #5">
+                        </textarea>
+                    </div>
+
+
+<!-- Button to Notification Center -->
 <div class="col text-center">
                     <a href="NotificationCenter.html" type="button" class="btn btn-primary">Notification Center</a>
                     <br></br>
