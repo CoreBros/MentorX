@@ -76,7 +76,7 @@
     <h2>University Related</h2>
     <div id="_goalCategory2">
         <div class="goalCategory2">
-            <a href="#goalCategory2"><i class="fas fa-chalkboard-teacher"></i></a>
+        <i class="fas fa-chalkboard-teacher" onclick="document.getElementById('id01').style.display='block'"></i>
         </div>
         <h3>Course</h3> 
         <h4>Exploration</h4>
@@ -218,7 +218,49 @@
         </div>
 
  </form>
+
+<!-- End of custom goal pop up #2 -->
+
+<!-- Start of pre-filled goal options -->
+<!-- Start of University Related Goals -->
+<!-- Start of course exploration goals -->
+<div id="id03" class="courseGoal1">
+    <form class="goal-content-animate">
+        <div class="imgcontainer">
+              <span onclick="document.getElementById('id03').style.display='none'" class="exit" title="Close">&times;</span>
+        </div>
+
+        <div class="container">
+            <label>Name of Goal</label>
+            <input type="text">
+            
+            <div class="categoryDropdown">
+              <label for="_categoryDropdown">Category (select one):</label>
+              <select class="form-control" id="_categoryDropdown">
+                <option>Personal Goals</option>
+                <option>Mentor Goals</option>
+                <option>University Goals</option>
+                <option>Career Development</option>
+              </select>
+            </div>
+        </div>
+
+        <div class="container" style="background-color: #8e8e8e; padding-bottom: 20px;">
+            <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn">Cancel</button>
+        </div>
+    </form>
 </div>
+
+
+<!-- Start of Campus Involvement goals -->
+
+<!-- Start of academic achievements goals -->
+
+<!-- End of University related goals -->
+
+</div>
+<!-- End of middle column -->
+
 <!-- Start of Right Column -->
 
 <div class="rightContainer">
