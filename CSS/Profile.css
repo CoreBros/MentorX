@@ -108,6 +108,20 @@ h1 {
 
 }
 
+.profileContainer {
+  height: 100%;
+  position: relative;
+  text-align: center;
+  top: 58px;
+  background-color: #389AB2;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+}
+
+
+
+
 .resumeUpload {
   text-align: center;
   display: block;
