@@ -101,24 +101,46 @@ h1 {
 }
 
 
-.profileImage {
+.mentorshipRelationship {
   text-align: center;
   display: block;
-  padding-bottom: 20px;
+  padding-bottom: 10px
+
 
 }
 
-.profileContainer {
-  height: 100%;
-  position: relative;
-  text-align: center;
-  top: 58px;
-  background-color: #389AB2;
-  overflow-x: hidden;
-  padding-top: 20px;
+.profilecard {
+  width: 400px
+  margin: auto;
+  background: #fff;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
 
 }
 
+
+.imagecontainer {
+
+  
+}
+
+
+.profileImage {
+ text-align: center;
+  display: inline block;
+  padding-top: 50px
+  padding-bottom: 50px;
+  margin: auto;
+
+}
+
+
+.box {
+  border: 10px;
+  display: inline block
+
+
+
+}
 
 
 
@@ -132,6 +154,7 @@ h1 {
 .personalInformation {
   text-align: center;
   display: block;
+  padding-top: 50px
   padding-bottom: 50px;
 
 }
