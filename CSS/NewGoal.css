@@ -707,7 +707,7 @@ button:hover {
 /*Start of University Related Goals*/
 /*Start of course exploration goals*/
 .courseGoal1 {
-  display: none;
+  display: block; /*change this back when finished editing */
   position: fixed;
   z-index: 1;
   left: 0;
@@ -726,11 +726,6 @@ button:hover {
   color: white;
 }
 
-.container3 label {
-  text-align: left;
-  width: 100%;
-  font-size: 20px;
-}
 
 .goal-content-animate3 {
   background-color: #8e8e8e;
@@ -740,21 +735,94 @@ button:hover {
   width: 500px; /* Could be more or less, depending on screen size */
 }
 
-.container3 textarea {
+.courseGoalExample1 {
+  color: white;
   width: 100%;
-  height: 200px;
-  background: white;
-  display: inline-block;
-  color: black;
   box-sizing: border-box;
-  font-size: 20px;
-  text-align: left!important;
-  text-overflow: hidden;
-  vertical-align: top;
+  outline: 2px solid white;
+  padding: 2px;
+  margin-bottom: 10px;
 }
 
-.container3 textarea:focus {
-  outline: 5px solid gray;
+.courseGoalExample2 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 2px solid white;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.courseGoalExample3 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 2px solid white;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.courseGoalExample4 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 2px solid white;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.courseGoalExample5 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 2px solid white;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.courseGoalExample6 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 2px solid white;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.courseGoalExample7 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 2px solid white;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.courseGoalExample8 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 2px solid white;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.courseGoalExample9 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 2px solid white;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.courseGoalExample10 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 2px solid white;
+  padding: 2px;
+  margin-bottom: 10px;
 }
 
 
