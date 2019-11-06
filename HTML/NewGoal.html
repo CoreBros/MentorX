@@ -76,7 +76,7 @@
     <h2>University Related</h2>
     <div id="_goalCategory2">
         <div class="goalCategory2">
-        <i class="fas fa-chalkboard-teacher" onclick="document.getElementById('id01').style.display='block'"></i>
+        <i class="fas fa-chalkboard-teacher" onclick="document.getElementById('id03').style.display='block'"></i>
         </div>
         <h3>Course</h3> 
         <h4>Exploration</h4>
@@ -218,6 +218,8 @@
         </div>
 
  </form>
+</div>
+
 
 <!-- End of custom goal pop up #2 -->
 
@@ -225,31 +227,49 @@
 <!-- Start of University Related Goals -->
 <!-- Start of course exploration goals -->
 <div id="id03" class="courseGoal1">
-    <form class="goal-content-animate">
+    <form class="goal-content-animate3">
         <div class="imgcontainer">
               <span onclick="document.getElementById('id03').style.display='none'" class="exit" title="Close">&times;</span>
         </div>
+        <div class="newGoalTitle">
+            < New Goal Title >
+        </div>
 
-        <div class="container">
-            <label>Name of Goal</label>
-            <input type="text">
-            
-            <div class="categoryDropdown">
-              <label for="_categoryDropdown">Category (select one):</label>
-              <select class="form-control" id="_categoryDropdown">
-                <option>Personal Goals</option>
-                <option>Mentor Goals</option>
-                <option>University Goals</option>
-                <option>Career Development</option>
+
+        <div class="container3">
+            <label>Description of Goal:</label>  
+            <textarea name="goalDescription"></textarea>
+            <div class="newGoalStartDate">
+                <label for="datepicker">Start Date</label>
+                    <input type="text" id="datepicker" data-provide="datepicker-inline">
+            </div>
+            <div class="newGoalEndDate">
+                <label for="datepicker">Goal Date (optional)</label>
+                    <input type="text" id="datepicker" data-provide="datepicker-inline">
+            </div>
+            <div class="newGoalFrequency">
+              <label for="newGoalFrequency">New Goal Frequency</label>
+              <select class="form-control" id="newGoalFrequency">
+                <option>One Time</option>
+                <option>Daily</option>
+                <option>Weekly</option>
+                <option>Monthly</option>
               </select>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="reminderCheck1">
+                <label class="form-check-label" for="reminderCheck1">Enable Reminders</label>
+                <input type="checkbox" class="form-check-input" id="mentorCheck1">
+                <label class="form-check-label" for="mentorCheck1">Lync to Mentor</label>
             </div>
         </div>
 
-        <div class="container" style="background-color: #8e8e8e; padding-bottom: 20px;">
+        <div class="container2" style="background-color: #8e8e8e; padding-bottom: 20px;">
             <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="button" onclick="addCustomGoal()" class="submit">Save</button>
         </div>
-    </form>
-</div>
+
+ </form>
 
 
 <!-- Start of Campus Involvement goals -->
