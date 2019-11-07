@@ -17,3 +17,18 @@ body {
   background:
     url(..html/pictures/wixExample.jpg);
 }
+
+.mentorxLogo img {
+  margin-left: 100px;
+  text-align: center!important;
+  font-size: 50px;
+  height: 500px;
+}
+
+.mentorxLogo {
+  height: 500px;
+  display: absolute;
+  top: 0;
+  vertical-align: top;
+  text-align: center;
+}
