@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 body {
-  font-family:sans-serif;
+  font-family: sans-serif;
   color: #3c3939;
   padding: 0; 
   margin: 0;
@@ -121,6 +121,30 @@ h1 {
 }
 
 
+.personalInformation {
+
+ text-align: center;
+  display: inline block;
+  padding-top: 50px
+  padding-bottom: 50px;
+  margin: auto;
+
+
+}
+
+.title {
+ text-align: center;
+  display: inline block;
+  padding-top: 50px
+  padding-bottom: 50px;
+  margin: auto;
+
+
+
+}
+
+
+
 .image-container {
 
   position: relative;
@@ -184,17 +208,29 @@ h1 {
 
 .firstName {
   text-align: center;
-  padding-bottom: 10px
+  padding-bottom: 25px
 
 }
 
 .lastName {
   text-align: center;
-  padding-bottom: 10px
+  padding-bottom: 25px
 
 }
 
 .gender {
+  text-align: center;
+  padding-bottom: 25px
+
+}
+
+.emailAddress {
+  text-align: center;
+  padding-bottom: 10px
+
+}
+
+.language {
   text-align: center;
   padding-bottom: 10px
 
@@ -202,6 +238,13 @@ h1 {
 
 
 
+.aboutMe {
+  text-align: center;
+  display: block;
+  padding-top: 50px
+  padding-bottom: 50px;
+
+}
 
 .headline{
   text-align: center;

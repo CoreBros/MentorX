@@ -43,6 +43,7 @@
             <a href="Resources.html">Resources</a>
             <a href="MentorXProducts.html">MentorX Products</a>
             <a href="Administration.html">Design Studio</a>
+            <a href="AdminAnalytics.html">Decision Center</a>
             <a href="Settings.html">Settings</a>
             <a href="HelpSupport.html">Help & Supp</a>
             </div>
@@ -50,6 +51,31 @@
     </div>
 </body>
 <!-- End of Navigation Bar -->
+
+<!-- new Nav bar -->
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav> -->
+
 
 <!-- Start of Page Content -->
 <body id="inner_body" class="inner_body">
@@ -113,34 +139,26 @@
                             <input type="password" id="exampleInputPassword1" placeholder="Password">
                         </div> -->
                             
-
+                    <h3>Mentor Program</h3>
                     
                     <!-- Free Response -->
                     <div class="form-group">
-                        <label for="FreeFormControlTextarea1">Why do you want a Mentor?</label>
+                        <label for="FreeFormControlTextarea1">Why do you want a Mentor? / What are you looking for in a Mentor to help you with?</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     
-                  
-               
-                
-                    <!-- Drop Down Input -->
-<!--                     <div>
-                        <label for="functionalArea">Major</label>
-                        <select class="form-control">   
-                            <option>Finance</option>
-                            <option>Accounting</option>
-                            <option>Technology</option>
-                            <option>Human Resources</option>
-                            <option>Engineering</option>
-                        </select>
-                    </div> -->
+                    <!-- Free Response -->
+                    <div class="form-group">
+                        <label for="FreeFormControlTextarea1">What would you like your mentor to know about you?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <h3>Mentor Meeting Preferences</h3>
 
                     <!-- Drop Down Input -->
                     <div>
                         <label for="timing">How often do you want to meet with your Mentor?</label>
                         <select class="form-control">   
-                            <option>Weekly</option>
                             <option>Bi-Weekly</option>
                             <option>Monthly</option>
                             <option>Quarterly</option>
@@ -150,7 +168,7 @@
 
                     <!-- Drop Down Input -->
                     <div>
-                        <label for="timing">How do you want to be mentored?</label>
+                        <label for="timing">What is your meeting style?</label>
                         <select class="form-control">   
                             <option>Structured meetings with pre-determined agendas and goals</option>
                             <option>In-formal meetings with ad hoc discussions</option>
@@ -166,82 +184,150 @@
                         </select>
                     </div>
 
-
+                    <!-- Drop Down Input -->
+                    <div>
+                        <label for="timing">What is your preferred method of contact?</label>
+                        <select class="form-control">   
+                            <option>Email</option>
+                            <option>Call</option>
+                            <option>Text</option>
+                            <option>Slack</option>
+                        </select>
+                    </div>
 
                     <!-- Free Response -->
-                    <div class="form-group">
+<!--                     <div class="form-group">
                         <label for="FreeFormControlTextarea1">What are your previous work/internship/club experiences?</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
+                    </div> -->
 
-                    <!-- pictures -->
-                    <div class="form-group">
-                        <label for="FreeFormControlTextarea1">If you were going to meet up with some friends, when would you meet up?</label>
+
+                    <h3>Personality Style</h3>
+
+                    <!-- pictures unsplash.com-->
+                    <label>What type of person are you</label>
+                    <div class="hover01 column">
                         <div>
-                            <img src="Pictures/clock.jpg" height="150px">
-                            <img src="Pictures/clock.jpg" height="150px">
-                            <img src="Pictures/clock.jpg" height="150px">
+                            <figure><img src="Pictures/kittens.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/puppies.jpg" height="100%" /></figure>
+                            <span>Hover</span>
                         </div>
                     </div>
 
-                    <!-- pictures -->
-                    <div class="form-group">
-                        <label for="FreeFormControlTextarea1">what is your type of fun?</label>
+                    <!-- pictures unsplash.com-->
+                    <label>You are going to host a party, what is more your style when getting ready?</label>
+                    <div class="hover01 column">
                         <div>
-                            <img src="Pictures/messyDesk.jpg" height="150px">
-                            <img src="Pictures/cleanDesk.jpg" height="150px">
+                            <figure><img src="Pictures/planned.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/spontaneous.jpg" height="100%" /></figure>
+                            <span>Hover</span>
                         </div>
                     </div>
 
-<!-- pictures -->
-                    <div class="form-group">
-                        <label for="FreeFormControlTextarea1">what is your type of fun?</label>
+                    <!-- pictures unsplash.com-->
+                    <label>What type of party do you plan?</label>
+                    <div class="hover01 column">
                         <div>
-                            <img src="Pictures/reading.jpg" height="150px">
-                            <img src="Pictures/party.jpg" height="150px">
+                            <figure><img src="Pictures/reading.jpg" height="100%" /></figure>
+                            <span>Hover</span>
                         </div>
-                    </div>
-
-                    <!-- pictures -->
-                    <div class="form-group">
-                        <label for="FreeFormControlTextarea1">Which picture best describes you?</label>
                         <div>
-                            <img src="Pictures/planned.jpg" height="150px">
-                            <img src="Pictures/spontaneous.jpg" height="150px">
-                        </div>
-                    </div>
-
-                    <!-- pictures -->
-                    <div class="form-group">
-                        <label for="FreeFormControlTextarea1">Which picture best describes you in a social enviroment?</label>
-                        <div>
-                            <img src="Pictures/joker.jpg" height="150px">
-                            <img src="Pictures/observe.jpg" height="150px">
-                            <img src="Pictures/seriousConversation.jpg" height="150px">
+                            <figure><img src="Pictures/party.jpg" height="100%" /></figure>
+                            <span>Hover</span>
                         </div>
                     </div>
 
 
+                    <!-- pictures unsplash.com-->
+                    <label>What time do you want people to show up?</label>
+                    <div class="hover01 column">
+                        <div>
+                            <figure><img src="Pictures/clock.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/clock.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/clock.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                    </div>
 
-				<h2 id="demo01">1. What is more your style?</h2>
-					<div class="hover01 column">
-  						<div>
-    						<figure><img src="Pictures/planned.jpg" height="100%" /></figure>
-    						<span>Hover</span>
-  						</div>
-  						<div>
-    						<figure><img src="Pictures/spontaneous.jpg" height="100%" /></figure>
-    						<span>Hover</span>
-  						</div>
-					</div>
+
+                    <!-- pictures unsplash.com-->
+                    <label>How do you interact with people at the party?</label>
+                    <div class="hover01 column">
+                        <div>
+                            <figure><img src="Pictures/joker.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/observe.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/seriousConversation.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                    </div>
+
+
+                <!-- pictures unsplash.com-->
+                <label>How do you feel after the party?</label>
+                    <div class="hover01 column">
+                        <div>
+                            <figure><img src="Pictures/energenic.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/exhaused.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                    </div>
+
+
+                <!-- pictures unsplash.com-->
+                <label>what is your work space like?</label>
+                    <div class="hover01 column">
+                        <div>
+                            <figure><img src="Pictures/messyDesk.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/cleanDesk.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                    </div>
+
+
+                <!-- pictures unsplash.com-->
+                <label>How do you relax?</label>
+                    <div class="hover01 column">
+                        <div>
+                            <figure><img src="Pictures/reading.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/party.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                    </div>
 
 
                     <!-- Checkbox -->
-                    <div class="checkbox">
+ <!--                    <div class="checkbox">
                         <label>
                             <input type="checkbox"> I Agree to the terms & conditions
                         </label>
-                    </div>
+                    </div> -->
 
                     <!-- Submit Button -->
                     <!-- <button type="submit" class="btn btn-default">Submit</button> -->
