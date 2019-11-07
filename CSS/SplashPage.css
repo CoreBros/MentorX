@@ -1,0 +1,19 @@
+html, body {
+  margin:0;
+  padding:0;
+  height:100%
+}
+
+body {
+  background:
+    linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(../html/pictures/splashPage.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.logo{
+  background:
+    url(..html/pictures/wixExample.jpg);
+}
