@@ -706,8 +706,8 @@ button:hover {
 /*Start of pre-filled goal options*/
 /*Start of University Related Goals*/
 /*Start of course exploration goals*/
-.courseGoal1{
-  display: none;
+.courseGoal1 {
+  display: none; /*change this back when finished editing */
   position: fixed;
   z-index: 1;
   left: 0;
@@ -720,6 +720,639 @@ button:hover {
   padding-top: 60px; 
 }
 
+.container3 {
+  padding: 20px 20px 20px 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.goal-content-animate3 {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+.goal-content-animate3 {
+  background-color: #8e8e8e;
+  color: white;
+  margin: 5% auto 20px; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  border-radius: 5%;
+  width: 500px; /* Could be more or less, depending on screen size */
+}
+
+.courseGoalExample1 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.courseGoalExample2 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.courseGoalExample3 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.courseGoalExample4 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.courseGoalExample5 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.courseGoalExample6 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.courseGoalExample7 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.courseGoalExample8 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.courseGoalExample9 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.courseGoalExample10 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.cancelButton {
+  margin-left: 20px;
+  border-radius: 5%;
+  background-color: red;
+  color: white;
+}
+
+.saveButton {
+  float: right;
+  margin-right: 20px;
+  border-radius: 5%;
+  background-color: blue;
+  color: white;
+}
+
+/*Start of Campus Involvement Goals*/
+.campusGoal1 {
+  display: none; /*change this back when finished editing */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px; 
+}
+
+.container4 {
+  padding: 20px 20px 20px 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.goal-content-animate4 {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+.goal-content-animate4 {
+  background-color: #8e8e8e;
+  color: white;
+  margin: 5% auto 20px; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  border-radius: 5%;
+  width: 500px; /* Could be more or less, depending on screen size */
+}
+
+.campusGoalExample1 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.campusGoalExample2 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.campusGoalExample3 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.campusGoalExample4 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.campusGoalExample5 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.campusGoalExample6 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.campusGoalExample7 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.campusGoalExample8 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.campusGoalExample9 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.campusGoalExample10 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+/*End of Campus Involvement Goals*/
+/*Start of Academic Achievement Goals*/
+
+.academicGoal1 {
+  display: none; /*change this back when finished editing */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px; 
+}
+
+.container5 {
+  padding: 20px 20px 20px 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.goal-content-animate5 {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+.goal-content-animate5 {
+  background-color: #8e8e8e;
+  color: white;
+  margin: 5% auto 20px; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  border-radius: 5%;
+  width: 500px; /* Could be more or less, depending on screen size */
+}
+
+.academicGoalExample1 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.academicGoalExample2 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.academicGoalExample3 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.academicGoalExample4 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.academicGoalExample5 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.academicGoalExample6 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.academicGoalExample7 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.academicGoalExample8 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.academicGoalExample9 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.academicGoalExample10 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+/*End of academic goals*/
+/*Start of networking goals*/
+
+.networkingGoal1 {
+  display: none; /*change this back when finished editing */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px; 
+}
+
+.container6 {
+  padding: 20px 20px 20px 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.goal-content-animate6 {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+.goal-content-animate6 {
+  background-color: #8e8e8e;
+  color: white;
+  margin: 5% auto 20px; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  border-radius: 5%;
+  width: 500px; /* Could be more or less, depending on screen size */
+}
+
+.networkingGoalExample1 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.networkingGoalExample2 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.networkingGoalExample3 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.networkingGoalExample4 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.networkingGoalExample5 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.networkingGoalExample6 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.networkingGoalExample7 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.networkingGoalExample8 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.networkingGoalExample9 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.networkingGoalExample10 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+/*End of networking goals*/
+/*Start of job exploration goals*/
+.jobExplorationGoal1 {
+  display: none; /*change this back when finished editing */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px; 
+}
+
+.container7 {
+  padding: 20px 20px 20px 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.goal-content-animate7 {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+.goal-content-animate7 {
+  background-color: #8e8e8e;
+  color: white;
+  margin: 5% auto 20px; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  border-radius: 5%;
+  width: 500px; /* Could be more or less, depending on screen size */
+}
+
+.jobExplorationGoalExample1 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.jobExplorationGoalExample2 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.jobExplorationGoalExample3 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.jobExplorationGoalExample4 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.jobExplorationGoalExample5 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.jobExplorationGoalExample6 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.jobExplorationGoalExample7 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.jobExplorationGoalExample8 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.jobExplorationGoalExample9 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.jobExplorationGoalExample10 {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+
+
+/*End of job exploration goals*/
 
 /*Start of right container*/
 

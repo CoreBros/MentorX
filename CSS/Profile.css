@@ -3,9 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 body {
+  font-family:sans-serif;
+  color: #3c3939;
   padding: 0; 
   margin: 0;
-  background-color: #364045;
+  background-color: #f1f1f1;
 }
 
 
@@ -109,18 +111,39 @@ h1 {
 
 }
 
-.profilecard {
+.profile-card {
   width: 400px
   margin: auto;
   background: #fff;
   box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
 
+
 }
 
 
-.imagecontainer {
+.image-container {
 
-  
+  position: relative;
+
+
+
+}
+
+
+.info {
+
+  color: #4b4fe2;
+  margin-right: 16px;
+}
+
+.main-container {
+
+  padding: 20px;
+
+
+
+
+
 }
 
 
