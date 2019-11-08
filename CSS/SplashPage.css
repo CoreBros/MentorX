@@ -18,17 +18,37 @@ body {
     url(..html/pictures/wixExample.jpg);
 }
 
+
+.mentorxLogo {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+
 .mentorxLogo img {
-  margin-left: 100px;
-  text-align: center!important;
-  font-size: 50px;
-  height: 500px;
+  position: relative;
+  top: 0;
+  text-align: center;
+  width: 50%;
+  min-width: 400px;
 }
 
 .mentorxLogo {
-  height: 500px;
-  display: absolute;
-  top: 0;
-  vertical-align: top;
-  text-align: center;
+  -webkit-animation-name: xLogo;
+  -webkit-animation-duration: 2s; 
+  animation-name: xLogo;
+  animation-duration: 2s;
+  animation-delay: 0s;
 }
+
+@-webkit-keyframes xLogo {
+  0%   {display: none;}
+  100% {display: block;}
+}
+
+@keyframes xLogo {
+  0%   {display: none;}
+  100% {display: block;}
+}
+
