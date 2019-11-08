@@ -11,19 +11,19 @@ var simplemaps_usmap_mapdata={
     border_color: "white",
     
     //State defaults
-    state_description: "Learn about the products available in your state.",
+    state_description: "No Mentors/Mentees in this state.",
     state_color: "#77bcff",
     state_hover_color: "#038EEB",
-    state_url: "http://simplemaps.com",
+    state_url: "../HTML/Administration.html",
     all_states_inactive: "no",
     
     //Location defaults
-    location_description: "Field Office",
+    location_description: "Live Program XX Participants",
     location_color: "#ff46a2",
     location_pulse: "yes",
     location_pulse_size: "3",
     location_opacity: ".8",
-    location_url: "http://simplemaps.com",
+    location_url: "../HTML/Administration.html",
     all_states_zoomable: "yes",
     location_size: "40",
     location_type: "marker",
