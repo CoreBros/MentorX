@@ -1,0 +1,54 @@
+html, body {
+  margin:0;
+  padding:0;
+  height:100%
+}
+
+body {
+  background:
+    linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(../html/pictures/splashPage.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.logo{
+  background:
+    url(..html/pictures/wixExample.jpg);
+}
+
+
+.mentorxLogo {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+
+.mentorxLogo img {
+  position: relative;
+  top: 0;
+  text-align: center;
+  width: 50%;
+  min-width: 400px;
+}
+
+.mentorxLogo {
+  -webkit-animation-name: xLogo;
+  -webkit-animation-duration: 2s; 
+  animation-name: xLogo;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+
+@-webkit-keyframes xLogo {
+  0%   {display: none;}
+  100% {display: block;}
+}
+
+@keyframes xLogo {
+  0%   {display: none;}
+  100% {display: block;}
+}
+
