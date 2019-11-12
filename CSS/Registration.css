@@ -358,3 +358,9 @@ figure:hover+span {
 }
 
 /*end of zooming in pictures*/
+.meetingRecurrence {
+  text-align: left;
+  padding-bottom: 0px
+
+}
+
