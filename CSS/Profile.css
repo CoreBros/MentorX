@@ -112,10 +112,11 @@ h1 {
 }
 
 .profile-card {
-  width: 400px
-  margin: auto;
+  width: 500px
+  bottom margin 10px
+  margin: 35px;
   background: #fff;
-  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+  box-shadow: 1 8px 10px 1 rgba(0,0,0,0.5);
 
 
 }
@@ -208,35 +209,51 @@ h1 {
 
 .firstName {
   text-align: center;
-  padding-bottom: 25px
+  padding-bottom: 20px
 
 }
 
 .lastName {
   text-align: center;
-  padding-bottom: 25px
+  padding-bottom: 20px
 
 }
 
 .gender {
   text-align: center;
-  padding-bottom: 25px
+  padding-bottom: 20px
 
 }
 
 .emailAddress {
   text-align: center;
-  padding-bottom: 10px
+  padding-bottom: 20px
 
 }
 
 .language {
   text-align: center;
-  padding-bottom: 10px
+  padding-bottom: 20px
 
 }
 
+.programName {
+  text-align: center;
+  padding-bottom: 20px
 
+}
+
+.school {
+  text-align: center;
+  padding-bottom: 20px
+
+}
+
+.major {
+  text-align: center;
+  padding-bottom: 20px
+
+}
 
 .aboutMe {
   text-align: center;
@@ -284,24 +301,28 @@ h1 {
 
 .university {
   text-align: center;
-  padding-bottom: 10px
+  padding-bottom: 20px
 
 }
 
 .program {
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 
 }
 
 
 .major {
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 
 }
 
+.gradeLevel {
+  text-align: center;
+  padding-bottom: 10px;
 
+}
 
 
 .grade {
