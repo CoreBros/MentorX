@@ -113,10 +113,10 @@ h1 {
 
 .profile-card {
   width: 500px
-  bottom margin 10px
+  margin: auto;
   margin: 35px;
   background: #fff;
-  box-shadow: 1 8px 10px 1 rgba(0,0,0,0.5);
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.5);
 
 
 }
@@ -141,9 +141,7 @@ h1 {
   margin: auto;
 
 
-
 }
-
 
 
 .image-container {
@@ -151,32 +149,44 @@ h1 {
   position: relative;
 
 
-
 }
 
 
 .info {
 
-  color: #4b4fe2;
-  margin-right: 16px;
+  color: #0088cc;
+  margin-right: 10px;
 }
 
 .main-container {
 
   padding: 20px;
 
+}
 
+.title {
 
+  position: absolute;
+  left: 15px;
+  bottom: 0;
 
 
 }
+
+h3 {
+  width: 100%;
+  text-align: center;
+  color: blue;
+  size: 20px;
+}
+
 
 
 .profileImage {
  text-align: center;
   display: inline block;
-  padding-top: 50px
-  padding-bottom: 50px;
+  padding-top: 25px
+  padding-bottom: 25px;
   margin: auto;
 
 }
@@ -203,7 +213,7 @@ h1 {
   text-align: center;
   display: block;
   padding-top: 50px
-  padding-bottom: 50px;
+  padding-bottom: 75px;
 
 }
 
@@ -255,7 +265,7 @@ h1 {
 
 }
 
-.aboutMe {
+.programInformation {
   text-align: center;
   display: block;
   padding-top: 50px
