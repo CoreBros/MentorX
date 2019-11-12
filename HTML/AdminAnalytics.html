@@ -11,10 +11,10 @@
 <link type="text/css" rel="stylesheet" href="../css/Calendar.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-
 <!-- Menu / Nav Bar -->
 
-<title>MentorX Home</title>
+<title>Decision Center</title>
+
 
 </head>
 <body>
@@ -60,20 +60,93 @@
 
 <H1>Executive Dashboard Placeholder</H1>
 
+ <!-- Real-time date -->
+<p>
+<script> document.write(new Date().toDateString()); </script>
+</p>
+<!-- end realtime date -->
+
+<!-- Start of Dashboard Input -->
+
+<div> 
+    <label Strong>Program Selection: </Strong> <span>
+            <form action="/action_page.php">
+                 <select name="cars">
+                    <option value="Live Program 1">Live Program 1</option>
+                    <option value="Live Program 2">Live Program 2</option>
+                    <option value="Live Program 3">Live Program 3</option>
+                    <option value="Live Program 4">Live Program 4</option>
+            </select>
+            <br><br>
+        <input type="submit">
+    </form>
+</div>
+<!-- End of Dashboard Input -->
+
+
+<!-- Test Dynamic Pie Chart -->
+<!-- Borrowed from: https://canvasjs.com/html5-javascript-pie-chart/ -->
+<script>
+window.onload = function() {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+    animationEnabled: true,
+    title: {
+        text: "Mentee/Mentor Mix" 
+    },
+    data: [{
+        type: "pie",
+        startAngle: 180,
+        yValueFormatString: "##0.00\"%\"",
+        indexLabel: "{label} {y}",
+        dataPoints: [
+            {y: 40, label: "Mentee-Finance"},
+            {y: 5, label: "Mentee-Accounting"},
+            {y: 40, label: "Mentor-Finance"},
+            {y: 3, label: "Mentor-Accounting"},
+            {y: 2, label: "Others"}
+        ]
+    }]
+});
+chart.render();
+
+}
+</script>
+ 
+<body>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<!-- End of pie chart -->
+
+
+<!-- Interactive/Dynamic Mentor/Mentee Map -->
+<!-- Testing out right now, to license, it'll be a one-time $79 fee-->
+<!-- Link to Map designer: https://simplemaps.com/custom/us#finish -->
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script src="../Javascript/mapdata.js"></script>
+    <script src="../Javascript/usmap.js"></script>
+  </head>
+  <body>
+  <h1>Locations of Mentors/Mentees</h1>
+  <h2> Note: Map is dynamic, clickable, zoom in to each state, and links to each program</h2>
+    <div id="map"></div>
+
+
+
+<!-- Screen shots from excel Dashboard -->
 <div class="form-group">
-                        <label for="FreeFormControlTextarea1">Dashboard Placeholders</label>
-                        <div>
-                            <img src="Pictures/Dashboard1.png" height="150px" width="1100px">
-                            <br>
-                            <img src="Pictures/Dashboard2.png" height="150px" width="1100px">
-                            <br>
-                            <img src="Pictures/Dashboard3.png" height="150px">
-                            <br>
-                            <img src="Pictures/Dashboard4.png" height="150px">
-                            <br>
-                            <img src="Pictures/Dashboard5.png" height="150px">
-                        </div>
-                    </div>
-
-
-
+    <label for="FreeFormControlTextarea1">Dashboard Placeholders</label>
+        <div>
+            <img src="Pictures/Dashboard1.png" height="150px" width="1100px">
+            <br>
+            <img src="Pictures/Dashboard2.png" height="150px" width="1100px">
+            <br>
+            <img src="Pictures/Dashboard3.png" height="150px">
+             <br>
+            <img src="Pictures/Dashboard4.png" height="150px">
+            <br>
+            <img src="Pictures/Dashboard5.png" height="150px">
+        </div>
+    </body>
+</html>        

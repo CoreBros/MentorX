@@ -43,6 +43,7 @@
             <a href="Resources.html">Resources</a>
             <a href="MentorXProducts.html">MentorX Products</a>
             <a href="Administration.html">Design Studio</a>
+            <a href="AdminAnalytics.html">Decision Center</a>
             <a href="Settings.html">Settings</a>
             <a href="HelpSupport.html">Help & Supp</a>
             </div>
@@ -50,6 +51,31 @@
     </div>
 </body>
 <!-- End of Navigation Bar -->
+
+<!-- new Nav bar -->
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav> -->
+
 
 <!-- Start of Page Content -->
 <body id="inner_body" class="inner_body">
@@ -113,34 +139,26 @@
                             <input type="password" id="exampleInputPassword1" placeholder="Password">
                         </div> -->
                             
-
+                    <h3>Mentor Program</h3>
                     
                     <!-- Free Response -->
                     <div class="form-group">
-                        <label for="FreeFormControlTextarea1">Why do you want a Mentor?</label>
+                        <label for="FreeFormControlTextarea1">Why do you want a Mentor? / What are you looking for in a Mentor to help you with?</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     
-                  
-               
-                
-                    <!-- Drop Down Input -->
-<!--                     <div>
-                        <label for="functionalArea">Major</label>
-                        <select class="form-control">   
-                            <option>Finance</option>
-                            <option>Accounting</option>
-                            <option>Technology</option>
-                            <option>Human Resources</option>
-                            <option>Engineering</option>
-                        </select>
-                    </div> -->
+                    <!-- Free Response -->
+                    <div class="form-group">
+                        <label for="FreeFormControlTextarea1">What would you like your mentor to know about you?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <h3>Mentor Meeting Preferences</h3>
 
                     <!-- Drop Down Input -->
                     <div>
                         <label for="timing">How often do you want to meet with your Mentor?</label>
                         <select class="form-control">   
-                            <option>Weekly</option>
                             <option>Bi-Weekly</option>
                             <option>Monthly</option>
                             <option>Quarterly</option>
@@ -150,7 +168,7 @@
 
                     <!-- Drop Down Input -->
                     <div>
-                        <label for="timing">How do you want to be mentored?</label>
+                        <label for="timing">What is your meeting style?</label>
                         <select class="form-control">   
                             <option>Structured meetings with pre-determined agendas and goals</option>
                             <option>In-formal meetings with ad hoc discussions</option>
@@ -166,18 +184,131 @@
                         </select>
                     </div>
 
-
-
-                    <!-- Free Response -->
-                    <div class="form-group">
-                        <label for="FreeFormControlTextarea1">What are your previous work/internship/club experiences?</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <!-- Drop Down Input -->
+                    <div>
+                        <label for="timing">What is your preferred method of contact?</label>
+                        <select class="form-control">   
+                            <option>Email</option>
+                            <option>Call</option>
+                            <option>Text</option>
+                            <option>Slack</option>
+                        </select>
                     </div>
 
-                    <!-- pictures -->
+                    <!-- Drop Down Input -->
+                    <div>
+                        <label for="timing">What do you prefer your Mentor's degree to be in?</label>
+                        <select class="form-control">   
+                            <option>Your exact same degree</option>
+                            <option>a degree as the same or similar to your degree (within your degree's school)</option>
+                            <option>Open to simlar or different majors</option>
+                            <option>Different majors that are not similar to mine</option>
+                        </select>
+                    </div>
 
 
-    <h2 id="demo01">1. You are going to host a party, what is more your style when getting ready?</h2>
+                    <!-- Drop Down Input -->
+                    <div>
+                        <label for="timing">What do you prefer your Mentor's work experience to be in?</label>
+                        <select class="form-control">   
+                            <option>School clubs</option>
+                            <option>Internships in your desired profession</option>
+                            <option>No Preference</option>
+                        </select>
+                    </div>
+
+                    <!-- Checkbox -->
+                    <div>
+                        <label for="timing"> What are you looking for help with during this mentorship program? (select all that apply)</label>
+                        <div class="checkbox">
+                            <label>
+                                <div><input type="checkbox"> Resume Building</div>
+                                <div><input type="checkbox"> Clubs & Programs to Join</div>
+                                <div><input type="checkbox"> Internships & Companies</div>
+                                <div><input type="checkbox"> Degree Decision</div>
+                                <DIV><input type="checkbox"> Teachers & Classes Guidace</DIV>
+                            </label>
+                        </div>
+                    </div>
+
+                   <!-- Drop Down Input -->
+                    <div>
+                        <label for="timing">Rank the Areas that you want to be mentored in?</label>
+                        <select class="form-control">  
+                            <option>School clubs</option>
+                            <option>Internships in your desired profession</option>
+                            <option>No Preference</option>
+                        </select>
+                    </div>
+
+<Div>
+<Style>
+#div1, #div2 {
+  float: left;
+  width: 100px;
+  height: 35px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+</style>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+
+<h2>Drag and Drop</h2>
+<p>Drag the image back and forth between the two div elements.</p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="Pictures/kittens.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+</div>
+
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</div>
+
+                    <!-- Free Response -->
+<!--                     <div class="form-group">
+                        <label for="FreeFormControlTextarea1">What are your previous work/internship/club experiences?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div> -->
+
+                  <p></p>
+                    <h3>Personality Style</h3>
+
+                    <!-- pictures unsplash.com-->
+                    <label>What type of person are you</label>
+                    <div class="hover01 column">
+                        <div>
+                            <figure><img src="Pictures/kittens.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/puppies.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                    </div>
+
+                    <!-- pictures unsplash.com-->
+                    <label>You are going to host a party, what is more your style when getting ready?</label>
                     <div class="hover01 column">
                         <div>
                             <figure><img src="Pictures/planned.jpg" height="100%" /></figure>
@@ -189,45 +320,58 @@
                         </div>
                     </div>
 
-                    <div class="form-group">
-                        <label for="FreeFormControlTextarea1">What type of party do you plan?</label>
+                    <!-- pictures unsplash.com-->
+                    <label>What type of party do you plan?</label>
+                    <div class="hover01 column">
                         <div>
-                            <img src="Pictures/reading.jpg" height="150px">
-                            <img src="Pictures/party.jpg" height="150px">
+                            <figure><img src="Pictures/reading.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/party.jpg" height="100%" /></figure>
+                            <span>Hover</span>
                         </div>
                     </div>
 
 
-                    <div class="form-group">
-                        <label for="FreeFormControlTextarea1">What time do you want people to show up?</label>
+                    <!-- pictures unsplash.com-->
+                    <label>What time do you want people to show up?</label>
+                    <div class="hover01 column">
                         <div>
-                            <img src="Pictures/clock.jpg" height="150px">
-                            <img src="Pictures/clock.jpg" height="150px">
-                            <img src="Pictures/clock.jpg" height="150px">
+                            <figure><img src="Pictures/clock.jpg" height="100%" /></figure>
+                            <span>Hover</span>
                         </div>
-                    </div>
-
-                    
-
-<!-- pictures -->
-
-
-
-                    <!-- pictures -->
-                    <div class="form-group">
-                        <label for="FreeFormControlTextarea1">How do you interact with people at the party?</label>
                         <div>
-                            <img src="Pictures/joker.jpg" height="150px">
-                            <img src="Pictures/observe.jpg" height="150px">
-                            <img src="Pictures/seriousConversation.jpg" height="150px">
+                            <figure><img src="Pictures/clock.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/clock.jpg" height="100%" /></figure>
+                            <span>Hover</span>
                         </div>
                     </div>
 
 
+                    <!-- pictures unsplash.com-->
+                    <label>How do you interact with people at the party?</label>
+                    <div class="hover01 column">
+                        <div>
+                            <figure><img src="Pictures/joker.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/observe.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/seriousConversation.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                    </div>
 
-			
 
-                <h2 id="demo01">How do you feel after the party?</h2>
+                <!-- pictures unsplash.com-->
+                <label>How do you feel after the party?</label>
                     <div class="hover01 column">
                         <div>
                             <figure><img src="Pictures/energenic.jpg" height="100%" /></figure>
@@ -240,28 +384,50 @@
                     </div>
 
 
-<!-- pictures -->
-                    <div class="form-group">
-                        <label for="FreeFormControlTextarea1">what is your work space like?</label>
+                <!-- pictures unsplash.com-->
+                <label>what is your work space like?</label>
+                    <div class="hover01 column">
                         <div>
-                            <img src="Pictures/messyDesk.jpg" height="150px">
-                            <img src="Pictures/cleanDesk.jpg" height="150px">
+                            <figure><img src="Pictures/messyDesk.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/cleanDesk.jpg" height="100%" /></figure>
+                            <span>Hover</span>
                         </div>
                     </div>
 
 
-                    <div class="form-group">
-                        <label for="FreeFormControlTextarea1">How do you relax?</label>
+                <!-- pictures unsplash.com-->
+                <label>How do you relax?</label>
+                    <div class="hover01 column">
                         <div>
-                            <img src="Pictures/reading.jpg" height="150px">
-                            <img src="Pictures/party.jpg" height="150px">
+                            <figure><img src="Pictures/reading.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/party.jpg" height="100%" /></figure>
+                            <span>Hover</span>
                         </div>
                     </div>
+
+
+
+                    <!-- Drop Down Input -->
+                    <div>
+                        <label for="timing">What personality traits are you looking for in a Mentor</label>
+                        <select class="form-control">   
+                            <option>Someone with SIMILAR traits and prefences as me</option>
+                            <option>Someone with DIFFERENT traits and perference as me</option>
+                        </select>
+                    </div>
+
+
 
                     <!-- Checkbox -->
                     <div class="checkbox">
                         <label>
-                            <input type="checkbox"> I Agree to the terms & conditions
+                            <input type="checkbox"> I agree to be committed to this mentor relationship for the semester and understand the expectations required of me, failing to do so will result in being removed from the program
                         </label>
                     </div>
 
