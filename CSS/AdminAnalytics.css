@@ -115,3 +115,10 @@ h1 {
     top:5px;
     text-align: center;
   }
+
+/*Countdown Timer*/
+#newProgramCountdown{
+    position:relative;
+    top:5px;
+    text-align: center;
+  }

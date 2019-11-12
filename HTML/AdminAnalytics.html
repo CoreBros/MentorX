@@ -61,10 +61,25 @@
 <H1>Executive Dashboard Placeholder</H1>
 
  <!-- Real-time date -->
-<p>
-<script> document.write(new Date().toDateString()); </script>
-</p>
+<div class="realTimeDate">
+    <font color="white">
+        <p align="right">
+            <script> document.write(new Date().toDateString()); </script> 
+        </p>
+    </font>
+</div>
 <!-- end realtime date -->
+
+<!-- Countdown to next/new program -->
+<!-- https://www.timeanddate.com/clocks/freecountdown.html -->
+<div class="newProgramCountdown">
+
+    <iframe src="http://free.timeanddate.com/countdown/i70s3vcp/n900/cf12/cm0/cu4/ct0/cs0/ca0/cr0/ss0/caceee/cpc000/pct/tcfff/fs100/szw320/szh135/tatCountdown%20to%20New%20Mentor%20Program/taceee/tptTime%20since%20Event%20started%20in/tpc000/matTime%20to%20get%20ready!/maceee/mpc000/iso2019-12-31T00:00:00/bacfff/pd2" allowTransparency="true" frameborder="0" width="322" height="71"></iframe>
+
+</div>
+
+
+<!-- End countdown -->
 
 <!-- Start of Dashboard Input -->
 
@@ -119,8 +134,8 @@ chart.render();
 }
 </script>
  
-<body>
-<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+
+<div id="chartContainer" style="height: 300px; width: 50%;"></div>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 <!-- End of pie chart -->
 
@@ -133,7 +148,7 @@ chart.render();
     <script src="../Javascript/mapdata.js"></script>
     <script src="../Javascript/usmap.js"></script>
   </head>
-  <body>
+  <
   <h1>Locations of Mentors/Mentees</h1>
   <h2> Note: Map is dynamic, clickable, zoom in to each state, and links to each program</h2>
     <div id="map"></div>
