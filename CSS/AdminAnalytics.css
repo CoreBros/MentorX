@@ -122,3 +122,31 @@ h1 {
     top:5px;
     text-align: center;
   }
+
+/*Container for the countdown clock*/
+.countdownContainer > div {
+    display: inline-block;
+    *display: inline; /* For IE7 */
+    zoom: 1; /* Trigger hasLayout */
+    width: 33%;
+    text-align: center;
+}
+
+/*Container for the top metric area of the dashboard*/
+.topDashboardContainer > div {
+    display: inline-block;
+    *display: inline; /* For IE7 */
+    zoom: 1; /* Trigger hasLayout */
+    width: 33%;
+    text-align: center;
+}
+
+/*Test*/
+div.settings {
+    display:grid;
+    grid-template-columns: max-content max-content;
+    grid-gap:5px;
+}
+div.settings label       { text-align:right; }
+div.settings label:after { content: ":"; }
+/*Test*/
