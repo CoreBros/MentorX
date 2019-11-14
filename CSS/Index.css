@@ -27,7 +27,7 @@ body {
 }
 
 
-
+/*rgb(78,41,115);*/
 .initialLogin {
   font-weight: 700;
   font-size: 20px;
@@ -42,14 +42,14 @@ body {
   border: none;
   border-radius: 20px;
   margin-top: 23px;
-  background-color: #1059FF;
+  background-color: rgb(78,41,115);
 }
 
 
 .initialLogin:hover{
   opacity: 0.8;
   cursor: pointer;
-  background-color: #1059FF;
+  background-color: rgb(78,41,115);
 }
 
 
@@ -158,7 +158,7 @@ li {
   padding-bottom: 10px;
   color: white;
   text-decoration: none;
-  border-bottom: solid 2px #1059FF;
+  border-bottom: solid 2px rgb(78,41,115);
   transition: all .25s ease;
   cursor: pointer;
 }
@@ -175,7 +175,7 @@ li {
   padding-bottom: 10px;
   color: white;
   text-decoration: none;
-  border-bottom: solid 2px #1059FF;
+  border-bottom: solid 2px rgb(78,41,115);
   transition: all .25s ease;
   cursor: pointer;
 }
@@ -352,7 +352,7 @@ label {
 
 /* on checked */
 [type="checkbox"]:checked + label:before {
-  background: #0F4FE6; 
+  background: rgb(78,41,115); 
 }
 
 [type="checkbox"]:checked + label:after {
@@ -404,7 +404,7 @@ label {
   border: none;
   border-radius: 20px;
   margin-top: 23px;
-  background-color: #1059FF;
+  background-color: rgb(78,41,115);
 }
 
 .btn-signin {
@@ -416,6 +416,7 @@ label {
   line-height: 35px;
   border-radius: 20px;
   margin-top: -8px;
+  background-color: rgb(78,41,115);
 }
 
 .btn-animate {
@@ -431,7 +432,7 @@ label {
   border: none;
   border-radius: 20px;
   margin-top: 23px;
-  background-color: rgba(16,89,255, 1);
+  background-color: rgb(78,41,115);
   left: 0px;
   top: 0px;
   transition: all .5s ease, top .5s ease .5s, height .5s ease .5s, background-color .5s ease .75s; 
@@ -444,13 +445,15 @@ label {
   left: -55px;
   top: -420px;
   color: rgba(255,255,255,0);
-  background-color: rgba(255,255,255,1);
+  background-color: white;
 }
 
-a.btn-signup:hover, a.btn-signin:hover {
+.btn-signup:hover, .btn-signin:hover {
     cursor: pointer; 
-    background-color: #0F4FE6;
-    transition: background-color .5s; 
+    background-color: white;
+    color: rgb(78,41,115);
+    opacity: 0.8;
+    transition: background-color 2s, color 2s; 
 }
 
 .forgot {
@@ -549,7 +552,7 @@ h1 {
 .btn-goback {
   position: relative;
   margin-right: auto;
-  top: -400px;
+  top: -300px;
   float: left;
   padding: 8px;
   width: 83%;
@@ -564,7 +567,7 @@ h1 {
   text-align: center;
   color: white;
   margin-top: -8px;
-  background-color: #0F4FE6;
+  background-color: rgb(78,41,115);
   border: solid 1px grey;
   opacity: 0;
   transition: top 1.5s ease 0.35s;
@@ -580,31 +583,6 @@ a.btn-goback:hover {
     opacity: 0.8;
 }
 
-/* refresh button styling */
-
-#refresh {
-    position: fixed;
-    bottom: 20px;
-    right: 20px; 
-    background-color: #ffffff;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    box-shadow: 0px 2px 7px rgba(0,0,0,0.1);
-    padding: 13px 0 0 13px;
-}
-
-.refreshicon {
-    fill: #d3d3d3;
-    transform: rotate(0deg);
-    transition: fill .25s ease, transform .25s ease;
-}
-
-.refreshicon:hover {
-  cursor: pointer;
-  fill: #1059FF;
-  transform: rotate(180deg);
-}
 /*End of login pop up form*/
 
  /*CSS for home page*/

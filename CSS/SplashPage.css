@@ -7,7 +7,8 @@ html, body {
 body {
   background:
     linear-gradient(
-    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.5),
     rgba(0,0,0,0.7)),
     url(../html/pictures/splashPage.jpg) no-repeat center fixed;
   background-size: cover;
@@ -20,35 +21,34 @@ body {
 
 
 .mentorxLogo {
-  width: 100%;
-  color: white;
+  width: 100%;   
   text-align: center;
+  color: #FFF;
 }
 
 
 .mentorxLogo img {
-  position: relative;
-  top: 0;
+  width: 100%;
+  padding-top: 100px;
+  max-width: 600px;
+  font-size: 100px;
   text-align: center;
-  width: 50%;
-  min-width: 400px;
 }
 
-.mentorxLogo {
+/*Logo Animation section*/
+
+/*.mentorxLogo {
   -webkit-animation-name: xLogo;
-  -webkit-animation-duration: 2s; 
+  -webkit-animation-duration: 0.5s; 
   animation-name: xLogo;
-  animation-duration: 2s;
+  animation-duration: 0.5s;
   animation-delay: 0s;
 }
 
 @-webkit-keyframes xLogo {
-  0%   {display: none;}
-  100% {display: block;}
 }
 
 @keyframes xLogo {
-  0%   {display: none;}
-  100% {display: block;}
-}
+  100%   {transition: all .2s ease-in-out;}
+}*/
 

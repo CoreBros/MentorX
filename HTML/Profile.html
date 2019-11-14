@@ -65,10 +65,11 @@ https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
 
 <div class= "profile-card">
     <div class="image-container">
-        <img src="Pictures/bgTest.jpeg" style="width:100%">
-        <div class="title">
-            <h2>Stogie Stogsdite</h2>
-        </div>
+        <img src="Pictures/bgTest.jpeg" class="outer-image" style="width:100%">
+        <img src="Pictures/profilepictest.jpg" class="inner-image" style="width:66.5%">
+            <div class="title">
+                <h2>Stogie Stogsdite</h2>
+            </div>
     </div>
     <div class="main-container">
         <div class="personalInformation">
@@ -184,7 +185,7 @@ https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
                 <input type="text" name="school" required placeholder="Enter University"> 
             </div>
             <div class ="major">
-                <i class= "fas fa-university fa-2x info"></i>
+                <i class= "fas fa-book fa-2x info"></i>
                 <input type="text" name="major" required placeholder="Enter Major"> 
             </div>
             <div class ="gradeLevel">
@@ -195,6 +196,16 @@ https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
                         <option value="SO">Sophomore</option>
                         <option value="JR">Junior</option>
                         <option value="SR">Senior</option>
+                </select>
+            </div>
+            <div class ="mentorshipRole">
+                <i class= "fas fa-user-friends fa-2x info"></i>
+                <label for="mentorshipRole">Mentorship Role</label>
+                    <select> data-placeholder="Choose a Role"
+                        <option value="ME">Mentee</option>
+                        <option value="MR">Mentor</option>
+                        <option value="BO">Mentee & Mentor</option>
+                        <option value="AD">Administrator</option>
                 </select>
             </div>
     </div>
