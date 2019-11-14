@@ -151,6 +151,23 @@ h1 {
 
 }
 
+.outer-image {
+
+  position: relative;
+
+
+
+}
+
+.inner-image {
+
+  position: absolute;
+  right: 115px;
+
+
+
+}
+
 
 .info {
 
