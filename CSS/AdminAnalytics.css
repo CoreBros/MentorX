@@ -134,14 +134,15 @@ h1 {
 
 /*Container for the top metric area of the dashboard*/
 .topDashboardContainer > div {
-    display: inline-block;
-    *display: inline; /* For IE7 */
-    zoom: 1; /* Trigger hasLayout */
+    display: flex;
+    justify-content: space-between;
+    *display: inline;  For IE7 
+    zoom: 1; 
     width: 33%;
-    text-align: center;
+    text-align: left;
 }
 
-/*Test*/
+/*Program Selcetion Dropdown Options*/
 div.settings {
     display:grid;
     grid-template-columns: max-content max-content;
@@ -149,4 +150,4 @@ div.settings {
 }
 div.settings label       { text-align:right; }
 div.settings label:after { content: ":"; }
-/*Test*/
+/*End Program Selcetion Dropdown Options*/
