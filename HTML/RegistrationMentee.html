@@ -5,7 +5,7 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://kit.fontawesome.com/e3f947f40e.js"></script>
+<script src="https://kit.fontawesome.com/5ab714b5cf.js" crossorigin="anonymous"></script>
 <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Helvetica+Neue">
 <link type="text/css" rel="stylesheet" href="../css/Registration.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -156,44 +156,218 @@
                     <h3>Mentor Meeting Preferences</h3>
 
                     <!-- Drop Down Input -->
-                    <div>
-                        <label for="timing">How often do you want to meet with your Mentor?</label>
-                        <select class="form-control">   
-                            <option>Bi-Weekly</option>
-                            <option>Monthly</option>
-                            <option>Quarterly</option>
-                            <option>As needed</option>
-                        </select>
+
+                    <div class ="meetingRecurrence">
+                        <i class= "fad fa-clock fa-1x info"></i>
+                            <label for="meetingRecurrence">Recurrence of Meetings</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>Bi-Weekly</option>
+                                    <option>Monthly</option>
+                                    <option>Bi-Monthly</option>
+                                </select>
+                            </p>
                     </div>
 
                     <!-- Drop Down Input -->
-                    <div>
-                        <label for="timing">What is your meeting style?</label>
-                        <select class="form-control">   
-                            <option>Structured meetings with pre-determined agendas and goals</option>
-                            <option>In-formal meetings with ad hoc discussions</option>
-                        </select>
+
+                    <div class ="meetingStyle">
+                        <i class="fas fa-handshake"></i>
+                            <label for="meetingStyle">Meeting Style</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>More formal meeting with pre-set agendas</option>
+                                    <option>More flexible fluid converstaions ranging to ad hoc discussions</option>
+                                </select>
+                            </p>
                     </div>
                     
                     <!-- Drop Down Input -->
-                    <div>
-                        <label for="timing">How do you want to meet?</label>
-                        <select class="form-control">   
-                            <option>In person only</option>
-                            <option>In person if possible, but open to video or phone calls</option>
-                        </select>
+
+                    <div class ="meetingPlace">
+                        <i class="fas fa-location-arrow"></i>
+                            <label for="meetingStyle">Meeting Location</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>In Person on Campus</option>
+                                    <option>In Person on/off Campus</option>
+                                    <option>In Person/Open to Video Chat</option>
+                                </select>
+                            </p>
                     </div>
 
                     <!-- Drop Down Input -->
-                    <div>
-                        <label for="timing">What is your preferred method of contact?</label>
-                        <select class="form-control">   
-                            <option>Email</option>
-                            <option>Call</option>
-                            <option>Text</option>
-                            <option>Slack</option>
-                        </select>
+
+                    <div class ="meetingContact">
+                        <i class="fas fa-phone"></i>
+                            <label for="meetingStyle">Preferred Contact Method</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>Call</option>
+                                    <option>Text</option>
+                                    <option>Email</option>
+                                </select>
+                            </p>
                     </div>
+
+                    <!-- Drop Down Input -->
+
+                    <div class ="mentorDegree">
+                        <i class="fas fa-award"></i>
+                            <label for="meetingStyle">Mentor Degree Prefence</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>Same Degree</option>
+                                    <option>Similar/related degree</option>
+                                    <option>Open to unrelated degrees</option>
+                                </select>
+                            </p>
+                    </div>
+
+
+                    <!-- Drop Down Input -->
+
+                    <div class ="mentorExperience">
+                        <i class="fas fa-briefcase"></i>
+                            <label for="meetingStyle">Mentor Experinece Prefence</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>School Clubs</option>
+                                    <option>Internships/option>
+                                    <option>Similar Classes & Teachers</option>
+                                </select>
+                            </p>
+                    </div>
+
+                    <!-- Checkbox -->
+                    <div class="mentorHelp">
+                    	<i class="fas fa-binoculars"></i>
+                            <label for="mentorHelp"> What are you looking for help with during this mentorship program? (select all that apply)</label>
+                        <div class="checkbox">
+                            <label>
+                                <div><input type="checkbox"> Resume Building</div>
+                                <div><input type="checkbox"> Clubs & Programs to Join</div>
+                                <div><input type="checkbox"> Presentation Skills</div>
+                                <div><input type="checkbox"> Networking & Making New Connections</div>
+                                <div><input type="checkbox"> Internships, Jobs & Companies</div>
+                                <div><input type="checkbox"> Degree Decision</div>
+                                <DIV><input type="checkbox"> Teachers & Classes Guidace</DIV>
+                            </label>
+                        </div>
+                    </div>
+
+
+                    <!-- Ranking section -->
+
+                    <div class ="mentorExperience">
+                        <i class="fas fa-random"></i>
+                            <label for="meetingStyle">Rank the Areas that you want to be mentored in?</label>
+                            <p>
+	                             <label for="meetingStyle">1.</label>
+	                                <select> class="form-control"
+	                                    <option>School Clubs & Programs</option>
+	                                    <option>How to secure an internship</option>
+	                                    <option>Which companies/industries to work in</option>
+	                                    <option>Classes & Teachers</option>
+	                                    <option>Resume Building</option>
+	                                    <option>Presentation Skills</option>
+	                                    <option>Networking & Making New Connections</option>
+	                                    <option>School/life/work/social balance</option>
+	                                </select>
+                            </p>
+                            <p>
+	                             <label for="meetingStyle">2.</label>
+	                                <select> class="form-control"
+	                                    <option>School Clubs & Programs</option>
+	                                    <option>How to secure an internship</option>
+	                                    <option>Which companies/industries to work in</option>
+	                                    <option>Classes & Teachers</option>
+	                                    <option>Resume Building</option>
+	                                    <option>Presentation Skills</option>
+	                                    <option>Networking & Making New Connections</option>
+	                                    <option>School/life/work/social balance</option>
+	                                </select>
+                            </p>
+                            <p>
+	                             <label for="meetingStyle">3.</label>
+	                                <select> class="form-control"
+	                                    <option>School Clubs & Programs</option>
+	                                    <option>How to secure an internship</option>
+	                                    <option>Which companies/industries to work in</option>
+	                                    <option>Classes & Teachers</option>
+	                                    <option>Resume Building</option>
+	                                    <option>Presentation Skills</option>
+	                                    <option>Networking & Making New Connections</option>
+	                                    <option>School/life/work/social balance</option>
+	                                </select>
+                            </p>
+                            <p>
+	                             <label for="meetingStyle">4.</label>
+	                                <select> class="form-control"
+	                                    <option>School Clubs & Programs</option>
+	                                    <option>How to secure an internship</option>
+	                                    <option>Which companies/industries to work in</option>
+	                                    <option>Classes & Teachers</option>
+	                                    <option>Resume Building</option>
+	                                    <option>Presentation Skills</option>
+	                                    <option>Networking & Making New Connections</option>
+	                                    <option>School/life/work/social balance</option>
+	                                </select>
+                            </p>
+                            <p>
+	                             <label for="meetingStyle">5.</label>
+	                                <select> class="form-control"
+	                                    <option>School Clubs & Programs</option>
+	                                    <option>How to secure an internship</option>
+	                                    <option>Which companies/industries to work in</option>
+	                                    <option>Classes & Teachers</option>
+	                                    <option>Resume Building</option>
+	                                    <option>Presentation Skills</option>
+	                                    <option>Networking & Making New Connections</option>
+	                                    <option>School/life/work/social balance</option>
+	                                </select>
+                            </p>
+                            <p>
+	                             <label for="meetingStyle">6.</label>
+	                                <select> class="form-control"
+	                                    <option>School Clubs & Programs</option>
+	                                    <option>How to secure an internship</option>
+	                                    <option>Which companies/industries to work in</option>
+	                                    <option>Classes & Teachers</option>
+	                                    <option>Resume Building</option>
+	                                    <option>Presentation Skills</option>
+	                                    <option>Networking & Making New Connections</option>
+	                                    <option>School/life/work/social balance</option>
+	                                </select>
+                            </p>
+                            <p>
+	                             <label for="meetingStyle">7.</label>
+	                                <select> class="form-control"
+	                                    <option>School Clubs & Programs</option>
+	                                    <option>How to secure an internship</option>
+	                                    <option>Which companies/industries to work in</option>
+	                                    <option>Classes & Teachers</option>
+	                                    <option>Resume Building</option>
+	                                    <option>Presentation Skills</option>
+	                                    <option>Networking & Making New Connections</option>
+	                                    <option>School/life/work/social balance</option>
+	                                </select>
+                            </p>
+                            <p>
+	                             <label for="meetingStyle">8.</label>
+	                                <select> class="form-control"
+	                                    <option>School Clubs & Programs</option>
+	                                    <option>How to secure an internship</option>
+	                                    <option>Which companies/industries to work in</option>
+	                                    <option>Classes & Teachers</option>
+	                                    <option>Resume Building</option>
+	                                    <option>Presentation Skills</option>
+	                                    <option>Networking & Making New Connections</option>
+	                                    <option>School/life/work/social balance</option>
+	                                </select>
+                            </p>
+                    </div>
+
 
                     <!-- Free Response -->
 <!--                     <div class="form-group">
@@ -201,7 +375,7 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div> -->
 
-
+                  <p></p>
                     <h3>Personality Style</h3>
 
                     <!-- pictures unsplash.com-->
@@ -322,12 +496,24 @@
                     </div>
 
 
+
+                    <!-- Drop Down Input -->
+                    <div>
+                        <label for="timing">What personality traits are you looking for in a Mentor</label>
+                        <select class="form-control">   
+                            <option>Someone with SIMILAR traits and prefences as me</option>
+                            <option>Someone with DIFFERENT traits and perference as me</option>
+                        </select>
+                    </div>
+
+
+
                     <!-- Checkbox -->
- <!--                    <div class="checkbox">
+                    <div class="checkbox">
                         <label>
-                            <input type="checkbox"> I Agree to the terms & conditions
+                            <input type="checkbox"> I agree to be committed to this mentor relationship for the semester and understand the expectations required of me, failing to do so will result in being removed from the program
                         </label>
-                    </div> -->
+                    </div>
 
                     <!-- Submit Button -->
                     <!-- <button type="submit" class="btn btn-default">Submit</button> -->

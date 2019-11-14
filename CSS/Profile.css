@@ -112,10 +112,11 @@ h1 {
 }
 
 .profile-card {
-  width: 400px
+  width: 500px
   margin: auto;
+  margin: 35px;
   background: #fff;
-  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.5);
 
 
 }
@@ -140,14 +141,28 @@ h1 {
   margin: auto;
 
 
-
 }
-
 
 
 .image-container {
 
   position: relative;
+
+
+}
+
+.outer-image {
+
+  position: relative;
+
+
+
+}
+
+.inner-image {
+
+  position: absolute;
+  right: 115px;
 
 
 
@@ -156,26 +171,39 @@ h1 {
 
 .info {
 
-  color: #4b4fe2;
-  margin-right: 16px;
+  color: #0088cc;
+  margin-right: 10px;
 }
 
 .main-container {
 
   padding: 20px;
 
+}
 
+.title {
 
+  position: absolute;
+  left: 15px;
+  bottom: 0;
 
 
 }
+
+h3 {
+  width: 100%;
+  text-align: center;
+  color: blue;
+  size: 20px;
+}
+
 
 
 .profileImage {
  text-align: center;
   display: inline block;
-  padding-top: 50px
-  padding-bottom: 50px;
+  padding-top: 25px
+  padding-bottom: 25px;
   margin: auto;
 
 }
@@ -202,43 +230,59 @@ h1 {
   text-align: center;
   display: block;
   padding-top: 50px
-  padding-bottom: 50px;
+  padding-bottom: 75px;
 
 }
 
 .firstName {
   text-align: center;
-  padding-bottom: 25px
+  padding-bottom: 20px
 
 }
 
 .lastName {
   text-align: center;
-  padding-bottom: 25px
+  padding-bottom: 20px
 
 }
 
 .gender {
   text-align: center;
-  padding-bottom: 25px
+  padding-bottom: 20px
 
 }
 
 .emailAddress {
   text-align: center;
-  padding-bottom: 10px
+  padding-bottom: 20px
 
 }
 
 .language {
   text-align: center;
-  padding-bottom: 10px
+  padding-bottom: 20px
 
 }
 
+.programName {
+  text-align: center;
+  padding-bottom: 20px
 
+}
 
-.aboutMe {
+.school {
+  text-align: center;
+  padding-bottom: 20px
+
+}
+
+.major {
+  text-align: center;
+  padding-bottom: 20px
+
+}
+
+.programInformation {
   text-align: center;
   display: block;
   padding-top: 50px
@@ -284,23 +328,34 @@ h1 {
 
 .university {
   text-align: center;
-  padding-bottom: 10px
+  padding-bottom: 20px
 
 }
 
 .program {
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 
 }
 
 
 .major {
   text-align: center;
+  padding-bottom: 20px;
+
+}
+
+.gradeLevel {
+  text-align: center;
   padding-bottom: 10px;
 
 }
 
+.mentorshipRole {
+  text-align: center;
+  padding-bottom: 10px;
+
+}
 
 
 

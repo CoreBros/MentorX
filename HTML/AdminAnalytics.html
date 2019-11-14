@@ -9,7 +9,7 @@
 <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Helvetica+Neue">
 
 <!-- Change link to your CSS file -->
-<link type="text/css" rel="stylesheet" href="../css/Calendar.css">
+<link type="text/css" rel="stylesheet" href="../css/AdminAnalytics.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <!-- Menu / Nav Bar -->
@@ -62,10 +62,61 @@
 <H1>Executive Dashboard Placeholder</H1>
 
  <!-- Real-time date -->
-<p>
-<script> document.write(new Date().toDateString()); </script>
-</p>
+<div class="realTimeDate">
+    <font color="white">
+        <p align="right">
+            <script> document.write(new Date().toDateString()); </script> 
+        </p>
+    </font>
+</div>
+
 <!-- end realtime date -->
+
+<!-- Countdown to next/new program -->
+<!-- https://www.timeanddate.com/clocks/freecountdown.html -->
+<div class="countdownContainer">
+    <div>
+        <iframe src="http://free.timeanddate.com/countdown/i70s3vcp/n900/cf12/cm0/cu4/ct0/cs0/ca0/cr0/ss0/caceee/cpc000/pct/tcfff/fs100/szw320/szh135/tatCountdown%20to%20New%20Mentor%20Program/taceee/tptTime%20since%20Event%20started%20in/tpc000/matTime%20to%20get%20ready!/maceee/mpc000/iso2019-12-31T00:00:00/bacfff/pd2" allowTransparency="true" frameborder="0" width="322" height="71"></iframe>
+    </div>
+</div>
+
+
+<!-- End countdown -->
+
+<div class="topDashboardContainer">
+
+<!-- Start of Dashboard Input -->
+
+<div class="settings">
+    <label>Program Selection</label>
+    <form action="/action_page.php">
+                 <select name="Current Programs">
+                    <option value="Live Program 1">Live Program 1</option>
+                    <option value="Live Program 2">Live Program 2</option>
+                    <option value="Live Program 3">Live Program 3</option>
+                    <option value="Live Program 4">Live Program 4</option>
+                </select>
+            </form>
+
+    <label>Cycle Selction</label>
+    <form action="/action_page.php">
+                 <select name="Current Programs">
+                    <option value="Fall 2017">Fall 2017</option>
+                    <option value="Spring 2018">Spring 2018</option>
+                    <option value="Fall 2018">Fall 2018</option>
+                    <option value="Spring 2019">Spring 2019</option>
+                </select>
+            </form>
+
+    <label>Placeholder</label>
+    <input type="text" />
+</div>
+</div>
+<!-- End of Dashboard Input -->
+
+
+
+<!-- End of top of dashboard container -->
 
 <!-- Test Dynamic Pie Chart -->
 <!-- Borrowed from: https://canvasjs.com/html5-javascript-pie-chart/ -->
@@ -96,11 +147,10 @@ chart.render();
 }
 </script>
  
-<body>
-<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+
+<div id="chartContainer" style="height: 300px; width: 50%;"></div>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 <!-- End of pie chart -->
-
 
 
 <!-- Interactive/Dynamic Mentor/Mentee Map -->
@@ -111,7 +161,7 @@ chart.render();
     <script src="../Javascript/mapdata.js"></script>
     <script src="../Javascript/usmap.js"></script>
   </head>
-  <body>
+  <
   <h1>Locations of Mentors/Mentees</h1>
   <h2> Note: Map is dynamic, clickable, zoom in to each state, and links to each program</h2>
     <div id="map"></div>
