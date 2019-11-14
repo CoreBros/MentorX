@@ -132,7 +132,7 @@ h1 {
     text-align: center;
 }
 
-/*Container for the top metric area of the dashboard*/
+/*Container for the top selection area of the dashboard*/
 .topDashboardContainer > div {
     display: flex;
     justify-content: space-between;
@@ -142,7 +142,7 @@ h1 {
     text-align: left;
 }
 
-/*Program Selcetion Dropdown Options*/
+/*Program Selection Dropdown Options*/
 div.settings {
     display:grid;
     grid-template-columns: max-content max-content;
@@ -151,3 +151,9 @@ div.settings {
 div.settings label       { text-align:right; }
 div.settings label:after { content: ":"; }
 /*End Program Selcetion Dropdown Options*/
+
+/*Container for the top selection area of the dashboard*/
+.kpiContainer > div {
+    display: flex;
+    justify-content: space-between;
+}
