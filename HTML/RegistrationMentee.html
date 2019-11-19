@@ -13,6 +13,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
+<!-- MDBootStrap -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="../MDB-Free/css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="../MDB-Free/css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="../MDB-Free/css/style.css">
+<!-- end MDbootStrap -->
+
 <script src="../Javascript/Registration.js"></script>
 
 <title>MentorX Enrollment</title>
@@ -82,6 +99,7 @@
 
 <!-- Start of Page Content -->
 <body id="inner_body" class="inner_body">
+
     
     <div id="page-body" class="page-body">
 
@@ -102,6 +120,11 @@
 
             <hr>
 
+
+    <!-- https://mdbootstrap.com/docs/jquery/components/buttons/ -->
+                <button class="btn btn-default btn-lg"><i class="fas fa-magic mr-1"></i> Left</button>
+
+                <button class="btn btn-default btn-lg"><i class= "fad fa-clock fa-1x info"></i> Left</button>
        <!-- Enrollment Form -->
             <div class="mentorPreference">
 
@@ -111,6 +134,8 @@
 
                     <a href="RegistrationMentor.html" type="button" class="btn btn-primary">Mentor Enrollment</a>
                 </div>
+
+
 
                 <!-- Name Inputs to go to profile -->
  <!--                <form class="form">
@@ -146,16 +171,23 @@
                     
                     <!-- Free Response -->
                     <div class="form-group">
+                        <label for="FreeFormControlTextarea1">Tell your future mentor a little about yourself (where are you from, what major are you persusing, what are some challenges you have faced, how are you hoping to grow this next year, what are some interesting/fun facts about you)</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <!-- Free Response -->
+                    <div class="form-group">
                         <label for="FreeFormControlTextarea1">Why do you want a Mentor? / What are you looking for in a Mentor to help you with?</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     
                     <!-- Free Response -->
                     <div class="form-group">
-                        <label for="FreeFormControlTextarea1">What would you like your mentor to know about you?</label>
+                        <label for="FreeFormControlTextarea1">Is there anything specific you want to make aware to your future mentor?</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
 
+<hr>
                     <h3>Mentor Meeting Preferences</h3>
 
                     <!-- Drop Down Input -->
@@ -255,6 +287,7 @@
                                 <div><input type="checkbox"> Internships, Jobs & Companies</div>
                                 <div><input type="checkbox"> Degree Decision</div>
                                 <DIV><input type="checkbox"> Teachers & Classes Guidace</DIV>
+                                <DIV><input type="checkbox"> Extracurricular Activities</DIV>
                             </label>
                         </div>
                     </div>
@@ -268,7 +301,8 @@
                             <p>
 	                             <label for="meetingStyle">1.</label>
 	                                <select> class="form-control"
-	                                    <option>School Clubs & Programs</option>
+	                                    <option>Please Select</option>
+                                        <option>School Clubs & Programs</option>
 	                                    <option>How to secure an internship</option>
 	                                    <option>Which companies/industries to work in</option>
 	                                    <option>Classes & Teachers</option>
@@ -281,7 +315,8 @@
                             <p>
 	                             <label for="meetingStyle">2.</label>
 	                                <select> class="form-control"
-	                                    <option>School Clubs & Programs</option>
+	                                    <option>Please Select</option>
+                                        <option>School Clubs & Programs</option>
 	                                    <option>How to secure an internship</option>
 	                                    <option>Which companies/industries to work in</option>
 	                                    <option>Classes & Teachers</option>
@@ -294,7 +329,8 @@
                             <p>
 	                             <label for="meetingStyle">3.</label>
 	                                <select> class="form-control"
-	                                    <option>School Clubs & Programs</option>
+	                                    <option>Please Select</option>
+                                        <option>School Clubs & Programs</option>
 	                                    <option>How to secure an internship</option>
 	                                    <option>Which companies/industries to work in</option>
 	                                    <option>Classes & Teachers</option>
@@ -307,7 +343,8 @@
                             <p>
 	                             <label for="meetingStyle">4.</label>
 	                                <select> class="form-control"
-	                                    <option>School Clubs & Programs</option>
+	                                    <option>Please Select</option>
+                                        <option>School Clubs & Programs</option>
 	                                    <option>How to secure an internship</option>
 	                                    <option>Which companies/industries to work in</option>
 	                                    <option>Classes & Teachers</option>
@@ -320,7 +357,8 @@
                             <p>
 	                             <label for="meetingStyle">5.</label>
 	                                <select> class="form-control"
-	                                    <option>School Clubs & Programs</option>
+	                                    <option>Please Select</option>
+                                        <option>School Clubs & Programs</option>
 	                                    <option>How to secure an internship</option>
 	                                    <option>Which companies/industries to work in</option>
 	                                    <option>Classes & Teachers</option>
@@ -333,7 +371,8 @@
                             <p>
 	                             <label for="meetingStyle">6.</label>
 	                                <select> class="form-control"
-	                                    <option>School Clubs & Programs</option>
+	                                    <option>Please Select</option>
+                                        <option>School Clubs & Programs</option>
 	                                    <option>How to secure an internship</option>
 	                                    <option>Which companies/industries to work in</option>
 	                                    <option>Classes & Teachers</option>
@@ -346,7 +385,8 @@
                             <p>
 	                             <label for="meetingStyle">7.</label>
 	                                <select> class="form-control"
-	                                    <option>School Clubs & Programs</option>
+	                                    <option>Please Select</option>
+                                        <option>School Clubs & Programs</option>
 	                                    <option>How to secure an internship</option>
 	                                    <option>Which companies/industries to work in</option>
 	                                    <option>Classes & Teachers</option>
@@ -359,7 +399,8 @@
                             <p>
 	                             <label for="meetingStyle">8.</label>
 	                                <select> class="form-control"
-	                                    <option>School Clubs & Programs</option>
+	                                    <option>Please Select</option>
+                                        <option>School Clubs & Programs</option>
 	                                    <option>How to secure an internship</option>
 	                                    <option>Which companies/industries to work in</option>
 	                                    <option>Classes & Teachers</option>
@@ -377,25 +418,217 @@
                         <label for="FreeFormControlTextarea1">What are your previous work/internship/club experiences?</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div> -->
-
+<hr>
                   <p></p>
                     <h3>Personality Style</h3>
+<!--Zoom effect-->
+<div class="row">
+
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4">
+
+        <div class="view overlay">
+          <img src="Pictures/catPerson.jpg" class="img-fluid " alt="placeholder">
+          <div class="mask flex-center waves-effect waves-light rgba-red-strong">
+            <p class="white-text">Cat Person</p>
+          </div>
+        </div>
+
+      </div>
+      <!--Grid column-->               
+        
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4">
+
+        <div class="view overlay">
+          <img src="Pictures/puppies.jpg" class="img-fluid " alt="placeholder">
+          <div class="mask flex-center waves-effect waves-light rgba-blue-strong">
+            <p class="white-text">Dog Person</p>
+          </div>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!-- picture slide -->
+      <!-- https://mdbootstrap.com/snippets/jquery/charkiewicz/831872 -->
+        <figure class="photo red">
+          <img src="Pictures/catPerson.jpg" alt="sample33" />
+          <figcaption>
+            <h2>Cat  <span> Person</span></h2>
+          </figcaption>
+          <a href="#"></a>
+        </figure>
+        <figure class="photo blue"><img src="Pictures/puppies.jpg" alt="sample34" />
+          <figcaption>
+            <h2>Dog  <span> Person</span></h2>
+          </figcaption>
+          <a href="#"></a>
+        </figure>
+<!-- End picture slide -->
+
+
+
+
+
+<!-- Better looking circle -->
+<!-- circle pictures and slider -->
+</div>
+<label for="customRange3">You are going to host a party, what is more your style when getting ready?</label>
+    <div class="col-md-12 mb-5 d-flex justify-content-between">
+
+    <!-- picture left -->
+      <img src="Pictures/observeSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+       
+       <!-- slider -->
+        <input type="range" class="custom-range" min="0" max="4" step="1" id="customRange3">
+
+    <!-- picture right -->
+      <img src="Pictures/partySquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    </div>
+  </div>
+<!-- end of circle picture -->
+
+
+<!-- Better looking circle -->
+<!-- circle pictures and slider -->
+<div>
+<label for="customRange3">What time do you want people to show up?</label>
+    <div class="col-md-12 mb-5 d-flex justify-content-between">
+
+    <!-- picture left -->
+      <img src="Pictures/clockSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+       
+       <!-- slider -->
+        <input type="range" class="custom-range" min="0" max="4" step="1" id="customRange3">
+
+    <!-- picture right -->
+      <img src="Pictures/clockSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    </div>
+  </div>
+<!-- end of circle picture -->
+
+<!-- Better looking circle -->
+<!-- circle pictures and slider -->
+<div>
+<label for="customRange3">How do you feel after a party?</label>
+    <div class="col-md-12 mb-5 d-flex justify-content-between">
+
+    <!-- picture left -->
+      <img src="Pictures/jumpSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+       
+       <!-- slider -->
+        <input type="range" class="custom-range" min="0" max="4" step="1" id="customRange3">
+
+    <!-- picture right -->
+      <img src="Pictures/exhausedSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    </div>
+  </div>
+<!-- end of circle picture -->
+
+<!-- Better looking circle -->
+<!-- circle pictures and slider -->
+<div>
+<label for="customRange3">what is your approach to planning a party?</label>
+    <div class="col-md-12 mb-5 d-flex justify-content-between">
+
+    <!-- picture left -->
+      <img src="Pictures/plannedSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+       
+       <!-- slider -->
+        <input type="range" class="custom-range" min="0" max="4" step="1" id="customRange3">
+
+    <!-- picture right -->
+      <img src="Pictures/freeSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    </div>
+  </div>
+<!-- end of circle picture -->
+
+
+<!-- Better looking circle -->
+<!-- circle pictures and slider -->
+<div>
+<label for="customRange3">What time do you want people to show up?</label>
+    <div class="col-md-12 mb-5 d-flex justify-content-between">
+
+    <!-- picture left -->
+      <img src="Pictures/calmSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+       
+       <!-- slider -->
+        <input type="range" class="custom-range" min="0" max="4" step="1" id="customRange3">
+
+    <!-- picture right -->
+      <img src="Pictures/breezySquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    </div>
+  </div>
+<!-- end of circle picture -->
+
+
+<!-- Better looking circle -->
+<!-- circle pictures and slider -->
+<div>
+<label for="customRange3">How do you interact with people at the party?</label>
+    <div class="col-md-12 mb-5 d-flex justify-content-between">
+
+    <!-- picture left -->
+      <img src="Pictures/jokerSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+      
+    <!-- picture right -->
+      <img src="Pictures/observeSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    <!-- picture right -->
+      <img src="Pictures/conversationSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    </div>
+  </div>
+<!-- end of circle picture -->
+
+<!-- Better looking circle -->
+<!-- circle pictures and slider -->
+<div>
+<label for="customRange3">What is your workplace like?</label>
+    <div class="col-md-12 mb-5 d-flex justify-content-between">
+
+    <!-- picture left -->
+      <img src="Pictures/cleanSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+       
+       <!-- slider -->
+        <input type="range" class="custom-range" min="0" max="4" step="1" id="customRange3">
+
+    <!-- picture right -->
+      <img src="Pictures/messySquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    </div>
+  </div>
+<!-- end of circle picture -->
+
+<!-- Better looking circle -->
+<!-- circle pictures and slider -->
+<div>
+<label for="customRange3">How do you relax?</label>
+    <div class="col-md-12 mb-5 d-flex justify-content-between">
+
+    <!-- picture left -->
+      <img src="Pictures/calmSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+       
+       <!-- slider -->
+        <input type="range" class="custom-range" min="0" max="4" step="1" id="customRange3">
+
+    <!-- picture right -->
+      <img src="Pictures/partySquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    </div>
+  </div>
+<!-- end of circle picture -->
 
                     <!-- pictures unsplash.com-->
-                    <label>What type of person are you</label>
-                    <div class="hover01 column">
-                        <div>
-                            <figure><img src="Pictures/kittens.jpg" height="100%" /></figure>
-                            <span>Hover</span>
-                        </div>
-                        <div>
-                            <figure><img src="Pictures/puppies.jpg" height="100%" /></figure>
-                            <span>Hover</span>
-                        </div>
-                    </div>
-
-                    <!-- pictures unsplash.com-->
-                    <label>You are going to host a party, what is more your style when getting ready?</label>
+                    <!-- <label>You are going to host a party, what is more your style when getting ready?</label>
                     <div class="hover01 column">
                         <div>
                             <figure><img src="Pictures/planned.jpg" height="100%" /></figure>
@@ -405,10 +638,10 @@
                             <figure><img src="Pictures/spontaneous.jpg" height="100%" /></figure>
                             <span>Hover</span>
                         </div>
-                    </div>
+                        </div> -->
 
                     <!-- pictures unsplash.com-->
-                    <label>What type of party do you plan?</label>
+                 <!--    <label>What type of party do you plan?</label>
                     <div class="hover01 column">
                         <div>
                             <figure><img src="Pictures/reading.jpg" height="100%" /></figure>
@@ -418,11 +651,11 @@
                             <figure><img src="Pictures/party.jpg" height="100%" /></figure>
                             <span>Hover</span>
                         </div>
-                    </div>
+                    </div> -->
 
 
                     <!-- pictures unsplash.com-->
-                    <label>What time do you want people to show up?</label>
+<!--                     <label>What time do you want people to show up?</label>
                     <div class="hover01 column">
                         <div>
                             <figure><img src="Pictures/clock.jpg" height="100%" /></figure>
@@ -436,11 +669,11 @@
                             <figure><img src="Pictures/clock.jpg" height="100%" /></figure>
                             <span>Hover</span>
                         </div>
-                    </div>
+                    </div> -->
 
 
                     <!-- pictures unsplash.com-->
-                    <label>How do you interact with people at the party?</label>
+                    <!-- <label>How do you interact with people at the party?</label>
                     <div class="hover01 column">
                         <div>
                             <figure><img src="Pictures/joker.jpg" height="100%" /></figure>
@@ -454,11 +687,11 @@
                             <figure><img src="Pictures/seriousConversation.jpg" height="100%" /></figure>
                             <span>Hover</span>
                         </div>
-                    </div>
+                    </div> -->
 
 
                 <!-- pictures unsplash.com-->
-                <label>How do you feel after the party?</label>
+<!--                 <label>How do you feel after the party?</label>
                     <div class="hover01 column">
                         <div>
                             <figure><img src="Pictures/energenic.jpg" height="100%" /></figure>
@@ -468,36 +701,7 @@
                             <figure><img src="Pictures/exhaused.jpg" height="100%" /></figure>
                             <span>Hover</span>
                         </div>
-                    </div>
-
-
-                <!-- pictures unsplash.com-->
-                <label>what is your work space like?</label>
-                    <div class="hover01 column">
-                        <div>
-                            <figure><img src="Pictures/messyDesk.jpg" height="100%" /></figure>
-                            <span>Hover</span>
-                        </div>
-                        <div>
-                            <figure><img src="Pictures/cleanDesk.jpg" height="100%" /></figure>
-                            <span>Hover</span>
-                        </div>
-                    </div>
-
-
-                <!-- pictures unsplash.com-->
-                <label>How do you relax?</label>
-                    <div class="hover01 column">
-                        <div>
-                            <figure><img src="Pictures/reading.jpg" height="100%" /></figure>
-                            <span>Hover</span>
-                        </div>
-                        <div>
-                            <figure><img src="Pictures/party.jpg" height="100%" /></figure>
-                            <span>Hover</span>
-                        </div>
-                    </div>
-
+                    </div> -->
 
 
                     <!-- Drop Down Input -->
@@ -520,6 +724,20 @@
 <button class="btn-save btn btn-primary btn-sm">Save</button>
 
 
+<!-- Success message -->
+<div class="md-form">
+  <i class="fas fa-lock prefix"></i>
+  <input type="password" id="inputValidationEx2" class="form-control validate">
+  <label for="inputValidationEx2" data-error="wrong" data-success="right">Type your password</label>
+</div>
+
+<!-- Material input -->
+<div class="md-form">
+  <i class="fas fa-envelope prefix"></i>
+  <input type="text" id="inputIconEx1" class="form-control">
+  <label for="inputIconEx1">E-mail address</label>
+</div>
+
                     <!-- Checkbox -->
                     <div class="checkbox">
                         <label>
@@ -534,5 +752,17 @@
             </div>
         </div>
     </div>
+<!-- MD BootStrap -->
+  <!-- jQuery -->
+  <script type="text/javascript" src="../MDB-Free/js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="../MDB-Free/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="../MDB-Free/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="../MDB-Free/js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
 </body>
 </html>
