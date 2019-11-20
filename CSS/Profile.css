@@ -144,18 +144,17 @@ h1 {
 }
 
 
-.image-container {
-
+.editProfileBtn {
+  text-align: center;
   position: relative;
-  width: 250px;
-
+  width: 500px;
 
 }
 
-.outer-image {
+.image-container {
 
   position: relative;
-
+  width: 500px;
 
 
 }
