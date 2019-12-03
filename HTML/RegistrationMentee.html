@@ -122,9 +122,16 @@
 
 
     <!-- https://mdbootstrap.com/docs/jquery/components/buttons/ -->
-                <button class="btn btn-default btn-lg"><i class="fas fa-magic mr-1"></i> Left</button>
 
-                <button class="btn btn-default btn-lg"><i class= "fad fa-clock fa-1x info"></i> Left</button>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active"><i class= "fad fa-user-friends fa-5x"></i>
+                <input type="radio" name="options" id="option1" autocomplete="off" checked> Mentee Enrollment
+              </label>
+              <label class="btn btn-secondary"><i class= "fad fa-users fa-5x"></i>
+                <input type="radio" name="options" id="option3" autocomplete="off" checked="RegistrationMentor.html"> Mentor Enrollment
+              </label>
+            </div>
+
        <!-- Enrollment Form -->
             <div class="mentorPreference">
 
