@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/e3f947f40e.js"></script>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Helvetica+Neue">
+<link type="text/css" rel="stylesheet" href="../css/Registration.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>MentorX Enrollment</title>
+
+</head>
+
+<!-- Start of Navigation Bar -->
+<body>
+    <div class="topNav">
+        <div class="menuNav">
+            <a href="#menu" i class="fas fa-bars" onclick="document.getElementById('_dropdownMenu').style.display='block'"></a>
+    	</div>
+        <div class="xLogo">
+            <a href="HomePage.html">MentorX</a>
+        </div>
+        <div class="homeNav">
+            <a href="Profile.html" i class="fas fa-user"></a>
+        </div>
+    </div>
+
+    <div id="_dropdownMenu" class="modal">
+        <form class="modal-content animate">
+            <div class="container">
+                <span onclick="document.getElementById('_dropdownMenu').style.display='none'" class="close" title="Close">&times;</span>
+            <a href="HomePage.html">Home</a>
+            <a href="Profile.html">My Profile</a>
+            <a href="Registration.html">Mentoring</a>
+            <a href="Goals.html">Goal Setting</a>
+            <a href="Calendar.html">Calendar</a>
+            <a href="NewsFeed.html">News Feed</a>
+            <a href="Resources.html">Resources</a>
+            <a href="MentorXProducts.html">MentorX Products</a>
+            <a href="Administration.html">Design Studio</a>
+            <a href="Settings.html">Settings</a>
+            <a href="HelpSupport.html">Help & Supp</a>
+            </div>
+        </form>
+    </div>
+</body>
+<!-- End of Navigation Bar -->
+
+<!-- Start of Page Content -->
+<body id="inner_body" class="inner_body">
+    
+    <div id="page-body" class="page-body">
+
+        <div id="page-content" class="page-content">
+
+            <!-- Company logo picture -->
+            <div id="_yourlogoImage">
+                <img src="https://i.pinimg.com/originals/24/5a/bc/245abc96f48ea27c6b504c6437877dcc.jpg" class="img-circle" class=".img-responsive" alt="Responsive image" width="120ppx"> 
+            </div>
+
+            <!-- Header Text below image -->
+            <div class="_welcometextBox">
+                <p align="center"class="text-uppercase">
+                <span style="display: block;">Enroll in the Mentorship Program
+                </span>
+                </p>
+            </div>
+
+            <hr>
+
+        <!-- Enrollment Form -->
+            <div class="mentorPreference">
+
+                <!-- Enrollment Buttons -->
+                <div class="col text-center">
+                    <a href="RegistrationMentee.html" type="button" class="btn btn-primary">Mentee Enrollment</a>
+
+                    <a href="RegistrationMentor.html" type="button" class="btn btn-primary">Mentor Enrollment</a>
+                </div>
+
+                <!-- Name Inputs -->
+                <form class="form">
+                    <div>
+                        <label for="LinkedIn">LinkedIn URL:</label>
+                        <input type="text" name="LinkedIn" id="LinkedIn" placeholder="www.https://linkedin.com/corebros" required>
+                    </div>
+                </form>
+                        
+                <!-- File Input -->
+                <div>
+                    <label for="resumeInputFile">Attach your Resume (optional)</label>
+                    <input type="file" id="resumeInputFile">
+                </div>
+
+                <!-- Email & Password Inputs -->
+                <form>
+                    <div class="form-group">
+
+                        <!-- class="form-control" -->
+                        <!-- <div>
+                            <label for="exampleInputEmail1">Email Address:</label>
+                            <input type="email" id="exampleInputEmail1" placeholder="Email">
+                        </div> -->
+                        
+                        <!-- Password -->
+                        <!-- <div>
+                            <label for="exampleInputPassword1">Password:</label>
+                            <input type="password" id="exampleInputPassword1" placeholder="Password">
+                        </div> -->
+                            
+
+                    
+
+                    
+                  
+               
+                
+                    <!-- Drop Down Input -->
+                    <div>
+                        <label for="functionalArea">Functional Area</label>
+                        <select class="form-control">   
+                            <option>Finance</option>
+                            <option>Accounting</option>
+                            <option>Technology</option>
+                            <option>Human Resources</option>
+                            <option>Engineering</option>
+                        </select>
+                    </div>
+
+                    <!-- Drop Down Input -->
+                    <div>
+                        <label for="timing">How often do you want to meet with your Mentee?</label>
+                        <select class="form-control">   
+                            <option>Weekly</option>
+                            <option>Bi-Weekly</option>
+                            <option>Monthly</option>
+                            <option>Quarterly</option>
+                            <option>As needed</option>
+                        </select>
+                    </div>
+
+                    <!-- Drop Down Input -->
+                    <div>
+                        <label for="timing">What is your mentoring style?</label>
+                        <select class="form-control">   
+                            <option>Formal meetings</option>
+                            <option>In-formal meetings with ad hoc discussions</option>
+                        </select>
+                    </div>
+                    
+                    <!-- Drop Down Input -->
+                    <div>
+                        <label for="timing">How do you want to meet?</label>
+                        <select class="form-control">   
+                            <option>In person only</option>
+                            <option>In person if possible, but open to video or phone calls</option>
+                        </select>
+                    </div>
+
+                    <!-- Free Response -->
+                    <div class="form-group">
+                        <label for="FreeFormControlTextarea1">What makes you a good mentor?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <!-- Free Response -->
+                    <div class="form-group">
+                        <label for="FreeFormControlTextarea1">What are your previous work experiences?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <!-- Drop Down Input -->
+                    <div>
+                        <label for="timing">How many mentees are you willing to have?</label>
+                        <select class="form-control">   
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>I do not want a mentee at this time</option>
+                        </select>
+                    </div>
+
+                    <!-- Checkbox -->
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> I Agree to the terms & conditions
+                        </label>
+                    </div>
+
+                      <!-- Submit Button -->
+                    <!-- <button type="submit" class="btn btn-default">Submit</button> -->
+                    <a href="Registration.html" type="button" class="btn btn-primary">Submit</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
