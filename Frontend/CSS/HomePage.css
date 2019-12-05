@@ -11,7 +11,7 @@ html, body {
 
 
 body {
-  background-color: #D3D3D3;
+  /*background-color: #D3D3D3;*/
   min-width: 1200px;
 }
 
@@ -30,11 +30,20 @@ body {
 .xLogo {
   display: inline-block;
   line-height: 50px;
+  color: white;
 }
+
+
+.xLogo img {
+  font-size: 40px;
+  max-height: 50px;
+
+}
+
 
 .topNav {
   padding-top: 0;
-  background-color: #8e8e8e;
+  background-color: grey;
   overflow: hidden;
   width: 100%;
   min-width: 600px;
@@ -105,7 +114,7 @@ body {
   font-size: 40px;
   width: 100%;
   text-align: center;
-  color: rgb(78,41,115);
+  color: rgba(100,100,100,1);
 }
 
 
@@ -116,7 +125,7 @@ body {
   position: absolute;
   top: 70px;
   left: 10px;
-  background-color: rgb(78,41,115);
+  background-color: rgba(100,100,100,1);
   box-shadow: 0px 2px 7px rgba(0,0,0,1);
   overflow-x: hidden;
   padding-top: 20px;
@@ -297,7 +306,7 @@ body {
 }
 
 #iconMenu .fas{
-    color: rgb(78,41,115);
+    color: rgba(100,100,100,1);
     margin-right: 10px;
   }
 
@@ -381,7 +390,7 @@ body {
   top: 10px;
   float: right;
   right: 10px;
-  background-color: rgb(78,41,115);
+  background-color: rgba(100,100,100,1);
   box-shadow: 0px 2px 7px rgba(0,0,0,1);
   overflow-x: hidden;
   padding-top: 20px;
@@ -403,7 +412,7 @@ body {
 
 #newsFeedUpdate1 {
   width: 95%;
-  border: 5px solid grey;
+  border: 5px solid rgb(78,41,115);
   border-radius: 25px;
   height: 150px;
   background-color: #FFF;
@@ -444,7 +453,7 @@ body {
 
 #newsFeedUpdate2 {
   width: 95%;
-  border: 5px solid grey;
+  border: 5px solid rgb(78,41,115);
   border-radius: 25px;
   height: 150px;
   background-color: #FFF;
@@ -485,7 +494,7 @@ body {
 
 #newsFeedUpdate3 {
   width: 95%;
-  border: 5px solid grey;
+  border: 5px solid rgb(78,41,115);
   border-radius: 25px;
   height: 150px;
   background-color: #FFF;
@@ -525,7 +534,7 @@ body {
 
 #newsFeedUpdate4 {
   width: 95%;
-  border: 5px solid grey;
+  border: 5px solid rgb(78,41,115);
   border-radius: 25px;
   height: 150px;
   background-color: #FFF;
@@ -566,7 +575,7 @@ body {
 
 #newsFeedUpdate5 {
   width: 95%;
-  border: 5px solid grey;
+  border: 5px solid rgb(78,41,115);
   border-radius: 25px;
   height: 150px;
   background-color: #FFF;
@@ -607,7 +616,7 @@ body {
 
 #newsFeedUpdate6 {
   width: 95%;
-  border: 5px solid grey;
+  border: 5px solid rgb(78,41,115);
   border-radius: 25px;
   height: 150px;
   background-color: #FFF;
@@ -648,7 +657,7 @@ body {
 
 #newsFeedUpdate7 {
   width: 95%;
-  border: 5px solid grey;
+  border: 5px solid rgb(78,41,115);
   border-radius: 25px;
   height: 150px;
   background-color: #FFF;
@@ -689,7 +698,7 @@ body {
 
 #newsFeedUpdate8 {
   width: 95%;
-  border: 5px solid grey;
+  border: 5px solid rgb(78,41,115);
   border-radius: 25px;
   height: 150px;
   background-color: #FFF;
@@ -729,7 +738,7 @@ body {
 
 #newsFeedUpdate9 {
   width: 95%;
-  border: 5px solid grey;
+  border: 5px solid rgb(78,41,115);
   border-radius: 25px;
   height: 150px;
   background-color: #FFF;
@@ -769,7 +778,7 @@ body {
 
 #newsFeedUpdate10 {
   width: 95%;
-  border: 5px solid grey;
+  border: 5px solid rgb(78,41,115);
   border-radius: 25px;
   height: 150px;
   background-color: #FFF;

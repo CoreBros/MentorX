@@ -17,6 +17,9 @@ $(function() {
   $(".form-signup-left").toggleClass("form-signup-down");
   $(".success").toggleClass("success-left"); 
   $(".frame").toggleClass("frame-short");
+    var timer = setTimeout(function() {
+      window.location='HomePage.html'
+      }, 4000);
   });
 });
 
