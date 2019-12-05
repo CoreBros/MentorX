@@ -1,0 +1,729 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+
+<!-- MDBootStrap -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="../MDB-Free/css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="../MDB-Free/css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="../MDB-Free/css/style.css">
+<!-- end MDbootStrap -->
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/5ab714b5cf.js" crossorigin="anonymous"></script>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Helvetica+Neue">
+<link type="text/css" rel="stylesheet" href="../css/Registration.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<script src="../Javascript/Registration.js"></script>
+
+<title>MentorX Enrollment</title>
+
+</head>
+
+<!-- Start of Navigation Bar -->
+<body>
+    <div class="topNav">
+        <div class="menuNav">
+            <a href="#menu" i class="fas fa-bars" onclick="document.getElementById('_dropdownMenu').style.display='block'"></a>
+    	</div>
+        <div class="xLogo">
+            <a href="HomePage.html">MentorX</a>
+        </div>
+        <div class="homeNav">
+            <a href="Profile.html" i class="fas fa-user"></a>
+        </div>
+    </div>
+
+    <div id="_dropdownMenu" class="modal">
+        <form class="modal-content animate">
+            <div class="container">
+                <span onclick="document.getElementById('_dropdownMenu').style.display='none'" class="close" title="Close">&times;</span>
+            <a href="HomePage.html">Home</a>
+            <a href="Profile.html">My Profile</a>
+            <a href="Registration.html">Mentoring</a>
+            <a href="Goals.html">Goal Setting</a>
+            <a href="Calendar.html">Calendar</a>
+            <a href="NewsFeed.html">News Feed</a>
+            <a href="Resources.html">Resources</a>
+            <a href="MentorXProducts.html">MentorX Products</a>
+            <a href="Administration.html">Design Studio</a>
+            <a href="AdminAnalytics.html">Decision Center</a>
+            <a href="Settings.html">Settings</a>
+            <a href="HelpSupport.html">Help & Supp</a>
+            </div>
+        </form>
+    </div>
+</body>
+<!-- End of Navigation Bar -->
+
+
+<!-- Start of Page Content -->
+<body id="inner_body" class="inner_body">
+
+    
+    <div id="page-body" class="page-body">
+
+        <div id="page-content" class="page-content">
+
+            <!-- Header Text below image -->
+            <div class="_welcometextBox">
+                <p align="center"class="text-uppercase">
+                <span style="display: block;">Mentee Enrollment
+                </span>
+                </p>
+            </div>
+
+            <hr>
+
+
+    <!-- https://mdbootstrap.com/docs/jquery/components/buttons/ -->
+
+       <!-- Enrollment Form -->
+            <div class="mentorPreference">
+
+                <!-- Enrollment Buttons -->
+                <div class="col text-center">
+                    <a href="RegistrationMentee.html" type="button" class="btn btn-outline-primary btn-rounded waves-effect">Mentee Enrollment</a>
+
+                    <a href="RegistrationMentorNew.html" type="button" class="btn btn-outline-default btn-rounded waves-effect">Mentor Enrollment</a>
+                </div>
+
+
+
+                <!-- Name Inputs to go to profile -->
+ <!--                <form class="form">
+                    <div>
+                        <label for="LinkedIn">LinkedIn URL:</label>
+                        <input type="text" name="LinkedIn" id="LinkedIn" placeholder="www.https://linkedin.com/corebros" required>
+                    </div>
+                </form> -->
+                        
+                <!-- File Input to go to Profile -->
+                <!-- <div>
+                    <label for="resumeInputFile">Attach your Resume (optional)</label>
+                    <input type="file" id="resumeInputFile">
+                </div>
+ -->
+                <!-- Email & Password Inputs -->
+                <form>
+                    <div class="form-group">
+
+                        <!-- class="form-control" -->
+                        <!-- <div>
+                            <label for="exampleInputEmail1">Email Address:</label>
+                            <input type="email" id="exampleInputEmail1" placeholder="Email">
+                        </div> -->
+                        
+                        <!-- Password -->
+                        <!-- <div>
+                            <label for="exampleInputPassword1">Password:</label>
+                            <input type="password" id="exampleInputPassword1" placeholder="Password">
+                        </div> -->
+                            
+                    <h3>Mentor Program</h3>
+                    
+                    <!-- Free Response -->
+                    <div class="form-group">
+                        <label for="FreeFormControlTextarea1">Tell your future mentor a little about yourself (where are you from, what major are you persusing, what are some challenges you have faced, how are you hoping to grow this next year, what are some interesting/fun facts about you)</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <!-- Free Response -->
+                    <div class="form-group">
+                        <label for="FreeFormControlTextarea1">Why do you want a Mentor? / What are you looking for in a Mentor to help you with?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    
+                    <!-- Free Response -->
+                    <div class="form-group">
+                        <label for="FreeFormControlTextarea1">Is there anything specific you want to make aware to your future mentor?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+<hr>
+                    <h3>Mentor Meeting Preferences</h3>
+
+                    <!-- Drop Down Input -->
+
+                    <div class ="meetingRecurrence">
+                        <i class= "fad fa-clock fa-1x info"></i>
+                            <label for="meetingRecurrence">Recurrence of Meetings</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>Bi-Weekly</option>
+                                    <option>Monthly</option>
+                                    <option>Bi-Monthly</option>
+                                </select>
+                            </p>
+                    </div>
+
+                    <!-- Drop Down Input -->
+
+                    <div class ="meetingStyle">
+                        <i class="fas fa-handshake"></i>
+                            <label for="meetingStyle">Meeting Style</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>More formal meeting with pre-set agendas</option>
+                                    <option>More flexible fluid converstaions ranging to ad hoc discussions</option>
+                                </select>
+                            </p>
+                    </div>
+                    
+                    <!-- Drop Down Input -->
+
+                    <div class ="meetingPlace">
+                        <i class="fas fa-location-arrow"></i>
+                            <label for="meetingStyle">Meeting Location</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>In Person on Campus</option>
+                                    <option>In Person on/off Campus</option>
+                                    <option>In Person/Open to Video Chat</option>
+                                </select>
+                            </p>
+                    </div>
+
+                    <!-- Drop Down Input -->
+
+                    <div class ="meetingContact">
+                        <i class="fas fa-phone"></i>
+                            <label for="meetingStyle">Preferred Contact Method</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>Call</option>
+                                    <option>Text</option>
+                                    <option>Email</option>
+                                </select>
+                            </p>
+                    </div>
+
+                    <!-- Drop Down Input -->
+
+                    <div class ="mentorDegree">
+                        <i class="fas fa-award"></i>
+                            <label for="meetingStyle">Mentor Degree Prefence</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>Same Degree</option>
+                                    <option>Similar/related degree</option>
+                                    <option>Open to unrelated degrees</option>
+                                </select>
+                            </p>
+                    </div>
+
+
+                    <!-- Drop Down Input -->
+
+                    <div class ="mentorExperience">
+                        <i class="fas fa-briefcase"></i>
+                            <label for="meetingStyle">Mentor Experinece Prefence</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>School Clubs</option>
+                                    <option>Internships/option>
+                                    <option>Similar Classes & Teachers</option>
+                                </select>
+                            </p>
+                    </div>
+
+                    <!-- Checkbox -->
+                    <div class="mentorHelp">
+                    	<i class="fas fa-binoculars"></i>
+                            <label for="mentorHelp"> What are you looking for help with during this mentorship program? (select all that apply)</label>
+                        <div class="checkbox">
+                            <label>
+                                <div><input type="checkbox"> Resume Building</div>
+                                <div><input type="checkbox"> Clubs & Programs to Join</div>
+                                <div><input type="checkbox"> Presentation Skills</div>
+                                <div><input type="checkbox"> Networking & Making New Connections</div>
+                                <div><input type="checkbox"> Internships, Jobs & Companies</div>
+                                <div><input type="checkbox"> Degree Decision</div>
+                                <DIV><input type="checkbox"> Teachers & Classes Guidace</DIV>
+                                <DIV><input type="checkbox"> Extracurricular Activities</DIV>
+                            </label>
+                        </div>
+                    </div>
+
+
+                    <!-- Ranking section -->
+
+                    <div class ="mentorExperience">
+                        <i class="fas fa-random"></i>
+                            <label for="meetingStyle">Rank the Areas that you want to be mentored in?</label>
+                            <p>
+	                             <label for="meetingStyle">1.</label>
+	                                <select> class="form-control"
+	                                    <option>Please Select</option>
+                                        <option>School Clubs & Programs</option>
+	                                    <option>How to secure an internship</option>
+	                                    <option>Which companies/industries to work in</option>
+	                                    <option>Classes & Teachers</option>
+	                                    <option>Resume Building</option>
+	                                    <option>Presentation Skills</option>
+	                                    <option>Networking & Making New Connections</option>
+	                                    <option>School/life/work/social balance</option>
+	                                </select>
+                            </p>
+                            <p>
+	                             <label for="meetingStyle">2.</label>
+	                                <select> class="form-control"
+	                                    <option>Please Select</option>
+                                        <option>School Clubs & Programs</option>
+	                                    <option>How to secure an internship</option>
+	                                    <option>Which companies/industries to work in</option>
+	                                    <option>Classes & Teachers</option>
+	                                    <option>Resume Building</option>
+	                                    <option>Presentation Skills</option>
+	                                    <option>Networking & Making New Connections</option>
+	                                    <option>School/life/work/social balance</option>
+	                                </select>
+                            </p>
+                            <p>
+	                             <label for="meetingStyle">3.</label>
+	                                <select> class="form-control"
+	                                    <option>Please Select</option>
+                                        <option>School Clubs & Programs</option>
+	                                    <option>How to secure an internship</option>
+	                                    <option>Which companies/industries to work in</option>
+	                                    <option>Classes & Teachers</option>
+	                                    <option>Resume Building</option>
+	                                    <option>Presentation Skills</option>
+	                                    <option>Networking & Making New Connections</option>
+	                                    <option>School/life/work/social balance</option>
+	                                </select>
+                            </p>
+                            <p>
+	                             <label for="meetingStyle">4.</label>
+	                                <select> class="form-control"
+	                                    <option>Please Select</option>
+                                        <option>School Clubs & Programs</option>
+	                                    <option>How to secure an internship</option>
+	                                    <option>Which companies/industries to work in</option>
+	                                    <option>Classes & Teachers</option>
+	                                    <option>Resume Building</option>
+	                                    <option>Presentation Skills</option>
+	                                    <option>Networking & Making New Connections</option>
+	                                    <option>School/life/work/social balance</option>
+	                                </select>
+                            </p>
+                            <p>
+	                             <label for="meetingStyle">5.</label>
+	                                <select> class="form-control"
+	                                    <option>Please Select</option>
+                                        <option>School Clubs & Programs</option>
+	                                    <option>How to secure an internship</option>
+	                                    <option>Which companies/industries to work in</option>
+	                                    <option>Classes & Teachers</option>
+	                                    <option>Resume Building</option>
+	                                    <option>Presentation Skills</option>
+	                                    <option>Networking & Making New Connections</option>
+	                                    <option>School/life/work/social balance</option>
+	                                </select>
+                            </p>
+                            <p>
+	                             <label for="meetingStyle">6.</label>
+	                                <select> class="form-control"
+	                                    <option>Please Select</option>
+                                        <option>School Clubs & Programs</option>
+	                                    <option>How to secure an internship</option>
+	                                    <option>Which companies/industries to work in</option>
+	                                    <option>Classes & Teachers</option>
+	                                    <option>Resume Building</option>
+	                                    <option>Presentation Skills</option>
+	                                    <option>Networking & Making New Connections</option>
+	                                    <option>School/life/work/social balance</option>
+	                                </select>
+                            </p>
+                            <p>
+	                             <label for="meetingStyle">7.</label>
+	                                <select> class="form-control"
+	                                    <option>Please Select</option>
+                                        <option>School Clubs & Programs</option>
+	                                    <option>How to secure an internship</option>
+	                                    <option>Which companies/industries to work in</option>
+	                                    <option>Classes & Teachers</option>
+	                                    <option>Resume Building</option>
+	                                    <option>Presentation Skills</option>
+	                                    <option>Networking & Making New Connections</option>
+	                                    <option>School/life/work/social balance</option>
+	                                </select>
+                            </p>
+                            <p>
+	                             <label for="meetingStyle">8.</label>
+	                                <select> class="form-control"
+	                                    <option>Please Select</option>
+                                        <option>School Clubs & Programs</option>
+	                                    <option>How to secure an internship</option>
+	                                    <option>Which companies/industries to work in</option>
+	                                    <option>Classes & Teachers</option>
+	                                    <option>Resume Building</option>
+	                                    <option>Presentation Skills</option>
+	                                    <option>Networking & Making New Connections</option>
+	                                    <option>School/life/work/social balance</option>
+	                                </select>
+                            </p>
+                    </div>
+
+
+                    <!-- Free Response -->
+<!--                     <div class="form-group">
+                        <label for="FreeFormControlTextarea1">What are your previous work/internship/club experiences?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div> -->
+<hr>
+                  <p></p>
+                    <h3>Personality Style</h3>
+<!--Zoom effect-->
+<div class="row">
+
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4">
+
+        <div class="view overlay">
+          <img src="Pictures/catPerson.jpg" class="img-fluid " alt="placeholder">
+          <div class="mask flex-center waves-effect waves-light rgba-red-strong">
+            <p class="white-text">Cat Person</p>
+          </div>
+        </div>
+
+      </div>
+      <!--Grid column-->               
+        
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4">
+
+        <div class="view overlay">
+          <img src="Pictures/puppies.jpg" class="img-fluid " alt="placeholder">
+          <div class="mask flex-center waves-effect waves-light rgba-blue-strong">
+            <p class="white-text">Dog Person</p>
+          </div>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!-- picture slide -->
+      <!-- https://mdbootstrap.com/snippets/jquery/charkiewicz/831872 -->
+<!--         <figure class="photo red">
+          <img src="Pictures/catPerson.jpg" alt="sample33" />
+          <figcaption>
+            <h2>Cat  <span> Person</span></h2>
+          </figcaption>
+          <a href="#"></a>
+        </figure>
+        <figure class="photo blue"><img src="Pictures/puppies.jpg" alt="sample34" />
+          <figcaption>
+            <h2>Dog  <span> Person</span></h2>
+          </figcaption>
+          <a href="#"></a>
+        </figure> -->
+<!-- End picture slide -->
+
+
+
+
+
+<!-- Better looking circle -->
+<!-- circle pictures and slider -->
+</div>
+<label for="customRange3">You are going to host a party, what is more your style when getting ready?</label>
+    <div class="col-md-12 mb-5 d-flex justify-content-between">
+
+    <!-- picture left -->
+      <img src="Pictures/observeSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+       
+       <!-- slider -->
+        <input type="range" class="custom-range" min="0" max="4" step="1" id="customRange3">
+
+    <!-- picture right -->
+      <img src="Pictures/partySquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    </div>
+  </div>
+<!-- end of circle picture -->
+
+
+<!-- Better looking circle -->
+<!-- circle pictures and slider -->
+<div>
+<label for="customRange3">What time do you want people to show up?</label>
+    <div class="col-md-12 mb-5 d-flex justify-content-between">
+
+    <!-- picture left -->
+      <img src="Pictures/clockSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+       
+       <!-- slider -->
+        <input type="range" class="custom-range" min="0" max="4" step="1" id="customRange3">
+
+    <!-- picture right -->
+      <img src="Pictures/clockSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    </div>
+  </div>
+<!-- end of circle picture -->
+
+<!-- Better looking circle -->
+<!-- circle pictures and slider -->
+<div>
+<label for="customRange3">How do you feel after a party?</label>
+    <div class="col-md-12 mb-5 d-flex justify-content-between">
+
+    <!-- picture left -->
+      <img src="Pictures/jumpSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+       
+       <!-- slider -->
+        <input type="range" class="custom-range" min="0" max="4" step="1" id="customRange3">
+
+    <!-- picture right -->
+      <img src="Pictures/exhausedSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    </div>
+  </div>
+<!-- end of circle picture -->
+
+<!-- Better looking circle -->
+<!-- circle pictures and slider -->
+<div>
+<label for="customRange3">what is your approach to planning a party?</label>
+    <div class="col-md-12 mb-5 d-flex justify-content-between">
+
+    <!-- picture left -->
+      <img src="Pictures/plannedSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+       
+       <!-- slider -->
+        <input type="range" class="custom-range" min="0" max="4" step="1" id="customRange3">
+
+    <!-- picture right -->
+      <img src="Pictures/freeSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    </div>
+  </div>
+<!-- end of circle picture -->
+
+
+<!-- Better looking circle -->
+<!-- circle pictures and slider -->
+<div>
+<label for="customRange3">What time do you want people to show up?</label>
+    <div class="col-md-12 mb-5 d-flex justify-content-between">
+
+    <!-- picture left -->
+      <img src="Pictures/calmSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+       
+       <!-- slider -->
+        <input type="range" class="custom-range" min="0" max="4" step="1" id="customRange3">
+
+    <!-- picture right -->
+      <img src="Pictures/breezySquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    </div>
+  </div>
+<!-- end of circle picture -->
+
+
+<!-- Better looking circle -->
+<!-- circle pictures and slider -->
+<div>
+<label for="customRange3">How do you interact with people at the party?</label>
+    <div class="col-md-12 mb-5 d-flex justify-content-between">
+
+    <!-- picture left -->
+      <img src="Pictures/jokerSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+      
+    <!-- picture right -->
+      <img src="Pictures/observeSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    <!-- picture right -->
+      <img src="Pictures/conversationSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    </div>
+  </div>
+<!-- end of circle picture -->
+
+<!-- Better looking circle -->
+<!-- circle pictures and slider -->
+<div>
+<label for="customRange3">What is your workplace like?</label>
+    <div class="col-md-12 mb-5 d-flex justify-content-between">
+
+    <!-- picture left -->
+      <img src="Pictures/cleanSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+       
+       <!-- slider -->
+        <input type="range" class="custom-range" min="0" max="4" step="1" id="customRange3">
+
+    <!-- picture right -->
+      <img src="Pictures/messySquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    </div>
+  </div>
+<!-- end of circle picture -->
+
+<!-- Better looking circle -->
+<!-- circle pictures and slider -->
+<div>
+<label for="customRange3">How do you relax?</label>
+    <div class="col-md-12 mb-5 d-flex justify-content-between">
+
+    <!-- picture left -->
+      <img src="Pictures/calmSquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+       
+       <!-- slider -->
+        <input type="range" class="custom-range" min="0" max="4" step="1" id="customRange3">
+
+    <!-- picture right -->
+      <img src="Pictures/partySquare.png" alt="Avatar" class="md-avatar rounded-circle size-4">
+
+    </div>
+  </div>
+<!-- end of circle picture -->
+
+                    <!-- pictures unsplash.com-->
+                    <!-- <label>You are going to host a party, what is more your style when getting ready?</label>
+                    <div class="hover01 column">
+                        <div>
+                            <figure><img src="Pictures/planned.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/spontaneous.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        </div> -->
+
+                    <!-- pictures unsplash.com-->
+                 <!--    <label>What type of party do you plan?</label>
+                    <div class="hover01 column">
+                        <div>
+                            <figure><img src="Pictures/reading.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/party.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                    </div> -->
+
+
+                    <!-- pictures unsplash.com-->
+<!--                     <label>What time do you want people to show up?</label>
+                    <div class="hover01 column">
+                        <div>
+                            <figure><img src="Pictures/clock.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/clock.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/clock.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                    </div> -->
+
+
+                    <!-- pictures unsplash.com-->
+                    <!-- <label>How do you interact with people at the party?</label>
+                    <div class="hover01 column">
+                        <div>
+                            <figure><img src="Pictures/joker.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/observe.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/seriousConversation.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                    </div> -->
+
+
+                <!-- pictures unsplash.com-->
+<!--                 <label>How do you feel after the party?</label>
+                    <div class="hover01 column">
+                        <div>
+                            <figure><img src="Pictures/energenic.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                        <div>
+                            <figure><img src="Pictures/exhaused.jpg" height="100%" /></figure>
+                            <span>Hover</span>
+                        </div>
+                    </div> -->
+
+
+                    <!-- Drop Down Input -->
+                    <div>
+                        <label for="timing">What personality traits are you looking for in a Mentor</label>
+                        <select class="form-control">   
+                            <option>Someone with SIMILAR traits and prefences as me</option>
+                            <option>Someone with DIFFERENT traits and perference as me</option>
+                        </select>
+                    </div>
+
+
+<!-- Success message -->
+<!-- <div class="md-form">
+  <i class="fas fa-lock prefix"></i>
+  <input type="password" id="inputValidationEx2" class="form-control validate">
+  <label for="inputValidationEx2" data-error="wrong" data-success="right">Type your password</label>
+</div>
+
+ Material input
+<div class="md-form">
+  <i class="fas fa-envelope prefix"></i>
+  <input type="text" id="inputIconEx1" class="form-control">
+  <label for="inputIconEx1">E-mail address</label>
+</div>
+ -->
+                    <!-- Checkbox -->
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> I agree to be committed to this mentor relationship for the semester and understand the expectations required of me, failing to do so will result in being removed from the program
+                        </label>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <!-- <button type="submit" class="btn btn-default">Submit</button> -->
+                    <a href="Registration.html" type="button" class="btn btn-primary">Submit</a>
+                </form>
+            </div>
+        </div>
+    </div>
+<!-- MD BootStrap -->
+  <!-- jQuery -->
+  <script type="text/javascript" src="../MDB-Free/js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="../MDB-Free/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="../MDB-Free/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="../MDB-Free/js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>

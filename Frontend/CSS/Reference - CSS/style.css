@@ -1,0 +1,74 @@
+
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(pic1.jpg);
+	background-size: cover;
+}
+
+.login-box{
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+
+.login-box h1{
+	float: left;
+	font-size: 40px;
+	border-bottom: 6px solid #c0a5e6;
+	border-color: #c0a5e6;
+	margin-bottom: 50px;
+	padding: 13px 0;
+}
+
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #c0a5e6;
+}
+
+.textbox i{
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+}
+
+.btn{
+	background-color: #f1f1f1;
+	font-size: 18px;
+	color: #3F568B;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: 2px solid #c0a5e6;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.7;
+}
+
+.btn:hover{
+	opacity: 1;
+}
+
+

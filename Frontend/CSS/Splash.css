@@ -1,0 +1,33 @@
+
+/*setting the size of the web page as 100% of view height (fills background)*/
+html, body {
+  margin:0;
+  padding:0;
+  height:100%
+}
+
+
+/*applying a stylistic darkened fade to the background image that fills the background*/
+body {
+  background:
+    linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.7)),
+    url(../images/splash/splashBackground.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+
+/*centering MentorX div and spacing from top*/
+.mentorxLogo {
+  margin-top: 100px;
+  text-align: center;
+}
+
+/*setting the font size and max width size of the logo*/
+.mentorxLogo img {
+  max-width: 600px;
+  font-size: 100px;
+}
+

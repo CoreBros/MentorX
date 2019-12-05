@@ -1,0 +1,751 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+@import "https://fonts.googleapis.com/css?family=Muli&display=swap";
+
+
+html, body {
+  margin:0;
+  padding:0;
+  height:100%
+}
+
+
+body {
+  padding: 0; 
+  margin: 0;
+  min-width: 1200px;
+  background-color: #364045;
+  overflow-y: scroll;
+}
+
+
+*{
+  font-family: "Segoe UI",Arial,sans-serif;
+}
+
+/*START OF MENU AND NAV BAR */
+
+.homeNav {
+  float: right; 
+  display: inline-block;
+}
+
+.xLogo {
+  display: inline-block;
+  line-height: 50px;
+}
+
+.topNav {
+  padding-top: 0;
+  background-color: #8e8e8e;
+  overflow: hidden;
+  width: 100%;
+  min-width: 600px;
+  position: relative;
+  text-align: center!important;
+
+}
+
+.menuNav {
+  float: left;
+  vertical-align: middle;
+}
+
+.topNav a {
+  vertical-align: middle;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topNav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.modalMenu {
+    display: none;
+    position: absolute;
+    width: 200px;
+    z-index: 60;
+    float: left;
+    margin-left: 0;
+}
+
+.modalMenu a{
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.modalMenu a:hover {
+  background-color: #ccc;
+}
+
+/*END OF MENU AND NAVIGATION BAR*/
+
+/* Column container */
+/*.leftContainer {  
+  height: 100%;
+  width: 300px;
+  position: absolute;
+  top: 58px;
+  left: 0;
+  background-color: #388AB2;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.profileImage {
+  background-color: gray;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 140px;
+  border: 4px white solid;
+  border-radius: 50%;
+}
+
+.profileImageLink i {
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 80px;
+  padding: 25px;
+  color: white;
+}
+
+.profileSection {
+  margin-top: 10px;
+}
+
+.leftContainer #accordion {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.leftContainer h2 {
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+}
+
+.card h5 {
+  padding-left: 5px;
+  display: inline-block;
+  font-size: 20px;
+  color: #364045;
+}
+
+.card .fas {
+  display: inline-block;
+  font-size: 20px;
+  color: #364045;
+  width: 25px;
+}*/
+
+
+/* Main column */
+
+/*.mainBody {   
+  position: absolute;
+  height: 100%;
+  overflow-y: auto;
+  left: 300px;
+  right: 300px;
+  min-width: 600px;
+  background-color: #364045;
+  padding: 20px;
+}
+
+h2 {
+  color: rgba(82,207,245,1);
+}
+
+hr { 
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid white;
+    margin: 1em 0; 
+    padding: 0; 
+  }
+
+h3 {
+  color: white;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 20px;
+  line-height: 10px;
+}
+
+h4 {
+  color: white;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+  line-height: 10px;
+}
+
+#_goalCategory1 {
+  display: inline-block;
+  width: 100%;
+}
+
+.goalCategory1 {
+  margin: auto;
+  text-align: center;
+}
+
+.goalCategory1 i {
+  cursor: pointer;
+  font-size: 100px;
+  color: white;
+}*/
+
+/*Start of second row*/
+
+/*#_goalCategory2 {
+  display: inline-block;
+  float: left;
+  width: 33%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#_goalCategory3 {
+  width: 33%;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#_goalCategory4 {
+  width: 33%;
+  display: inline-block;
+  float: right;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.goalCategory2 {
+  background-color: gray;
+  margin: auto;
+  text-align: center;
+  width: 150px;
+  height: 140px;
+  border: 4px white solid;
+  border-radius: 50%;
+}
+
+.goalCategory2 i {
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 80px;
+  padding: 25px;
+  color: white;
+}
+
+.goalCategory3 {
+  background-color: gray;
+  margin: auto;
+  text-align: center;
+  width: 150px;
+  height: 140px;
+  border: 4px white solid;
+  border-radius: 50%;
+}
+
+.goalCategory3 i {
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 80px;
+  padding: 25px;
+  color: white;
+}
+
+.goalCategory4 {
+  background-color: gray;
+  margin: auto;
+  text-align: center;
+  width: 150px;
+  height: 140px;
+  border: 4px white solid;
+  border-radius: 50%;
+}
+
+.goalCategory4 i {
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 80px;
+  padding: 25px;
+  color: white;
+}
+
+/*Start of third row*/
+
+/*#_goalCategory5 {
+  display: inline-block;
+  float: left;
+  width: 33%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#_goalCategory6 {
+  width: 33%;
+  margin: auto;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#_goalCategory7 {
+  width: 33%;
+  display: inline-block;
+  float: right;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.goalCategory5 {
+  background-color: gray;
+  margin: auto;
+  text-align: center;
+  width: 150px;
+  height: 140px;
+  border: 4px white solid;
+  border-radius: 50%;
+}
+
+.goalCategory5 i {
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 80px;
+  padding: 25px;
+  color: white;
+}
+
+.goalCategory6 {
+  background-color: gray;
+  margin: auto;
+  text-align: center;
+  width: 150px;
+  height: 140px;
+  border: 4px white solid;
+  border-radius: 50%;
+}
+
+.goalCategory6 i {
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 80px;
+  padding: 25px;
+  color: white;
+}
+
+.goalCategory7 {
+  background-color: gray;
+  margin: auto;
+  text-align: center;
+  width: 150px;
+  height: 140px;
+  border: 4px white solid;
+  border-radius: 50%;
+}
+
+.goalCategory7 i {
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 80px;
+  padding: 25px;
+  color: white;
+}
+
+/*Start of forth row*/
+
+/*#_goalCategory8 {
+  display: inline-block;
+  float: left;
+  width: 33%;
+  padding-top: 10px;
+}
+
+#_goalCategory9 {
+  width: 33%;
+  margin: auto;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+#_goalCategory10 {
+  width: 33%;
+  display: inline-block;
+  float: right;
+  padding-top: 10px;
+}
+
+.goalCategory8 {
+  background-color: gray;
+  margin: auto;
+  text-align: center;
+  width: 150px;
+  height: 140px;
+  border: 4px white solid;
+  border-radius: 50%;
+}
+
+.goalCategory8 i {
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 80px;
+  padding: 25px;
+  color: white;
+}
+
+.goalCategory9 {
+  background-color: gray;
+  margin: auto;
+  text-align: center;
+  width: 150px;
+  height: 140px;
+  border: 4px white solid;
+  border-radius: 50%;
+}
+
+.goalCategory9 i {
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 80px;
+  padding: 25px;
+  color: white;
+}
+
+.goalCategory10 {
+  background-color: gray;
+  margin: auto;
+  text-align: center;
+  width: 150px;
+  height: 140px;
+  border: 4px white solid;
+  border-radius: 50%;
+}
+
+.goalCategory10 i {
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 80px;
+  padding: 25px;
+  color: white;
+}
+
+/*End of goal categories*/
+
+
+/*Start of custom goal pop up*/
+
+.container input[type=text] {
+  width: 100%;
+  background: none;
+  display: inline-block;
+  border: none;
+  color: white;
+  border-bottom: 2px solid rgb(146,221,253);
+  box-sizing: border-box;
+  font-size: 30px;
+  text-align: center!important
+}
+
+.container input[type=text]:focus {
+  background-color: none;
+  outline: 1px solid white;
+}
+
+#id01 label {
+  padding-top: 50px;
+}
+
+button {
+  background-color: rgba(82,207,245,1);
+  color: white;
+  font-size: 20px;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  height: 60px;
+  vertical-align: middle;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  padding: 10px 18px;
+  color: white;
+  background-color: #f44336;
+  width: 120px;
+}
+
+.submit {
+  float: right;
+}
+
+.imgcontainer {
+  text-align: center;
+  position: relative;
+}
+
+.container {
+  padding: 2px 20px 50px 20px;
+  font-size: 18px;
+  color: white;
+  width: 90%;
+}
+
+.container label {
+  text-align: center!important;
+  width: 100%;
+  font-size: 30px;
+}
+
+.goal-content-animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+.exit {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.exit:hover,
+.exit:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.goal-content-animate {
+  background-color: #8e8e8e;
+  color: white;
+  margin: 5% auto 20px; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 500px; /* Could be more or less, depending on screen size */
+}
+
+.customGoal1{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px; 
+}
+
+/*Start of second pop up*/
+
+.customGoal2{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px; 
+}
+
+.container2 {
+  padding: 20px 20px 20px 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.container2 label {
+  text-align: left;
+  width: 100%;
+  font-size: 20px;
+}
+
+.goal-content-animate2 {
+  background-color: #8e8e8e;
+  color: white;
+  margin: 5% auto 20px; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 500px; /* Could be more or less, depending on screen size */
+}
+
+.newGoalTitle {
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  text-align: center!important;
+  padding-top: 30px;
+}
+
+.container2 textarea {
+  width: 100%;
+  height: 200px;
+  background: white;
+  display: inline-block;
+  color: black;
+  box-sizing: border-box;
+  font-size: 20px;
+  text-align: left!important;
+  text-overflow: hidden;
+  vertical-align: top;
+}
+
+.container2 textarea:focus {
+  outline: 5px solid gray;
+}
+
+.newGoalStartDate {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
+#datepicker {
+  font-size: 20px;
+  height: 40px;
+  float: right; 
+  text-align: center;
+  width: 200px;
+}
+
+
+.newGoalStartDate label {
+  height: 40px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  width: auto;
+}
+
+.newGoalEndDate {
+  margin-bottom: 30px;
+}
+
+.newGoalEndDate label {
+  height: 40px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  width: auto;
+}
+
+.form-check {
+  margin-top: 40px;
+}
+
+#newGoalFrequency {
+  font-size: 20px;
+  height: 40px;
+  float: right; 
+  width: 200px;
+}
+
+
+.newGoalFrequency label {
+  height: 40px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  width: auto;
+}
+
+/*End of custom goal pop up*/
+
+
+/*Start of right container*/
+
+.rightContainer {  
+  height: 100%;
+  width: 300px;
+  position: relative;
+  float: right;
+  background-color: #388AB2;
+  padding-top: 20px;
+}
+
+
+.rightContainer h2 {
+  font-size: 40px;
+  color: #FFF;
+  text-align: center; 
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/*Created Notification Buttons*/
+.mentorPrograms{
+  font-size: 20px;
+  text-align: left;
+  color: black;
+
+  .hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.h3 {
+  text-align: center;
+}
+
+.iconMenu{
+  text-align: left;
+  color: blue
+}
+
+.row{
+  font-size: 20px
+}

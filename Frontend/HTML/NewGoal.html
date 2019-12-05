@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+<link rel="icon" href="Pictures/X.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+
+
+
+<!-- Change link to your CSS file -->
+<link type="text/css" rel="stylesheet" href="../css/NewGoal.css">
+<script src="../Javascript/NewGoal.js"></script>
+<script src="../Javascript/Library/jquery.js"></script>
+
+
+<!-- Bootstrap Date-Picker Plugin -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+
+
+<!-- Menu / Nav Bar -->
+
+<title>MentorX Home</title>
+
+</head>
+<body>
+
+<div class="topNav">
+    
+    <div class="menuNav">
+    <a href="#menu" i class="fas fa-bars" onclick="document.getElementById('_dropdownMenu').style.display='block'"></a>
+	</div>
+
+    <div class="xLogo">
+    <a href="HomePage.html">MentorX</a>
+    </div>
+    
+    <div class="homeNav">
+    <a href="Profile.html" i class="fas fa-user"></a>
+    </div>
+
+</div>
+
+<div id="_dropdownMenu" class="modalMenu">
+    <form class="modal-content animate">
+        <div class="menucontainer">
+            <span onclick="document.getElementById('_dropdownMenu').style.display='none'" class="close" title="Close">&times;</span>
+            <a href="HomePage.html">Home</a>
+            <a href="Profile.html">My Profile</a>
+            <a href="Registration.html">Mentoring</a>
+            <a href="Goals.html">Goal Setting</a>
+            <a href="Calendar.html">Calendar</a>
+            <a href="NewsFeed.html">News Feed</a>
+            <a href="Resources.html">Resources</a>
+            <a href="MentorXProducts.html">MentorX Products</a>
+            <a href="Administration.html">Design Studio</a>
+            <a href="AdminAnalytics.html">Decision Center</a>
+            <a href="Settings.html">Settings</a>
+            <a href="HelpSupport.html">Help & Supp</a>
+        </div>
+    </form>
+</div>
+
+<!-- End of Menu / Nav Bar -->
+
+<div class="mainBody">
+	<div id="_goalCategory1">
+	    <div class="goalCategory1">
+	        <i class="fas fa-plus-circle" onclick="document.getElementById('id01').style.display='block'"></i>
+	    </div>
+	    <h3>New Custom Goal</h3>
+    </div>
+    <hr>
+    <h2>University Related</h2>
+    <div id="_goalCategory2">
+        <div class="goalCategory2">
+        <i class="fas fa-chalkboard-teacher" onclick="document.getElementById('id03').style.display='block'"></i>
+        </div>
+        <h3>Course</h3> 
+        <h4>Exploration</h4>
+    </div>
+    <div id="_goalCategory3">
+        <div class="goalCategory3">
+        <i class="fas fa-school" onclick="document.getElementById('id04').style.display='block'"></i>
+        </div>
+        <h3>Campus</h3> 
+    	<h4>Involvement</h4>
+    </div>
+    <div id="_goalCategory4">
+        <div class="goalCategory4">
+        <i class="fas fa-graduation-cap" onclick="document.getElementById('id05').style.display='block'"></i>
+        </div>
+        <h3>Academic</h3>
+    	<h4>Achievements</h4>
+    </div>
+    <hr>
+    <h2>Career Development</h2>
+    <div id="_goalCategory5">
+        <div class="goalCategory5">
+        <i class="fas fa-handshake" onclick="document.getElementById('id06').style.display='block'"></i>
+        </div>
+        <h3>Networking</h3>
+    </div>
+    <div id="_goalCategory6">
+        <div class="goalCategory6">
+        <i class="fas fa-briefcase" onclick="document.getElementById('id07').style.display='block'"></i>
+        </div>
+        <h3>Job</h3>
+        <h4>Exploration</h4>
+    </div>
+    <div id="_goalCategory7">
+        <div class="goalCategory7">
+        <i class="fas fa-shapes" onclick="document.getElementById('id08').style.display='block'"></i>
+        </div>
+        <h3>Skill</h3>
+        <h4>Acquisiton</h4>
+    </div>
+    <hr>
+    <h2>Self Management</h2>
+    <div id="_goalCategory8">
+        <div class="goalCategory8">
+        <i class="fas fa-running" onclick="document.getElementById('id09').style.display='block'"></i>
+        </div>
+        <h4>Health</h4>
+    </div>
+    <div id="_goalCategory9">
+        <div class="goalCategory9">
+        <i class="fas fa-user-clock" onclick="document.getElementById('id10').style.display='block'"></i>
+        </div>
+        <h3>Time</h3>
+        <h4>Management</h4>
+    </div>
+    <div id="_goalCategory10">
+        <div class="goalCategory10">
+        <i class="fas fa-comment-dollar" onclick="document.getElementById('id11').style.display='block'"></i>
+        </div>
+        <h3>Finances</h3>
+    </div>
+</div>
+
+<!-- Custom Goal pop up -->
+
+<div id="id01" class="customGoal1">
+    <form class="goal-content-animate">
+        <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="exit" title="Close">&times;</span>
+        </div>
+
+        <div class="container">
+            <label>Name of Goal</label>
+            <input type="text">
+            
+            <div class="categoryDropdown">
+              <label for="_categoryDropdown">Category (select one):</label>
+              <select class="form-control" id="_categoryDropdown">
+                <option>Personal Goals</option>
+                <option>Mentor Goals</option>
+                <option>University Goals</option>
+                <option>Career Development</option>
+              </select>
+            </div>
+        </div>
+
+        <div class="container" style="background-color: #8e8e8e; padding-bottom: 20px;">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="button" class="submit" onclick="newCustomGoal()">Next</button>
+        </div>
+    </form>
+</div>
+
+<!-- End of custom goal pop up #1 -->
+
+<!-- Start of custom goal pop up #2 -->
+
+<div id="id02" class="customGoal2">
+    <form class="goal-content-animate2">
+        <div class="imgcontainer">
+              <span onclick="document.getElementById('id02').style.display='none'" class="exit" title="Close">&times;</span>
+        </div>
+        <div class="newGoalTitle">
+            < New Goal Title >
+        </div>
+
+
+        <div class="container2">
+            <label>Description of Goal:</label>  
+            <textarea name="goalDescription"></textarea>
+            <div class="newGoalStartDate">
+            	<label for="datepicker">Start Date</label>
+                	<input type="text" id="datepicker" data-provide="datepicker-inline">
+            </div>
+            <div class="newGoalEndDate">
+                <label for="datepicker">Goal Date (optional)</label>
+                    <input type="text" id="datepicker" data-provide="datepicker-inline">
+            </div>
+            <div class="newGoalFrequency">
+              <label for="newGoalFrequency">New Goal Frequency</label>
+              <select class="form-control" id="newGoalFrequency">
+                <option>One Time</option>
+                <option>Daily</option>
+                <option>Weekly</option>
+                <option>Monthly</option>
+              </select>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="reminderCheck1">
+                <label class="form-check-label" for="reminderCheck1">Enable Reminders</label>
+                <input type="checkbox" class="form-check-input" id="mentorCheck1">
+                <label class="form-check-label" for="mentorCheck1">Lync to Mentor</label>
+            </div>
+        </div>
+
+        <div class="container2" style="background-color: #8e8e8e; padding-bottom: 20px;">
+            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="button" onclick="addCustomGoal()" class="submit">Save</button>
+        </div>
+
+ </form>
+</div>
+
+
+<!-- End of custom goal pop up #2 -->
+
+<!-- Start of pre-filled goal options -->
+<!-- Start of University Related Goals -->
+<!-- Start of course exploration goals -->
+<div id="id03" class="courseGoal1">
+    <form class="goal-content-animate3">
+        <div class="imgcontainer">
+              <span onclick="document.getElementById('id03').style.display='none'" class="exit" title="Close">&times;</span>
+        </div>
+        <div class="newGoalTitle">
+            Course Exploration Goals
+        </div>
+
+
+        <div class="container3">
+            <div class="courseGoalExample1">
+                <i class="fas fa-plus-circle"></i>
+                Register for capstone class
+            </div>
+            <div class="courseGoalExample2">
+                <i class="fas fa-plus-circle"></i>
+                Declare your major
+            </div>
+            <div class="courseGoalExample3">
+                <i class="fas fa-plus-circle"></i>
+                Take one sociology course
+            </div>
+            <div class="courseGoalExample4">
+                <i class="fas fa-plus-circle"></i>
+                Take one psychology course
+            </div>
+            <div class="courseGoalExample5">
+                <i class="fas fa-plus-circle"></i>
+                Take one personal finance course
+            </div>
+            <div class="courseGoalExample6">
+                <i class="fas fa-plus-circle"></i>
+                Set up meeting with academic advisor
+            </div>
+            <div class="courseGoalExample7">
+                <i class="fas fa-plus-circle"></i>
+                Take one international focused course
+            </div>
+            <div class="courseGoalExample8">
+                <i class="fas fa-plus-circle"></i>
+                Sign up for a research project
+            </div>
+            <div class="courseGoalExample9">
+                <i class="fas fa-plus-circle"></i>
+                Volunteer to audit a class session
+            </div>
+            <div class="courseGoalExample10">
+                <i class="fas fa-plus-circle"></i>
+                Complete Registration
+            </div>
+        </div>
+
+            <button class="cancelButton" type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn">Cancel</button>
+            <button class="saveButton" type="button" onclick="addCustomGoal()" class="submit">Save</button>
+    </form>
+</div>
+<!-- Start of Campus Involvement goals -->
+<div id="id04" class="campusGoal1">
+    <form class="goal-content-animate4">
+        <div class="imgcontainer">
+              <span onclick="document.getElementById('id04').style.display='none'" class="exit" title="Close">&times;</span>
+        </div>
+        <div class="newGoalTitle">
+            Campus Involvement
+        </div>
+
+
+        <div class="container4">
+            <div class="campusGoalExample1">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #1
+            </div>
+            <div class="campusGoalExample2">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #2
+            </div>
+            <div class="campusGoalExample3">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #3
+            </div>
+            <div class="campusGoalExample4">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #4
+            </div>
+            <div class="campusGoalExample5">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #5
+            </div>
+            <div class="campusGoalExample6">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #6
+            </div>
+            <div class="campusGoalExample7">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #7
+            </div>
+            <div class="campusGoalExample8">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #8
+            </div>
+            <div class="campusGoalExample9">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #9
+            </div>
+            <div class="campusGoalExample10">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #10
+            </div>
+        </div>
+
+            <button class="cancelButton" type="button" onclick="document.getElementById('id04').style.display='none'" class="cancelbtn">Cancel</button>
+            <button class="saveButton" type="button" onclick="" class="submit">Save</button>
+    </form>
+</div>
+
+<!-- Start of academic achievements goals -->
+
+<div id="id05" class="academicGoal1">
+    <form class="goal-content-animate5">
+        <div class="imgcontainer">
+              <span onclick="document.getElementById('id05').style.display='none'" class="exit" title="Close">&times;</span>
+        </div>
+        <div class="newGoalTitle">
+            Academic Achievement
+        </div>
+
+
+        <div class="container5">
+            <div class="academicGoalExample1">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #1
+            </div>
+            <div class="academicGoalExample2">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #2
+            </div>
+            <div class="academicGoalExample3">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #3
+            </div>
+            <div class="academicGoalExample4">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #4
+            </div>
+            <div class="academicGoalExample5">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #5
+            </div>
+            <div class="academicGoalExample6">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #6
+            </div>
+            <div class="academicGoalExample7">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #7
+            </div>
+            <div class="academicGoalExample8">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #8
+            </div>
+            <div class="academicGoalExample9">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #9
+            </div>
+            <div class="academicGoalExample10">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #10
+            </div>
+        </div>
+
+            <button class="cancelButton" type="button" onclick="document.getElementById('id05').style.display='none'" class="cancelbtn">Cancel</button>
+            <button class="saveButton" type="button" onclick="" class="submit">Save</button>
+    </form>
+</div>
+
+<!-- End of University related goals -->
+<!-- Start of Career Development goals -->
+<!-- Start of Networking Goals -->
+<div id="id06" class="networkingGoal1">
+    <form class="goal-content-animate6">
+        <div class="imgcontainer">
+              <span onclick="document.getElementById('id06').style.display='none'" class="exit" title="Close">&times;</span>
+        </div>
+        <div class="newGoalTitle">
+            Networking
+        </div>
+
+
+        <div class="container6">
+            <div class="networkingGoalExample1">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #1
+            </div>
+            <div class="networkingGoalExample2">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #2
+            </div>
+            <div class="networkingGoalExample3">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #3
+            </div>
+            <div class="networkingGoalExample4">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #4
+            </div>
+            <div class="networkingGoalExample5">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #5
+            </div>
+            <div class="networkingGoalExample6">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #6
+            </div>
+            <div class="networkingGoalExample7">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #7
+            </div>
+            <div class="networkingGoalExample8">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #8
+            </div>
+            <div class="networkingGoalExample9">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #9
+            </div>
+            <div class="networkingGoalExample10">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #10
+            </div>
+        </div>
+
+            <button class="cancelButton" type="button" onclick="document.getElementById('id06').style.display='none'" class="cancelbtn">Cancel</button>
+            <button class="saveButton" type="button" onclick="" class="submit">Save</button>
+    </form>
+</div>
+<!-- End of Networking Goals -->
+<!-- Start of job exploration -->
+<div id="id07" class="jobExplorationGoal1">
+    <form class="goal-content-animate7">
+        <div class="imgcontainer">
+              <span onclick="document.getElementById('id07').style.display='none'" class="exit" title="Close">&times;</span>
+        </div>
+        <div class="newGoalTitle">
+            Job Exploration
+        </div>
+
+
+        <div class="container7">
+            <div class="jobExplorationGoalExample1">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #1
+            </div>
+            <div class="jobExplorationGoalExample2">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #2
+            </div>
+            <div class="jobExplorationGoalExample3">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #3
+            </div>
+            <div class="jobExplorationGoalExample4">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #4
+            </div>
+            <div class="jobExplorationGoalExample5">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #5
+            </div>
+            <div class="jobExplorationGoalExample6">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #6
+            </div>
+            <div class="jobExplorationGoalExample7">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #7
+            </div>
+            <div class="jobExplorationGoalExample8">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #8
+            </div>
+            <div class="jobExplorationGoalExample9">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #9
+            </div>
+            <div class="jobExplorationGoalExample10">
+                <i class="fas fa-plus-circle"></i>
+                Example Goal #10
+            </div>
+        </div>
+
+            <button class="cancelButton" type="button" onclick="document.getElementById('id07').style.display='none'" class="cancelbtn">Cancel</button>
+            <button class="saveButton" type="button" onclick="" class="submit">Save</button>
+    </form>
+</div>
+
+<!-- End of job exploration -->
+
+<!-- End of middle column -->
+
+<!-- Start of Right Column -->
+
+<div class="rightContainer">
+</div>
+
+<!-- Start of Left Column -->
+
+<div class="leftContainer">
+  <div class="profileImage";>
+    <div class="profileImageLink">
+        <a href="ProfileHome.html"><i class="fas fa-user"></i></a>   
+    </div>
+  </div>
+    <h2>User Name</h2>
+
+  <div class="profileSection">
+    <div id="accordion">
+
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          <i class="fas fa-child"></i>
+            <h5>Personal Goals</h5>
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            BLANK
+          </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+            <i class="fas fa-user-friends"></i>
+            <h5>Mentor Goals</h5>
+          </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            BLANK
+          </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+            <i class="fas fa-graduation-cap"></i>
+            <h5>University Goals</h5>
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            BLANK 
+          </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+            <i class="fas fa-briefcase"></i>
+            <h5>Career Development</h5>
+          </a>
+        </div>
+        <div id="collapseFour" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+           BLANK  
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+<!-- Start of Pop Up Modal -->
+
+<!-- Bootstrap JS Tie-ins -->
+
+
+</body>
+</html>
+
+
