@@ -10,8 +10,16 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <!-- Link to LogIn screen CSS file -->
   <link type="text/css" rel="stylesheet" href="../css/HomePage.css">
+  <!-- Link to open sans font style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
-  <title>MentorX Launch Page</title>
+  <!-- link to jQuery library to power JS coding (primarily menu bar) -->
+  <script src="../javascript/Library/jquery.js"></script>
+  <!-- link to javascript file to hide the menu when clicked out -->
+  <script src="../Javascript/HomePage.js"></script>
+
+
+  <title>MentorX</title>
 
 </head>
 
@@ -24,7 +32,7 @@
      </div>
 
     <div class="xLogo">
-      Mentor
+      <div class="xLogoText">Mentor</div>
       <img src="../Images/Logo/XLogo.png">
     </div>
 
@@ -35,22 +43,18 @@
 
 
   <div id="_dropdownMenu" class="modal">
-      <form class="modal-content animate">
+      <form class="modal-content animate" id="menuModal">
           <div class="containerMenu">
-              <span onclick="document.getElementById('_dropdownMenu').style.display='none'" class="close" title="Close">&times;</span>
               <a href="HomePage.html">Home</a>
               <a href="Profile.html">My Profile</a>
               <a href="Registration.html">Mentoring</a>
               <a href="Goals.html">Goal Setting</a>
               <a href="Calendar.html">Events</a>
-              <a href="NewsFeed.html">News Feed</a>
               <a href="Resources.html">Resources</a>
-              <a href="MentorXProducts.html">MentorX Products</a>
               <a href="Administration.html">Design Studio</a>
               <a href="AdminAnalytics.html">Decision Center</a>
-              <a href="Settings.html">Settings</a>
               <a href="HelpSupport.html">Help & Supp</a>
-              <a href="Countdown.html">Countdown!</a>
+              <hr>
               <a href="Splash.html">Sign Out</a>
           </div>
       </form>
@@ -97,7 +101,7 @@
 
   <!-- Start of right column -->
   <div class="rightContainer">
-    <h2>News Feed</h2>
+    <h2>Upcoming Events</h2>
     <!-- Start of news feed section -->
     <div class="newsFeed">
       <div id="newsFeedUpdate1">
