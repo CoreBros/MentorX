@@ -8,7 +8,7 @@
 <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Helvetica+Neue">
 
 <!-- Change link to your CSS file -->
-<link type="text/css" rel="stylesheet" href="../css/ProfileEdit.css">
+<link type="text/css" rel="stylesheet" href="../css/Profile.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -25,7 +25,9 @@ https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
 <body>
 
 
-THIS PROFILE EDIT PAGE WILL BE THE PAGE THE USER WILL BE ABLE TO EDIT THE FIELDS IN THEIR PROFILE. THIS PROFILE EDIT PAGE WILL BE USED TO FEED DATA TO THE PROFILE.HTML FILED WHICH I PLAN TO BE THE LANDING PAGE A USER SEES WHEN CLICKING ON THE PROFILE LINK WITHIN THE SITE.    
+
+THIS PROFILE PAGE WILL BE THE PAGE THE USER VIES INITIALLY WHEN CLIKCING ON ANY OF THE PROFILE LINKS WITHIN THE SITE. THIS PROFILE PAGE WILL PULL DATA FROM THE PROFILE EDIT PAGE.
+
 
 <div class="topNav">
     
@@ -68,11 +70,10 @@ THIS PROFILE EDIT PAGE WILL BE THE PAGE THE USER WILL BE ABLE TO EDIT THE FIELDS
 
 <div class= "profile-card">
     <div class="image-container">
-        <img src="Pictures/bgTest.jpeg" class="outer-image" style="width:100%">
         <img src="Pictures/profilepictest.jpg" class="inner-image" style="width:66.5%">
-            <div class="title">
-                <h2>Stogie Stogsdite</h2>
-            </div>
+        <div class="form-profile">
+            <a href="profileEdit.html" type="button" class="btn btn-primary">Edit Profile</a>
+         </div>
     </div>
     <div class="main-container">
         <div class="personalInformation">
@@ -200,6 +201,7 @@ THIS PROFILE EDIT PAGE WILL BE THE PAGE THE USER WILL BE ABLE TO EDIT THE FIELDS
                         <option value="SO">Sophomore</option>
                         <option value="JR">Junior</option>
                         <option value="SR">Senior</option>
+                        <option value="NA">N/A</option>
                 </select>
             </div>
             <div class ="mentorshipRole">
@@ -216,8 +218,8 @@ THIS PROFILE EDIT PAGE WILL BE THE PAGE THE USER WILL BE ABLE TO EDIT THE FIELDS
 </div>
 
     
-<div class="profileSaveBtn">
-    <a href="Registration.html" type="button" class="btn btn-primary">Save Profile</a>
+<div class="form-group">
+    <a href="Registration.html" type="button" class="btn btn-primary">Proceed to Registration</a>
 
 
 </div>
