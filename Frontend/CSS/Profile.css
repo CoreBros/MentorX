@@ -139,11 +139,11 @@ body {
   width: 800px;
   height: 400px;
   border: solid grey;
+  border-radius: 25px;
 }
 
 
 .coverPhoto {
-  width: 800px;
   height: 200px;
   border-bottom: solid grey;
 }
@@ -152,19 +152,102 @@ body {
 .profilePhoto {
   background-color: rgb(104,52,156);
   text-align: center;
-  position: fixed;
+  position: absolute;
   margin-top: -60px;
   margin-left: 10px;
   width: 150px;
   height: 150px;
   border: 4px white solid;
   border-radius: 50%;
+  border: solid grey;
+}
+
+.profileImageLink i {
+  font-size: 70px;
+  padding: 30px;
+  color: white;
 }
 
 
 .profileSnapshot {
-
+  margin-top: 10px;
+  margin-left: 150px;
 }
+
+.profileUsername{
+  margin-left: 20px;
+  font-size: 45px;
+}
+
+.profileMajor {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.profileHometown {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.editCoverPhoto i {
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 2px;
+  color: grey;
+}
+
+.editCoverPhoto {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 4px white solid;
+  border-radius: 50%;
+  box-shadow: 0px 2px 7px rgba(0,0,0,1);
+  margin-top: 10px;
+  margin-left: 735px;
+}
+
+.editProfileInfo i {
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 2px;
+  color: grey;
+}
+
+.editProfileInfo {
+  position: absolute;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 4px white solid;
+  border-radius: 50%;
+  box-shadow: 0px 2px 7px rgba(0,0,0,1);
+  margin-top: -135px;
+  margin-left: 585px;
+}
+
+.editProfilePicture i {
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 2px;
+  color: grey;
+}
+
+.editProfilePicture {
+  position: absolute;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 4px white solid;
+  border-radius: 50%;
+  box-shadow: 0px 2px 7px rgba(0,0,0,1);
+  margin-top: -10px;
+  margin-left: 53px;
+}
+
+
+
+
 
 
 
