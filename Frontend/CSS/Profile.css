@@ -134,12 +134,22 @@ body {
 
 
 .profileContainer {
+  position: absolute;
+  padding: 20px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.profileSection {
   margin-top: 20px;
-  margin-left: 20px; 
-  width: 800px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  min-width: 900px;
   height: 400px;
-  border: solid grey;
   border-radius: 25px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,1);
 }
 
 
@@ -155,11 +165,10 @@ body {
   position: absolute;
   margin-top: -60px;
   margin-left: 10px;
-  width: 150px;
-  height: 150px;
-  border: 4px white solid;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
-  border: solid grey;
+  box-shadow: 0px 10px 20px rgba(0,0,0,1);
 }
 
 .profileImageLink i {
@@ -200,11 +209,13 @@ body {
   background-color: white;
   width: 40px;
   height: 40px;
+  display: flex;
   border: 4px white solid;
   border-radius: 50%;
   box-shadow: 0px 2px 7px rgba(0,0,0,1);
   margin-top: 10px;
-  margin-left: 735px;
+  float: right;
+  margin-right: 20px;
 }
 
 .editProfileInfo i {
@@ -215,15 +226,16 @@ body {
 }
 
 .editProfileInfo {
-  position: absolute;
+  display: inline-flex;
   background-color: white;
   width: 40px;
   height: 40px;
   border: 4px white solid;
   border-radius: 50%;
   box-shadow: 0px 2px 7px rgba(0,0,0,1);
-  margin-top: -135px;
-  margin-left: 585px;
+  float: right;
+  margin-right: 20px;
+  margin-top: -140px;
 }
 
 .editProfilePicture i {
@@ -245,10 +257,63 @@ body {
   margin-left: 53px;
 }
 
+.profileAboutMe {
+  margin-top: 40px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  min-width: 900px;
+  height: 200px;
+  border-radius: 25px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,1);
+}
 
+.profileAboutMeTitle {
+  font-size: 25px;
+  color: rgb(104,52,156);
+  font-weight: bold;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 15px;
+}
 
+.editAboutMe {
+  display: flex;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 4px white solid;
+  border-radius: 50%;
+  box-shadow: 0px 2px 7px rgba(0,0,0,1);
+  margin-top: 10px;
+  float: right;
+  margin-right: 20px;
+}
 
+.editAboutMe i {
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 2px;
+  color: grey;
+}
 
+.matchComparison {
+  margin-top: 40px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  min-width: 900px;
+  height: 100px;
+  border: solid grey;
+  border-radius: 25px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,1);
+}
+
+.matchComparisonTitle {
+  font-size: 25px;
+  color: rgb(104,52,156);
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 15px;
+}
 
 
 
