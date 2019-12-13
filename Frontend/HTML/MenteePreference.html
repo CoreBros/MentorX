@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+  <!-- link to logo that goes on the browser tab -->
+  <link rel="icon" href="../Images/Logo/XLogo.png">
+  <!-- Meta tag to define the width of the webpage relative to the device it is rendered on, intiial scale of 1 is the zoom level  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- link to latest bootstrap formatting options -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- Link to LogIn screen CSS file -->
+  <link type="text/css" rel="stylesheet" href="../css/MenteeNew.css">
+  <!-- Link to open sans font style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- link to jQuery library to power JS coding (primarily menu bar) -->
+  <script src="../javascript/Library/jquery.js"></script>
+  <!-- link to javascript file to hide the menu when clicked out -->
+  <script src="../Javascript/menu.js"></script>
+
+
+  <title>MentorX</title>
+
+</head>
+
+<body>
+  <!-- Menu / Nav Bar -->
+  <div class="topNav">
+      
+    <div class="menuNav">
+      <a href="#menu" i class="fas fa-bars" onclick="document.getElementById('_dropdownMenu').style.display='block'"></a>
+     </div>
+
+    <div class="xLogo">
+      <div class="xLogoText">Mentor</div>
+      <img src="../Images/Logo/XLogo.png">
+    </div>
+
+    <div class="homeNav">
+      <a href="profileImageHome.html" i class="fas fa-user"></a>
+    </div>
+  </div>
+
+
+  <div id="_dropdownMenu" class="modal">
+      <form class="modal-content animate" id="menuModal">
+          <div class="containerMenu">
+              <a href="HomePage.html">Home</a>
+              <a href="Profile.html">My Profile</a>
+              <a href="Registration.html">Mentoring</a>
+              <a href="Goals.html">Goal Setting</a>
+              <a href="Calendar.html">Events</a>
+              <a href="Resources.html">Resources</a>
+              <a href="Administration.html">Design Studio</a>
+              <a href="AdminAnalytics.html">Decision Center</a>
+              <a href="HelpSupport.html">Help & Supp</a>
+              <hr>
+              <a href="Splash.html">Sign Out</a>
+          </div>
+      </form>
+  </div>
+  <!-- End of Menu / Nav Bar -->
+
+  <!-- Start of profile section -->
+  <div class="profileContainer">
+    <div class="profileSection">
+      <div class="coverPhoto">
+        <div class="editCoverPhoto">
+          <a href=""><i class="fas fa-edit"></i></a>
+        </div>
+      </div>
+      <div class="profilePhoto"> 
+        <div class="profileImageLink">
+          <a href="uploadPicture"><i class="fas fa-user"></i></a>   
+        </div>
+
+      </div>
+      <div class="profileSnapshot">
+        <div class="profileUsername">
+          Mentee Profile
+        </div>
+
+        <div class ="meetingRecurrence">
+                        <i class= "fad fa-clock fa-1x info"></i>
+                            <label for="meetingRecurrence">Recurrence of Meetings</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>Bi-Weekly</option>
+                                    <option>Monthly</option>
+                                    <option>Bi-Monthly</option>
+                                </select>
+                            </p>
+                    </div>
+
+                    <!-- Drop Down Input -->
+
+                    <div class ="meetingStyle">
+                        <i class="fas fa-handshake"></i>
+                            <label for="meetingStyle">Meeting Style</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>More formal meeting with pre-set agendas</option>
+                                    <option>More flexible fluid converstaions ranging to ad hoc discussions</option>
+                                </select>
+                            </p>
+                    </div>
+                    
+                    <!-- Drop Down Input -->
+
+                    <div class ="meetingPlace">
+                        <i class="fas fa-location-arrow"></i>
+                            <label for="meetingStyle">Meeting Location</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>In Person on Campus</option>
+                                    <option>In Person on/off Campus</option>
+                                    <option>In Person/Open to Video Chat</option>
+                                </select>
+                            </p>
+                    </div>
+
+                    <!-- Drop Down Input -->
+
+                    <div class ="meetingContact">
+                        <i class="fas fa-phone"></i>
+                            <label for="meetingStyle">Preferred Contact Method</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>Call</option>
+                                    <option>Text</option>
+                                    <option>Email</option>
+                                </select>
+                            </p>
+                    </div>
+
+                    <!-- Drop Down Input -->
+
+                    <div class ="mentorDegree">
+                        <i class="fas fa-award"></i>
+                            <label for="meetingStyle">Mentor Degree Prefence</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>Same Degree</option>
+                                    <option>Similar/related degree</option>
+                                    <option>Open to unrelated degrees</option>
+                                </select>
+                            </p>
+                    </div>
+
+
+                    <!-- Drop Down Input -->
+
+                    <div class ="mentorExperience">
+                        <i class="fas fa-briefcase"></i>
+                            <label for="meetingStyle">Mentor Experinece Prefence</label>
+                            <p>
+                                <select> class="form-control"
+                                    <option>School Clubs</option>
+                                    <option>Internships/option>
+                                    <option>Similar Classes & Teachers</option>
+                                </select>
+                            </p>
+                    </div>
+
+                    <!-- Checkbox -->
+                    <div class="mentorHelp">
+                      <i class="fas fa-binoculars"></i>
+                            <label for="mentorHelp"> What are you looking for help with during this mentorship program? (select all that apply)</label>
+                        <div class="checkbox">
+                            <label>
+                                <div><input type="checkbox"> Resume Building</div>
+                                <div><input type="checkbox"> Clubs & Programs to Join</div>
+                                <div><input type="checkbox"> Presentation Skills</div>
+                                <div><input type="checkbox"> Networking & Making New Connections</div>
+                                <div><input type="checkbox"> Internships, Jobs & Companies</div>
+                                <div><input type="checkbox"> Degree Decision</div>
+                                <DIV><input type="checkbox"> Teachers & Classes Guidace</DIV>
+                                <DIV><input type="checkbox"> Extracurricular Activities</DIV>
+                            </label>
+                        </div>
+                    </div>
+
+         <!-- Submit Button -->
+        <a href="MenteePersonality.html" type="button" class="btn btn-primary">Next</a>
+      </div>
+    </div>
+
+  
+</div>
+
+
+</body>
+</html>
+
