@@ -257,12 +257,14 @@ body {
   margin-left: 53px;
 }
 
+/*About me section*/
+
 .profileAboutMe {
   margin-top: 40px;
   margin-left: 12.5%;
   margin-right: 12.5%;
   min-width: 900px;
-  height: 200px;
+  height: 100px;
   border-radius: 25px;
   box-shadow: 0px 10px 20px rgba(0,0,0,1);
 }
@@ -296,13 +298,139 @@ body {
   color: grey;
 }
 
+/*Work Experience section*/
+
+.profileWorkExperience {
+  margin-top: 40px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  min-width: 900px;
+  height: 100px;
+  border-radius: 25px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,1);
+}
+
+.profileWorkExperienceTitle {
+  font-size: 25px;
+  color: rgb(104,52,156);
+  font-weight: bold;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.editWorkExperience {
+  display: flex;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 4px white solid;
+  border-radius: 50%;
+  box-shadow: 0px 2px 7px rgba(0,0,0,1);
+  margin-top: 10px;
+  float: right;
+  margin-right: 20px;
+}
+
+.editWorkExperience i {
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 2px;
+  color: grey;
+}
+
+/*Extracurriculars section*/
+
+.profileExtracurriculars {
+  margin-top: 40px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  min-width: 900px;
+  height: 100px;
+  border-radius: 25px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,1);
+}
+
+.profileExtracurricularsTitle {
+  font-size: 25px;
+  color: rgb(104,52,156);
+  font-weight: bold;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.editExtracurriculars {
+  display: flex;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 4px white solid;
+  border-radius: 50%;
+  box-shadow: 0px 2px 7px rgba(0,0,0,1);
+  margin-top: 10px;
+  float: right;
+  margin-right: 20px;
+}
+
+.editExtracurriculars i {
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 2px;
+  color: grey;
+}
+
+
+/*Hobbies & Interests section*/
+
+.profileHobbies {
+  margin-top: 40px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  min-width: 900px;
+  height: 100px;
+  border-radius: 25px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,1);
+}
+
+.profileHobbiesTitle {
+  font-size: 25px;
+  color: rgb(104,52,156);
+  font-weight: bold;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.editHobbies {
+  display: flex;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 4px white solid;
+  border-radius: 50%;
+  box-shadow: 0px 2px 7px rgba(0,0,0,1);
+  margin-top: 10px;
+  float: right;
+  margin-right: 20px;
+}
+
+.editHobbies i {
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 2px;
+  color: grey;
+}
+
+
+/*Match comparison section*/
+
 .matchComparison {
   margin-top: 40px;
   margin-left: 12.5%;
   margin-right: 12.5%;
   min-width: 900px;
   height: 100px;
-  border: solid grey;
   border-radius: 25px;
   box-shadow: 0px 10px 20px rgba(0,0,0,1);
 }
@@ -311,9 +439,14 @@ body {
   font-size: 25px;
   color: rgb(104,52,156);
   font-weight: bold;
+  position: absolute;
   margin-left: 20px;
   margin-top: 15px;
 }
+
+
+
+
 
 
 
