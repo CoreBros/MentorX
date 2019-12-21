@@ -1,0 +1,74 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="Website Baker">
+				<head>{{site_name}}</head>
+			</input>
+			<input type="text" name="site_desc" size="30" value="Website Baker Description">
+				<head>{{site_desc}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="wb_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="EN">English</option>
+					<option value="BG">Bulgarian</option>
+					<option value="CA">Catalan</option>
+					<option value="CS">Cestina</option>
+					<option value="DA">Dansk</option>
+					<option value="DE">Deutsch</option>
+					<option value="ES">Spanish</option>
+					<option value="ET">Eesti</option>
+					<option value="FI">Suomi</option>
+					<option value="FR">French</option>
+					<option value="HR">Croatian</option>
+					<option value="HU">Hungarian</option>
+					<option value="IT">Italian</option>
+					<option value="NL">Dutch</option>
+					<option value="LV">Latvian</option>
+					<option value="NO">Norwegian</option>
+					<option value="PL">Polish</option>
+					<option value="PT">Portuguese (Brazil)</option>
+					<option value="RU">Russian</option>
+					<option value="SE">Svenska</option>
+					<option value="SK">Slovak</option>
+					<option value="TR">Turkish</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>install/*</exclude>
+		<exclude>install/*/*</exclude>
+		<exclude>install/*/*/*</exclude>
+		<exclude>install/*/*/*/*</exclude>
+		<exclude>upgrade-script.php</exclude>
+		<exclude>var/logs/PLACEHOLDER</exclude>
+		
+	</files>
+</softinstall>

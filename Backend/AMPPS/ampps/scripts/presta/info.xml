@@ -1,0 +1,125 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PrestaShop
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/PrestaShop
+	</ratings>
+	<space>
+		62866082
+	</space>
+	<support>
+		http://www.prestashop.com/
+	</support>
+	<version>
+		1.6.1.24
+	</version>
+	<mod>79</mod>
+	<mod_files>2</mod_files>
+	<min_require>1.6.1.0</min_require>
+	<release_date>02-05-2019</release_date>
+	<admin>admin123</admin>
+	<branch>72</branch>
+	<branch>591</branch>
+	<branch>417</branch>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PrestaShop</font> e-Commerce Solution was built to take advantage of essential Web 2.0 innovations such as dynamic AJAX-powered features and next-generation ergonomy. PrestaShop guides users through your product catalog intelligently and effortlessly, turning intrigued visitors into paying customers.
+		<br /><br />
+		PrestaShop is available under the <a href="http://www.prestashop.com/en/osl-license" target="_blank">Open Software License</a>
+		</english-overview>		
+		<english-features>
+<h3>Front-office</h3>
+<ul>
+<li> Special deals (price reductions, gift vouchers)</li>
+<li>Featured products on homepage</li>
+<li>Top sellers on homepage</li>
+<li>New items on homepage</li>
+<li>'Free shipping' offers</li>
+<li>Cross-selling (Accessories)</li>
+<li>Product image zoom</li>
+<li>Order out-of-stock items</li>
+<li>Customer subscription &amp; user accounts</li>
+<li>Unlimited payment methods</li>
+<li>Payment by bank wire</li>
+<li>Google Checkout module</li>
+<li>Cash-On-Delivery (COD)</li>
+<li>Preconfigured for Paypal™</li>
+<li>Multiple-recipient contact form</li>
+<li>Product tagging &amp; tag cloud</li>
+<li>Search</li>
+<li>Merchandise return (RMAs) &amp; credit slips</li>
+<li>Package tracking</li>
+<li>Offer gift-wrapping &amp; recycled packaging</li>
+<li>PDF customer invoice</li>
+<li>Shopping Cart recall</li>
+<li>Sale of services &amp; virtual goods</li>
+<li>Custom Favicon</li>
+<li>RSS feed</li>
+<li>Newsletter opt-in</li>
+<li>'Pick up in-store' option</li>
+<li>Customized product (text and images)</li>
+<li>Wishlist</li>
+<li>Loyal customer program</li>
+<li>Affiliate program</li>
+<li>Sponsor-a-friend benefit program</li>
+<li>Customer product reviews</li>
+</ul>
+
+<h3>Back-office</h3>
+<ul>
+<li>Unlimited categories &amp; subcategories</li>
+<li>Full-featured WYSIWYG text editor</li>
+<li>Unlimited product attribute combinations</li>
+<li>Unlimited product specs</li>
+<li>Unlimited images with automatic resizing &amp; file optimization</li>
+<li>Unlimited currencies</li>
+<li>Unlimited tax settings</li>
+<li>Unlimited carriers &amp; destinations</li>
+<li>Tax by state, country, both, zones, or no taxes</li>
+<li>Digressive pricing (Quantity discounts)</li>
+<li>Real-time currency exchange rates</li>
+<li>Inventory management</li>
+<li>SMS/Text-message alerts</li>
+<li>Add/delete function modules</li>
+<li>Bar codes</li>
+<li>Contextual help</li>
+<li>Attribute Combo Generator</li>
+<li>Delivery status notification e-mails (customizable)</li>
+<li>Unlimited languages &amp; dialects</li>
+<li>Import/export language translations</li>
+<li>13 default language translations</li>
+<li>Search Engine Optimization (SEO)</li>
+<li>Friendly URLs / Permalinks</li>
+<li>100% modifiable graphic themes</li>
+<li>Back Office users &amp; permissions (ACL )</li>
+<li>Maintenance Mode</li>
+<li>Minimum order amount</li>
+<li>Newsletter contact export</li>
+<li>Alias search</li>
+<li>Bulk lister/import .CSV files</li>
+<li>SSL (Secure Sockets Layer) encryption</li>
+<li>Visitors online</li>
+<li>Content Management System (CMS)</li>
+<li>Reports</li>
+<li>Customer groups</li>
+</ul>
+		</english-features>
+		<english-ad_dir>Admin Folder</english-ad_dir>
+		<english-err_mcrypt>The MCRYPT extension is not loaded !</english-err_mcrypt>
+		<english-err_admin_folder>The Admin folder name cannot be "admin" !</english-err_admin_folder>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_email>Please provide the email to reset the password</english-err_no_email>
+		<english-err_no_such_email>The Admin email is incorrect and does not exist!</english-err_no_such_email>
+	</languages>
+</soft>

@@ -1,0 +1,13 @@
+1) Use Storage Engine Innodb.
+2) Use binary database character set.
+3) Use the License as "No license footer"
+4) Check the language files exists in the /languages/classes/ & /languages/messages/ it should be there with the downloaded zip
+5) We have added __mw_scurl_call() because we need $cookie which was not in functions.php remove this once Softaculous is launched and also change <softversion> to 4.5.2
+6) The default admin password that we use is changed to 'password1' (instead of 'password' in install.xml) due to the common password check done by the script. (Since version 1.27.0)
+7) We have added "tmpdir" in order to save cache at different locations for each installation to avoid conflicts between them. (v1.27.1)
+https://www.mediawiki.org/wiki/Manual_talk:Upgrading#Shared_server_.2B_multiple_Mediawiki_installations
+https://phabricator.wikimedia.org/T127127
+
+We have added the following in LocalSettings.php
+$wgTmpDirectory = "[[tmpdir]]";
+8) PHP REQUIREMENT LINK: https://www.mediawiki.org/wiki/Manual:Installation_requirements

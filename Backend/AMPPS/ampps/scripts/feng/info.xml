@@ -1,0 +1,62 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Feng_Office
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/Feng_Office
+	</ratings>
+	<space>
+		46890068
+	</space>
+	<support>
+		http://www.fengoffice.com/
+	</support>
+	<version>
+		3.5.1.5
+	</version>
+	<mod>70</mod>
+	<release_date>04-09-2017</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="php" type="version" operator="lt" value="7.0.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="SimpleXML" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Feng Office</font> is a Collaboration Platform that enables you to manage your projects and business services, collaborate with your team and your customers, organize and share documents and files.
+		<br /><br />
+		Feng Office's code is written in PHP, has a proven track record of stability and security. Feng Office is being actively developed.
+		<br /><br />
+		Feng Office is released under the <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank">GNU AFFERO GPL</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>OVERVIEW</li>
+<li>WORKSPACES</li>
+<li>NOTES</li>
+<li>E-MAILS</li>
+<li>CONTACTS</li>
+<li>CALENDAR</li>
+<li>LINKED INFORMATION</li>
+<li>USER' ADMINISTRATION</li>
+<li>SEARCH and FILTERS</li>
+<li>WEB LINKS</li>
+<li>TIME TRACKING</li>
+<li>TASKS</li>
+<li>DOCUMENTS</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

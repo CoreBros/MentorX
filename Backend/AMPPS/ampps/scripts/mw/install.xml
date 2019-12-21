@@ -1,0 +1,70 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="tmpdir" value="" save="true">
+			</input>
+		</group>
+		<group>
+			<heading>{{site_con}}</heading>
+			<input type="text" name="wiki_name" size="30" value="WikiName">
+				<head>{{wiki_name}}</head>
+			</input>
+			<input type="text" name="wiki_mail" size="30" value="admin" softmail="true">
+				<head>{{wiki_mail}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="mw_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="WikiSysop">
+				<head>{{ad_name}}</head>
+				<handle>__admin_name</handle>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="password1">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en">English</option>
+					<option value="ar">Arabic</option>
+					<option value="bg">Bulgarian</option>
+					<option value="cs">Czech</option>
+					<option value="fr">French</option>
+					<option value="hu">Hungarian</option>
+					<option value="ja">Japanese</option>
+					<option value="la">Latin</option>
+					<option value="pl">Polish</option>
+					<option value="ro">Romanian</option>
+					<option value="ru">Russian</option>
+					<option value="sk">Slovak</option>
+					<option value="sr">Serbian</option>
+					<option value="tr">Turkish</option>
+					<option value="uk">Ukrainian</option>
+					<option value="zh">Chinese</option>
+					<option value="de">German</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{upload_head}}</heading>
+			<input type="checkbox" name="enableupload" value="off" quick_install="1">
+				<head>{{enableupload}}</head>
+				<exp>{{exp_enableupload}}</exp>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+</softinstall>

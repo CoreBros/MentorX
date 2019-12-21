@@ -1,0 +1,45 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="Open Source Social Network">
+				<head>{{site_name}}</head>
+			</input>
+		</group>
+		<group>
+		<heading>{{ad_act}}</heading>
+		<input type="text" name="admin_username" size="30" value="admin">
+			<head>{{ad_name}}</head>
+			<handle>__ad_name</handle>
+		</input>
+		<input type="text" name="admin_pass" size="30" value="password">
+			<head>{{ad_pass}}</head>
+			<handle>__ad_pass</handle>
+		</input>
+		<input type="text" name="admin_fname" size="30" value="System">
+			<head>{{f_name}}</head>
+		</input>
+		<input type="text" name="admin_lname" size="30" value="Administrator">
+			<head>{{l_name}}</head>
+		</input>
+		<input type="text" name="birth_date" size="30" value="" quick_install="1">
+			<head>{{b_date}}</head>
+			<exp>{{b_date_exp}}</exp>
+			<handle>__date</handle>
+		</input>
+		<input type="select">
+		<select name="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+		</select>
+		<head>{{gender}}</head>
+		</input>
+		<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+			<head>{{ad_email}}</head>
+			<handle>__email_address</handle>
+		</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<datadir>ossndata</datadir>
+</softinstall>

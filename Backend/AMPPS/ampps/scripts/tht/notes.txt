@@ -1,0 +1,1 @@
+1. Change version in upgrade.php every time there is an update becuase the script can be updated only from successive versions i.e. 1.2.4 to 1.2.5

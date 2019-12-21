@@ -1,0 +1,14 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>migrate</setuplocation>
+	<donotunzip>1</donotunzip>
+	<settings>
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>config.inc.php</exclude>
+	</files>
+</softupgrade>

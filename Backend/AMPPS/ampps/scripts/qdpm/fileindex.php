@@ -1,0 +1,17 @@
+.htaccess
+backups
+batch
+check.php
+core
+css
+favicon.ico
+favicon.png
+images
+index.php
+install
+js
+readme.txt
+robots.txt
+sf
+template
+uploads

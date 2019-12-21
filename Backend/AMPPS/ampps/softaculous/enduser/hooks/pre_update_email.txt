@@ -1,0 +1,71 @@
+<?php
+
+/**
+ * This is a HOOK POINT in the Softaculous Upgradation process.
+ * NOTE : You must rename this file to pre_upgrade.php
+ */
+ 
+//////////////////////////////////////////////////////////////
+//===========================================================
+// pre_upgrade.php
+//===========================================================
+// SOFTACULOUS 
+// Version : 1.1
+// Inspired by the DESIRE to be the BEST OF ALL
+// ----------------------------------------------------------
+// Started by: Alons
+// Date:       10th Jan 2009
+// Time:       21:00 hrs
+// Site:       http://www.softaculous.com/ (SOFTACULOUS)
+// ----------------------------------------------------------
+// Please Read the Terms of use at http://www.softaculous.com
+// ----------------------------------------------------------
+//===========================================================
+// (c)Softaculous Inc.
+//===========================================================
+//////////////////////////////////////////////////////////////
+
+if(!defined('SOFTACULOUS')){
+
+	die('Hacking Attempt');
+
+}
+
+/**
+ * This function will be called whenever an UPDATE becomes available for a script AND before an email is sent to the user 
+ * informing him about the update
+ *
+ * @package      hooks 
+ * @author       Pulkit Gupta
+ * @return       bool
+ * @since     	 4.0
+ */
+function __pre_update_email(){
+	
+	global $globals, $ins_list, $updated_scripts, $scripts;
+	
+	//////////////////////////////////////////////////////////////////////////////////
+	// $ins_list		 - Will contain the details of the OUTDATED installations 
+	//					   of all users immediately when AN update becomes available
+	// $updated_scripts	 - The scripts which just got updated
+	// $scripts			 - Detailed information about the all script.
+	//////////////////////////////////////////////////////////////////////////////////
+	
+	foreach($ins_list as $username => $scriptwise){
+		// Do what needs to be done !
+		
+		// $scriptwise will now contain the list of installations in the format of array(SCRIPTID => array());
+		foreach($scriptwise as $_sid => $_ins){
+			
+			// Loop through the installations
+			foreach($_ins as $kk => $vv){
+							
+			}
+			
+		}
+		
+	}
+
+}
+
+?>

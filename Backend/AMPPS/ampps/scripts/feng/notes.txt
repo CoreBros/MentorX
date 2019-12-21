@@ -1,0 +1,5 @@
+1. Change the location of USING BTREE in the feng.sql file (It should be to the left and not to the end of line).
+2. Default database engine InnoDB.
+3. comment the php_value in .htaccess (NOT REQUIRED SINCE 3.4.1.1)
+4. PHP REQUIREMENT LINK : http://www.fengoffice.com/web/wiki/doku.php/installation:server_reqs
+5. We have disabled the upgrade in v3.5.1.5 because post upgrade from v3.4.4.1 to v3.5.1.5, the UI is broken and nothing is displayed except the header. Please check in the next version and enable upgrade accordingly. We had contacted vendor as well for the same via email and they said they shall fix it.

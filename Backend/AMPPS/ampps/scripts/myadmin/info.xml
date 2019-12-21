@@ -1,0 +1,69 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpMyAdmin
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/dbtools/phpMyAdmin
+	</ratings>
+	<space>
+		34850228
+	</space>
+	<support>
+		http://www.phpmyadmin.net/
+	</support>
+	<version>
+		4.9.2
+	</version>
+	<mod>149</mod>
+	<release_date>22-11-2019</release_date>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.5.0" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="session" />
+	<requirement check="php" type="extension" name="SPL" />
+	<requirement check="php" type="extension" name="hash" />
+	<requirement check="php" type="extension" name="ctype" />
+	<requirement check="php" type="extension" name="json" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpMyAdmin</font> is a free software tool written in PHP intended to handle the administration of MySQL over the World Wide Web.
+		<br /><br />
+		phpMyAdmin supports a wide range of operations with MySQL. The most frequently used operations are supported by the user interface (managing databases, tables, fields, relations, indexes, users, permissions, etc), while you still have the ability to directly execute any SQL statement. 
+		<br /><br />
+		phpMyAdmin is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Intuitive web interface</li>
+<li>Support for most MySQL features: </li>
+	<ul>
+	<li>browse and drop databases, tables, views, fields and indexes</li>
+	<li>create, copy, drop, rename and alter databases, tables, fields and indexes</li>
+	<li>maintenance server, databases and tables, with proposals on server configuration</li>
+	<li>execute, edit and bookmark any SQL-statement, even batch-queries</li>
+	<li>manage MySQL users and privileges</li>
+	<li>manage stored procedures and triggers</li>
+	</ul>
+<li>Import data from CSV and SQL</li>
+<li>Export data to various formats: CSV, SQL, XML, PDF, ISO/IEC 26300 - OpenDocument Text and Spreadsheet, Word, Excel, LATEX and others</li>
+<li>Administering multiple servers</li>
+<li>Creating PDF graphics of your database layout</li>
+<li>Creating complex queries using Query-by-example (QBE)</li>
+<li>Searching globally in a database or a subset of it</li>
+<li>Transforming stored data into any format using a set of predefined functions, like displaying BLOB-data as image or download-link</li>
+<li>And much more...</li>
+</ul>
+		</english-features>
+		<english-db_host>Database Host</english-db_host>
+		<english-exp_db_host>Enter the database hostname if you have configured database on a remote server. Default is <b>localhost</b></english-exp_db_host>
+	</languages>
+</soft>

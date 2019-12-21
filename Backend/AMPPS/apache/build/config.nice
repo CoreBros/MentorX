@@ -1,0 +1,19 @@
+#! /bin/sh
+#
+# Created by configure
+
+CPPFLAGS="-I/Applications/AMPPS/extra/include"; export CPPFLAGS
+LDFLAGS="-L/Applications/AMPPS/extra/lib"; export LDFLAGS
+"./configure" \
+"--prefix=/Applications/AMPPS/apache" \
+"--enable-mods-shared=all" \
+"--with-included-apr" \
+"--with-sslport=443" \
+"--with-z=/Applications/AMPPS/extra" \
+"--with-ssl=/Applications/AMPPS/extra" \
+"--enable-ssl" \
+"--with-mpm=prefork" \
+"--with-pcre=/Applications/AMPPS/extra" \
+"LDFLAGS=-L/Applications/AMPPS/extra/lib" \
+"CPPFLAGS=-I/Applications/AMPPS/extra/include" \
+"$@"

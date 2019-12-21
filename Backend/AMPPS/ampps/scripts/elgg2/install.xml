@@ -1,0 +1,43 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="My Elgg site">
+				<head>{{site_name}}</head>
+			</input>
+			<input type="text" name="site_desc" size="30" value="My Social Site">
+				<head>{{site_desc}}</head>
+			</input>
+			<input type="text" name="site_email" size="30" value="site" softmail="true">
+				<head>{{site_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="elgg_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="password">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_realname" size="30" value="Administrator">
+				<head>{{real_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<datadir>elggdata</datadir>
+</softinstall>

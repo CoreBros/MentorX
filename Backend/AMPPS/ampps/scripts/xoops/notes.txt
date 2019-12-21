@@ -1,0 +1,10 @@
+1) Put Upgrade folder in the ZIP Package
+2) xoops_data and xoops_lib go in data.zip
+3) In Upgrade.php we have written code for version 2.5.0 (for not to show the upgrade link)
+4) We have added fix in Upgrade/upd-2.4.0-to-2.4.1 index.php. Replaced $checkbit with $func. check if upgrade works without this fix in next version
+   (4th step is not required from version 2.5.7. It works fine from 2.5.7)
+5) XOOPS checks for illegal characters in path (which does not allow space) causing upgrade to fail hence we have added the same preg_match pattern in upgrade.php __requirements() function. Check if they update this pattern to allow spaces in future.
+Taken from :
+class/libraries/vendor/xoops/xmf/src/Xmf/Language.php
+6) We do not configure include/license.php
+7) PHP REQUIREMENT LINK : https://xoops.org/modules/core/

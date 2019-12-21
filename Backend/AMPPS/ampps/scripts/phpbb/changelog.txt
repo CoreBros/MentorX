@@ -1,0 +1,187 @@
+Changes since 3.2.8-RC1
+Bug
+
+    [PHPBB3-15467] - Permission settings do not take affect when set using All YES/NO/NEVER
+    [PHPBB3-16123] - PHP error (Array to string conversion) on new user registration if email address is banned and " Reason shown to the banned" is empty
+    [PHPBB3-16136] - Missing word in 'AUTH_PROVIDER_OAUTH_ERROR_ALREADY_LINKED'
+
+Improvement
+
+    [PHPBB3-16134] - Exclude group leaders on group member purge
+
+Security Issue
+
+    [SECURITY-243] - CSS injection via BBCode tag
+    [SECURITY-244] - Missing form token check when handling attachments
+    [SECURITY-246] - Missing form token check when managing BBCodes
+
+Hardening
+
+    [SECURITY-247] - Disable MySQLi local infile to prevent local file inclusion
+
+Changes since 3.2.7
+Bug
+
+    [PHPBB3-13175] - External accounts can be linked to more than one local account
+    [PHPBB3-14459] - Check language input for group
+    [PHPBB3-15211] - Emoji characters in forum name causing SQL errors
+    [PHPBB3-15885] - Group rank not displaying on memberlist_body
+    [PHPBB3-15897] - Unicode Characters in Attachment Comment Causes mySQL Error
+    [PHPBB3-15932] - Users can delete their attachments in the UCP, even if the post is locked
+    [PHPBB3-15961] - SMTP support for TLS is forcing use of deprecated TLS 1.0
+    [PHPBB3-15974] - The link "Back to previous page" can redirect to another page, not the previous one
+    [PHPBB3-15976] - Changing account settings without changing password resets user_passchg
+    [PHPBB3-15982] - Q&A captcha plug-in still throws PHP 7.2.x countable warning
+    [PHPBB3-16003] - Post count not updated when deleting only post in topic
+    [PHPBB3-16021] - Recognize number of Template Event instances in events.md file
+    [PHPBB3-16040] - Topic Icon with space in filename isn't displayed by viewforum_body.html
+    [PHPBB3-16048] - Unable to restore any backup from ACP
+    [PHPBB3-16050] - PHP warning in MCP banning tab on PHP 7.2+
+    [PHPBB3-16053] - BBCodes using {TEXT} in HTML tags no longer work
+    [PHPBB3-16054] - Style templates no longer able to login "from any page."
+    [PHPBB3-16055] - Unable to login using Oauth via Forums, topics or posts
+    [PHPBB3-16061] - Migrator never drops unique indexes
+    [PHPBB3-16063] - board_dst config value is not removed from config table after conversion
+    [PHPBB3-16066] - Banned or suspended user receives "The submitted form was invalid. Try submitting again."
+    [PHPBB3-16071] - Undefined index for custom attachments groups
+    [PHPBB3-16073] - Fix warning in ACP version check
+    [PHPBB3-16074] - Twemoji -fe0f sequence not rendering
+    [PHPBB3-16075] - PM filter “sent to my default usergroup” triggers array to string conversion warning
+    [PHPBB3-16080] - Warnings When a Style exists on database but not on FTP
+    [PHPBB3-16093] - Attach row template always gets displayed with JS disabled
+    [PHPBB3-16096] - MySQL full text search always uses MyISAM limits
+    [PHPBB3-16124] - Incorrect users search by last visit time in memberlist.php
+    [PHPBB3-16126] - AppVeyor builds fail due to chocolatey being unable to install PHP
+
+Improvement
+
+    [PHPBB3-15745] - Hardcoded lang in credit line
+    [PHPBB3-15886] - Group helper functions
+    [PHPBB3-15946] - Add event - core.posting_modify_row_data
+    [PHPBB3-15967] - Unambiguous wording in user activation request email to Admin/Moderator
+    [PHPBB3-15984] - Use of 'Cache-Control: public' for serving files
+    [PHPBB3-16000] - Provide link to PHP Date Function in both ACP and UCP
+    [PHPBB3-16013] - Do not prevent username changes in ACP
+    [PHPBB3-16019] - Deny prosilver's uninstallation
+    [PHPBB3-16024] - Add core.topic_review_modify_sql_ary
+    [PHPBB3-16025] - Add 2 template events *_author_username_{append/prepend}
+    [PHPBB3-16047] - ACP Private Messages: Wording could be better
+    [PHPBB3-16058] - Remove sudo required from travis config
+    [PHPBB3-16065] - Undefined index: user_ip in oauth.php
+    [PHPBB3-16068] - Incorrect docblock parameter types
+    [PHPBB3-16070] - Remove support for WebSTAR and Xitami
+    [PHPBB3-16078] - Use chrome webdriver for UI tests
+    [PHPBB3-16089] - Add core.confirm_box_ajax_before
+    [PHPBB3-16097] - Add core.viewtopic_gen_sort_selects_before
+    [PHPBB3-16102] - Add core.posting_modify_post_subject
+    [PHPBB3-16103] - Add core.pm_modify_message_subject
+    [PHPBB3-16106] - Add core.mcp_main_before
+    [PHPBB3-16107] - Add mcp_move_destination_forum_before|after
+    [PHPBB3-16108] - Add topiclist_row_topic_by_author_before|after
+    [PHPBB3-16109] - Custom Profile Field visibility is incorrectly explained
+    [PHPBB3-16111] - Add core.message_history_modify_sql_ary
+    [PHPBB3-16113] - Add core.mcp_topic_modify_sql_ary
+    [PHPBB3-16114] - Add 2 mcp_topic_post_author_full_{append/prepend}
+    [PHPBB3-16127] - Add UI for Mass email $max_chunk_size
+    [PHPBB3-16129] - The attachment's ALT tag is supposed to describe the image, not the file.
+
+Task
+
+    [PHPBB3-16067] - Define trusty build environment for travis builds
+    [PHPBB3-16112] - Update composer dependencies to latest
+    [PHPBB3-16119] - The text input for poll question has a too high maxlength attribute
+
+Hardening
+
+    [PHPBB3-16101] - Add Referrer-Policy header
+
+Changes since 3.2.6
+Bug
+
+    [PHPBB3-16034] - Links created with [url=] - are sometimes incorrectly shortened
+    [PHPBB3-16036] - Cannot login with 3.2.6
+    [PHPBB3-16037] - Private message ViewFolder Broken
+    [PHPBB3-16039] - Unable to change announcement to standard topic due to missing global
+
+Improvement
+
+    [PHPBB3-16042] - Use S_LOGIN_REDIRECT to output login form token
+
+Changes since 3.2.6-RC1
+Bug
+
+    [PHPBB3-16027] - Appveyor builds fail on PHP 7.0
+
+Security Issue
+
+    [SECURITY-231] - Remote avatar functionality allows checking for files and ports on local network
+    [SECURITY-235] - Fulltext native search can be used to cause long execution times
+
+Hardening
+
+    [SECURITY-228] - Require form token in login_box
+    [SECURITY-233] - SMTP auth data shouldn't be cached
+    [SECURITY-234] - Main website URL in Admin Control Panel should not support JS URLs
+
+Changes since 3.2.5
+Bug
+
+    [PHPBB3-15509] - Update database: info message is to scary
+    [PHPBB3-15869] - Cookies Problem with domains with special chars
+    [PHPBB3-15876] - Mysql 5.7 support Q&A plugin
+    [PHPBB3-15883] - No error for invalid usernames on bulk add to usergroup
+    [PHPBB3-15904] - PHP warning when accessing modules in ACP System tab
+    [PHPBB3-15917] - Unapproved posts count towards forum post count
+    [PHPBB3-15918] - Ban reason messages show backslash (\) before apostrophe -- ex. (don\'t).
+    [PHPBB3-15919] - Lint test throws PHP warnings due to node modules folder
+    [PHPBB3-15931] - Issues in PM report emails
+    [PHPBB3-15954] - Some calls to include() don't have a safeguard
+    [PHPBB3-15957] - User preferences show notification method "both" with disabled Jabber in ACP
+    [PHPBB3-15959] - Travis Network Test is Failing for news.cnet.com
+    [PHPBB3-15965] - Console command to handle thumbnails have files directory hardcoded
+    [PHPBB3-15975] - Delete or prune an user doesn't remove its entries in the user_notifications table
+    [PHPBB3-15986] - Add missing language key for posting.php
+    [PHPBB3-15996] - Invalid data provider function name in migrator_tool_permission_test
+    [PHPBB3-16006] - Duplicate form IDs in UCP oauth form
+
+Improvement
+
+    [PHPBB3-15884] - Add memberlist_body_* events
+    [PHPBB3-15889] - Add core.memberlist_modify_memberrow_sql
+    [PHPBB3-15890] - Add core.memberlist_modify_viewprofile_sql
+    [PHPBB3-15891] - Add core.memberlist_modify_view_profile_template_vars
+    [PHPBB3-15898] - Add core.ucp_pm_compose_template
+    [PHPBB3-15899] - Add core.modify_attachment_sql_ary_on_* events
+    [PHPBB3-15901] - Add mcp_post_* template events
+    [PHPBB3-15910] - Pass object arguments by reference implicitly
+    [PHPBB3-15914] - Add core.modify_memberlist_viewprofile_group_sql and core.modify_memberlist_viewprofile_group_data
+    [PHPBB3-15915] - Add template events to posting_attach_body.html
+    [PHPBB3-15924] - Move from precise to trusty builds
+    [PHPBB3-15926] - Deny installs on PHP >= 7.3@dev - Increase min. req. to 5.4.7
+    [PHPBB3-15928] - Remove support for backup download
+    [PHPBB3-15939] - Pagination docblocks
+    [PHPBB3-15941] - Replace MAX SQL in functions_posting.php
+    [PHPBB3-15942] - Array to string conversion when permanently deleting a post
+    [PHPBB3-15948] - Add core.mcp_change_topic_type_after/before
+    [PHPBB3-15949] - [Template] - ucp_profile_signature_posting_editor_options_prepend
+    [PHPBB3-15950] - Add SQL transactions to mcp_main.php
+    [PHPBB3-15960] - Add SQL transactions to functions_admin.php
+    [PHPBB3-15970] - Add core.message_admin_form_submit_before
+    [PHPBB3-15972] - Add core.markread_after
+    [PHPBB3-15992] - Fix breadcrumb schema
+    [PHPBB3-15995] - Add core.memberlist_modify_sort_pagination_params
+    [PHPBB3-15997] - Increase webdriver timeout for UI tests
+    [PHPBB3-16001] - Append data to the OAuth's redirect URL
+    [PHPBB3-16009] - Display OAuth login's buttons in a row.
+    [PHPBB3-16010] - Automatically check order of events in events.md file
+    [PHPBB3-16018] - Update composer and dependencies for 3.2.6
+    [PHPBB3-16020] - Fix placement of event viewforum_body_topic_author_username_append
+
+New Feature
+
+    [PHPBB3-15944] - Add core.posting_modify_quote_attributes
+
+Task
+
+    [PHPBB3-15921] - Update TextFormatter to 1.3.2
+    [PHPBB3-15953] - pm reported missing border color

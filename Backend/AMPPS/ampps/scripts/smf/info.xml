@@ -1,0 +1,62 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/SMF
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/forums/SMF
+	</ratings>
+	<space>
+		7956282
+	</space>
+	<support>
+		http://www.simplemachines.org
+	</support>
+	<version>
+		2.0.15
+	</version>
+	<mod>35</mod>
+	<release_date>19-11-2017</release_date>
+	<admin>index.php?action=admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">SMF</font> in short is a free, professional grade software package that allows you to set up your own online community within minutes. Its powerful custom made template engine puts you in full control of the lay-out of your message board and with our unique SSI - or Server Side Includes - function you can let your forum and your website interact with each other. 
+<br /><br />
+SMF is written in the popular language PHP and uses a MySQL database. It is designed to provide you with all the features you need from a bulletin board while having an absolute minimal impact on the resources of the server. SMF is the next generation of forum software - and best of all it is and will always remain completely free!
+<br /><br />
+		SMF is released under the <a href="http://www.simplemachines.org/about/opensource.php" target="_blank">OSI approved Open Source licenses</a>.
+		</english-overview>		
+		<english-features>
+Some of SMFs General features include:
+		<ul>
+<li>Comprehensive template system. </li>
+<li>Advanced permission and user management. </li>
+<li>Supports multiple languages at once. </li>
+<li>Open and well-documented source code. </li>
+<li>Tracking of new and old unread topics, not just from your last visit. </li>
+<li>Designed for optimal performance and scalability. </li>
+<li>Multi-media output. (XHTML, XML, RSS, WAP) </li>
+<li>Multi-language support from a large community. </li>
+<li>Package manager that automatically installs or uninstalls mods (also known as hacks.) </li>
+<li>Search the entire forum, a category/board or within a topic. </li>
+<li>Search within your personal messages.</li>
+<li>And much more!</li>
+</ul>
+		</english-features>
+		<english-visual_verification_type>Visual verification image to display</english-visual_verification_type>
+		<english-exp_visual_verification_type>The more complex the image the harder it is for bots to bypass</english-exp_visual_verification_type>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-err_no_dbprefix>Could not determine the database prefix</english-err_no_dbprefix>
+	</languages>
+</soft>

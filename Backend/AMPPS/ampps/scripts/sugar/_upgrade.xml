@@ -1,0 +1,10 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<notes>Log into application as Administrator - Go to Admin panel - Run Repair - Rebuild Relationships </notes>
+</softupgrade>

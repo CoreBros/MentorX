@@ -1,0 +1,25 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>install/install.php</setuplocation>
+	<settings>		
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="admin_folder" size="30" value="admin" save="true">
+				<head>{{ad_dir}}</head>
+				<exp>{{ad_dir_upg}}</exp>
+				<handle>__admin_folder</handle>
+			</input>
+		</group>	
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="test">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>images/logo.jpg</exclude>
+	</files>
+	<notes>
+		Please delete the install folder after upgrade.
+	</notes>
+	<auto_upgrade>1</auto_upgrade>
+</softupgrade>

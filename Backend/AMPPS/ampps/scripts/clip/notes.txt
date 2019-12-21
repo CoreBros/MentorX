@@ -1,0 +1,4 @@
+1) Change seo value to "no" in "cb_config" table in sql file.
+2) Clipbucket requires shell_exec to upload videos. So if you face errors after uploading that the video is disabled please check if shell_exec is enabled.
+3) PHP REQUIREMENT LINK: https://clipbucket.com/cb-install-requirements/
+4) Few columns are not getting generated post upgrading 2.8.3 to 4.1. We have notified this to vendor.

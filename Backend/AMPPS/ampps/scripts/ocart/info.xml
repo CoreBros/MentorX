@@ -1,0 +1,64 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/OpenCart_1.5
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/OpenCart_1.5
+	</ratings>
+	<space>
+		18111887
+	</space>
+	<support>
+		http://www.opencart.com
+	</support>
+	<version>
+		1.5.6.4
+	</version>
+	<mod>48</mod>
+	<mod_files>9</mod_files>
+	<release_date>23-04-2014</release_date>
+	<min_require>1.5.5.1</min_require>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.0" />
+	<requirement check="php" type="version" operator="lt" value="7.2.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">OpenCart</font> is an open source PHP-based online shopping cart system. A robust e-commerce solution for Internet merchants with the ability to create their own online business and participate in e-commerce at a minimal cost.
+		<br /><br />
+OpenCart is designed feature rich, easy to use, search engine friendly and with a visually appealing interface.
+		<br /><br />
+		OpenCart is released under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Unlimited Categories</li>
+<li>Open Souce</li>
+<li>Unlimited Products</li>
+<li>Free Documentation</li>
+<li>Unlimited Manufacturers</li>
+<li>Templatable</li>
+<li>Multi Currency</li>
+<li>Automatic Image Resize</li>
+<li>Multi Language</li>
+<li>20+ Payment Gateways</li>
+<li>Product Reviews</li>
+<li>8+ Shipping Methods</li>
+<li>Product Ratings</li>
+</ul> 
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

@@ -1,0 +1,90 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Pubvana
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/blogs/Pubvana
+	</ratings>
+	<space>
+		3691296
+	</space>
+	<support>
+		https://pubvana.org/
+	</support>
+	<version>
+		1.0.4
+	</version>
+	<mod>13</mod>
+	<release_date>27-07-2018</release_date>
+	<admin>index.php/auth/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.6.0" />	
+	<requirement check="mysql" type="version" operator="ge" value="5.6.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Pubvana</font> Open Blog is now Pubvana. Pubvana is a re-brand of Open Blog v3. <br />Built to be the easiest, most intuitive CMS to use for personal blogging &amp; websites and small business websites.
+		<br /><br />
+		Pubvana is released under the <a href="https://en.wikipedia.org/wiki/MIT_License" target="_blank">MIT License</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+			<li><b>Dashboard</b><br/>
+			The dashboard shows you important information at a glance complete with news from Pubvana so you can manage your site easily and read up on improvements.
+			</li>
+			<li><b>Easy Blogging</b><br/>
+			We built the blogging functions to be easy and intuitive. Add Categories, Allow Comments, and choose a featured post.
+			Writing content is incredibly easy with the popular Markdown Editor. We also automatically generate `og:` and `twitter:` meta tags to provide easy previews when sharing your pages and posts on Social Platforms.
+			</li>
+			<li><b>Comment System</b><br/>
+			Use the Comment System to get feedback from your site's visitors. Use either the built-in Comment System or Facebook's comments where ever comments are enabled.
+			Comments can be turned off for the entire site, or for specific blog posts, it's up to you.
+			</li>
+			<li><b>Media Manager</b><br/>
+			Pubvana uses a powerful Media Manager to help keep your files, images, and videos organized.
+			Pages
+			Use Pubvana's pages to create more static content. Keeping information up to date is easy. All Pubvana released themes show (visitors and search engines) when a page was created, and the last time it was modified.
+			</li>
+			<li><b>Sitemap and Robots</b><br/>
+			Pubvana manages sitemap.xml and robots.txt for you. There's no need to learn how either of these work and Search Engines will love your site for it.
+			</li>
+			<li><b>Users</b><br/>
+			Allow Content editors, and others to access the dashboard. It's up to you who can do what on your website.
+			</li>
+			<li><b>Themes</b><br/>
+			Make your site look and feel the way you want, you can purchase premium themes from the Pubvana Addons Store or build your own.
+			</li>
+			<li><b>Widgets</b><br/>
+			Use Widgets to show specific bits of information where you want. Widgets are great for tying into core functionality or connecting services from other providers to your website.
+			We include some basic widgets when installing Pubvana. More advanced Widgets can be purchased from the Pubvana Addons Store.
+			</li>
+			<li><b>Links</b><br/>
+			Do you have other websites or Affiliate Links to share with your visitors? Pubvana handles these seamlessly, just add your links and place the widget where you want it on your site.
+			</li>
+			<li><b>Social Links</b><br/>
+			Social Links is a special place to put all of your Social Media Account Links. Just add them to the Social area in the dashboard and place the widget where you want it on your site.
+			</li>
+			<li><b>Settings</b><br/>
+			Settings allow you to easily change particular behavior in areas of your site, no files to edit, no headaches.
+			</li>
+			<li><b>Google</b><br/>
+			We provide several Google integrations. Google Analytics and reCaptcha to help track visitors and protect your site.
+			</li>
+			<li><b>Navigation</b><br/>
+			Building your public navigation (menus) couldn't be any easier with our drag and drop menu builder. Just add the pages/posts you want on your menu, and arrange them how you like.
+			</li>
+		</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-err_no_dbprefix>Could not determine the database prefix</english-err_no_dbprefix>
+	</languages>
+</soft>

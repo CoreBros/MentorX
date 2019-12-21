@@ -1,0 +1,59 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin" disabled="disabled">
+				<head>{{ad_name}}</head>
+				<optional>true</optional>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en_us">English</option>
+					<option value="en_gb">British English</option>
+					<option value="ar_ae">Arabic</option>
+					<option value="es_es">Spanish</option>
+					<option value="es_mx">Mexican Spanish</option>
+					<option value="hu_hu">Hungarian</option>
+					<option value="fr_fr">French</option>
+					<option value="de_de">German</option>
+					<option value="pt_br">Brazilian</option>
+					<option value="sv_se">Swedish</option>
+					<option value="nl_nl">Dutch</option>
+					<option value="it_it">Italian</option>
+					<option value="pl_pl">Polish</option>
+					<option value="ro_ro">Romanian</option>
+					<option value="ru_ru">Russian</option>
+					<option value="tr_tr">Turkish</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>install.php</exclude>
+		<exclude>install/*</exclude>
+		<exclude>install/*/*</exclude>
+		<exclude>install/*/*/*</exclude>
+		<exclude>install/*/*/*/*</exclude>
+	</files>
+	<cron>
+		<min>{rand(0,59)}</min>
+		<hour>{rand(0,23)}</hour>
+		<day>*</day>
+		<month>*</month>
+		<weekday>*</weekday>
+		<command>sh [[softpath]]/cron/vtigercron.sh</command>
+	</cron>
+</softinstall>

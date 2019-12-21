@@ -1,0 +1,64 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="osTicket :: Support Ticket System">
+				<head>{{site_name}}</head>
+			</input>
+			<input type="text" name="system_email" size="30" value="system" softmail="true">
+				<head>{{system_email}}</head>
+				<exp>{{sys_email_exp}}</exp>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="ost_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="password">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>			
+			<input type="text" name="admin_fname" size="30" value="System">
+				<head>{{f_name}}</head>
+			</input>
+			<input type="text" name="admin_lname" size="30" value="Administrator">
+				<head>{{l_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<exp>{{admin_email_exp}}</exp>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en_US">English</option>
+					<option value="zh_CN">Chinese (China)</option>
+					<option value="zh_TW">Chinese (Taiwan)</option>
+					<option value="nl">Dutch</option>
+					<option value="ru">Russian</option>
+					<option value="uk">Ukrainian</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>setup/*</exclude>
+		<exclude>setup/*/*</exclude>
+		<exclude>setup/*/*/*</exclude>
+		<exclude>setup/*/*/*/*</exclude>
+	</files>
+</softinstall>

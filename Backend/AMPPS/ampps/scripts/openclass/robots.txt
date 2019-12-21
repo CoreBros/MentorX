@@ -1,0 +1,3 @@
+User-agent: *
+Allow: [[relativeurl]]/images/*
+Sitemap: [[softurl]]/sitemap.xml.gz

@@ -1,0 +1,12 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+</softinstall>

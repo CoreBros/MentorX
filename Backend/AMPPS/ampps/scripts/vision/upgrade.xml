@@ -1,0 +1,34 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>upgrade</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>config.php</exclude>
+		<exclude>slaveconfig.php</exclude>
+		<exclude>console/pipe.php</exclude>
+		<exclude>attachment/*</exclude>
+		<exclude>attachment/*/*</exclude>
+		<exclude>attachment/*/*/*</exclude>
+		<exclude>avatar/*</exclude>
+		<exclude>avatar/*/*</exclude>
+		<exclude>avatar/*/*/*</exclude>
+		<exclude>downloads/*</exclude>
+		<exclude>downloads/*/*</exclude>
+		<exclude>downloads/*/*/*</exclude>
+		<exclude>logs/*</exclude>
+		<exclude>logs/*/*</exclude>
+		<exclude>logs/*/*/*</exclude>
+		<exclude>setup/*</exclude>
+		<exclude>setup/*/*</exclude>
+		<exclude>setup/*/*/*</exclude>
+		<exclude>setup/*/*/*/*</exclude>
+		<exclude>setup/*/*/*/*/*</exclude>
+		<exclude>setup/*/*/*/*/*/*</exclude>
+		<exclude>setup/*/*/*/*/*/*/*</exclude>
+	</files>
+</softupgrade>

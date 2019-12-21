@@ -1,0 +1,4 @@
+1. We have Given upgrade from version r180.
+2. Use default dbprefix while manual installation. (Suggested by vendor)
+3. Release date : https://www.projectsend.org/change-log/
+4. PHP REQUIREMENT LINK: https://www.projectsend.org/how-to-install-projectsend/

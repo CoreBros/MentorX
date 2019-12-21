@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.8" method="upgrade">
+	<name>Korean (ko-KR) Language Pack</name>
+	<packagename>ko-KR</packagename>
+	<version>3.8.9.1</version>
+	<creationDate>2018-07-21</creationDate>
+	<author>Korean translation team</author>
+	<authorEmail>ko-kr_joomla@kilmeny.net</authorEmail>
+	<url>http://joomla.ecfirm.net/</url>
+	<packager>Korean translation team</packager>
+	<packagerurl>http://joomla.ecfirm.net/</packagerurl>
+	<description>3.8.9 Joomla Korean Language Package</description>
+	<files>
+        <file type="language" client="administrator" id="ko-KR">admin_ko-KR.zip</file>
+        <file type="language" client="site" id="ko-KR">site_ko-KR.zip</file>
+	</files>
+	<updateservers>
+        <server type="collection" priority="1" name="Accredited Joomla! Translations">https://update.joomla.org/language/translationlist_3.xml</server>
+    </updateservers>
+</extension>

@@ -1,0 +1,62 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="oscommerce.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/osCommerce
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/osCommerce
+	</ratings>
+	<space>
+		6947961
+	</space>
+	<support>
+		http://www.oscommerce.com
+	</support>
+	<version>
+		2.3.4.1
+	</version>
+	<mod>17</mod>
+	<mod_files>2</mod_files>
+	<release_date>18-08-2017</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">osCommerce</font> is an online shop e-commerce solution that offers a wide range of out-of-the-box features that allows online stores to be setup fairly quickly with ease, and is available for free as an Open Source based solution.
+		<br /><br />
+		osCommerce is released under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Compatible with PHP 4 and MySQL, easily portable to version 5.</li>
+<li>Compatible with all major browsers.</li>
+<li>Multi-lingual English, German and Spanish by default.</li>
+<li>Automatic web-based installation.</li>
+<li>Unlimited number of products and categories.</li>
+
+<li>Automatic setup of e-commerce payment systems: Authorize.net, 2Checkout.com, iPayment.de, PayPal.com, PsiGate.com, SECPay.com, and TrustCommerce.com; Many other add-on ecommerce payment systems, off-line (manual) credit card payments) and on-line payment processing.</li>
+<li>Multi-currency support via manual update from exchange rate server.</li>
+<li>Support for dynamic images (one image per product).</li>
+<li>Supports physical products as well as product downloads.</li>
+<li>Web-based administration module.</li>
+
+<li>Database backup and restore.</li>
+<li>Temporary and permanent shopping carts.</li>
+<li>Secure transactions with SSL (Secure Sockets Layer) support.</li>
+<li>Many shipping options including by weight, price, or destination.</li>
+<li>Real-time shipping quote integration with UPS, USPS.</li>
+<li>Zone-based shipping options as well as a free shipping option as part of Order Totals Module.</li>
+<li>Full tax functionality, included compounded taxes, different zones for different products.</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

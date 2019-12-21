@@ -1,0 +1,68 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Elgg
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/socialnetworking/Elgg
+	</ratings>
+	<space>
+		53899896
+	</space>
+	<support>
+		http://www.elgg.org/
+	</support>
+	<version>
+		2.3.14
+	</version>
+	<mod>21</mod>
+	<release_date>24-07-2019</release_date>
+	<admin>admin</admin>
+	<branch>571</branch>
+	<branch>649</branch>
+	<branch>138</branch>
+	<min_require>2.0.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.6.0" />
+	<requirement check="php" type="extension" name="xml" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="gd" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Elgg</font> empowers individuals, groups and institutions to create their own fully-featured social environment.<br /><br />
+		Elgg, started in 2004, is an open source social engine which powers all kinds of social environments - from education and business to martial arts and rugby. If you are looking for a professional social intranet or want to run a site for your organisation, Elgg is a great choice.
+		<br /><br />
+		Elgg is free, open, and available to anyone under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+			<li>Activity</li>
+			<li>Profile</li>
+			<li>Notifications</li>
+			<li>Groups</li>
+			<li>Blog</li>
+			<li>Embed</li>
+			<li>media</li>
+			<li>Files</li>
+			<li>The wire</li>
+			<li>Pages</li>
+			<li>External pages</li>
+			<li>Dashboard</li>
+			<li>Social bookmarking</li>
+			<li>Categories</li>
+			<li>Access</li>
+			<li>Other goodness</li>
+		</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

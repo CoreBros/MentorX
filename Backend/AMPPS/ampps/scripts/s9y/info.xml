@@ -1,0 +1,72 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="s9y.jpg" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Serendipity
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/blogs/Serendipity
+	</ratings>
+	<space>
+		26261754
+	</space>
+	<support>
+		http://www.s9y.org/
+	</support>
+	<version>
+		2.3.2
+	</version>
+	<mod>38</mod>
+	<release_date>16-10-2019</release_date>
+	<admin>serendipity_admin.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="7.0.0" />
+	<requirement check="php" type="extension" name="pcre" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Serendipity</font> is a PHP-powered weblog application which gives the user an easy way to maintain an online diary, weblog or even a complete homepage. While the default package is designed for the casual blogger, Serendipity offers a flexible, expandable and easy-to-use framework with the power for professional applications.
+		<br /><br />
+		Casual users appreciate the way Serendipity's sophisticated plugin architecture allows you to easily modify both the appearance of your blog and its features. You can install more than120 plugins with just one click, instantly enhancing your blog's functionality. No need to edit code!
+		<br /><br />
+		Serendipity is free, open, and available to anyone under the <a href="https://github.com/s9y/Serendipity/blob/master/LICENSE" target="_blank">BSD 3-Clause License</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+		<li><strong>Simple</strong>. Designed for users of all technical levels.</li></ul>
+<ul><li><strong>Robust Editing Interface</strong>. Featuring an (optional) WSYISWG editor, easily browsable image manager, extended entry support, entries statistics and a host of other features.</li></ul>
+<ul><li><strong>Threaded comments</strong>, <strong>Nested categories</strong> and posting to <strong>multiple categories</strong> are supported.</li></ul>
+
+<ul><li><strong>Anti-Spam / Comment moderation</strong>. Through use of a (bundled) plugin you can enable CAPTCHAs, SURBL-blacklisting, automatted comment moderation based on the content of a comment. Highly configurable.</li></ul>
+<ul><li>Support for <strong>XML-RPC Editing</strong>. Support for both the <a href="/index.php?cmd=newdoc&amp;newdocname=Movable+Type&amp;node=1&amp;refnode=3">Movable Type</a><strong class="missing">?</strong> and Blogger XML-RPC APIs.</li></ul>
+<ul><li><strong>Dynamic</strong>. You don't need to constantly wait while your weblogging system regenerates pages. Caching is dynamically managed, so you don't need to worry about it when publishing your weblog. Optional advanced URL rewriting rules and customizable permalinks are available.</li></ul>
+<ul><li><strong>Trackback and Pingback</strong>. Serendipity can accept, send and autodiscover trackbacks and pingbacks. Of course you can also ping common weblog services like technorati, blo.gs, blogger, yahoo and blogg.de.</li></ul>
+
+<ul><li><strong>Plugins</strong>. A robust plugin system allows you to modify Serendipity without digging through the core source code. Sidebar plugins allow easy customization of your blog with dozens of features. Event plugins are a powerful method of method callbacks, which can hook in into any place in s9y to make it one of the most flexible APIs available. Our <strong>online repository (Spartacus)</strong> supports adding plugins within a few mouseclicks and no manual file up/downloading! Powerful plugins exist for <strong>maintaining static page content</strong>, displaying <strong>galleries</strong>, making <strong>rss aggregators</strong>, <strong>ldap authentication</strong>, <strong>customized template view</strong>, <strong>multilingual content</strong> and much more.</li></ul>
+
+<ul><li><strong>Multiple Databases</strong>. Serendipity supports MySQL(i), PostgreSQL and SQLlite database backends.</li></ul>
+<ul><li><strong>Multiple Users</strong>. Multiple users can edit and administrate the weblog. A free <strong>permission setup</strong> can tell which user is allowed to do what.</li></ul>
+<ul><li><strong>Internationalized</strong>. Serendipity is available in English, German, Danish, French and many more, and adding new translations is a snap.</li></ul>
+<ul><li><strong>Skinable</strong>. Templates can easily be added by the magic of CSS. Several templates are included by default. Even visitors of your blog are able to change the layout on-the-fly if you use the template-dropdown plugin. For the advanced user, the full flexibility of the Smarty templating engine allows to change every aspect of the Serendipity look. </li></ul>
+<ul><li>Open Source. Serendipity is licensed under the <strong>BSD License</strong>.</li></ul>
+
+<ul><li><strong>Standards Compliant</strong>. Serendipity supports XHTML 1.1, CSS 2.0, RSS 0.93, 1.0, and 2.0, Atom 0.3 and 1.0. Supports conditional GET for caching RSS feeds on the client-side. It also supports UTF-8 environments.</li></ul>
+<ul><li><strong>Shared library</strong>. You can use Serendipity as a single installation to serve multiple and independent weblogs, but only maintaining a single codebase.</li></ul>
+<ul><li><strong>Easy Upgrading</strong>. An easy and automatic upgrader helps you in the process of upgrading between Serendipity versions (starting with version 0.5).</li></ul>
+<ul><li><strong>Flexible Input/Output</strong>. Choose between HTML, Textile, Wiki, BBCode and a boast of other markups. For both users and your editors!</li></ul>
+<ul><li><strong>PHP-powered</strong> to fulfill the needs of ever-growing PHP-enabled websites and easy integration with support of <strong>embedding</strong> Serendipity into your webpage.</li></ul>
+
+<ul><li><strong>Actively maintained</strong> by some skilled and open-minded developers who enjoy the touch to the actual user and give support on the Forums as well as listen to every new user suggestion.</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-err_no_dbprefix>Could not determine the database prefix</english-err_no_dbprefix>
+	</languages>
+</soft>

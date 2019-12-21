@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.1" method="upgrade">
+	<name>Hebrew Language Pack</name>
+	<packagename>he-IL</packagename>
+	<version>3.1.1.2</version>
+	<url>http://www.joomla.org.il</url>
+	<packager>Joomla! Israel</packager>
+	<packagerurl>http://www.joomla.org.il</packagerurl>
+	<author>Joomla! Project (Hebrew)</author>
+	<authorEmail>info@joomla.org.il</authorEmail>
+	<authorUrl>www.joomla.org.il</authorUrl>
+	<creationDate>2013-05-13</creationDate>
+	<copyright>Copyright (C) 2005 - 2013 joomla.org.il Open Source Matters. All rights reserved</copyright>
+	<description>
+		<![CDATA[
+		<h3>חבילה השפה העברית המלאה עבור ג'ומלה 3.1.1</h3>
+		<h4>גירסת התרגום הינה 3.1.1v1</h4>
+		<div>החבילה נארזה על-ידי <a href="http://www.joomla.org.il/">joomla.ORG.il</a></div>
+		]]></description>
+    <blockChildUninstall>true</blockChildUninstall>
+	<files>
+	        <file type="language" client="site" id="he-IL">site_he-IL.zip</file>
+	        <file type="language" client="administrator" id="he-IL">admin_he-IL.zip</file>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist_3.xml</server>
+		<server type="collection" priority="5" name="Accredited Joomla! Translations">http://www.joomla.org.il/translationlist_3.xml</server>
+	</updateservers>
+</extension>

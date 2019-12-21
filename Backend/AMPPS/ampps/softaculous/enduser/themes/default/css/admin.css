@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Drop Down menu theme*/
+/* Table of the menu */
+
+.altrowstable {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#333333;
+border: 1px #D2D2D2 solid;
+}
+
+.altrowstable th, .tablehead {	
+background: url(../images/gradient_silver.gif) repeat-x scroll 0 0 #FFFFFF;
+color: #555555;
+font-size:13px;
+font-family: arial,verdana,sans-serif;
+}
+
+.shadow{
+-moz-box-shadow: 0 0 8px 2px #E2E2E2;
+-webkit-box-shadow: 0 0 8px 2px #E2E2E2;
+box-shadow: 0 0 8px 2px #E2E2E2;
+}
+
+.tr_bgcolor {
+background: rgb(235, 245, 255);
+}
+
+.oddrow{
+background-color:#FEFEFE;
+}
+
+.evenrow{
+background-color:#F1F1F1;
+}
+
+.divroundshad{
+padding: 3px;
+-moz-box-shadow: 0 0 10px 5px #E2E2E2;
+-webkit-box-shadow: 0 0 10px 5px #E2E2E2;
+box-shadow: 0 0 10px 5px #E2E2E2;
+border-radius: 5px;
+border:1px solid #D2D2D2;
+}
+
+.roundheader{
+padding: 8px;
+border-radius: 5px;
+font-weight:bold;
+color:#FFF;
+background-image: url(../images/bbg.png);
+}
+
+.divround{
+padding: 3px;
+border-radius: 5px;
+border:1px solid #D2D2D2;
+}
+
+.ddopt{
+margin-left:15px;
+}
+/*Menu TR Normal effect */
+.ddmnor, .ddopt a:link, .ddopt a:visited, .ddopt a:active{
+text-decoration: none;
+text-align:left;
+}
+/*Menu TR On it effect */
+.ddmon{
+background-color:#DAEBFE;
+color: #FFF;
+text-align:left;
+}
+.cbgbor{
+border:solid 1px #CCCCCC;
+}
+.pagelinks, .activepage{
+border:1px solid #CCCCCC;
+padding:1px 3px;
+}
+.pagelinks{
+background-color: #F0F0F0;
+}
+.pagelinks a:link, .pagelinks a:visited, .pagelinks a:active, .pagelinks a:hover,
+.activepage a:link, .activepage a:visited, .activepage a:active, .activepage a:hover{
+text-decoration:none;
+}
+.activepage{
+background-color: #CCCCCC;
+}
+/* Ending - Drop Down menu theme*/
+
+/* Search */
+.showsearch{
+background-color: #F0F7FF;
+}
+

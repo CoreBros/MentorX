@@ -1,0 +1,69 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/osTicket_2
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/customersupport/osTicket_2
+	</ratings>
+	<space>
+		108049881
+	</space>
+	<support>
+		http://osticket.com/
+	</support>
+	<version>
+		1.12.5
+	</version>
+	<mod>1</mod>
+	<release_date>21-11-2019</release_date>
+	<admin>scp</admin>
+	<min_require>1.6.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.6.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.5.0" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">osTicket</font> is a widely-used open source support ticket system. It seamlessly integrates inquiries created via email and web-based forms into a simple easy to use multi-user web interface. Easily manage, organize and archive all your support requests and responses in one place while providing your clients with accountability and responsiveness they deserve.
+		<br /><br />
+osTicket is an attractive alternative to higher-cost and complex customer support systems; simple, lightweight, reliable, open source, and easy to setup and use. The best part is, it's completely free.
+		<br /><br />
+		osTicket is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+		<br />
+<font size="2" color="#E64D20">Web-based Platform </font>: osTicket is a web-based multi-user customer support platform. No local installation required. Access it anytime - from anywhere.<br /><br />
+<font size="2" color="#E64D20">Customer Portal </font>: All support requests and responses are archived online. User can login using email and ticket ID. No user account or registration required to submit a ticket.<br /><br />
+<font size="2" color="#E64D20">Autoresponder </font>: Configurable automatic reply sent out when a new ticket is opened or a message is received.<br /><br />
+<font size="2" color="#E64D20">Email Integration </font>: Tickets can be created via email, online forms or phone (created by staff). Flexible configuration and mapping.<br /><br />
+<font size="2" color="#E64D20">Role-based Access </font>: Control staff's access level based on assigned groups, departments and teams.<br /><br />
+<font size="2" color="#E64D20">Collision Avoidance </font>: Ticket locking mechanism to allow staff to lock tickets during response and avoid conflicting responses.<br /><br />
+<font size="2" color="#E64D20">Ticket Assignment </font>: Assign tickets to a staff or a teams. Assignment notes are logged as internal notes.<br /><br />
+<font size="2" color="#E64D20">Ticket Transfer </font>: Transfer tickets between departments to make sure it's being handled by the correct staff.<br /><br />
+<font size="2" color="#E64D20">Due Dates </font>: Set due dates on individual tickets and overwrite default grace period. Get overdue alerts and notices on missed due dates.<br /><br />
+<font size="2" color="#E64D20">Alerts &amp; Notices </font>: Staff and clients are kept up to date with email alerts. Configurable and flexible settings.<br /><br />
+<font size="2" color="#E64D20">Dashboard &amp; Reports </font>: Get system overview and basic historical statistics on tickets count and status per department, staff and help topics.<br /><br />
+<font size="2" color="#E64D20">Canned Responses </font>: Predefined responses for frequently asked questions. Ticket variables supported for personalized responses.<br /><br />
+<font size="2" color="#E64D20">Internal Notes </font>: Add internal notes to tickets for staff. Activity logs let you see events or what actions have been taken, when, and by whom. <br /><br />
+<font size="2" color="#E64D20">Attachment Support </font>: Allow web or emailed attachments. Configurable file type whitelisting to enhance security.<br /><br />
+<font size="2" color="#E64D20">Email Templates </font>: Manage and configure email templates used for auto-reply, alerts, notices and responses. Ticket variables supported for personalized messages.<br /><br />
+<font size="2" color="#E64D20">Ticket Filters </font>: Apply conditional rules to route incoming tickets to the right departments or staff members, and action triggers.<br /><br />
+<font size="2" color="#E64D20">Service Level Agreements </font>: SLA support allow you to track tickets and due dates without the hassle. Get overdue alerts and notices on missed due dates, and priority escalation.<br /><br />
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-err_no_dbprefix>Could not determine the database prefix</english-err_no_dbprefix>
+		<english-system_email>System Email</english-system_email>
+		<english-sys_email_exp>System Email can not be as same as Admin Email</english-sys_email_exp>
+		<english-admin_email_exp>Admin Email can not be as same as System Email</english-admin_email_exp>
+	</languages>
+</soft>

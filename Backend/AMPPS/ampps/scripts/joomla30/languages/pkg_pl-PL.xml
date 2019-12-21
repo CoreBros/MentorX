@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.9" method="upgrade">
+	<name>Polish (Poland) (pl-PL) Language Pack</name>
+	<packagename>pl-PL</packagename>
+	<version>3.9.13.1</version>
+	<creationDate>listopad 2019</creationDate>
+	<author>Polskie Centrum Joomla</author>
+	<authorEmail>zwiastun@joomla.pl</authorEmail>
+	<authorUrl>https://www.joomla.pl</authorUrl>
+	<copyright>Copyright (C) 2005-2019 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! Project</packager>
+	<packagerurl>www.joomla.org</packagerurl>
+	<description>	<![CDATA[
+		<div class="text-center span12"> 
+		<h3>Joomla! - pakiet języka polskiego - 3.9.13</h3>
+		<p><span style="font-weight: normal">Polskie Centrum Joomla zapewnia społeczności kompletne tłumaczenia Joomla!<br />Ich przygotowanie kosztuje wiele czasu i pracy.</span></p>
+		<div class="alert alert-info">
+		<h3>Wspieramy Ciebie, więc wesprzyj i nas.</h3>
+		<h3>Przekaż darowiznę przez:</h3>
+		<a class="btn btn-success" href="http://bit.ly/paypal-fundacja">PayPal</a>	
+		<a class="btn btn-success" href="http://bit.ly/przekaz-darowizne-payu">PayU</a> 
+		<a class="btn btn-info" href="http://bit.ly/przekaz-darowizne-pcj">Przelew bankowy</a>
+		<p>&nbsp;</p>
+		<h3>Dziękujemy</h3>
+		<p>Od 15 maja 2019 otrzymaliśmy 36 darowizn od 33 osób i 3 firm, razem 1.485 złotych.</p>
+		<p>Serdeczne podziękowania dla Darczyńców: Andrzej B., Dominika B., Marek B., Stanisław B., Dariusz D., Sławomir D., Leszek Ł., Jerzy K., Michał K., Waldemar K., Jarosław L., Grzegorz N., Jakub N., Zdzisław N., Zbigniew P., Artur Se., Artur Sk.,  Artur St.,  Maciej S., Dariusz Ś., Jarosław W., Jerzy Z. <br/>oraz firm: Cedrowa Grupa Grzegorz Zborowski, GIAX Spółka Cywilna, FUH Tomasz Karolski		
+		</p>  
+		</div>
+		</div>
+	]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="pl-PL">site_pl-PL</folder>
+		<folder type="language" client="administrator" id="pl-PL">admin_pl-PL</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_3.xml
+		</server>
+	</updateservers>
+</extension>

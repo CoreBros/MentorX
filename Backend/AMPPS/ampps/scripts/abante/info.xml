@@ -1,0 +1,80 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/AbanteCart
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/AbanteCart
+	</ratings>
+	<space>
+		66735809
+	</space>
+	<support>
+		http://www.abantecart.com/ecommerce-solution-support
+	</support>
+	<version>
+		1.2.15
+	</version>
+	<mod>28</mod>
+	<release_date>13-05-2019</release_date>
+	<admin>index.php?s=admin123</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.6.0" />
+	<requirement check="php" type="extension" name="curl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Abante Cart</font> is a free PHP based eCommerce solution for merchants to provide ability creating online business and sell products online quick and efficient.
+		<br /><br />
+		AbanteCart application is built and supported by experienced enthusiasts that are passionate about their work and contribution to rapidly evolving eCommerce industry.
+		<br /><br />
+		AbanteCart is more than just a shopping cart, it is rapidly growing eCommerce platform with many benefits. 
+		<br /><br />
+		Abante Cart is released under the <a href="http://www.opensource.org/licenses/OSL-3.0" target="_blank">Open Software License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Free Open Source Shopping Cart</li>
+<li>Seamless installation and upgrade </li>
+<li>No programming knowledge needed</li>
+<li>Fast and optimized for performance </li>
+<li>Sophisticated and easy control Panel</li>
+<li>Feature reach out of the box</li>
+<li>Ajax Add to Cart</li>
+<li>Secure and compliant with industry</li>
+<li>Quick initial set up and easy migration</li>
+<li>Powered with extensions capability </li>
+<li> Well organized code and architecture </li>
+<li>Team of ecommerce pros &amp; developers </li>
+<li>Administrator tools with impressive UI. </li>
+<li>SEO optimized with SEO URLs </li>
+<li>Unlimited Products and Categories</li>
+<li>Unlimited Brands or Manufacturers</li>
+<li>Multi Language and Currency</li>
+<li>Multi Store and URL</li>
+<li>Product Ratings and Reviews</li>
+<li>Multi Template or Skin </li>
+<li>Flexible layout managed per page </li>
+<li>Free Documentation </li>
+<li>Automatic Image Resize</li>
+<li>Variety of Payment Gateways</li>
+<li>Variety of Shipping Methods </li>
+<li>Storefront API for mobile access </li>
+<li>NEW Flexible Data Import/Export</li>
+<li>NEW Extensions Marketplace</li>
+</ul>
+		</english-features>
+		<english-ad_dir>Admin Folder</english-ad_dir>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-err_no_dbprefix>Could not determine the database prefix</english-err_no_dbprefix>
+		<english-err_no_salt>Could not determine the SALT</english-err_no_salt>
+	</languages>
+</soft>

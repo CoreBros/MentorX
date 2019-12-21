@@ -1,0 +1,11 @@
+prefix=/Applications/AMPPS/apache
+exec_prefix=/Applications/AMPPS/apache
+libdir=${prefix}/lib
+APR_MAJOR_VERSION=1
+includedir=/Applications/AMPPS/apache/include
+
+Name: APR
+Description: The Apache Portable Runtime library
+Version: 1.6.3
+Libs: -L${libdir} -lapr-${APR_MAJOR_VERSION} -lpthread
+Cflags:  -DDARWIN -DSIGPROCMASK_SETS_THREAD_MASK -DDARWIN_10 -g -O2 -I${includedir}

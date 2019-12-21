@@ -1,0 +1,39 @@
+<softedit xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="">
+				<head>{{ad_name}}</head>
+				<optional>true</optional>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="">
+				<head>{{ad_pass}}</head>
+				<exp>{{exp_ad_pass}}</exp>
+				<optional>true</optional>
+			</input>
+			<input type="text" name="signon_username" size="30" value="" save="true">
+				<head>{{signon_username}}</head>
+				<exp>{{exp_signon_username}}</exp>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{install_plugins}}</heading>
+			<input type="checkbox" name="loginizer" value="off">
+				<head>{{loginizer}}</head>
+				<exp>{{exp_loginizer}}{{exp_note}}</exp>
+				<admin type="checkbox" enabled="1"></admin>
+			</input>
+			<input type="checkbox" name="classic-editor" value="off">
+				<head>{{classic-editor}}</head>
+				<exp>{{exp_classic-editor}}</exp>
+				<admin type="checkbox" enabled="1"></admin>
+			</input>
+			<input type="checkbox" name="wp-central" value="off">
+				<head>{{wpcentral}}</head>
+				<exp>{{exp_wpcentral}}</exp>
+				<admin type="checkbox" enabled="1"></admin>
+			</input>
+		</group>
+	</settings>
+</softedit>

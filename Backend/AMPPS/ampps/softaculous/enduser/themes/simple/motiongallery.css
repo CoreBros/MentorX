@@ -1,0 +1,28 @@
+/* Gallery Styles */
+
+#motioncontainer {
+/*margin:0 auto;  Uncomment this line if you wish to center the gallery on page */
+width: 98%; /* Set to gallery width, in px or percentage */
+height: 110px; /* Set to gallery height */
+background-color: #F9F9F9;
+border: 1px solid #CCCCCC;
+}
+
+#motioncontainer a img {
+width: 80px;
+padding: 4px;
+}
+
+#statusdiv {
+background-color: lightyellow;
+border: 1px solid gray;
+padding: 2px;
+position: absolute; /* Stop Editing Gallery Styles */
+left: -300px;
+visibility: hidden;
+}
+
+#motioncontainer a:hover {
+color: red; /* Dummy definition to overcome IE bug */
+}
+/* End Gallery Styles */

@@ -1,0 +1,180 @@
+Oxwall 1.8.4, July 26, 2016
+====================================
+
+Platform [core]:
+- added advanced SEO settings for site pages 
+- added option to generate and update sitemap
+- removed hardcode for Submit form element (contributed by revkov https://github.com/oxwall/oxwall/pull/357)
+- made the reason for a profile suspension displayable on site
+- fixed preloader display for Simplicity theme
+- introduced hardcode ban to upload PHP files
+- introduced required PHP version check before platform update 
+- when attempting to update plugins while there is an available platform update present, the system will warn admins to perform platform update first
+- fixed the display order for profile fields on profile view page within mobile version
+- changed URL attribution to https://developers.oxwall.com
+- changed anti-CSFR token lifetime to match user’s on-site session time
+- fixed avatar crop bug on profile edit page
+- improved SSL integration with CloudFlare
+
+Forum [forum]:
+- fixed display of quoted text for Simplicity theme (contributed by WalterMisar https://github.com/oxwall/simplicity/pull/7)
+
+Advertisement [ads]:
+- fixed fatal error during plugin installation
+
+Videos [video]:
+- fixed integration with dailymotion.com
+
+Oxwall 1.8.3, May 17, 2016
+====================================
+
+Platform [core]:
+- added CURL support for remote platform requests
+- added blocked users list
+- fixed message appearing during theme upload with missing update server connection
+- added option to use empty database user password during installation
+- fixed bug preventing cash clearing for configs during single script launches
+- added standard placeholder for forms, which displays invalid label
+- added Check Updates button to Admin Panel for manual update checks
+- added ALT HTML attribute for profile avatars on profile list page
+- added support for anti CSFR tokens, which are now used by all forms automatically. Individual usage access is also available. 
+- removed send escaper functions
+- fixed mobile version bug preventing login from any page
+- removed .htaccess file from update pack
+- fixed bug with inverted commas within langs breaking stats on Admin Panel index page
+
+Photos [photo]:
+- photo description is no longer cut due to tag presence
+- added ALT HTML attribute for photo thumbs within photo widget on profile view page, as well as photo lists (latest, top rated, most discussed)
+- added ALT HTML attribute for photos on separate photo view page
+- added GET parameter for temporary photos to prevent caching errors
+
+Newsfeed [newsfeed]:
+- added ALT HTML attribute for displaying thumbs of various content
+
+Messages [mailbox]:
+- blocked users no longer show up in contact list
+- contact list search now displays results with partially typed-in names
+- fixed bug with invitation label not disappearing in chat window
+- fixed JS error “TypeError: element.input is null" appearing while switching operation modes (chat/mail/chat+mail) in plugin settings
+
+Video [video]:
+- added ALT HTML attribute for video thumbs on video listings page
+
+Events [event];
+- added ALT HTML attribute for event thumbs
+
+Groups [groups]:
+- added ALT HTML attribute for group thumbs
+
+Oxwall 1.8.2, Mar 22, 2016
+====================================
+
+Platform [core]:
+- oxwall minimum PHP supported version increased to 5.5;
+- the list of changes is now shown during plugin update request (if the plugin developer added the list of changes to the Store);
+- improved validation system for commercial plugins/themes;
+- added new class definition <body class="ow {$theme-name}"> for each theme, where $thene-name is taken from theme.xml
+- fixed several XSS vulnerabilities (thanks to a report from Tim Coen);
+- added Uninstall option for disabled plugins in the Admin Panel;
+- fixed a bug preventing site admins to upload graphics in Admin Panel > Appearance > Customize > Graphics, in cases when site admins did not have user action ‘upload photos’;
+
+Photos [photo]:
+- added warning message when uploaded photo is bigger than the size defined in the plugin settings;
+- fixed photo thumbs display for photo widget in mobile version;
+- removed duplicate photos in the list of photos on the ‘Most discussed photos’ page;
+
+Events [event]:
+- fixed a bug allowing logged out users to edit events of other users;
+
+Videos [video]:
+- fixed the validation of video embed code during editing;
+
+Friends [friends]:
+- fixed a bug appearing when a user deletes someone from the friends list;
+
+Newsfeed [newsfeed]:
+- outbound links left by users are no longer converted to https, when SSL is active across the entire site;
+- unless a user post features a thumbnail image, the post now fits the full width of the newsfeed;
+
+Import Contacts [contact_importer]:
+- added Send button when selecting Gmail contacts to invite;
+
+Oxwall 1.8.1, Jan 12, 2016
+====================================
+
+Platform [core]:
+- added mobile version for new Simplicity theme;
+- license key is now required for commercial items during the installation of plugins/themes;
+- list of photos available for avatar upload is no longer duplicated on the Change Avatar page;
+- inverted commas within tags no longer cause errors on the content editing page;
+- improved stability for captcha display;
+- added new field type for fselect single choice, which allows to add unlimited number of values;
+- added User's Timezone option to User Preferences;
+- fixed Not Found errors for images on Admin Panel > Appearance > Customize > Graphics page;
+- added basic customization option for mobile version theme in Admin Panel;
+- improved Amazon S3 support;
+- added option to disable captcha from Admin Panel;
+
+Newsfeed [newsfeed]:
+- private blog posts no longer show up in general Newsfeed;
+
+Virtual Gifts [virtualgifts]:
+- any selected gift is now shown as selected in Simplicity theme;
+
+Forum [forum]:
+- fixed link for creation of topics in Forum Topics index widget;
+- added check during creation of new topic to see if a forum for this new topic exists;
+
+Photos [photo]:
+- empty albums no longer show up in User Albums widget on Profile View page;
+- fixed photo search by tag bug;
+- fixed bugs found during display of photos on photo lists;
+
+Advertisement [ads]:
+- fixed Google AdSense display bug;
+- fixed conflict with Geolocation Data plugin;
+
+TinyChat [tinychat]:
+- added new user action "Use Chat";
+
+Events [event]:
+- only expired invitations are now deleted by cron;
+
+Oxwall 1.8.0, Sep 8, 2015
+====================================
+
+Platform:
+- introduced new default theme Simplicity (Frontend + Admin Panel);
+- redesigned navigation and notification system in Admin Panel;
+- added widget support in Admin Panel;
+- reorganized pages/interfaces/controls in Admin Panel for improved simplicity and comprehension;
+- fixed possible collision in database during user authorization;
+- password for "Guests can view the site with password" mode is now encrypted;
+- total interface overhaul for Admin panel >> Appearance >> Edit theme >> Graphics;
+- fixed bug within mobile version preventing avatar attachment during registration;
+
+Photos:
+- fixed bug which duplicated photos in Top rated/Most discussed lists;
+- empty albums are no longer displayed in album lists;
+- added indices for fields entityId and entityType in table ow_photo_album;
+
+Messages:
+- fixed link display in new message notifications;
+- fixed attachment display in mobile version;
+- added chat/message link within new message notification template in mobile version;
+- all latest messages are now viewable in mobile version;
+- fixed search for messages;
+- fixed message lists paging in mobile version;
+
+Contact Importer:
+- added support for latest Facebook API;
+
+Facebook connect:
+- added support for latest Facebook API;
+
+Friends:
+- enhanced synchronization with Newsfeed plugin;
+
+Forum: 
+- links within mobile version's notifications for new replies in subscribed topics now lead to mobile version's forum topic;

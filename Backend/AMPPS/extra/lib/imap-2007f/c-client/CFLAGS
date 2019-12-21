@@ -1,0 +1,1 @@
+-g -O2 -pipe -fno-omit-frame-pointer -Wno-pointer-sign -fPIC -DCHUNKSIZE=65536

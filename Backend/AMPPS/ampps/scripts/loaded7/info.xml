@@ -1,0 +1,54 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Loaded_Commerce
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Loaded_Commerce
+	</ratings>
+	<space>
+		57132708
+	</space>
+	<support>
+		http://www.loadedcommerce.com/community/forums/
+	</support>
+	<version>
+		6.5.3.3
+	</version>
+	<mod>22</mod>
+	<mod_files>1</mod_files>
+	<release_date>24-01-2017</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<requirement check="php" type="extension" name="pcre" />
+	<requirement check="php" type="extension" name="iconv" />
+	<requirement check="php" type="extension" name="exif" />
+	<requirement check="php" type="extension" name="zlib" />
+	<requirement check="php" type="extension" name="ftp" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Loaded Commerce</font> is the most powerful ecommerce platform you can host yourself.
+		<br /><br />
+		Loaded Commerce 6.5 evolved over a decade to serve the most aggressive online store owners on the internet. There is not much that Loaded does not do.
+		<br /><br />
+		Loaded Commerce is released under <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU/GPL Version 2</a>.
+		</english-overview>		
+		<english-features>
+<li><b>Comprehensive Catalog and Shopping Cart</b> - All the features that make it well rounded ecommerce solution and a few like Wishlist and specials by category that cause it to stand apart.</li><br />
+<li><b>Data Driven Inventory Management</b> - Built to keep accurate count to deliver smiles to your customers and reduce refunds. Send your product data to eBay and Amazon to increase awareness and drive orders.</li><br />
+<li><b>Power Selling Features</b> - Shop by Price, Cross sell and much more give you a competitive edge that means more customers and more orders.</li><br />
+<li><b>Whitelabel Edition</b> - Perfect for resellers, developers or corporate use. Replace our branding and admin links with your own</li><br />
+		</english-features>
+	</languages>
+</soft>

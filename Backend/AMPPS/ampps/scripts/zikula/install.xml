@@ -1,0 +1,22 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__admin_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>web/bundles/zikulaworkflow/.htaccess</exclude>
+	</files>
+</softinstall>

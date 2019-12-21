@@ -1,0 +1,252 @@
+Version 7.8.3 Release Notes
+Maintenance
+
+CORE-7197 (#4467) - Allow remote bank account payments to be captured via cron
+CORE-13180 - Prevent erroneous failure message on no records are changed when using Bulk Pricing Updater
+CORE-13270 - Correct date grouping for Affiliate Hits report
+CORE-13335 - Utilize best symbols for password generation respective of Plesk provisioning
+CORE-13364 - Improve report queries for MySQL v8 date syntax
+CORE-13377 - Ensure tax is applied to billable items when set to "Add to users next invoice"
+CORE-13474 - Improve handling of WHOIS server response timeout
+CORE-13491 - Utilize Bootstrap datepicker over jQuery UI for Automation status
+CORE-13512 - Ensure hidden config options honored when recalcuating via UpdateClientProduct
+CORE-13546 - Ensure promo code with defined billing cycle is applied to product addons
+    Also known as: CORE-13604
+CORE-13547 - Correct CentovaCast hostname configuration
+CORE-13555 - Correct spelling for Araba/Álava
+CORE-13558 - Delete all translations of Email Templates on deletion of template
+CORE-13584 - Prevent duplicate attachments when invoking AddTicketNote during TicketOpen hook
+CORE-13609 - Ensure periodic Activity Log pruning occurs
+CORE-13717 - Ensure cPanel Product Name is checked for username in Sync
+CORE-13718 - Improve email verification post-login
+CORE-13721 - Prevent fatal when attempting to load former password reset path
+CORE-13724 - Ensure Overage Billing is enabled before processing
+CORE-13725 - Ensure correct language strings used in Tax Rules UI
+CORE-13728 - Correct CC Recipients form for client area
+CORE-13730 - Correct captcha display logic for new Password Reset template
+CORE-13732 - Ensure remote bank account gateways can be captured
+    Also known as: MODULE-7126
+CORE-13733 - Improving handling for token gateways' post-auth workflow respective to payment by credit
+    Also known as: MODULE-7117
+CORE-13734 - Inspect encrypted card data for bogus values prior to migration
+CORE-13735 - Allow deleting of remote paymethod local reference when remote delete fails
+CORE-13738 - Ensure hidden on order form Product Addons are available for purchase after order
+CORE-13739 - Improve browser compatibility of input type for CVV field
+CORE-13749 - Ensure mailbox is not empty before invoking POP search functionality
+CORE-13751 - Correct display of IP in Client Activity widget
+CORE-13753 - Ensure PayMethod is associated with invoice on Invoice Email Send
+CORE-13759 - Correct invoice calculation for due amounts with multiple payments
+Project Management Addon
+
+PMA-90 - Provide option to Apply Tax on invoices from Billing Timers
+    Also known as: PMA-93
+PMA-102 - Correct Week and Weeks language strings
+    Also known as: ADDON-6009
+PMA-105 - Improve queries to avoid mismatch collation issues
+    Also known as: ADDON-6012
+PMA-110 - Allow task list to be sorted
+    Also known as: ADDON-5958
+PMA-111 - Show uploaded date of PMA attachments in client area
+PMA-116 - Provide more accurate description of timer durations
+PMA-129 - Ensure Import Tasks button is enabled/disabled appropriately
+PMA-130 - Remove support for custom status color of PMA projects
+PMA-134 - Ensure project log updated when adding timer entry
+PMA-140 - Correct entity rendering on add new task
+    Also known as: ADDON-6029
+PMA-146 - Improve view of Due Date editing on Project Management Details
+PMA-147 - Add dates to Project Management Project Time Logs report
+PMA-150 - Implement ability to delete task templates
+Modules
+
+MODULE-7110 - Ensure client area Add PayMethod ignores hidden gateways
+MODULE-7111 - Prevent error when updating pay method for eWay Tokens in admin area
+MODULE-7113 - Correct input validation for Accpet.js
+MODULE-7114 - Ensure Payment Intent Description is passed to Stripe
+MODULE-7122 - Prevent cron fatal error when processing Stripe with missing data
+API
+
+CORE-13451 - Prevent double invocation of ClientAdd hook when runing AddClient via local API
+CORE-13744 - Ensure GetPayMethods returns all pay method types
+
+Version 7.8.2 Release Notes
+Maintenance
+
+CORE-13683 - Correct link provided after password reset action
+CORE-13684 - Improve string comparison for Server Sync items
+CORE-13685 - Ensure Edit Bundle loads and displays Addons options
+CORE-13690 - Ensure card is not duplicated on checkout with remote gateways
+CORE-13692 - Correct handling of custom admin directory for Sync Accounts button
+    Also known as: CORE-13689
+CORE-13693 - Correct To-Do list searching
+CORE-13694 - Correct post location for Sales Tax Liability Report
+CORE-13695 - Correct query for Ticket Feedback Comments report
+CORE-13697 - Improve handling for invalid dates from remote in Server Sync
+CORE-13699 - Ensure QR shows on admin TOTP setup
+CORE-13700 - Reset Datepicker translation key cache after localization change
+CORE-13701 - Perform pay method migration in invoice capture if required
+CORE-13703 - Improve workflow for Stripe pre-session Intent
+    Also known as: MODULE-7101
+CORE-13707 - Create a single invoice for renewal + redemption fees as configured
+CORE-13708 - Allow migration of local card data regardless of lack of local card capable gateways
+CORE-13709 - Prevent spurious Stripe errors from triggering Oops page
+CORE-13710 - Correct CVV field referenced for checkout validation
+CORE-13711 - Improve pay method creation when migrating ambigous data
+CORE-13712 - Correct filter query for batch PDF Invoice report
+CORE-13714 - Improve handling for Attempt Capture with non-CC remote gateways
+CORE-13716 - Correct user reference and order when merging clients
+Modules
+
+MODULE-7099 - Ensure Stripe Intent reflects tax changes at checkout
+MODULE-7100 - Ensure remote input payment methods can be deleted
+    Also known as: MODULE-7105
+MODULE-7104 - Correct non-CC remote pay method handling for Attempt Capture
+MODULE-7106 - Correct display of accent characters for Stripe language strings
+MODULE-7107 - Prevent erroneous session error for no cost totals with Stripe
+MODULE-7108 - Render Payment Methods management UIs when supported gateways are active
+MODULE-7109 - Improve remote response parsing for Virtualmin v6.07 usage stats
+
+Version 7.8.1 Release Notes
+
+Maintenance
+
+CORE-13659 - Update WHOIS server for .actor
+CORE-13662 - Update WHOIS server for .pt
+CORE-13666 - Correct language string of SSL Certificates page
+CORE-13670 - Correct sorting for To Do List table
+CORE-13677 - Prevent fatal for misconfigured environments which disable cli arguments
+CORE-13678 - Ensure successful captures of non-migrated remote cards complete payment of invoice
+CORE-13679 - Ensure function declarations are available for Stripe intents
+CORE-13680 - Ensure due date value is maintained when editing To-Do List item
+CORE-13681 - Prevent error for undefined variable in Boxes & Modern carts
+Addons
+
+ADDON-6093 - Correct observation of 'completed' filter for GetProjects API
+ADDON-6115 - Correct Start Date input on PayPal Transaction Lookup
+Modules
+
+MODULE-7096 - Ensure a Payment Method with Stripe can be added via admin area
+MODULE-7097 - Observe and skip one's Plesk reseller account on sync using reseller account
+Also known as: CORE-13675
+Languages
+
+CORE-13642 - Improvements for Portuguese translation
+CORE-13667 - Improvements for Hungarian translation
+
+Version 7.8.0 Release Notes
+
+Maintenance
+
+ADDON-6050 - Include jQueryUI within Staff Noticeboard addon
+CORE-11819 - Ensure opt-out is propogated to mailchimp for existing entities
+CORE-13249 - Utilize translations for Client Advanced Search field labels
+CORE-13313 - Utilize translations for Billable Items Hours/Hour
+CORE-13317 - Prevent erroneous Saved notice for client summary on PHP 7.3 + IoncubeLoader 10.3.2
+CORE-13348 - Ensure phone number for new domain contact on ordering uses phone number prefixing
+CORE-13404 - Add support link to WHMCS Pop Cron Did Not Run email
+CORE-13418 - Allow .txt and .pdf ticket attachment filetypes on fresh installs
+CORE-13457 - Correct log entries for invoice number format changes made via Tax Configuration Page
+CORE-13478 - Correct Tax/VAT Label In WHMCS User Details Change Email Template
+CORE-13517 - Correct date picker context for Next Due Date on Client Products/Services
+CORE-13561 - Show friendly name in order details view of config options upgrade
+CORE-13567 - Correct display of Mass Invoice item descriptions
+CORE-13572 - Correct target DOM element for CC Recipient value additions
+CORE-13575 - Display Bank Account Pay Method Token IDs in the admin area
+CORE-13578 - Prevent erroneous email validation error on creation of billing address
+CORE-13580 - Provide compatibility for legacy DomainExpirySync to be used for DomainStatusSync cron command name
+CORE-13581 - Update FontAwesome to v5.10
+CORE-13585 - Ensure subsequent changes to TLD settings enforce leading dot
+CORE-13594 - Improve pre-checkout validation for Stripe
+CORE-13596 - Correct handling of custom admin directory for 2FA settings routes
+CORE-13598 - Ensure validation errors render in clientarea Add New Credit Card
+CORE-13606 - Apply latest UI styling to link tracking UIs
+CORE-13612 - Correct quote viewing admin permission
+CORE-13619 - Normalize date formatting for Add Credit
+CORE-13621 - Correct data structure provided to routines of ClientEdit hook point
+PMA-143 - Correct Input Field Formatting on Project Management Addon
+Modules
+
+MODULE-7046 - Improve feedback on empty nameserver fields
+MODULE-7047 - Improve feedback during registrar configuration
+MODULE-7056 - Ensure module command error messages are rendered properly
+MODULE-7085 - Ensure payment can be completed with tokens created before v7.8
+MODULE-7086 - Improve import for Plesk accounts
+MODULE-7087 - Manage subscription IP when changing package on shared IP Plesk (EXTWHMCS-54)
+MODULE-7091 - Correct GoDaddy domain status sync
+MODULE-7092 - Prevent erroneous errors during cPanel SSL provisioning
+API
+
+CORE-13408 - Correct handling of filename attachments added via API
+CORE-13411 - Ensure UpdateQuote honors datecreated if provided
+CORE-13448 - Correct documentation for UpdateClientProduct regDate param
+CORE-13527 - Ensure UpdateClient can be used to modify tax_id value
+CORE-13618 - Correct usage of pay method type in AddPayMethod API
+Languages
+
+CORE-13579 - Improvements for Hungarian translations
+
+Version 7.7.1 Release Notes
+
+Maintenance
+
+CORE-13080 - Update WHOIS server for .vc, .vg, .tc
+CORE-13081 - Improve jQuery selector used by stripe.js for better template compatibility
+CORE-13102 - Correct logic for re-verification of client email on admin change
+CORE-13105 - Correct ticket attachment aggregation utilized for storage migration
+CORE-13106 - Ensure Custom Invoice Numbering is applied to all created invoices
+CORE-13107 - Improve file migration error display
+CORE-13116 - Correct tax rate inconsistency on new invoices
+CORE-13119 - Correct due date assignment on manually generated invoices
+CORE-13120 - Improve SSL certificate validity detection
+CORE-13124 - Correct same-directory name collisions for analyzed storage configuration settings
+CORE-13127 - Update WHOIS server for .ch
+CORE-13131 - Prevent DOM error in Chrome for activating a payment gateway
+CORE-13132 - Ensure Predefined Products can be applied to quotes
+CORE-13134 - Improve UX for invalidated storage configurations
+CORE-13141 - Correct captcha validation for ticket form submissions
+CORE-13143 - Prevent PDO exception when sorting by Service Addon name
+CORE-13144 - Correct goto parameter usage when authenticating via AutoAuth
+CORE-13145 - Correct application of login captcha settings for AutoAuth authentications
+CORE-13146 - Correct ordering of service list on tickets
+CORE-13149 - Optimize and improve resilence of queries in SSL Sync cron task
+    Also known as: CORE-13147
+CORE-13151 - Prevent widget minimization from affecting layout location
+CORE-13152 - Correct missing details in Setup Advance Mode for CodeGuard
+CORE-13158 - Correct display of attachment not found error when sending templated email
+CORE-13177 - Correct custom module categorization in Apps and Integrations
+CORE-13179 - Correct view construction for Client > Service Addons and Client > Domain Registrations pages
+CORE-13181 - Update WHOIS server for .ca
+CORE-13186 - Ensure admin area addons search returns appropriate results
+CORE-13189 - Correct error when attempting to generate PDF invoices using dejavusans font
+CORE-13140 - Correct compatibility issue with automatic updates in PHP 7.3
+Addons
+
+PMA-136 - Correct trigger for invoice data snapshot generation
+    Also known as: CORE-13121, CORE-13122, CORE-13139
+PMA-137 - Provide fallback logic for environments which cannot detect browser-viewable attachment content
+Modules
+
+MODULE-6598 - Ensure Nominet shows TAG Change option when AllowClientTAGChange is enabled on module settings
+MODULE-6949 - Correct invoice payment record for non-hosting with 2CO Inline
+MODULE-6957 - Correct admin area JS error trigged by subscription cancellation associated with 2CO
+MODULE-6961 - Assert required format of CA postal codes with Namecheap API
+MODULE-6962 - Update fallback logic to account for inconsistent PayPal transitory subscription id schema
+MODULE-6965 - Add support for Payments Cancelled events with GoCardless
+MODULE-6966 - Ensure CodeGuard services show in Manage dropdown of client area
+MODULE-6967 - Ensure Existing Domain addon selection is limited to applicable products
+MODULE-6969 - Correct tax application for overdue or custom invoices with 2CO
+MODULE-6971 - Prevent error for completed transaction with PayJunction
+MODULE-6972 - Correct Disk Space value of Professional plan on CodeGuard Upgrade page
+CORE-13078 - Update Slack logo
+CORE-13172 - Prevent error when performing delete on release via Nominet
+API
+
+CORE-13101 - Return replyid in replies data of GetTicket API
+CORE-13138 - Ensure currency data is provided in response of GetInvoices API
+    Also known as: CORE-13047
+Languages
+
+CORE-12832 - Update client Italian translation
+CORE-12987 - Update client Hebrew translation
+CORE-13085 - Correct client German translation
+CORE-13118 - Update Hungarian translations
+    Also known as: CORE-13030

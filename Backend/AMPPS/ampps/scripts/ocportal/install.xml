@@ -1,0 +1,35 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="cr_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="sitename" size="30" value="My Composr">
+			<head>{{site_name}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="Password1!">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>install.php</exclude>
+	</files>
+</softinstall>

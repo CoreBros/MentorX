@@ -1,0 +1,22 @@
+1. Choose database Engine 'InnoDB'
+2. If it is asked for country choose "United States" and Shop timezone as "US/Eastern"
+3. Install with Sample Data
+4. Add the contents of img/ folder from manual to zip
+6. Upgrade not possible below 1.6.1.0
+
+7. check and 
+	copy translations/en
+	copy modules/*
+	copy en.php from other module folders
+	copy mails/en/
+	copy themes/default-bootstrap/lang/en.php
+	copy cache/sandbox/16us.xml
+	from manual installation
+	
+8. Remove en.gzip from translations folder If it is deleted in manual installation (Not being deleted anymore!)
+
+9. The reason for excluding image folders in upgrade.xml http://doc.prestashop.com/display/PS15/Manual+update#Manualupdate-Step2-GettingReadyfortheNewVersion 'Copying the files that were backed up in "prestashop-prod" to the new "prestashop-prep" folder'
+
+11. We have added upgrade for every version in prestashop. If there is any changes in database structure, prestashop will upgrade that automatically, and if there is no database changes then we are manually changing version number in SQL and in settings.inc.php
+
+12. PHP REQUIREMENT LINK: http://doc.prestashop.com/display/PS16/What+you+need+to+get+started

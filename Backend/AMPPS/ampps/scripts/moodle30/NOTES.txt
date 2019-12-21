@@ -1,0 +1,16 @@
+* Do not download Weekly Built.
+1) Empty the cache, sessions, muc, lock and localcache folders in data.zip
+2) Use "defaultcity" for city while installing, country United States and Timezone America/New_york. Also in New settings - Location settings keep America/New_york
+3) Download the Language packs here:
+http://download.moodle.org/langpack/
+4) Unpack the packages in the /languages/[[language]].zip
+5) Change the language [[language]] in SQL config and users table.
+6) Check this function and if new file is added update it in upgrade.php:
+upgrade_stale_php_files_present() in the file :
+/lib/upgradelib.php
+7) required minimum version check for upgrade in info.xml should be changed in case of major version change
+8) We do not change $CFG->directorypermissions = 0777; in the config file because it is outside the web-accessible directory and does not matter if it is 0777
+9) Check if /muc/config.php file is created in data folder on non suPHP server i.e. (you can use Webuzo).
+10) `allversionshash` in config table is same for every install
+11) `assignfeedback_editpdf` has the value '/usr/bin/gs' on Windows as well as Linux Manual install hence we leave it as it is.
+12) PHP REQUIREMENT LINK: https://docs.moodle.org/dev/Moodle_3.8_release_notes#Server_requirements

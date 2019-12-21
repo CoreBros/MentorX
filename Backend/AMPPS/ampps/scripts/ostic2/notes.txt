@@ -1,0 +1,5 @@
+1. schema_signature same for every install
+2. Make script where Database ENGINE is InnoDB
+3. Don't convert ostic.sql to utf8
+4. PHP REQUIREMENT LINK : https://docs.osticket.com/en/latest/Getting%20Started/Installation.html
+5. Download and update language from "https://osticket.com/download/#ostLang"

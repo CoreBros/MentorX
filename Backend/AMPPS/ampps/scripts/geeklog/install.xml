@@ -1,0 +1,90 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="Geeklog Site">
+				<head>{{site_name}}</head>
+			</input>
+			<input type="text" name="site_desc" size="30" value="My Nifty Geeklog Site">
+				<head>{{site_desc}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="gl_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+			<input type="text" name="noreply_email" size="30" value="noreply" softmail="true">
+				<head>{{noreply_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en-gb">English</option>
+					<option value="afrikaans_utf-8">Afrikaans</option>
+					<option value="bosnian_utf-8">Bosnian</option>
+					<option value="bulgarian_utf-8">Bulgarian</option>
+					<option value="catalan_utf-8">Catalan</option>
+					<option value="chinese_simplified_utf-8">Chinese Simplified</option>
+					<option value="chinese_traditional_utf-8">Chinese Traditional</option>
+					<option value="croatian_utf-8">Croatian</option>
+					<option value="czech_utf-8">Czech</option>
+					<option value="danish_utf-8">Danish</option>
+					<option value="dutch_utf-8">Dutch</option>
+					<option value="finnish_utf-8">Finnish</option>
+					<option value="estonian_utf-8">Estonian</option>
+					<option value="farsi_utf-8">Farsi</option>
+					<option value="french_france_utf-8">French</option>
+					<option value="german_formal_utf-8">German</option>
+					<option value="Hebrew_utf-8">Hebrew</option>
+					<option value="Hellenic_utf-8">Hellenic</option>
+					<option value="indonesian_utf-8">Indonesian</option>
+					<option value="italian_utf-8">Italian</option>
+					<option value="japanese_utf-8">Japanese</option>
+					<option value="korean_utf-8">Korean</option>
+					<option value="norwegian_utf-8">Norwegian</option>
+					<option value="polish_utf-8">Polish</option>
+					<option value="portuguese_brazil_utf-8">Portuguese Brazil</option>
+					<option value="portuguese_utf-8">Portuguese</option>
+					<option value="romanian_utf-8">Romanian</option>
+					<option value="russian_utf-8">Russian</option>
+					<option value="serbian_utf-8">Serbian</option>
+					<option value="slovak_utf-8">Slovak</option>
+					<option value="slovenian_utf-8">Slovenian</option>
+					<option value="spanish_utf-8">Spanish</option>
+					<option value="swedish_utf-8">Swedish</option>
+					<option value="turkish_utf-8">Turkish</option>
+					<option value="ukrainian_utf-8">Ukrainian</option>
+				</select>
+				<head>{{select_adm_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<datadir>geekdata</datadir>
+	<files>
+		<exclude>admin/install/*</exclude>
+		<exclude>admin/install/*/*</exclude>
+		<exclude>admin/install/*/*/*</exclude>
+		<exclude>admin/install/*/*/*/*</exclude>
+		<exclude>admin/install/*/*/*/*/*</exclude>
+	</files>
+</softinstall>

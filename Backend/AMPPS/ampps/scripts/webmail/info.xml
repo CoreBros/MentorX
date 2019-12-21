@@ -1,0 +1,101 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/WebMail_Lite
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/mail/WebMail_Lite
+	</ratings>
+	<space>
+		50021584
+	</space>
+	<support>
+		http://www.afterlogic.org/webmail-lite
+	</support>
+	<version>
+		8.3.14
+	</version>
+	<mod>65</mod>
+	<release_date>20-11-2019</release_date>
+	<admin>index.php</admin>
+	<min_require>7.7.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.6.0" />
+	<requirement check="php" type="extension" name="iconv" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">WebMail Lite</font> Open-source webmail script for your existing IMAP server.
+		<br /><br />
+		WebMail Lite can be used to access mail on virtually any IMAP enabled mail server.
+		<br /><br />
+		The integrated web administration panel allows you to manage the system settings without manual editing config files.
+		<br /><br />
+		WebMail Lite is released under the <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank">GNU Affero General Public License</a>.
+		</english-overview>
+		<english-features>
+<font size="2" color="#1281B6"><b>Functionality</b></font><br />
+<ul>
+<li>Multiple domains</li>
+<li>Mail folders and nested folders</li>
+<li>Address Book (Contacts and Groups)</li>
+<li>Mail filters, via Sieve</li>
+<li>Auto-responder, via Sieve</li>
+<li>Forwarding, via Sieve</li>
+<li>Plugins (change password, etc)</li>
+<li>Mail Search</li>
+<li>IMAP synchronization</li>
+<li>IMAP quotas</li>
+<li>IMAP search</li>
+<li>Managing IMAP folders</li>
+<li>Delivery confirmation</li>
+</ul><br />
+<font size="2" color="#1281B6"><b>Usability</b></font><br />
+<ul>
+<li>Message preview pane</li>
+<li>Auto-complete of e-mail addresses</li>
+<li>Keyboard shortcuts</li>
+<li>ISpell-check</li>
+<li>Compose e-mails in HTML (WYSIWYG) or plain-text modes</li>
+<li>Built-in and user-defined skins</li>
+<li>Web administration panel (manage system settings and domains)</li>
+</ul><br />
+<font size="2" color="#1281B6"><b>Security</b></font><br />
+<ul>
+<li>Supports SSL connections with mail servers</li>
+<li>Can block javascript and external images in e-mails</li>
+</ul><br />
+<font size="2" color="#1281B6"><b>Compatibility</b></font><br />
+<ul>
+<li>Supports SMTP/IMAP/POP3 protocols</li>
+<li>MySQL, MS SQL or MS Access database backend</li>
+<li>Supports AJAX in all modern browsers: IE6+, Firefox, Chrome, Safari, Opera</li>
+<li>International charsets, including UTF-8</li>
+<li>Accurate e-mail parser and viewer</li>
+</ul>
+		</english-features>
+		<english-in_set>Incoming Mail Settings</english-in_set>
+		<english-out_set>Outgoing Mail Settings</english-out_set>
+		<english-conn_protocol>Connection Protocol</english-conn_protocol>
+		<english-ssl_protocol>Use SSL</english-ssl_protocol>
+		<english-host_ser>Server Address</english-host_ser>
+		<english-m_port>Port</english-m_port>
+		<english-exp_in_host_ser>Please provide the Incoming Mail Server Address you wish to use.<br />
+		You can change this later from the WebMail Admin Panel.</english-exp_in_host_ser>
+		<english-exp_out_host_ser>Please provide the Outgoing Mail Server Address you wish to use.<br />
+		You can change this later from the WebMail Admin Panel.</english-exp_out_host_ser>
+		<english-on>On</english-on>
+		<english-off>Off</english-off>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

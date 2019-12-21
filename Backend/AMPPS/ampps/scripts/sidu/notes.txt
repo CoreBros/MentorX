@@ -1,0 +1,44 @@
+
+The following problem has been resolved in SIDU 3.7-----------------------------------
+
+
+If you get errors when you click on 'User' tab in menu then 
+
+Solutions (Recommended by Script Vendor):
+
+1 - open file: user.php
+========================
+<?php
+//0id 1tab 2user@host 3db 4table
+include 'inc.page.php';
+$SIDU['page']['nav']='defa';
+uppe();
+echo "<div class='web'>";
+main($SIDU,$user,$acs,$acs2,$grant,$cmd);
+echo '</div>';
+down();
+
+...
+=========================
+
+Above is the top part of user.php.
+
+simply add "@" before uppe() and main(...) and down()
+
+so it will look like the following:
+
+========================
+<?php
+//0id 1tab 2user@host 3db 4table
+include 'inc.page.php';
+$SIDU['page']['nav']='defa';
+@uppe();
+echo "<div class='web'>";
+@main($SIDU,$user,$acs,$acs2,$grant,$cmd);
+echo '</div>';
+@down();
+
+...
+=========================
+
+2)We have changed the php requirement to 5.4 due to syntax error in version 6.0.

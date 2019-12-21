@@ -1,0 +1,18 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<setuplocation>upgrade</setuplocation>
+	<files>
+		<exclude>config/personal_config.php</exclude>
+		<exclude>app/config/custom_parameters.yml</exclude>
+		<exclude>config/config.php</exclude>
+		<exclude>web/uploads/*</exclude>
+		<exclude>web/uploads/*/*</exclude>
+		<exclude>web/uploads/*/*/*</exclude>
+	</files>
+</softupgrade>

@@ -1,0 +1,5 @@
+1) Installer is at admin/install/wizard.php
+2) Select "MySQLi" for Database type in manual installation.
+3) Move USING BTREE to the left and not at the end.
+4) Check everytime "define('DC_CRYPT_ALGO','sha512');" in inc/config.php If it has changed then check password method. Because we have added hardcoded 'sha512' in password method. Since 2.12 version.
+5) PHP REQUIREMENT LINK: https://dotclear.org/documentation/2.0/admin/install

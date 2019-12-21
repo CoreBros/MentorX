@@ -1,0 +1,51 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{settings}}</heading>
+			<input type="text" name="sn" size="30" value="My Board">
+				<head>{{name}}</head>
+				<exp>{{name_exp}}</exp>
+			</input>
+			<input type="text" name="board_email" size="30" value="board" softmail="true">
+				<head>{{email}}</head>
+				<exp>{{email_exp}}</exp>
+				<handle>__email_address</handle>
+			</input>
+			<input type="text" name="dbprefix" size="20" value="aef_">
+				<head>{{mysql_pre}}</head>
+				<optional>true</optional>
+			</input>
+			<input type="checkbox" name="utf8" value="on">
+				<head>{{utf8}}</head>
+				<exp>{{utf8_exp}}</exp>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="aefcookie" value="">
+				<handle>__cookiename</handle>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>setup/*</exclude>
+		<exclude>setup/*/*</exclude>	
+		<exclude>upgrade/*</exclude>
+		<exclude>upgrade/*/*</exclude>	
+	</files>
+</softinstall>

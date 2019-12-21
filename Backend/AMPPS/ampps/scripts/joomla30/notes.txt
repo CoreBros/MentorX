@@ -1,0 +1,37 @@
+1. Do not install multiple times for sample data. Take sample data sql from joomla package and change dbprefix
+2. Choose Database Type "MySQLi"
+3. For languages download the packages here :
+http://community.joomla.org/translations/joomla-3-translations.html
+4. Simply unzip the packages in joomla30/languages/ folder the structure is as it is in their package
+5. Most of the language packages are in correct structure some have wrong structure so you will need to ZIP manually. There should files directly in the below ZIPS :
+6. Structure should be as follows :
+admin_fr-FR.zip
+site_fr-FR.zip
+pkg_fr-FR.xml
+7. In case there are changes in the structure of `extensions` or `update_sites_extensions` table in database make changes in install.php for languages
+8. Languages need to be updated for 3.9.13
+
+					<option value="ar-AA">Arabic</option>
+					<option value="cs-CZ">Czech</option>
+					<option value="es-ES">Spanish</option>
+					<option value="he-IL">Hebrew</option>
+					<option value="hu-HU">Hungarian</option>
+					<option value="ja-JP">Japanese</option>
+					<option value="ko-KR">Korean</option>
+					<option value="nb-NO">Norwegian</option>
+					<option value="pl-PL">Polish</option>
+					<option value="pt-BR">Portuguese (Brazil)</option>
+					<option value="pt-PT">Portuguese</option>
+					<option value="ru-RU">Russian</option>
+					<option value="tr-TR">Turkish</option>
+					
+9. If you get error while upgrading for deleting some files, then check "administrator/components/com_admin/script.php" file for list of files to be deleted and add them in upgrade.php. Check the complete list from the above file instead of just adding the files of current version.
+10. sample_testing.sql file is not present in the zip so we have removed this since 3.6.2. Check in next verison if the file exists then add it again in install.xml as well "<option value="sample_testing">Test English (GB)</option>".
+11. If sample_testing.sql is not present in the next version please delete the file from the package before testing (Done)
+12. PHP REQUIREMENT LINK: https://downloads.joomla.org/technical-requirements
+13. Compare and update array from function updateUserIds($db) and function updateDates($db) of "installation/model/database.php" in install.php. THIS IS TO UPDATE USERID and DATE when installing with sample data.
+14. Auto Upgrade queries are traced from here : {{softpath}}\libraries\src\Schema\ChangeItem\MysqlChangeItem.php
+15. If there is a change in extension_id in `schemas` table i.e. it is not 700 anymore we need to update it in upgrade.php for auto upgrade
+16. min_require for upgrade is 3.3.0 and the documentation for the same is below :
+https://docs.joomla.org/What_version_of_Joomla!_should_you_use%3F
+17. We cannot use & in upgrade.xml in setupcontinue hence we have added it in upgrade.php, if the setuplocation changes in future do not forget to update it in upgrade.php as well

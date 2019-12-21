@@ -1,0 +1,109 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/SIDU
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/dbtools/SIDU
+	</ratings>
+	<space>
+		826628
+	</space>
+	<support>
+		http://sidu.sourceforge.net/sidu/sidu-help.php
+	</support>
+	<version>
+		6.1
+	</version>
+	<mod>12</mod>
+	<release_date>12-09-2019</release_date>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">SIDU</font> stands for SQL <b>S</b>elect <b>I</b>nsert <b>D</b>elete <b>U</b>pdate. SIDU is a FREE database client working via web browser. SIDU is a simple, intuitive and easy database admin tool. SIDU works via web browsers such as Firefox, IE, Opera, Safari, Chrome, etc.
+		<br /><br />
+		SIDU looks like database font-end software GUI rather than web pages. SIDU is not only a joy tool, it helps you to have an easy life with databases, and enjoy the relaxation at work. 
+		<br /><br />
+		SIDU is released under the <a href="https://opensource.org/licenses/MIT" target="_blank">The MIT License (MIT)</a>.
+		</english-overview>		
+		<english-features>
+<font size="3" color="#1281B6"><b>List of SIDU features</b></font><br /><br />
+<font>SIDU is small in size, it does big jobs. It's easy to use and do not require any installation or configuration.
+</font><br />
+<ul>
+<li>SIDU works via web browsers for databases such as MySQL, PostgreSQL, SQLite and CUBRID;</li>
+<li>SIDU works on any OS and any modern browsers;</li>
+<li>SIDU can group objects eg tables by first x chars of table names, and which you can control freely;</li>
+<li>Data result can be sorted in 1 or 2 columns, which you can switch to your favorable mode;</li>
+<li>SIDU can connect to mulitple servers locally and remotely, you can run multiple SIDU at same time;</li>
+<li>You can turn on SIDU firewall to double secure your data over internet;</li>
+<li>SIDU is working for multiple users and multiple sessions at the same time;</li>
+<li>Empty, drop, export or change engine of tables at one click.</li>
+<li>Show data results with bar charts.</li>
+</ul>
+
+<font size="2" color="#1281B6"><b>Secure SIDU connections</b></font>
+<ul><li>Connect to multiple databases at same time;</li>
+<li>Connect for multiple users and multiple sesssions;</li>
+<li>Connect to server locally and remotely;</li>
+<li>Connect protected by SIDU firewall;</li>
+<li>Connect in quick mode or from a saved file;</li>
+<li>Connect to multiple SQLite/CUBRID database files;</li>
+<li>Connect sessions use advansed encryption method.</li>
+</ul>
+
+<font size="2" color="#1281B6"><b>Tidy SIDU menu tree</b></font>
+<ul><li>Objects can be grouped by first x chars of its names;</li>
+<li>Only scan objects of open db to speed up your connection.</li>
+</ul>
+
+<font size="2" color="#1281B6"><b>Advanced SIDU object browser</b></font>
+<ul><li>DB list or table data can be sorted by 1 or 2 columns;</li>
+<li>DB list, table data or SQL result can be displayed in grid or text mode;</li>
+<li>Object: create, drop, empty, export, analyze, change engine, optimize, ... at one click for bulk tables, etc</li>
+<li>Object: list view with helpful stats;</li>
+<li>Postgres: OID can be on/off easily at any time.</li>
+</ul>
+
+<font size="2" color="#1281B6"><b>3-way of running SQL with SIDU</b></font>
+<ul><li>You can run multiple SQLs seperated by <b class='red'>;</b> + <b class='red'>new line</b>;</li>
+<li><b>RunAll</b> will run all SQLs in SQL window, and only display the first SQL result which contains data, such as a select;</li>
+<li><b>Run</b> will only run highlighted SQLs, and also only display the first SQL result which contains data;</li>
+<li><b>MultiRun</b> will only run highlighted SQLs, and will display all SQL result data. This is handy when you want to run and compare data from multiple SQLs on the same screen;</li>
+<li>If no SQL is highlighted, Run or MultiRun will both run all SQLs;</li>
+<li>SIDU SQL result is provided with 3 types of charts.</li>
+</ul>
+
+<font size="2" color="#1281B6"><b>Easy data with SIDU</b></font>
+<ul><li>Table desc: click on column to have handy stats;</li>
+<li>Table data: easy filter, hide columns etc.</li>
+<li>Table data: drag resize column grid;</li>
+<li>Table data: can be selected from a list if enum</li>
+<li>Table data: easy page navigation;</li>
+<li>Add multiple new data rows, or edit data, and then save at one click, just as if it is a spreedsheet;</li>
+<li>Delete multiple rows at one click;</li>
+<li>Table data: backup data before being updated or deleted;</li>
+<li>Table data: sidu_fk table produces more meaningful and easy drop-down select for foreign key or meta tables;</li></ul>
+
+<font size="2" color="#1281B6"><b>Other SIDU features</b></font>
+<ul><li>View SQL history, then delete those un-wanted;</li>
+<li>Short-hand SQL templates;</li>
+<li>Show server system values, system variables;</li>
+<li>Flush: logs, hosts, privileges, tables, status, cache, ...</li>
+<li>Export data from DB|Table|SQL to html|csv|sql, and display on screen or download zip;</li>
+<li>Easy to remember hotkeys provided to work without a mouse;</li>
+<li>Import SQL|csv data quickly into single table or tables of a DB, using bulk insert mode to speed up the transaction;</li>
+<li>Manage database user easily via GUI;</li>
+<li>To calm down PostgreSQL not to be too strict with data input;</li>
+<li>and many many more ... discover by yourself.</li></ul>
+		</english-features>
+	</languages>
+</soft>

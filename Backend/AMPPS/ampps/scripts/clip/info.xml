@@ -1,0 +1,66 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/ClipBucket
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/video/ClipBucket
+	</ratings>
+	<space>
+		39328790
+	</space>
+	<support>
+		http://clip-bucket.com
+	</support>
+	<version>
+		4.1
+	</version>
+	<mod>27</mod>
+	<mod_files>2</mod_files>
+	<release_date>11-05-2018</release_date>
+	<admin>admin_area</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="7.0.0" />
+	<requirement check="php" type="version" operator="lt" value="7.1.0" />
+	<requirement check="php" type="extension" name="curl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">ClipBucket</font> is an opensource and free script that will let you start your own Video Sharing(Youtube Clone) website in matter of minutes, ClipBucket is fastest growing script with most video sharing websites and social networking freatures.
+		<br /><br />
+		ClipBucket is a free and opensource video sharing script. The owners have permitted us to redistribute ClipBucket.
+		<br /><br />
+		NOTE: FFMPEG and certain Video Tools need to be installed for this script to work.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>New Web 2.0 Layout Design for both User and Admin</li>
+<li>Easy to Moderate Videos, Users , Groups etc.</li>
+<li>Create Different User Groups to assign different permissions</li>
+<li>Improved SEO Friendly URLs</li>
+<li>Extendible with Plugins and Addons like WordPress</li>
+<li>Easy to install Themes and templates</li>
+<li>Easy to install FLV Player</li>
+<li>Daily Stats with <strong>graph</strong>ical interface</li>
+<li><strong>Mass Uploader via FTP</strong></li>
+<li>Improved Channel System</li>
+<li>User Categories</li>
+<li>Advance reporting/flagging system</li>
+<li><strong>Ajax Based favorite,comments,ratings and reporting </strong></li>
+<li>Playlists</li>
+<li>Quicklists</li>
+<li>Search Engine</li>
+<li>Highly customizable Profile page</li>
+<li>A Complete SOCIAL NETWORK</li>
+<li>New and Improved Groups system</li>
+<li>Improved templating system</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

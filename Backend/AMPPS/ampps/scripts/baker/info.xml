@@ -1,0 +1,45 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Website_Baker
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Website_Baker
+	</ratings>
+	<space>
+		22301048
+	</space>
+	<support>
+		https://forum.websitebaker.org/
+	</support>
+	<version>
+		2.12.2
+	</version>
+	<mod>21</mod>
+	<release_date>28-06-2019</release_date>
+	<admin>admin</admin>
+	<min_require>2.10.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.6.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">WebsiteBaker</font> is a PHP-based Content Management System (CMS) designed with one goal in mind: to enable its users to produce websites with ease.
+		<br /><br />
+This WebsiteBaker "Start" website is a resource for people wanting to find out more about WebsiteBaker, and get a "start" with the project and our community.
+		<br /><br />
+		WebsiteBaker is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Easy to use interface</li><li>Multi-level, multi-sectioned, modulated page support.</li><li>Simple file/media management section</li><li>Template based front-end, which can be customized per-page.</li><li>Multiple user and multiple group login.</li><li>High-level control with Group-based permissions system.</li><li>User sign-up, log-in, and password recovery abilities.</li><li>Ability for customized timezone, language, date format, time format, and display name per-user.</li><li>No costs</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

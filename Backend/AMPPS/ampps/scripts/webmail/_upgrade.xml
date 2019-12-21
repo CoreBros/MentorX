@@ -1,0 +1,15 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>adminpanel/</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>data/settings/settings.xml</exclude>
+		<exclude>data/settings/config.php</exclude>
+		<exclude>data/salt.php</exclude>
+	</files>
+</softupgrade>

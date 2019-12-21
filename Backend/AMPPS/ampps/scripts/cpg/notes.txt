@@ -1,0 +1,4 @@
+1. Always check that albums/edit and albums/userpics and albums/* folder in zip is blank i.e only contains 'no_FTP-uploads_into_this_folder!.txt' and index.php
+2. choose GD2 in Image package selection
+3. We have added _update.php to auto update the installation. We have added the following line :
+define('SKIP_AUTHENTICATION', true);

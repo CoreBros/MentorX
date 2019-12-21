@@ -1,0 +1,14 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<setuplocation>install/app.php/update</setuplocation>
+	<files>
+		<exclude>config.php</exclude>
+		<exclude>styles/prosilver/theme/images/site_logo.gif</exclude>
+	</files>
+</softupgrade>

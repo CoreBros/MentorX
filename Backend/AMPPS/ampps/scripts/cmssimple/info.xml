@@ -1,0 +1,65 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/CMS_Made_Simple
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/CMS_Made_Simple
+	</ratings>
+	<space>
+		22529760
+	</space>
+	<support>
+		http://www.cmsmadesimple.org/
+	</support>
+	<version>
+		2.2.13
+	</version>
+	<mod>55</mod>
+	<release_date>04-12-2019</release_date>
+	<admin>admin/</admin>
+	<min_require>2.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.6.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="xml" />
+	<requirement check="php" type="extension" name="tokenizer" />
+	<requirement check="php" type="extension" name="Phar" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">CMS Made Simple</font> provides a fast and easy way to create a professional web site and manage its content, whether it's for a small business or a multinational corporation! <br /><br />
+
+CMS Made Simple provides a mechanism for the website administrator to create and manage pages, their layout, and their content. CMS Made Simple is unobtrusive. You can create a table based layout, or a fully validating XHTML/CSS layout. <br /><br />
+		CMS Made Simple is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GPL LICENSE</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>SEO Friendly URLs</li>
+<li>Integrated and online help</li>
+<li>Modular and extensible</li>
+<li>Easy user and group management</li>
+<li>Group-based permission system</li>
+<li>Full template support, for unlimited looks without changing a line of content</li>
+<li>Easy wizard based install and upgrade procedures</li>
+<li>Minimal server requirements</li>
+<li>Admin panel with multiple language support</li>
+<li>Content hierarchy with unlimited depth and size</li>
+<li>Integrated file manager w/ upload capabilities</li>
+<li>Integrated audit log</li>
+<li>Friendly support in forums and irc</li>
+<li>Small footprint</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

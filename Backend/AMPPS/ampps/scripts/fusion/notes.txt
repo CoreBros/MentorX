@@ -1,0 +1,7 @@
+1) Give [[dbprefix]] for cookie_prefix in config.php
+2) We have added upgrade from 7.02.06 So just check upgrade process for next version for confirmation
+3) Select America/New_York in manual installation.
+4) Select MySQLi in manual installation.
+5) PHP REQUIREMENT LINK: readme-en.html
+6) We have disabled upgrade for major update 9.0 from 7.x because upgrade script doesn't work with mysqli extention. 
+https://github.com/php-fusion/PHP-Fusion/issues/2045

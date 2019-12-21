@@ -1,0 +1,31 @@
+parameters:
+    installed: true
+    env: prod
+    debug: false
+    script_position: foot
+    temp_dir: '%kernel.cache_dir%/ztemp'
+    datadir: web/uploads
+    system.chmod_dir: 511
+    database_driver: pdo_mysql
+    database_host: [[softdbhost]]
+    database_port: null
+    database_name: [[softdb]]
+    database_user: [[softdbuser]]
+    database_password: [[softdbpass]]
+    database_path: null
+    database_socket: null
+    database_server_version: [[dbms_version]]
+    locale: en
+    secret: [[secret]]
+    url_secret: [[url_secret]]
+    assets_version: null
+    zikula_asset_manager.combine: true
+    zikula_asset_manager.lifetime: '1 day'
+    zikula_asset_manager.compress: true
+    zikula_asset_manager.minify: true
+    umask: null
+    security.x_frame_options: SAMEORIGIN
+    router.request_context.host: [[domhost]]
+    router.request_context.scheme: http
+    router.request_context.base_url: [[relativeurl]]
+    core_installed_version: 2.0.15

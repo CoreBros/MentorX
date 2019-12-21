@@ -1,0 +1,7 @@
+1. Add following code in global.inc.php file
+$glob['install_source'] = 'softaculous';
+2. Default Currency : GBP -British Pound
+3. Update the value for $tmp and $Contact_Form in install.php with the updated value in manual SQL file
+4. Always check setup/index.php and change accordingly in our package. Keep our changes intact. This is for upgrade
+5. update "$tmp['store_copyright']" if any change in manual
+6. PHP REQUIREMENT LINK : https://www.cubecart.com/hosting-requirements

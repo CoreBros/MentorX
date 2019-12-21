@@ -1,0 +1,58 @@
+<?php
+
+/**
+ * This is a Post HOOK POINT in the Webuzo Delete Domain process.
+ * NOTE : You must rename this file to post_delete_domain.php
+ */
+ 
+//////////////////////////////////////////////////////////////
+//===========================================================
+// pre_add_domain.php
+//===========================================================
+// SOFTACULOUS 
+// Version : 2.3.3
+// Inspired by the DESIRE to be the BEST OF ALL
+// ----------------------------------------------------------
+// Started by: Alons
+// Date:       10th Jan 2009
+// Time:       21:00 hrs
+// Site:       http://www.softaculous.com/ (SOFTACULOUS)
+// ----------------------------------------------------------
+// Please Read the Terms of use at http://www.softaculous.com
+// ----------------------------------------------------------
+//===========================================================
+// (c)Softaculous Inc.
+//===========================================================
+//////////////////////////////////////////////////////////////
+
+if(!defined('SOFTACULOUS')){
+
+	die('Hacking Attempt');
+
+}
+
+/**
+ * This function will be called after a Domain Delete process is completed.
+ * $iapps will have details of the apps being installed.
+ *
+ * @package      hooks
+ * paramaeter    $domain_name
+ * @return       bool
+ * @since     	 2.3.3
+ */
+function __post_delete_domain($domain_name){
+	
+	global $iapps, $globals;
+	
+	// Do stuff here
+	// e.g. is for if you want to perform action only for apache
+	
+	if(!empty($iapps['3_1'])){ 
+	
+		/* Perform action only if Apache installed
+		$iapps is a list of installed system applications */	
+		
+	}
+}
+
+?>

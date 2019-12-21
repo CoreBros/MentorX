@@ -1,0 +1,6 @@
+1) Do not delete [[site_name]] from table [[dbprefix]]site_content, keep as it is added to show some content on enduser page. (Not needed since 2.5.0-pl since default content is added by default)
+2) The password encryption method has been changed so 3 files 'modhashing.class.php', 'modpbkdf2.class.php' and 'xpdo.class.php' are included in the install.php ( This files are not required in install.php from 2.7.0 but we need it for edit.php)
+3) Do not change this files 'modhashing.class.php', 'modpbkdf2.class.php', 'xpdo.class.php'.
+4) Do not change "background-image: url(data:image/png;base64," in table [[dbprefix]]site_templates since these are images encoded in base64. Let it be as it is. Since 2.5.0pl.
+5) PHP REQUIREMENT LINK: https://modx.com/download
+6) Give writable permission to manager and root folder to check config.core.php changes.

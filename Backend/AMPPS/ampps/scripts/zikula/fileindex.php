@@ -1,0 +1,15 @@
+.htaccess
+INSTALL-2.0.md
+UPGRADE-2.0.md
+app
+bin
+docs
+index.php
+lib
+modules
+robots.txt
+system
+themes
+var
+vendor
+web

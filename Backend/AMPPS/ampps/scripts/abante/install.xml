@@ -1,0 +1,52 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="ab_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="admin_realname" size="30" value="admin123" save="true" quick_install="1">
+				<head>{{ad_dir}}</head>
+				<handle>__admin_folder</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="admin_folder" value="" save="true">
+			</input>
+		</group>		
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>install/*</exclude>
+		<exclude>install/*/*</exclude>
+		<exclude>install/*/*/*</exclude>
+		<exclude>install/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*/*/*/*/*/*</exclude>
+	</files>
+</softinstall>

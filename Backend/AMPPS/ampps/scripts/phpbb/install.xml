@@ -1,0 +1,74 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{settings}}</heading>
+			<input type="text" name="site_name" size="30" value="My Board">
+				<head>{{name}}</head>
+				<exp>{{name_exp}}</exp>
+			</input>
+			<input type="text" name="site_desc" size="30" value="A short text to describe your forum">
+				<head>{{site_desc}}</head>
+			</input>
+			<input type="text" name="board_email" size="30" value="board" softmail="true">
+				<head>{{email}}</head>
+				<exp>{{email_exp}}</exp>
+				<handle>__email_address</handle>
+			</input>
+			<input type="text" name="dbprefix" size="20" value="phpbb_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="password">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en">English</option>
+					<option value="ar">Arabic</option>
+					<option value="nl">Dutch</option>
+					<option value="fr">French</option>
+					<option value="de_x_sie">German</option>
+					<option value="el">Greek</option>
+					<option value="it">Italian</option>
+					<option value="fa">Persian</option>
+					<option value="pl">Polish</option>
+					<option value="pt">Portuguese</option>
+					<option value="ru">Russian</option>
+					<option value="es">Spanish</option>
+					<option value="es_x_tu">Spanish (Casual)</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>install/*</exclude>
+		<exclude>install/*/*</exclude>
+		<exclude>install/*/*/*</exclude>
+		<exclude>install/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*</exclude>
+	</files>
+	<notes>
+		Please follow the below steps to login to your Admin Control panel : <br />
+		1. Open the front page <br />
+		2. Log in your forum <br />
+		3. Click on the Administration Control Panel link at the bottom of page <br />
+		4. Re-authenticate and proceed to the ACP
+	</notes>
+</softinstall>

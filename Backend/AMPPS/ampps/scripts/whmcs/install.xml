@@ -1,0 +1,112 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="Company Name">
+				<head>{{site_name}}</head>
+			</input>
+			<input type="text" name="admin_folder" size="30" value="admin" save="true">
+				<head>{{ad_dir}}</head>
+				<handle>__admin_folder</handle>
+			</input>
+			<input type="text" name="site_email" size="30" value="billing" softmail="true">
+				<head>{{site_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+			<input type="text" name="license_key" size="30" value="">
+				<head>{{license_key}}</head>
+				<handle>__license_key</handle>
+				<quick_install>1</quick_install>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_fname" size="30" value="System">
+				<head>{{f_name}}</head>
+			</input>
+			<input type="text" name="admin_lname" size="30" value="Administrator">
+				<head>{{l_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="admin_language">
+					<option value="english">English</option>
+					<option value="czech">Czech</option>
+					<option value="french">French</option>
+					<option value="dutch">Dutch</option>
+					<option value="hungarian">Hungarian</option>
+					<option value="portugues">Portuguese</option>
+					<option value="portugues-br">Portuguese-br</option>
+					<option value="farsi">Farsi</option>
+					<option value="spanish">Spanish</option>
+					<option value="russian">Russian</option>
+					<option value="turkish">Turkish</option>
+					<option value="arabic">Arabic</option>
+					<option value="italian">Italian</option>
+					<option value="hebrew">Hebrew</option>
+				</select>
+				<head>{{select_adm_lang}}</head>
+			</input>
+			<input type="select">
+				<select name="end_language">
+					<option value="english">English</option>
+					<option value="czech">Czech</option>
+					<option value="french">French</option>
+					<option value="danish">Danish</option>
+					<option value="dutch">Dutch</option>
+					<option value="german">German</option>
+					<option value="italian">Italian</option>
+					<option value="norwegian">Norwegian</option>
+					<option value="portuguese-br">Portuguese-br</option>
+					<option value="portuguese-pt">Portuguese-pt</option>
+					<option value="spanish">Spanish</option>
+					<option value="swedish">Swedish</option>
+					<option value="turkish">Turkish</option>
+					<option value="ukranian">Ukranian</option>
+					<option value="russian">Russian</option>
+					<option value="hungarian">Hungarian</option>
+					<option value="farsi">Farsi</option>
+					<option value="croatian">Croatian</option>
+					<option value="catalan">Catalan</option>
+					<option value="azerbaijani">Azerbaijani</option>
+					<option value="arabic">Arabic</option>
+					<option value="romanian">Romanian</option>
+					<option value="hebrew">Hebrew</option>
+					<option value="estonian">Estonian</option>
+					<option value="chinese">Chinese</option>
+					<option value="macedonian">Macedonian</option>
+				</select>
+				<head>{{select_end_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<datadir>whmcsdata</datadir>
+	<cron>
+		<min>{rand(0,59)}</min>
+		<hour>{rand(0,23)}</hour>
+		<day>*</day>
+		<month>*</month>
+		<weekday>*</weekday>
+		<command>[[php_path]] -q [[softdatadir]]/crons/cron.php</command>
+	</cron>
+	<files>
+		<exclude>install/*</exclude>
+		<exclude>install/*/*</exclude>
+		<exclude>install/*/*/*</exclude>
+		<exclude>install/*/*/*/*</exclude>
+	</files>
+</softinstall>

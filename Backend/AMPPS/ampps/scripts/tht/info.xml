@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/TheHostingTool
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/TheHostingTool
+	</ratings>
+	<space>
+		7172907
+	</space>
+	<support>
+		http://thehostingtool.com/
+	</support>
+	<version>
+		1.2.6
+	</version>
+	<mod>12</mod>
+	<mod_files>6</mod_files>
+	<release_date>01-04-2013</release_date>
+	<admin>admin/?page=home</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">TheHostingTool</font> is aiming to provide the next generation in free, hosting applications. It provides you, the webhost, near complete automation on everything you want it to do. So that means, signup, monthly posts checking, suspension, and termination.
+		<br /><br />
+		While it does that, it provides client features, like the client control panel that gives the clients the power to manage their account. In addition, they can check their monthly forum posts, edit their details, and check announcements. TheHostingTool also has relatively frequent updates and great support from a growing community.
+		<br /><br />
+		TheHostingTool is released under the <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE Version 3</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Direct Intergration with cPanel/WHM (DirectAdmin is included but is unsupported)</li>
+<li>P2H (Post2Host) Signup/Monthly with support for most popular forum software.</li>
+<li>Complete AJAX/JS package order form! Almost everything is done when the page is first loaded.</li>
+<li>Fully featured &amp; powerful Admin Control Panel</li>
+<li>Easy to use and powerful Client Area</li>
+<li>Basic support center with an entry-level knowledge base and ticket system.</li>
+<li>The Application Programming Interface (API) allows you to interface with THT in other applications. The possibilities are endless! (Currently under development.)</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

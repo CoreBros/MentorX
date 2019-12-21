@@ -1,0 +1,12 @@
+prefix=/Applications/AMPPS/extra
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+
+Name: libxslt
+Version: 1.1.29
+Description: XSLT library version 2.
+Requires: libxml-2.0
+Libs: -L${libdir} -lxslt  -L/Applications/AMPPS/extra/lib -lxml2 -L/Applications/AMPPS/extra/lib -lz -lpthread -L/Applications/AMPPS/extra/lib -liconv -lm  
+Cflags: -I${includedir}

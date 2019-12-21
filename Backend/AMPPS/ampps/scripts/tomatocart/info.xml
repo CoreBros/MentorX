@@ -1,0 +1,63 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/TomatoCart
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/TomatoCart
+	</ratings>
+	<space>
+		31829117
+	</space>
+	<support>
+		https://sourceforge.net/p/tomatocart/wiki/Home/
+	</support>
+	<version>
+		1.1.8.6.1
+	</version>
+	<mod>20</mod>
+	<mod_files>4</mod_files>
+	<release_date>28-02-2014</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.1.6" />
+	<requirement check="php" type="extension" name="openssl" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">TomatoCart</font> is open source shopping cart software using the ExtJS RIA framework, which makes it second-to-none friendly to users. TomatoCart covers nearly all the features a shopping cart could ever have and is continuing progressing with its roadmap.<br /><br />
+		
+		TomatoCart can hardly tear yourself away from the desktop-and-multiwindow administration panel with other shopping cart solution experience. 
+		<br /><br />
+		TomatoCart is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Wizard configuration</li>
+<li>Lightweight framework</li>
+<li>Web desktop applications</li>
+<li>Multi-window operation</li>
+<li>Optimized static URLs</li>
+
+<li>Web analytics Piwik</li>
+<li>Built-in email system</li>
+<li>Various promotions</li>
+<li>Comprehensive product management</li>
+<li>Web-based administration module.</li>
+
+<li>one-page checkout</li>
+<li>Customer management</li>
+<li>Template and module installation</li>
+<li>Multilingual</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,62 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Vtiger
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/Vtiger
+	</ratings>
+	<space>
+		161716696
+	</space>
+	<support>
+		http://www.vtiger.com/
+	</support>
+	<version>
+		7.2.0
+	</version>
+	<mod>23</mod>
+	<release_date>05-11-2019</release_date>
+	<admin>index.php</admin>
+	<min_require>7.1.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="xml" />
+	<requirement check="php" type="extension" name="imap" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Vtiger</font> CRM is a full-featured CRM software ideal for small and medium businesses, with low-cost product support available to production users that need reliable support.
+		<br /><br />
+		Vtiger CRM helps you bring the full potential to life in marketing, sales, and overall customer service.
+		<br /><br />
+		<a href="https://www.vtiger.com/vtiger-public-license-1-1/" target="_blank">Vtiger Public License 1.1</a> (VPL 1.1) is based on the Mozilla Public License (MPL 1.1), and provides free use to anyone using it under the provisions of the license, covering the following add-ons: Vtiger Outlook Plug-in, Vtiger Thunderbird Extension, Vtiger Office Plug-in, Vtiger Customer Portal.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Sales Force Automation</li>
+<li>Customer Support &amp; Service</li>
+<li>Marketing Automation</li>
+<li>Inventory Management</li>
+<li>Activity Management</li>
+<li>Productivity Add-ons </li>
+<li>Reports &amp; Dashboards</li>
+<li>Product Customization</li>
+<li>Security Management</li>
+<li>E-mail integration</li>
+<li>Extensibility</li>
+<li>Customization and Configurability</li>
+</ul>
+		</english-features>		
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

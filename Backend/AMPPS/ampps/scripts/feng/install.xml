@@ -1,0 +1,50 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="My Office">
+				<head>{{site_name}}</head>
+			</input>
+			<input type="text" name="dbprefix" size="20" value="fo_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en_us">English</option>
+					<option value="en_gb">English(UK)</option>
+					<option value="cs_cz">Czech</option>
+					<option value="nl_nl">Dutch</option>
+					<option value="fr_fr">French</option>
+					<option value="de_de">German</option>
+					<option value="el_gr">Greek</option>
+					<option value="it_it">Italian</option>
+					<option value="ko_kr">Korean</option>
+					<option value="pt_br">Portuguese Brazil</option>
+					<option value="ru_ru">Russian</option>
+					<option value="es_es">Spanish (Spain)</option>
+					<option value="sv_se">Svenska</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+</softinstall>

@@ -1,0 +1,37 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>install/upgrade/upgrade.php</setuplocation>
+	<settings>		
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="admin_folder" size="30" value="admin123" save="true">
+				<head>{{ad_dir}}</head>
+				<exp>{{ad_dir_upg}}</exp>
+				<handle>__admin_folder</handle>
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>config/settings.inc.php</exclude>
+		<exclude>img/logo.jpg</exclude>	
+		<exclude>img/favicon.ico</exclude>	
+		<exclude>img/logo_stores.gif</exclude>	
+		<exclude>img/c/*</exclude>	
+		<exclude>img/cms/*</exclude>	
+		<exclude>img/co/*</exclude>	
+		<exclude>img/m/*</exclude>	
+		<exclude>img/p/*</exclude>	
+		<exclude>img/scenes/*</exclude>	
+		<exclude>img/st/*</exclude>	
+		<exclude>img/su/*</exclude>	
+		<exclude>mails/en/lang.php</exclude>
+		<exclude>mails/en/forward_msg.txt</exclude>
+		<exclude>modules/homeslider/images/sample-1.jpg</exclude>	
+		<exclude>modules/homeslider/images/sample-2.jpg</exclude>	
+		<exclude>modules/homeslider/images/sample-3.jpg</exclude>	
+		<exclude>modules/onboarding/*</exclude>	
+		<exclude>modules/onboarding/*/*</exclude>	
+		<exclude>modules/onboarding/*/*/*</exclude>	
+		<exclude>modules/onboarding/*/*/*/*</exclude>	
+	</files>
+	<auto_upgrade>1</auto_upgrade>
+</softupgrade>

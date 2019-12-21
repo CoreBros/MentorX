@@ -1,0 +1,69 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="drupal.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Drupal_7
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Drupal_7
+	</ratings>
+	<space>
+		12767934
+	</space>
+	<support>
+		http://www.drupal.org
+	</support>
+	<version>
+		7.68
+	</version>
+	<mod>74</mod>
+	<release_date>04-12-2019</release_date>
+	<admin>?q=user</admin>
+	<min_require>6.38</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.5" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Drupal</font> is an open-source platform and content management system for building dynamic web sites offering a broad range of features and services including user administration, publishing workflow, discussion capabilities, news aggregation, metadata functionalities using controlled vocabularies and XML publishing for content sharing purposes. 
+		<br /><br />
+		Equipped with a powerful blend of features and configurability, Drupal can support a diverse range of web projects ranging from personal weblogs to large community-driven sites.
+		<br /><br />
+		Drupal is free, open, and available to anyone under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>Collaborative Book</li>
+<li>Friendly URLs</li>
+<li>Modules</li>
+<li>Online help</li>
+<li>Open source</li>
+<li>Personalization</li>
+<li>Role based permission system</li>
+<li>Searching</li>
+<li>User management</li>
+<li>Polls</li>
+<li>Templating</li>
+<li>Threaded comments</li>
+<li>Version control</li>
+<li>Blogger API support</li>
+<li>Content syndication</li>
+<li>News aggregator</li>
+<li>Permalinks</li>
+<li>Analysis, Tracking and Statistics</li>
+<li>Logging and Reporting</li>
+<li>Web based administration</li>
+<li>Discussion forums</li>
+<li>Caching</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

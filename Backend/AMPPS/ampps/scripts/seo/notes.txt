@@ -1,0 +1,2 @@
+1) Timezone to be selected while manual installation Eastern Time US canada (GMT-5:00)
+2) PHP REQUIREMENT LINK : http://www.seopanel.in/install/requirements/

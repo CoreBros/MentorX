@@ -1,0 +1,6 @@
+1) install the database with sample data.
+2) Always provide dbprefix in "Advance Option" in manual installation.
+3) Select Timezone America/New_York while manual installation.
+4) Change the location of USING BTREE in the sql file (It should be to the left and not to the end of line).
+5) Open eShop doesn't work on windows from version 1.6.0(remove the check from install.php and upgrade.php if it works from next version)
+** works from 1.9.0

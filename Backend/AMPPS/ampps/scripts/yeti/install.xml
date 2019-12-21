@@ -1,0 +1,645 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="YetiForce">
+				<head>{{site_name}}</head>
+			</input>
+			<input type="text" name="city_name" size="30" value="City Name">
+				<head>{{city_name}}</head>
+			</input>
+			<input type="text" name="company_size" size="30" value="100">
+				<head>{{company_size}}</head>
+			</input>
+			<input type="textarea">
+				<textarea name="store_address" cols="30" rows="5">Street Name</textarea>
+				<head>{{store_address}}</head>
+			</input>
+			<input type="text" name="post_code" size="30" value="12345">
+				<head>{{post_code}}</head>
+			</input>
+			<input type="select">
+				<select name="country">
+					<option value="Afghanistan">Afghanistan</option>
+					<option value="Albania">Albania</option>
+					<option value="Algeria">Algeria</option>
+					<option value="American Samoa">American Samoa</option>
+					<option value="Andorra">Andorra</option>
+					<option value="Angola">Angola</option>
+					<option value="Anguilla">Anguilla</option>
+					<option value="Antarctica">Antarctica</option>
+					<option value="Antigua And Barbuda">Antigua &amp; Barbuda</option>
+					<option value="Argentina">Argentina</option>
+					<option value="Armenia">Armenia</option>
+					<option value="Aruba">Aruba</option>
+					<option value="Australia">Australia</option>
+					<option value="Austria">Austria</option>
+					<option value="Azerbaijan">Azerbaijan</option>
+					<option value="Bahamas">Bahamas</option>
+					<option value="Bahrain">Bahrain</option>
+					<option value="Bangladesh">Bangladesh</option>
+					<option value="Barbados">Barbados</option>
+					<option value="Belarus">Belarus</option>
+					<option value="Belgium">Belgium</option>
+					<option value="Belize">Belize</option>
+					<option value="Benin">Benin</option>
+					<option value="Bermuda">Bermuda</option>
+					<option value="Bhutan">Bhutan</option>
+					<option value="Bolivia">Bolivia</option>
+					<option value="Bosnia And Herzegovina">Bosnia &amp; Herzegovina</option>
+					<option value="Botswana">Botswana</option>
+					<option value="Bouvet Island">Bouvet Island</option>
+					<option value="Brazil">Brazil</option>
+					<option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+					<option value="Brunei Darussalam">Brunei</option>
+					<option value="Bulgaria">Bulgaria</option>
+					<option value="Burkina Faso">Burkina Faso</option>
+					<option value="Burundi">Burundi</option>
+					<option value="Cambodia">Cambodia</option>
+					<option value="Cameroon">Cameroon</option>
+					<option value="Canada">Canada</option>
+					<option value="Cape Verde">Cape Verde</option>
+					<option value="Cayman Islands">Cayman Islands</option>
+					<option value="Central African Republic">Central African Republic</option>
+					<option value="Chad">Chad</option>
+					<option value="Chile">Chile</option>
+					<option value="China">China</option>
+					<option value="Christmas Island">Christmas Island</option>
+					<option value="Cocos (keeling) Islands">Cocos (Keeling) Islands</option>
+					<option value="Colombia">Colombia</option>
+					<option value="Comoros">Comoros</option>
+					<option value="Congo">Congo - Brazzaville</option>
+					<option value="Congo, The Democratic Republic Of The">Congo - Kinshasa</option>
+					<option value="Cook Islands">Cook Islands</option>
+					<option value="Costa Rica">Costa Rica</option>
+					<option value="Cote D'ivoire">Côte d’Ivoire</option>
+					<option value="Croatia">Croatia</option>
+					<option value="Cuba">Cuba</option>
+					<option value="Cyprus">Cyprus</option>
+					<option value="Czech Republic">Czech Republic</option>
+					<option value="Denmark">Denmark</option>
+					<option value="Djibouti">Djibouti</option>
+					<option value="Dominica">Dominica</option>
+					<option value="Dominican Republic">Dominican Republic</option>
+					<option value="East Timor">East Timor</option>
+					<option value="Ecuador">Ecuador</option>
+					<option value="Egypt">Egypt</option>
+					<option value="El Salvador">El Salvador</option>
+					<option value="Equatorial Guinea">Equatorial Guinea</option>
+					<option value="Eritrea">Eritrea</option>
+					<option value="Estonia">Estonia</option>
+					<option value="Ethiopia">Ethiopia</option>
+					<option value="Falkland Islands (malvinas)">Falkland Islands</option>
+					<option value="Faroe Islands">Faroe Islands</option>
+					<option value="Fiji">Fiji</option>
+					<option value="Finland">Finland</option>
+					<option value="France">France</option>
+					<option value="French Guiana">French Guiana</option>
+					<option value="French Polynesia">French Polynesia</option>
+					<option value="French Southern Territories">French Southern Territories</option>
+					<option value="Gabon">Gabon</option>
+					<option value="Gambia">Gambia</option>
+					<option value="Georgia">Georgia</option>
+					<option value="Germany">Germany</option>
+					<option value="Ghana">Ghana</option>
+					<option value="Gibraltar">Gibraltar</option>
+					<option value="Greece">Greece</option>
+					<option value="Greenland">Greenland</option>
+					<option value="Grenada">Grenada</option>
+					<option value="Guadeloupe">Guadeloupe</option>
+					<option value="Guam">Guam</option>
+					<option value="Guatemala">Guatemala</option>
+					<option value="Guinea">Guinea</option>
+					<option value="Guinea-bissau">Guinea-Bissau</option>
+					<option value="Guyana">Guyana</option>
+					<option value="Haiti">Haiti</option>
+					<option value="Heard Island And Mcdonald Islands">Heard Island And Mcdonald Islands</option>
+					<option value="Holy See (vatican City State)">Vatican City</option>
+					<option value="Honduras">Honduras</option>
+					<option value="Hong Kong">Hong Kong SAR China</option>
+					<option value="Hungary">Hungary</option>
+					<option value="Iceland">Iceland</option>
+					<option value="India">India</option>
+					<option value="Indonesia">Indonesia</option>
+					<option value="Iran, Islamic Republic Of">Iran</option>
+					<option value="Iraq">Iraq</option>
+					<option value="Ireland">Ireland</option>
+					<option value="Israel">Israel</option>
+					<option value="Italy">Italy</option>
+					<option value="Jamaica">Jamaica</option>
+					<option value="Japan">Japan</option>
+					<option value="Jordan">Jordan</option>
+					<option value="Kazakstan">Kazakhstan</option>
+					<option value="Kenya">Kenya</option>
+					<option value="Kiribati">Kiribati</option>
+					<option value="Korea, Democratic People's Republic Of">North Korea</option>
+					<option value="Korea, Republic Of">South Korea</option>
+					<option value="Kosovo">Kosovo</option>
+					<option value="Kuwait">Kuwait</option>
+					<option value="Kyrgyzstan">Kyrgyzstan</option>
+					<option value="Lao People's Democratic Republic">Laos</option>
+					<option value="Latvia">Latvia</option>
+					<option value="Lebanon">Lebanon</option>
+					<option value="Lesotho">Lesotho</option>
+					<option value="Liberia">Liberia</option>
+					<option value="Libyan Arab Jamahiriya">Libya</option>
+					<option value="Liechtenstein">Liechtenstein</option>
+					<option value="Lithuania">Lithuania</option>
+					<option value="Luxembourg">Luxembourg</option>
+					<option value="Macau">Macau SAR China</option>
+					<option value="Macedonia, The Former Yugoslav Republic Of">Macedonia</option>
+					<option value="Madagascar">Madagascar</option>
+					<option value="Malawi">Malawi</option>
+					<option value="Malaysia">Malaysia</option>
+					<option value="Maldives">Maldives</option>
+					<option value="Mali">Mali</option>
+					<option value="Malta">Malta</option>
+					<option value="Marshall Islands">Marshall Islands</option>
+					<option value="Martinique">Martinique</option>
+					<option value="Mauritania">Mauritania</option>
+					<option value="Mauritius">Mauritius</option>
+					<option value="Mayotte">Mayotte</option>
+					<option value="Mexico">Mexico</option>
+					<option value="Micronesia, Federated States Of">Micronesia</option>
+					<option value="Moldova, Republic Of">Moldova</option>
+					<option value="Monaco">Monaco</option>
+					<option value="Mongolia">Mongolia</option>
+					<option value="Montserrat">Montserrat</option>
+					<option value="Montenegro">Montenegro</option>
+					<option value="Morocco">Morocco</option>
+					<option value="Mozambique">Mozambique</option>
+					<option value="Myanmar">Myanmar (Burma)</option>
+					<option value="Namibia">Namibia</option>
+					<option value="Nauru">Nauru</option>
+					<option value="Nepal">Nepal</option>
+					<option value="Netherlands">Netherlands</option>
+					<option value="Netherlands Antilles">Netherlands Antilles</option>
+					<option value="New Caledonia">New Caledonia</option>
+					<option value="New Zealand">New Zealand</option>
+					<option value="Nicaragua">Nicaragua</option>
+					<option value="Niger">Niger</option>
+					<option value="Nigeria">Nigeria</option>
+					<option value="Niue">Niue</option>
+					<option value="Norfolk Island">Norfolk Island</option>
+					<option value="Northern Mariana Islands">Northern Mariana Islands</option>
+					<option value="Norway">Norway</option>
+					<option value="Oman">Oman</option>
+					<option value="Pakistan">Pakistan</option>
+					<option value="Palau">Palau</option>
+					<option value="Palestinian Territory, Occupied">Palestinian Territories</option>
+					<option value="Panama">Panama</option>
+					<option value="Papua New Guinea">Papua New Guinea</option>
+					<option value="Paraguay">Paraguay</option>
+					<option value="Peru">Peru</option>
+					<option value="Philippines">Philippines</option>
+					<option value="Pitcairn">Pitcairn Islands</option>
+					<option value="Poland">Poland</option>
+					<option value="Portugal">Portugal</option>
+					<option value="Puerto Rico">Puerto Rico</option>
+					<option value="Qatar">Qatar</option>
+					<option value="Reunion">Réunion</option>
+					<option value="Romania">Romania</option>
+					<option value="Russian Federation">Russia</option>
+					<option value="Rwanda">Rwanda</option>
+					<option value="Saint Helena">St. Helena</option>
+					<option value="Saint Kitts And Nevis">St. Kitts &amp; Nevis</option>
+					<option value="Saint Lucia">St. Lucia</option>
+					<option value="Saint Pierre And Miquelon">St. Pierre &amp; Miquelon</option>
+					<option value="Saint Vincent And The Grenadines">St. Vincent &amp; Grenadines</option>
+					<option value="Samoa">Samoa</option>
+					<option value="San Marino">San Marino</option>
+					<option value="Sao Tome And Principe">São Tomé &amp; Príncipe</option>
+					<option value="Saudi Arabia">Saudi Arabia</option>
+					<option value="Senegal">Senegal</option>
+					<option value="Serbia">Serbia</option>
+					<option value="Seychelles">Seychelles</option>
+					<option value="Sierra Leone">Sierra Leone</option>
+					<option value="Singapore">Singapore</option>
+					<option value="Slovakia">Slovakia</option>
+					<option value="Slovenia">Slovenia</option>
+					<option value="Solomon Islands">Solomon Islands</option>
+					<option value="Somalia">Somalia</option>
+					<option value="South Africa">South Africa</option>
+					<option value="South Georgia And The South Sandwich Islands">South Georgia &amp; South Sandwich Islands</option>
+					<option value="Spain">Spain</option>
+					<option value="Sri Lanka">Sri Lanka</option>
+					<option value="Sudan">Sudan</option>
+					<option value="Suriname">Suriname</option>
+					<option value="Svalbard And Jan Mayen">Svalbard &amp; Jan Mayen</option>
+					<option value="Swaziland">Swaziland</option>
+					<option value="Sweden">Sweden</option>
+					<option value="Switzerland">Switzerland</option>
+					<option value="Syrian Arab Republic">Syria</option>
+					<option value="Taiwan, Province Of China">Taiwan</option>
+					<option value="Tajikistan">Tajikistan</option>
+					<option value="Tanzania, United Republic Of">Tanzania</option>
+					<option value="Thailand">Thailand</option>
+					<option value="Togo">Togo</option>
+					<option value="Tokelau">Tokelau</option>
+					<option value="Tonga">Tonga</option>
+					<option value="Trinidad And Tobago">Trinidad &amp; Tobago</option>
+					<option value="Tunisia">Tunisia</option>
+					<option value="Turkey">Turkey</option>
+					<option value="Turkmenistan">Turkmenistan</option>
+					<option value="Turks And Caicos Islands">Turks &amp; Caicos Islands</option>
+					<option value="Tuvalu">Tuvalu</option>
+					<option value="Uganda">Uganda</option>
+					<option value="Ukraine">Ukraine</option>
+					<option value="United Arab Emirates">United Arab Emirates</option>
+					<option value="United Kingdom">United Kingdom</option>
+					<option value="United States" selected="selected" >United States</option>
+					<option value="United States Minor Outlying Islands">U.S. Outlying Islands</option>
+					<option value="Uruguay">Uruguay</option>
+					<option value="Uzbekistan">Uzbekistan</option>
+					<option value="Vanuatu">Vanuatu</option>
+					<option value="Venezuela">Venezuela</option>
+					<option value="Viet Nam">Vietnam</option>
+					<option value="Virgin Islands, British">British Virgin Islands</option>
+					<option value="Virgin Islands, U.s.">U.S. Virgin Islands</option>
+					<option value="Wallis And Futuna">Wallis &amp; Futuna</option>
+					<option value="Western Sahara">Western Sahara</option>
+					<option value="Yemen">Yemen</option>
+					<option value="Zambia">Zambia</option>
+					<option value="Zimbabwe">Zimbabwe</option>
+				</select>
+				<head>{{select_country}}</head>
+			</input>
+			<input type="select">
+				<select name="industry">
+					<option value="Administration" >Administration</option>
+					<option value="Construction Industry" >Construction Industry</option>
+					<option value="Education" >Education</option>
+					<option value="Finance" >Finance</option>
+					<option value="Health Care" >Health Care</option>
+					<option value="Hotels and Restaurants" >Hotels and Restaurants</option>
+					<option value="Industry / Manufacturing" >Industry/Manufacturing</option>
+					<option value="Power Industry" >Power Industry</option>
+					<option value="Technologies" >Technologies</option>
+					<option value="Trade" >Trade</option>
+					<option value="Transport &amp; Logistics" >Transport &amp; Logistics</option>
+					<option value="Uniformed Services" >Uniformed Services</option>
+					<option value="Ministry" >Ministry</option>
+					<option value="Chancellery" >Chancellery</option>
+					<option value="Voivodeship Office" >Voivodeship Office</option>
+					<option value="Marshal Office" >Marshal Office</option>
+					<option value="District" >Poviat</option>
+					<option value="City/Township/District" >City/Township/District</option>
+					<option value="Social Welfare Centre" >Social Welfare Centre</option>
+					<option value="Water and Sewerage Company" >Water and Sewerage Company</option>
+					<option value="Voivodeship Job Centre" >Voivodeship Job Centre</option>
+					<option value="District Job Center" >District Job Center</option>
+					<option value="Court of justice" >Court of justice</option>
+					<option value="Attorney General's Office" >Attorney General's Office</option>
+					<option value="Other" >Other</option>
+					<option value="Developers" >Developers</option>
+					<option value="Real Estate" >Real Estate</option>
+					<option value="Primary Schools" >Primary Schools</option>
+					<option value="High Schools" >High Schools</option>
+					<option value="Banking" >Banking</option>
+					<option value="Capital Market" >Capital Market</option>
+					<option value="Financial Services" >Financial Services</option>
+					<option value="Investments" >Investments</option>
+					<option value="Insurance" >Insurance</option>
+					<option value="Retail" >Retail</option>
+					<option value="Wholesale" >Wholesale</option>
+					<option value="Resale" >Resale</option>
+					<option value="Automotive" >Automotive</option>
+					<option value="Plastics" >Plastics</option>
+					<option value="Chamical" >Chemical</option>
+					<option value="Raw material" >Raw material</option>
+					<option value="Fuel" >Fuel</option>
+					<option value="Wood and paper" >Wood and paper</option>
+					<option value="Electromechanical" >Electromechanical</option>
+					<option value="Pharmaceutical" >Pharmaceutical</option>
+					<option value="Building Materials" >Building Materials</option>
+					<option value="Metal" >Metal</option>
+					<option value="Light" >Light</option>
+					<option value="Food industry" >Food industry</option>
+					<option value="Recycling" >Recycling</option>
+					<option value="Army" >Army</option>
+					<option value="Police" >Police</option>
+					<option value="Information Technology" >Information Technology</option>
+					<option value="Telecommunication" >Telecommunication</option>
+					<option value="Media" >Media</option>
+				</select>
+				<head>{{select_industry}}</head>
+			</input>
+			<input type="select">
+				<select name="date_format">
+					<option>yyyy-mm-dd</option>
+					<option>dd-mm-yyyy</option>
+					<option>mm-dd-yyyy</option>
+					<option>yyyy.mm.dd</option>
+					<option>dd.mm.yyyy</option>
+					<option>mm.dd.yyyy</option>
+					<option>yyyy/mm/dd</option>
+					<option>dd/mm/yyyy</option>
+					<option>mm/dd/yyyy</option>
+				</select>
+				<head>{{select_dateformat}}</head>
+			</input>
+			<input type="select">
+				<select name="currency">
+					<option value="USA, Dollars"  selected="selected" >USA, Dollars($)</option>
+					<option value="Albania, Leke" >Albania, Leke(Lek)</option>
+					<option value="Argentina, Pesos" >Argentina, Pesos($)</option>
+					<option value="Aruba, Guilders" >Aruba, Guilders(ƒ)</option>
+					<option value="Australia, Dollars" >Australia, Dollars($)</option>
+					<option value="Azerbaijan, New Manats" >Azerbaijan, New Manats(ман)</option>
+					<option value="Bahamas, Dollars" >Bahamas, Dollars($)</option>
+					<option value="Bahrain, Dinar" >Bahrain, Dinar(BD)</option>
+					<option value="Barbados, Dollars" >Barbados, Dollars($)</option>
+					<option value="Belarus, Rubles" >Belarus, Rubles(p.)</option>
+					<option value="Belize, Dollars" >Belize, Dollars(BZ$)</option>
+					<option value="Bermuda, Dollars" >Bermuda, Dollars($)</option>
+					<option value="Bolivia, Bolivianos" >Bolivia, Bolivianos($b)</option>
+					<option value="China, Yuan Renminbi" >China, Yuan Renminbi(¥)</option>
+					<option value="Convertible Marka" >Convertible Marka(KM)</option>
+					<option value="Botswana, Pulas" >Botswana, Pulas(P)</option>
+					<option value="Bulgaria, Leva" >Bulgaria, Leva(лв)</option>
+					<option value="Brazil, Reais" >Brazil, Reais(R$)</option>
+					<option value="Great Britain Pounds" >Great Britain Pounds(£)</option>
+					<option value="Brunei Darussalam, Dollars" >Brunei Darussalam, Dollars($)</option>
+					<option value="Canada, Dollars" >Canada, Dollars($)</option>
+					<option value="Cayman Islands, Dollars" >Cayman Islands, Dollars($)</option>
+					<option value="Chile, Pesos" >Chile, Pesos($)</option>
+					<option value="Colombia, Pesos" >Colombia, Pesos($)</option>
+					<option value="Costa Rica, Colón" >Costa Rica, Colón(₡)</option>
+					<option value="Croatia, Kuna" >Croatia, Kuna(kn)</option>
+					<option value="Cuba, Pesos" >Cuba, Pesos(₱)</option>
+					<option value="Czech Republic, Koruny" >Czech Republic, Koruny(Kč)</option>
+					<option value="Cyprus, Pounds" >Cyprus, Pounds(£)</option>
+					<option value="Denmark, Kroner" >Denmark, Kroner(kr)</option>
+					<option value="Dominican Republic, Pesos" >Dominican Republic, Pesos(RD$)</option>
+					<option value="East Caribbean, Dollars" >East Caribbean, Dollars($)</option>
+					<option value="Egypt, Pounds" >Egypt, Pounds(£)</option>
+					<option value="El Salvador, Colón" >El Salvador, Colón(₡)</option>
+					<option value="England, Pounds" >England, Pounds(£)</option>
+					<option value="Estonia, Krooni" >Estonia, Krooni(kr)</option>
+					<option value="Euro" >Euro(€)</option>
+					<option value="Falkland Islands, Pounds" >Falkland Islands, Pounds(£)</option>
+					<option value="Fiji, Dollars" >Fiji, Dollars($)</option>
+					<option value="Ghana, Cedis" >Ghana, Cedis(¢)</option>
+					<option value="Gibraltar, Pounds" >Gibraltar, Pounds(£)</option>
+					<option value="Guatemala, Quetzales" >Guatemala, Quetzales(Q)</option>
+					<option value="Guernsey, Pounds" >Guernsey, Pounds(£)</option>
+					<option value="Guyana, Dollars" >Guyana, Dollars($)</option>
+					<option value="Honduras, Lempiras" >Honduras, Lempiras(L)</option>
+					<option value="LvHong Kong, Dollars " >LvHong Kong, Dollars (HK$)</option>
+					<option value="Hungary, Forint" >Hungary, Forint(Ft)</option>
+					<option value="Iceland, Krona" >Iceland, Krona(kr)</option>
+					<option value="India, Rupees" >India, Rupees(₨)</option>
+					<option value="Indonesia, Rupiahs" >Indonesia, Rupiahs(Rp)</option>
+					<option value="Iran, Rials" >Iran, Rials(﷼)</option>
+					<option value="Isle of Man, Pounds" >Isle of Man, Pounds(£)</option>
+					<option value="Israel, New Shekels" >Israel, New Shekels(₪)</option>
+					<option value="Jamaica, Dollars" >Jamaica, Dollars(J$)</option>
+					<option value="Japan, Yen" >Japan, Yen(¥)</option>
+					<option value="Jersey, Pounds" >Jersey, Pounds(£)</option>
+					<option value="Jordan, Dinar" >Jordan, Dinar(JOD)</option>
+					<option value="Kazakhstan, Tenge" >Kazakhstan, Tenge(〒)</option>
+					<option value="Kenya, Shilling" >Kenya, Shilling(KES)</option>
+					<option value="Korea (North), Won" >Korea (North), Won(₩)</option>
+					<option value="Korea (South), Won" >Korea (South), Won(₩)</option>
+					<option value="Kuwait, Dinar" >Kuwait, Dinar(KWD)</option>
+					<option value="Kyrgyzstan, Soms" >Kyrgyzstan, Soms(лв)</option>
+					<option value="Laos, Kips" >Laos, Kips(₭)</option>
+					<option value="Latvia, Lati" >Latvia, Lati(Ls)</option>
+					<option value="Lebanon, Pounds" >Lebanon, Pounds(£)</option>
+					<option value="Liberia, Dollars" >Liberia, Dollars($)</option>
+					<option value="Lithuania, Litai" >Lithuania, Litai(Lt)</option>
+					<option value="MADAGASCAR, Malagasy Ariary" >MADAGASCAR, Malagasy Ariary(MGA)</option>
+					<option value="Macedonia, Denars" >Macedonia, Denars(ден)</option>
+					<option value="Malaysia, Ringgits" >Malaysia, Ringgits(RM)</option>
+					<option value="Malta, Liri" >Malta, Liri(₤)</option>
+					<option value="Mauritius, Rupees" >Mauritius, Rupees(₨)</option>
+					<option value="Mexico, Pesos" >Mexico, Pesos($)</option>
+					<option value="Mongolia, Tugriks" >Mongolia, Tugriks(₮)</option>
+					<option value="Mozambique, Meticais" >Mozambique, Meticais(MT)</option>
+					<option value="Namibia, Dollars" >Namibia, Dollars($)</option>
+					<option value="Nepal, Rupees" >Nepal, Rupees(₨)</option>
+					<option value="Netherlands Antilles, Guilders" >Netherlands Antilles, Guilders(ƒ)</option>
+					<option value="New Zealand, Dollars" >New Zealand, Dollars($)</option>
+					<option value="Nicaragua, Cordobas" >Nicaragua, Cordobas(C$)</option>
+					<option value="Nigeria, Nairas" >Nigeria, Nairas(₦)</option>
+					<option value="North Korea, Won" >North Korea, Won(₩)</option>
+					<option value="Norway, Krone" >Norway, Krone(kr)</option>
+					<option value="Oman, Rials" >Oman, Rials(﷼)</option>
+					<option value="Pakistan, Rupees" >Pakistan, Rupees(₨)</option>
+					<option value="Panama, Balboa" >Panama, Balboa(B/.)</option>
+					<option value="Paraguay, Guarani" >Paraguay, Guarani(Gs)</option>
+					<option value="Peru, Nuevos Soles" >Peru, Nuevos Soles(S/.)</option>
+					<option value="Philippines, Pesos" >Philippines, Pesos(Php)</option>
+					<option value="Poland, Zlotych" >Poland, Zlotych(zł)</option>
+					<option value="Qatar, Rials" >Qatar, Rials(﷼)</option>
+					<option value="Romania, New Lei" >Romania, New Lei(lei)</option>
+					<option value="Russia, Rubles" >Russia, Rubles(₽)</option>
+					<option value="Saint Helena, Pounds" >Saint Helena, Pounds(£)</option>
+					<option value="Saudi Arabia, Riyals" >Saudi Arabia, Riyals(﷼)</option>
+					<option value="Serbia, Dinars" >Serbia, Dinars(Дин.)</option>
+					<option value="Seychelles, Rupees" >Seychelles, Rupees(₨)</option>
+					<option value="Singapore, Dollars" >Singapore, Dollars($)</option>
+					<option value="Solomon Islands, Dollars" >Solomon Islands, Dollars($)</option>
+					<option value="Somalia, Shillings" >Somalia, Shillings(S)</option>
+					<option value="South Africa, Rand" >South Africa, Rand(R)</option>
+					<option value="South Korea, Won" >South Korea, Won(₩)</option>
+					<option value="Sri Lanka, Rupees" >Sri Lanka, Rupees(₨)</option>
+					<option value="Sweden, Kronor" >Sweden, Kronor(kr)</option>
+					<option value="Switzerland, Francs" >Switzerland, Francs(CHF)</option>
+					<option value="Suriname, Dollars" >Suriname, Dollars($)</option>
+					<option value="Syria, Pounds" >Syria, Pounds(£)</option>
+					<option value="Taiwan, New Dollars" >Taiwan, New Dollars(NT$)</option>
+					<option value="Thailand, Baht" >Thailand, Baht(฿)</option>
+					<option value="Trinidad and Tobago, Dollars" >Trinidad and Tobago, Dollars(TT$)</option>
+					<option value="Turkey, New Lira" >Turkey, New Lira(YTL)</option>
+					<option value="Turkey, Liras" >Turkey, Liras(₤)</option>
+					<option value="Tuvalu, Dollars" >Tuvalu, Dollars($)</option>
+					<option value="Ukraine, Hryvnia" >Ukraine, Hryvnia(₴)</option>
+					<option value="United Arab Emirates, Dirham" >United Arab Emirates, Dirham(AED)</option>
+					<option value="United Kingdom, Pounds" >United Kingdom, Pounds(£)</option>
+					<option value="United Republic of Tanzania, Shilling" >United Republic of Tanzania, Shilling(TZS)</option>
+					<option value="Uruguay, Pesos" >Uruguay, Pesos($U)</option>
+					<option value="Uzbekistan, Sums" >Uzbekistan, Sums(лв)</option>
+					<option value="Venezuela, Bolivares Fuertes" >Venezuela, Bolivares Fuertes(Bs)</option>
+					<option value="Vietnam, Dong" >Vietnam, Dong(₫)</option>
+					<option value="Zambia, Kwacha" >Zambia, Kwacha(ZMK)</option>
+					<option value="Yemen, Rials" >Yemen, Rials(﷼)</option>
+					<option value="Zimbabwe Dollars" >Zimbabwe Dollars(Z$)</option>
+					<option value="Malawi, Kwacha" >Malawi, Kwacha(MK)</option>
+					<option value="Tunisian, Dinar" >Tunisian, Dinar(TD)</option>
+					<option value="Moroccan, Dirham" >Moroccan, Dirham(درهم)</option>
+				</select>
+				<head>{{select_currency}}</head>
+			</input>
+			<input type="select">
+				<select name="timezone">
+					<option value="Pacific/Midway" >(UTC-11:00) Coordinated Universal Time-11</option>
+					<option value="Pacific/Samoa" >(UTC-11:00) Samoa</option>
+					<option value="Pacific/Honolulu" >(UTC-10:00) Hawaii</option>
+					<option value="America/Anchorage" >(UTC-09:00) Alaska</option>
+					<option value="America/Los_Angeles" >(UTC-08:00) Pacific Time (US &amp;amp; Canada)</option>
+					<option value="America/Tijuana" >(UTC-08:00) Tijuana, Baja California</option>
+					<option value="America/Denver" >(UTC-07:00) Mountain Time (US &amp;amp; Canada)</option>
+					<option value="America/Chihuahua" >(UTC-07:00) Chihuahua, La Paz, Mazatlan</option>
+					<option value="America/Mazatlan" >(UTC-07:00) Mazatlan</option>
+					<option value="America/Phoenix" >(UTC-07:00) Arizona</option>
+					<option value="America/Regina" >(UTC-06:00) Saskatchewan</option>
+					<option value="America/Tegucigalpa" >(UTC-06:00) Central America</option>
+					<option value="America/Chicago" >(UTC-06:00) Central Time (US &amp;amp; Canada)</option>
+					<option value="America/Mexico_City" >(UTC-06:00) Mexico City</option>
+					<option value="America/Monterrey" >(UTC-06:00) Monterrey</option>
+					<option value="America/New_York" >(UTC-05:00) Eastern Time (US &amp;amp; Canada)</option>
+					<option value="America/Bogota" >(UTC-05:00) Bogota, Lima, Quito</option>
+					<option value="America/Lima" >(UTC-05:00) Lima</option>
+					<option value="America/Rio_Branco" >(UTC-05:00) Rio Branco</option>
+					<option value="America/Indiana/Indianapolis" >(UTC-05:00) Indiana (East)</option>
+					<option value="America/Caracas" >(UTC-04:30) Caracas</option>
+					<option value="America/Halifax" >(UTC-04:00) Atlantic Time (Canada)</option>
+					<option value="America/Manaus" >(UTC-04:00) Manaus</option>
+					<option value="America/Santiago" >(UTC-04:00) Santiago</option>
+					<option value="America/La_Paz" >(UTC-04:00) La Paz</option>
+					<option value="America/Cuiaba" >(UTC-04:00) Cuiaba</option>
+					<option value="America/Asuncion" >(UTC-04:00) Asuncion</option>
+					<option value="America/St_Johns" >(UTC-03:30) Newfoundland</option>
+					<option value="America/Argentina/Buenos_Aires" >(UTC-03:00) Buenos Aires</option>
+					<option value="America/Sao_Paulo" >(UTC-03:00) Brasilia</option>
+					<option value="America/Godthab" >(UTC-03:00) Greenland</option>
+					<option value="America/Montevideo" >(UTC-03:00) Montevideo</option>
+					<option value="Atlantic/South_Georgia" >(UTC-02:00) Mid-Atlantic</option>
+					<option value="Atlantic/Azores" >(UTC-01:00) Azores</option>
+					<option value="Atlantic/Cape_Verde" >(UTC-01:00) Cape Verde Is.</option>
+					<option value="Europe/London" selected="" >(UTC) London, Edinburgh, Dublin, Lisbon</option>
+					<option value="UTC" >(UTC) Coordinated Universal Time, Greenwich Mean Time</option>
+					<option value="Africa/Monrovia" >(UTC) Monrovia, Reykjavik</option>
+					<option value="Africa/Casablanca" >(UTC) Casablanca</option>
+					<option value="Europe/Belgrade" >(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</option>
+					<option value="Europe/Sarajevo" >(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb</option>
+					<option value="Europe/Brussels" >(UTC+01:00) Brussels, Copenhagen, Madrid, Paris</option>
+					<option value="Africa/Algiers" >(UTC+01:00) West Central Africa</option>
+					<option value="Europe/Amsterdam" >(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</option>
+					<option value="Europe/Minsk" >(UTC+02:00) Minsk</option>
+					<option value="Africa/Cairo" >(UTC+02:00) Cairo</option>
+					<option value="Europe/Helsinki" >(UTC+02:00) Helsinki, Riga, Sofia, Tallinn, Vilnius</option>
+					<option value="Europe/Athens" >(UTC+02:00) Athens, Bucharest</option>
+					<option value="Europe/Istanbul" >(UTC+02:00) Istanbul</option>
+					<option value="Asia/Jerusalem" >(UTC+02:00) Jerusalem</option>
+					<option value="Asia/Amman" >(UTC+02:00) Amman</option>
+					<option value="Asia/Beirut" >(UTC+02:00) Beirut</option>
+					<option value="Africa/Windhoek" >(UTC+02:00) Windhoek</option>
+					<option value="Africa/Harare" >(UTC+02:00) Harare</option>
+					<option value="Asia/Kuwait" >(UTC+03:00) Kuwait, Riyadh</option>
+					<option value="Asia/Baghdad" >(UTC+03:00) Baghdad</option>
+					<option value="Africa/Nairobi" >(UTC+03:00) Nairobi</option>
+					<option value="Asia/Tehran" >(UTC+03:30) Tehran</option>
+					<option value="Asia/Tbilisi" >(UTC+04:00) Tbilisi</option>
+					<option value="Europe/Moscow" >(UTC+04:00) Moscow, Volgograd</option>
+					<option value="Asia/Muscat" >(UTC+04:00) Abu Dhabi, Muscat</option>
+					<option value="Asia/Baku" >(UTC+04:00) Baku</option>
+					<option value="Asia/Yerevan" >(UTC+04:00) Yerevan</option>
+					<option value="Asia/Karachi" >(UTC+05:00) Islamabad, Karachi</option>
+					<option value="Asia/Tashkent" >(UTC+05:00) Tashkent</option>
+					<option value="Asia/Kolkata" >(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi</option>
+					<option value="Asia/Colombo" >(UTC+05:30) Sri Jayawardenepura</option>
+					<option value="Asia/Katmandu" >(UTC+05:45) Kathmandu</option>
+					<option value="Asia/Dhaka" >(UTC+06:00) Dhaka</option>
+					<option value="Asia/Almaty" >(UTC+06:00) Almaty</option>
+					<option value="Asia/Yekaterinburg" >(UTC+06:00) Ekaterinburg</option>
+					<option value="Asia/Rangoon" >(UTC+06:30) Yangon (Rangoon)</option>
+					<option value="Asia/Novosibirsk" >(UTC+07:00) Novosibirsk</option>
+					<option value="Asia/Bangkok" >(UTC+07:00) Bangkok, Jakarta</option>
+					<option value="Asia/Brunei" >(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi</option>
+					<option value="Asia/Krasnoyarsk" >(UTC+08:00) Krasnoyarsk</option>
+					<option value="Asia/Ulaanbaatar" >(UTC+08:00) Ulaan Bataar</option>
+					<option value="Asia/Kuala_Lumpur" >(UTC+08:00) Kuala Lumpur, Singapore</option>
+					<option value="Asia/Taipei" >(UTC+08:00) Taipei</option>
+					<option value="Australia/Perth" >(UTC+08:00) Perth</option>
+					<option value="Asia/Irkutsk" >(UTC+09:00) Irkutsk</option>
+					<option value="Asia/Seoul" >(UTC+09:00) Seoul</option>
+					<option value="Asia/Tokyo" >(UTC+09:00) Tokyo</option>
+					<option value="Australia/Darwin" >(UTC+09:30) Darwin</option>
+					<option value="Australia/Adelaide" >(UTC+09:30) Adelaide</option>
+					<option value="Australia/Canberra" >(UTC+10:00) Canberra, Melbourne, Sydney</option>
+					<option value="Australia/Brisbane" >(UTC+10:00) Brisbane</option>
+					<option value="Australia/Hobart" >(UTC+10:00) Hobart</option>
+					<option value="Asia/Vladivostok" >(UTC+10:00) Vladivostok</option>
+					<option value="Pacific/Guam" >(UTC+10:00) Guam, Port Moresby</option>
+					<option value="Asia/Yakutsk" >(UTC+10:00) Yakutsk</option>
+					<option value="Pacific/Fiji" >(UTC+12:00) Fiji</option>
+					<option value="Asia/Kamchatka" >(UTC+12:00) Kamchatka</option>
+					<option value="Pacific/Auckland" >(UTC+12:00) Auckland</option>
+					<option value="Asia/Magadan" >(UTC+12:00) Magadan</option>
+					<option value="Pacific/Tongatapu" >(UTC+13:00) Nukualofa</option>
+				</select>
+				<head>{{select_timezone}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+				<optional>true</optional>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="Password1">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_fname" size="30" value="System">
+				<head>{{f_name}}</head>
+			</input>
+			<input type="text" name="admin_lname" size="30" value="Administrator">
+				<head>{{l_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>install/*</exclude>
+		<exclude>install/*/*</exclude>
+		<exclude>install/*/*/*</exclude>
+		<exclude>install/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*/*/*/*/*/*</exclude>
+		<exclude>public_html/install/*</exclude>
+		<exclude>public_html/install/*/*</exclude>
+		<exclude>public_html/install/*/*/*</exclude>
+		<exclude>public_html/install/*/*/*/*</exclude>
+		<exclude>public_html/install/*/*/*/*/*</exclude>
+		<exclude>public_html/install/*/*/*/*/*/*</exclude>
+		<exclude>public_html/install/*/*/*/*/*/*/*</exclude>
+		<exclude>languages/de_de/Install.php</exclude>
+		<exclude>languages/en_us/Install.php</exclude>
+		<exclude>languages/nl_nl/Install.php</exclude>
+		<exclude>languages/it_it/Install.php</exclude>
+		<exclude>languages/pl_pl/Install.php</exclude>
+		<exclude>languages/pt_br/Install.php</exclude>
+		<exclude>languages/ru_ru/Install.php</exclude>
+		<exclude>languages/es_es/Install.php</exclude>
+		<exclude>tests/*</exclude>
+		<exclude>tests/*/*</exclude>
+		<exclude>tests/*/*/*</exclude>
+		<exclude>tests/*/*/*/*</exclude>
+		<exclude>tests/*/*/*/*/*</exclude>
+		<exclude>tests/*/*/*/*/*/*</exclude>
+		<exclude>tests/*/*/*/*/*/*/*</exclude>
+		<exclude>.codecov.yml</exclude>
+		<exclude>.php_cs.dist</exclude>
+	</files>
+	<cron>
+		<min>{rand(0,59)}</min>
+		<hour>{rand(0,23)}</hour>
+		<day>*</day>
+		<month>*</month>
+		<weekday>*</weekday>
+		<command>sh [[softpath]]/cron/cron.sh > [[softpath]]/cache/logs/cron.log 2>&amp;1</command>
+	</cron>
+</softinstall>

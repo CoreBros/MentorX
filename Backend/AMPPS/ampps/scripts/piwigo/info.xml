@@ -1,0 +1,77 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Piwigo
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/galleries/Piwigo
+	</ratings>
+	<space>
+		40049405
+	</space>
+	<support>
+		http://piwigo.org/
+	</support>
+	<version>
+		2.10.1
+	</version>
+	<mod>67</mod>
+	<release_date>14-10-2019</release_date>
+	<admin>admin.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="xml" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Piwigo</font> is a photo gallery software for the web, built by an active community of users and developers. Extensions make Piwigo easily customizable. Icing on the cake, Piwigo is free and opensource.
+		<br /><br />
+		Piwigo is free, open, and available to anyone under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#FF7700"><b>Upload your photos</b></font><br /><br />
+You can add photos with the web form, any FTP client or a desktop application like digiKam, Shotwell, Lightroom, iPhoto, Aperture. iPhone/Android applications.
+<br /><br />
+<font size="2" color="#FF7700"><b>Organize with Albums</b></font><br /><br />
+Distribute your photos among your own albums. The album tree has unlimited depth. Each photo can belong to several album.<br /><br />
+<font size="2" color="#FF7700"><b>Describe with Tags</b></font><br /><br />
+Offer your visitors another way to browse your photos, starting from the tags cloud and using multiple related tags to reduce the selection.<br /><br />
+<font size="2" color="#FF7700"><b>Browse by Dates</b></font><br /><br />
+Digital cameras store the date in the photo and Piwigo uses this date to display your photo collection in a calendar and let you browse from day to day.<br /><br />
+<font size="2" color="#FF7700"><b>Privacy on your Photos</b></font><br /><br />
+Make your photos private and decide who can see each of them. You can set permissions on albums and photos, for groups or individual users.<br /><br />
+<font size="2" color="#FF7700"><b>Themes and Plugins</b></font><br /><br />
+Change appearance with themes. Add features with plugins. Extensions require just a few clicks to get installed. 350 extensions available, and growing!<br /><br />
+<font size="2" color="#FF7700"><b>A Great Place For Your Visitors</b></font><br /><br />
+Your visitors can post comments, give ratings, mark photos as favorite, perform searches and get notified of news by email or RSS feed.<br /><br />
+<font size="2" color="#FF7700"><b>Piwigo in your Language</b></font><br /><br />
+Piwigo is available in 45 languages. In a single gallery, you can describe photos in several languages. Translators are also collaborating with plugin creators.<br /><br />
+<font size="2" color="#FF7700"><b>Statistics and Management Tools</b></font><br /><br />
+You can add photos with the web form, any FTP client or a desktop application like digiKam, Shotwell, Lightroom, iPhoto, Aperture. iPhone/Android applications.<br /><br />
+<font size="2" color="#FF7700"><b>And also...</b></font><br />
+<ul>
+<li>automatic slideshow</li>
+<li>use of EXIF/IPTC metadata to fill photo properties such as title and tags</li>
+<li>browse photos in a map with <a target="_blank" href="http://piwigo.org/ext/extension_view.php?eid=122">RV Maps &amp; Earth</a> plugin</li>
+<li>a <a target="_blank" href="http://piwigo.org/demo/tools/ws.htm">web API</a> to perform actions from other applications, such as display thumbnails in a WordPress blog with <a target="_blank" href="http://wordpress.org/extend/plugins/piwigopress/">PiwigoPress</a></li>
+<li>meaningful URLs including tag/category/photo names for Search Engine Optimization (SEO)</li>
+<li>predefined photo sets such as best rated, most seen, random or most recent</li>
+<li>ability to combine browsing methods: display all photos tagged <em>"James"</em> + <em>"Carol"</em> taken in September 2010</li>
+<li>ability to add HTML pages with <a target="_blank" href="http://piwigo.org/ext/extension_view.php?eid=153">Additional Pages</a> plugin</li>
+<li>easy installation and upgrades</li>
+<li>advanced techniques to filter SPAM</li>
+<li>many configuration settings to make Piwigo fit your own needs</li>
+</ul><br />
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

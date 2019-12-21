@@ -1,0 +1,76 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="My Calendar">
+				<head>{{site_name}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" disabled="disabled" value="admin" >
+				<head>{{ad_name}}</head>
+				<optional>true</optional>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="English-US">English</option>
+					<option value="Afrikaans">Afrikaans</option>
+					<option value="Albanian">Albanian</option>
+					<option value="Arabic_utf8">Arabic</option>
+					<option value="Bahasa_Indonesia">Indonesian</option>
+					<option value="Basque">Basque</option>
+					<option value="Bulgarian">Bulgarian</option>
+					<option value="Catalan">Catalan</option>
+					<option value="Chinese-Big5">Chinese (Traditional)</option>
+					<option value="Chinese-GB2312">Chinese (Simplified)</option>
+					<option value="Croatian_utf8">Croatian</option>
+					<option value="Czech_utf8">Czech</option>
+					<option value="Danish">Danish</option>
+					<option value="Dutch">Dutch</option>
+					<option value="Elven">Elven</option>
+					<option value="Estonian">Estonian</option>
+					<option value="Finnish">Finnish</option>
+					<option value="French-UTF8">French</option>
+					<option value="Galician">Galician</option>
+					<option value="German_utf8">German</option>
+					<option value="Greek">Greek</option>
+					<option value="Hebrew_utf8">Hebrew</option>
+					<option value="Holo-Big5">Taiwanese</option>
+					<option value="Hungarian">Hungarian</option>
+					<option value="Icelandic">Icelandic</option>
+					<option value="Italian">Italian</option>
+					<option value="Japanese">Japanese</option>
+					<option value="Korean">Korean</option>
+					<option value="Lithuanian">Lithuanian</option>
+					<option value="Norwegian">Norwegian</option>
+					<option value="Polish">Polish</option>
+					<option value="Portuguese">Portuguese</option>
+					<option value="Portuguese_BR_utf8">Portuguese/Brazil</option>
+					<option value="Romanian">Romanian</option>
+					<option value="Russian_utf8">Russian</option>
+					<option value="Serbian_utf8">Serbian</option>
+					<option value="Slovak_utf8">Slovak</option>
+					<option value="Slovenian">Slovenian</option>
+					<option value="Spanish">Spanish</option>
+					<option value="Swedish">Swedish</option>
+					<option value="Turkish">Turkish</option>
+					<option value="Welsh">Welsh</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+</softinstall>

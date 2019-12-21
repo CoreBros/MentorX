@@ -1,0 +1,51 @@
+HESK CHANGELOG
+
+Changes in 2.8.4 - 17th August 2019
+- fix: modified the HTMLPurifier library to be compatible with PHP 5.3
+
+Changes in 2.8.3 - 16th August 2019
+- fix: break long words when bulk printing tickets
+- fix: HTML-encoded chars can cause MySQL truncate error
+- fix: parse links with single quotes in HTML email to ticket
+- fix: wrong option for staff re-send notification of an assigned ticket
+- fix: in email to ticket inline attachments with no message are not imported correctly
+- fix: descriptive error message when post_max_size is exceeded for customer interface
+- fix: link to embedded image tags rather than deleting them
+- fix: no image in service messages list for style "None"
+- fix: pagination does not work when searching for tickets by owner
+- fix: workaround for a Microsoft DKIM verification bug
+
+Changes in 2.8.2 - 5th July 2018
+- service messages can be set to display for a specific language only
+- fix: use div instead of span in print template for better browser compatibility
+- fix: double escaping in hesk_dbLike function may cause failed lookups
+- fix: some queries don't work in MySQL ONLY_FULL_GROUP_BY mode
+- fix: POP3 fetching EOF detection unreliable in newer PHP versions
+- fix: Message-ID header missing host name over CLI
+- fix: force hesk_mb_strtolower function to use UTF-8
+
+Changes in 2.8.1 - 18th May 2018
+- fix: update assignedby column when doing bulk assignments
+- fix: add a unique Message-ID header to outgoing emails
+
+Changes in 2.8.0 - 14th May 2018
+- removed PHP 7.2 depreciated functions
+- minimum required PHP version increased to 5.3
+- bulk assign tickets form the ticket list
+- bulk print tickets form the ticket list
+- added tools for anonymizing tickets
+- find tickets by customer IP address
+- added support for Invisible reCAPTCHA
+- removed reCAPTCHA V1 (discontinued by Google)
+- staff can re-send email notifications for tickets
+- dropped time difference calculation, using timezones
+- new staff permission: can view tickets he/she assigned others
+- export to Excel now works for individual and selected tickets
+- fix: IMAP fetching ticket history log shows POP3 fetching
+- fix: IMAP connection test fails if the password contains a backslash
+- disable IMAP fetching if PHP was compiled without IMAP support
+- warn if a user's email address matches the POP3/IMAP fetching address
+- notice if "From:" email doesn't match SMTP sever email address
+- new "First name" tag for email templates and canned responses
+- minor UI improvements (ticket action buttons)
+

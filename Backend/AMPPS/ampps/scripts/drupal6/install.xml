@@ -1,0 +1,43 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="My Drupal">
+				<head>{{site_name}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="dr_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<cron>
+		<min>{rand(0,59)}</min>
+		<hour>{rand(0,23)}</hour>
+		<day>*</day>
+		<month>*</month>
+		<weekday>*</weekday>
+		<command>wget -O - -q -t 1 [[softurl]]/cron.php > /dev/null</command>
+	</cron>
+	<files>
+		<exclude>install.php</exclude>
+	</files>
+</softinstall>

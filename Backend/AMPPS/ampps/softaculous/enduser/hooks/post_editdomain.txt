@@ -1,0 +1,52 @@
+<?php
+
+/**
+ * This is a Post HOOK POINT in the Aefer Edit Domain process.
+ * NOTE : You must rename this file to post_editdomain.php
+ */
+ 
+//////////////////////////////////////////////////////////////
+//===========================================================
+// post_editdomain.php
+//===========================================================
+// SOFTACULOUS 
+// Version : 2.3.3
+// Inspired by the DESIRE to be the BEST OF ALL
+// ----------------------------------------------------------
+// Started by: Alons
+// Date:       10th Jan 2009
+// Time:       21:00 hrs
+// Site:       http://www.softaculous.com/ (SOFTACULOUS)
+// ----------------------------------------------------------
+// Please Read the Terms of use at http://www.softaculous.com
+// ----------------------------------------------------------
+//===========================================================
+// (c)Softaculous Inc.
+//===========================================================
+//////////////////////////////////////////////////////////////
+
+if(!defined('SOFTACULOUS')){
+
+	die('Hacking Attempt');
+
+}
+
+/**
+ * This function will be called after a Domain Add process is completed.
+ * $iapps will have details of the apps being installed.
+ *
+ * @package      hooks
+ * paramaeter    $did Is the edited Domain Name
+ * @return       bool
+ * @since     	 2.3.3
+ */
+function __post_editdomain($did){
+	
+	global $softpanel, $globals;
+	
+	// Do stuff here
+	// e.g. is for if you want to perform action only for apache
+
+}
+
+?>

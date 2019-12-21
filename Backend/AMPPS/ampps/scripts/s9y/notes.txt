@@ -1,0 +1,9 @@
+1. Choose Expert install while manual installation
+2. Use WYSIWYG editor = No
+3. Just check the language files for the supported languages exists. /lang/ & /lang/UTF-8/ it should be there with the downloaded zip.
+4. We remove following code from .htaccess
+
+php_value session.use_trans_sid 0
+php_value register_globals off
+5. Choose mysqli while manual install
+6. PHP REQUIREMENT LINK : https://docs.s9y.org/docs/users/getting-started/fresh-installation.html

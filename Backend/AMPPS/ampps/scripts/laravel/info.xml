@@ -1,0 +1,60 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Laravel
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/frameworks/Laravel
+	</ratings>
+	<space>
+		37844608
+	</space>
+	<support>
+		http://www.laravel.com/
+	</support>
+	<version>
+		6.5.2
+	</version>
+	<mod>84</mod>
+	<release_date>21-11-2019</release_date>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="7.2.0" />
+	<requirement check="php" type="extension" name="openssl" />
+	<requirement check="php" type="extension" name="PDO" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="tokenizer" />
+	<requirement check="php" type="extension" name="xml" />
+	<requirement check="php" type="extension" name="ctype" />
+	<requirement check="php" type="extension" name="json" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Laravel</font> is a clean and classy framework for PHP web development.
+		<br /><br />
+		Freeing you from spaghetti code, Laravel helps you create wonderful applications using simple, expressive syntax. Development should be a creative experience
+that you enjoy, not something that is painful. Enjoy the fresh air.
+		<br /><br />
+		Laravel is released under the <a href="http://www.opensource.org/licenses/mit-license.php" target="_blank">MIT LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#1281B6"><b>INCREDIBLY WELL DOCUMENTED</b></font><br /><br />
+<font size="1">A class API just doesn't cut it. Laravel has great documentation to help you get up to speed as quickly as possible. It's readable and thorough. You'll love it.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>GRAB SOME BUNDLES</b></font><br /><br />
+<font size="1">Bundles are a great way to package and share Laravel code. They can be anything - from a complete ORM or simple debugging tools, and it's a breeze to drop them into your application!
+</font><br /><br />
+<font size="2" color="#1281B6"><b>ALL THE COOL KIDS ARE DOING IT</b></font><br /><br />
+<font size="1">"Laravel has brought the fun back to programming; it’s so expressive it speaks my language."
+</font><br /><br />
+<font size="2" color="#1281B6"><b>NOW GIT TO WORK!</b></font><br /><br />
+<font size="1">Laravel is open-source software. All of the code is available on Github and anyone can contribute, so go fork the repository and make a pull request!
+</font><br /><br />
+		</english-features>
+	</languages>
+</soft>

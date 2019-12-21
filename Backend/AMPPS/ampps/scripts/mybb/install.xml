@@ -1,0 +1,63 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{settings}}</heading>
+			<input type="text" name="site_name" size="30" value="My Site">
+				<head>{{sitename}}</head>
+			</input>
+			<input type="text" name="bbname" size="30" value="My Board">
+				<head>{{name}}</head>
+				<exp>{{name_exp}}</exp>
+			</input>
+			<input type="text" name="board_email" size="30" value="board" softmail="true">
+				<head>{{email}}</head>
+				<exp>{{email_exp}}</exp>
+				<handle>__email_address</handle>
+			</input>
+			<input type="text" name="dbprefix" size="20" value="mybb_">
+				<head>{{mysql_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="english">English</option>
+					<option value="persian">Persian</option>
+					<option value="turkish">Turkish</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<chmod mode="ocfc">inc/config.php</chmod>
+	<chmod mode="ocfc">inc/settings.php</chmod>
+	<chmod mode="odc">uploads/avatars/</chmod>
+	<chmod mode="odc">uploads/</chmod>
+	<chmod mode="odc">cache/</chmod>
+	<chmod mode="odc">cache/themes/</chmod>
+	<chmod mode="odc">admin/backups/</chmod>
+	<chmod mode="odc">inc/languages/</chmod>
+	<files>
+		<exclude>install/*</exclude>
+		<exclude>install/*/*</exclude>
+		<exclude>install/*/*/*</exclude>
+		<exclude>install/*/*/*/*</exclude>
+	</files>
+</softinstall>

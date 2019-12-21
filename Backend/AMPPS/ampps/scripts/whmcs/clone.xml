@@ -1,0 +1,11 @@
+<softclone xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="license_key" size="30" value="">
+				<head>{{license_key}}</head>
+				<handle>__license_key</handle>
+			</input>
+		</group>
+	</settings>
+</softclone>

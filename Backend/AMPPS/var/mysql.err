@@ -1,0 +1,251 @@
+2019-12-11T22:05:31.912538Z 0 [System] [MY-013169] [Server] /Applications/AMPPS/mysql/bin/mysqld (mysqld 8.0.18) initializing of server in progress as process 1831
+2019-12-11T22:05:31.912919Z 0 [ERROR] [MY-010338] [Server] Can't find error-message file '/Applications/AMPPS/mysql/share/english/errmsg.sys'. Check error-message file location and 'lc-messages-dir' configuration directive.
+2019-12-11T22:05:31.915459Z 0 [Warning] [MY-013242] [Server] --character-set-server: 'utf8' is currently an alias for the character set UTF8MB3, but will be an alias for UTF8MB4 in a future release. Please consider using UTF8MB4 in order to be unambiguous.
+2019-12-11T22:05:31.915484Z 0 [Warning] [MY-013244] [Server] --collation-server: 'utf8_unicode_ci' is a collation of the deprecated character set UTF8MB3. Please consider using UTF8MB4 with an appropriate collation instead.
+2019-12-11T22:05:31.927998Z 0 [Warning] [MY-010161] [Server] You need to use --log-bin to make --binlog-format work.
+2019-12-11T22:05:37.073246Z 5 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2019-12-11T22:05:40.225871Z 0 [System] [MY-010116] [Server] /Applications/AMPPS/mysql/bin/mysqld (mysqld 8.0.18) starting as process 1834
+2019-12-11T22:05:40.225929Z 0 [ERROR] [MY-010338] [Server] Can't find error-message file '/Applications/AMPPS/mysql/share/english/errmsg.sys'. Check error-message file location and 'lc-messages-dir' configuration directive.
+2019-12-11T22:05:40.226630Z 0 [Warning] [MY-013242] [Server] --character-set-server: 'utf8' is currently an alias for the character set UTF8MB3, but will be an alias for UTF8MB4 in a future release. Please consider using UTF8MB4 in order to be unambiguous.
+2019-12-11T22:05:40.226649Z 0 [Warning] [MY-013244] [Server] --collation-server: 'utf8_unicode_ci' is a collation of the deprecated character set UTF8MB3. Please consider using UTF8MB4 with an appropriate collation instead.
+2019-12-11T22:05:44.373151Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2019-12-11T22:05:44.422414Z 0 [System] [MY-010931] [Server] /Applications/AMPPS/mysql/bin/mysqld: ready for connections. Version: '8.0.18'  socket: '/Applications/AMPPS/var/mysql.sock'  port: 3306  Source distribution.
+2019-12-11T22:05:44.596160Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/Applications/AMPPS/var/mysqlx.sock' bind-address: '::' port: 33060
+2019-12-11T22:05:44.953198Z 11 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.18).
+2019-12-11T22:05:46.595510Z 0 [System] [MY-010910] [Server] /Applications/AMPPS/mysql/bin/mysqld: Shutdown complete (mysqld 8.0.18)  Source distribution.
+2019-12-18T23:13:10.717150Z 0 [System] [MY-010116] [Server] /Applications/AMPPS/mysql/bin/mysqld (mysqld 8.0.18) starting as process 20849
+2019-12-18T23:13:10.717953Z 0 [ERROR] [MY-010338] [Server] Can't find error-message file '/Applications/AMPPS/mysql/share/english/errmsg.sys'. Check error-message file location and 'lc-messages-dir' configuration directive.
+2019-12-18T23:13:10.720973Z 0 [Warning] [MY-013242] [Server] --character-set-server: 'utf8' is currently an alias for the character set UTF8MB3, but will be an alias for UTF8MB4 in a future release. Please consider using UTF8MB4 in order to be unambiguous.
+2019-12-18T23:13:10.721321Z 0 [Warning] [MY-013244] [Server] --collation-server: 'utf8_unicode_ci' is a collation of the deprecated character set UTF8MB3. Please consider using UTF8MB4 with an appropriate collation instead.
+2019-12-18T23:13:11.390455Z 0 [Warning] [MY-010075] [Server] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: f5d92f3a-21eb-11ea-8df9-f6117310f290.
+2019-12-18T23:13:11.398204Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2019-12-18T23:13:11.462943Z 0 [System] [MY-010931] [Server] /Applications/AMPPS/mysql/bin/mysqld: ready for connections. Version: '8.0.18'  socket: '/Applications/AMPPS/var/mysql.sock'  port: 3306  Source distribution.
+2019-12-18T23:13:11.573746Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/Applications/AMPPS/var/mysqlx.sock' bind-address: '::' port: 33060
+2019-12-20T14:52:57.891528Z 0 [System] [MY-010116] [Server] /Applications/AMPPS/mysql/bin/mysqld (mysqld 8.0.18) starting as process 25983
+2019-12-20T14:52:57.893181Z 0 [ERROR] [MY-010338] [Server] Can't find error-message file '/Applications/AMPPS/mysql/share/english/errmsg.sys'. Check error-message file location and 'lc-messages-dir' configuration directive.
+2019-12-20T14:52:57.895243Z 0 [Warning] [MY-013242] [Server] --character-set-server: 'utf8' is currently an alias for the character set UTF8MB3, but will be an alias for UTF8MB4 in a future release. Please consider using UTF8MB4 in order to be unambiguous.
+2019-12-20T14:52:57.895491Z 0 [Warning] [MY-013244] [Server] --collation-server: 'utf8_unicode_ci' is a collation of the deprecated character set UTF8MB3. Please consider using UTF8MB4 with an appropriate collation instead.
+2019-12-20T14:52:57.948602Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:52:58.953358Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:52:59.956939Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:00.957762Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:01.961340Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:02.966419Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:03.970979Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:04.975539Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:05.977524Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:06.983406Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:07.987500Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:08.993142Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:09.995519Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:11.000478Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:12.003571Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:13.008082Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:14.009930Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:15.014898Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:16.019121Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:17.022497Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:18.027200Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:19.032023Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:20.036755Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:21.038586Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:22.041889Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:23.045102Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:24.050018Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:25.054729Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:26.058159Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:27.059807Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:28.063952Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:29.070031Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:30.073933Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:31.076691Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:32.078810Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:33.082987Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:34.086562Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:35.091173Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:36.092950Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:37.099648Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:38.103565Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:39.108544Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:40.111066Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:41.116589Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:42.120431Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:43.125118Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:44.127809Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:45.133784Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:46.138045Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:47.142192Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:48.148741Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:49.151945Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:50.159070Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:51.161845Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:52.164422Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:53.168069Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:54.169954Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:55.176445Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:56.181230Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:57.187810Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:58.191245Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:53:59.194035Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:00.198568Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:01.204030Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:02.210649Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:03.215160Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:04.220549Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:05.226388Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:06.230738Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:07.236397Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:08.239619Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:09.244795Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:10.251215Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:11.257760Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:12.260415Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:13.268056Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:14.274647Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:15.279404Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:16.285093Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:17.305814Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:18.309610Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:19.312413Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:20.319243Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:21.327067Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:22.332492Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:23.340213Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:24.345440Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:25.351228Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:26.354958Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:27.358809Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:28.366411Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:29.374050Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:30.377882Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:31.385591Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:32.391891Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:33.396412Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:34.400807Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:35.407277Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:36.415087Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:37.421755Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:38.428140Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-20T14:54:38.431998Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 35 in a file operation.
+2019-12-20T14:54:38.433101Z 1 [ERROR] [MY-012596] [InnoDB] Error number 35 means 'Resource temporarily unavailable'
+2019-12-20T14:54:38.435970Z 1 [ERROR] [MY-012215] [InnoDB] Cannot open datafile './ibdata1'
+2019-12-20T14:54:38.437947Z 1 [ERROR] [MY-012959] [InnoDB] Could not open or create the system tablespace. If you tried to add new data files to the system tablespace, and it failed here, you should now edit innodb_data_file_path in my.cnf back to what it was, and remove the new ibdata files InnoDB created in this failed attempt. InnoDB only wrote those files full of zeros, but did not yet use them in any way. But be careful: do not remove old data files which contain your precious data!
+2019-12-20T14:54:38.438916Z 1 [ERROR] [MY-012930] [InnoDB] Plugin initialization aborted with error Cannot open a file.
+2019-12-20T14:54:38.440320Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2019-12-20T14:54:38.441337Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2019-12-20T14:54:38.442969Z 0 [ERROR] [MY-010119] [Server] Aborting
+2019-12-20T14:54:38.453156Z 0 [System] [MY-010910] [Server] /Applications/AMPPS/mysql/bin/mysqld: Shutdown complete (mysqld 8.0.18)  Source distribution.
+2019-12-21T20:53:22.174632Z 0 [System] [MY-010116] [Server] /Applications/AMPPS/mysql/bin/mysqld (mysqld 8.0.18) starting as process 28357
+2019-12-21T20:53:22.176388Z 0 [ERROR] [MY-010338] [Server] Can't find error-message file '/Applications/AMPPS/mysql/share/english/errmsg.sys'. Check error-message file location and 'lc-messages-dir' configuration directive.
+2019-12-21T20:53:22.179343Z 0 [Warning] [MY-013242] [Server] --character-set-server: 'utf8' is currently an alias for the character set UTF8MB3, but will be an alias for UTF8MB4 in a future release. Please consider using UTF8MB4 in order to be unambiguous.
+2019-12-21T20:53:22.180131Z 0 [Warning] [MY-013244] [Server] --collation-server: 'utf8_unicode_ci' is a collation of the deprecated character set UTF8MB3. Please consider using UTF8MB4 with an appropriate collation instead.
+2019-12-21T20:53:22.255688Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:23.258705Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:24.262090Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:25.266882Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:26.270420Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:27.274528Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:28.278210Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:29.281371Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:30.285241Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:31.288943Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:32.290525Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:33.296370Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:34.300854Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:35.303981Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:36.306637Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:37.311273Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:38.316577Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:39.320458Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:40.324231Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:41.329236Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:42.333747Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:43.339076Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:44.344234Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:45.347642Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:46.353412Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:47.358179Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:48.363681Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:49.369259Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:50.373761Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:51.378608Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:52.381135Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:53.384475Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:54.386817Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:55.391392Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:56.394892Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:57.396907Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:58.398956Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:53:59.404285Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:00.408262Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:01.411122Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:02.412849Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:03.418955Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:04.423640Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:05.430174Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:06.434559Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:07.435966Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:08.443516Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:09.448719Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:10.453104Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:11.479529Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:12.483889Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:13.488746Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:14.492453Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:15.499326Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:16.505225Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:17.511537Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:18.517541Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:19.523242Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:20.530525Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:21.536655Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:22.540640Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:23.545024Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:24.551162Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:25.556796Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:26.562774Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:27.568243Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:28.573081Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:29.578204Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:30.585480Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:31.590084Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:32.595481Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:33.599706Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:34.605752Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:35.610612Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:36.615899Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:37.620949Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:38.627078Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:39.629728Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:40.636006Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:41.641063Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:42.645705Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:43.652124Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:44.660981Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:45.667638Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:46.672189Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:47.675181Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:48.676840Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:49.679316Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:50.685510Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:51.692175Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:52.699144Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:53.706429Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:54.709092Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:55.714967Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:56.718579Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:57.723642Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:58.729255Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:54:59.733365Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:55:00.740446Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:55:01.744555Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:55:02.748510Z 1 [ERROR] [MY-012574] [InnoDB] Unable to lock ./ibdata1 error: 35
+2019-12-21T20:55:02.753080Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 35 in a file operation.
+2019-12-21T20:55:02.754129Z 1 [ERROR] [MY-012596] [InnoDB] Error number 35 means 'Resource temporarily unavailable'
+2019-12-21T20:55:02.756174Z 1 [ERROR] [MY-012215] [InnoDB] Cannot open datafile './ibdata1'
+2019-12-21T20:55:02.757223Z 1 [ERROR] [MY-012959] [InnoDB] Could not open or create the system tablespace. If you tried to add new data files to the system tablespace, and it failed here, you should now edit innodb_data_file_path in my.cnf back to what it was, and remove the new ibdata files InnoDB created in this failed attempt. InnoDB only wrote those files full of zeros, but did not yet use them in any way. But be careful: do not remove old data files which contain your precious data!
+2019-12-21T20:55:02.759173Z 1 [ERROR] [MY-012930] [InnoDB] Plugin initialization aborted with error Cannot open a file.
+2019-12-21T20:55:02.760707Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2019-12-21T20:55:02.764986Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2019-12-21T20:55:02.767998Z 0 [ERROR] [MY-010119] [Server] Aborting
+2019-12-21T20:55:02.774703Z 0 [System] [MY-010910] [Server] /Applications/AMPPS/mysql/bin/mysqld: Shutdown complete (mysqld 8.0.18)  Source distribution.

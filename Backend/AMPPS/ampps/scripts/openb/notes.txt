@@ -1,0 +1,2 @@
+1. Create zip after installing composer.
+2. Added <IfModule mod_env.c>    SetEnv CI_ENV production </IfModule> in .htaccess to handle CI_ENV issue.

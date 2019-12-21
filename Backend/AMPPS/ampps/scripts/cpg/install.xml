@@ -1,0 +1,35 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{settings}}</heading>
+			<input type="text" name="site_name" size="30" value="My Gallery">
+				<head>{{site_name}}</head>
+				<exp>{{name_exp}}</exp>
+			</input>
+			<input type="text" name="site_desc" size="30" value="Your online photo album">
+				<head>{{site_desc}}</head>
+				<exp>{{site_desc_exp}}</exp>
+			</input>
+			<input type="text" name="dbprefix" size="20" value="cpg_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+				<handle>__admin_userpass</handle>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+</softinstall>

@@ -1,0 +1,68 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/CubeCart
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/CubeCart
+	</ratings>
+	<space>
+		22146001
+	</space>
+	<support>
+		http://www.cubecart.com/
+	</support>
+	<version>
+		6.2.8
+	</version>
+	<mod>68</mod>
+	<release_date>06-11-2019</release_date>
+	<admin>admin.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="zip" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">CubeCart</font> is a complete ecommerce shopping cart software solution. With CubeCart you can quickly setup a powerful online store to sell digital or tangible products to new and existing customers globally.
+		<br /><br />
+		Established in 2003 CubeCart is a hugely popular eCommerce solution enjoyed by tens of thousands of merchants globally.
+		<br /><br />
+		The CubeCart License specifically mentions that it is not Open Source. Please read the <a href="http://cubecart.com/software-license" target="_blank">CubeCart Version 5 Software License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>McAfee Secure™ Audited</li>
+<li>No PCI Compliance Required</li>
+<li>Simple Setup Wizard (Install Service Available)</li>
+<li>100% Template Driven Skins Included (Smarty Engine)</li>
+<li>Straightforward Logo Management</li>
+<li>Image Resize/Cropper Tool</li>
+<li>Search Engine Optimisation (100% customisable)</li>
+<li>Country / Zone Management</li>
+<li>Multiple Currency Support</li>
+<li>Google Analytics for eCommerce</li>
+<li>Newsletter Tool</li>
+<li>Mailing List Management</li>
+<li>Product Options (with weight/price)</li>
+<li>Product Clone</li>
+<li>Product Image Gallery with Hover Zoom &amp; Lightbox</li>
+<li>Product Quantity Discounts</li>
+<li>Product Pricing Groups (Allows for Trade Pricing etc)</li>
+<li>Product Reviews/Comments</li>
+</ul>
+Complete list of Features can be found <a href="http://cubecart.com/tour/features" target="_blank">here</a>.
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

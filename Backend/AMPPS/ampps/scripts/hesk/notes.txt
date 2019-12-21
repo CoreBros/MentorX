@@ -1,0 +1,5 @@
+1. For next release kindly check upgrade method.
+2. From 2.5.2 we have given update from just previous version i.e. 2.5.0. For next release kindly check if it gets upgraded by normal process.
+3. Auto upgrade might need some changes when there is a new version with changes in database. Add the steps accordingly in upgrade.php
+4. PHP REQUIREMENT LINK : install/install.php
+5. Select Timezone = America/New_York in manual installation.

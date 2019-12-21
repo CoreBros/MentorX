@@ -1,0 +1,11 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>e107_admin/</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<donotunzip>1</donotunzip>
+</softupgrade>

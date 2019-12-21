@@ -1,0 +1,100 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="My Piwigo">
+				<head>{{site_name}}</head>
+			</input>
+			<input type="text" name="site_desc" size="30" value="My Piwigo Gallery">
+				<head>{{site_desc}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="piwi_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en_UK">English</option>
+					<option value="en_GB">English [GB]</option>
+					<option value="af_ZA">Afrikaans</option>
+					<option value="ar_SA">Arabic</option>
+					<option value="bg_BG">Bulgarian</option>
+					<option value="ca_ES">Catalan</option>
+					<option value="cs_CZ">Czech</option>
+					<option value="da_DK">Danish</option>
+					<option value="de_DE">German</option>
+					<option value="dv_MV">Dhivehi</option>
+					<option value="el_GR">Greek</option>
+					<option value="eo_EO">Esperanto</option>
+					<option value="es_AR">Castilian</option>
+					<option value="es_ES">Spanish</option>
+					<option value="et_EE">Estonian</option>
+					<option value="fa_IR">Farsi</option>
+					<option value="fi_FI">Finnish</option>					
+					<option value="fr_FR">French</option>				
+					<option value="br_FR">Brezhoneg [FR]</option>
+					<option value="he_IL">Hebrew</option>
+					<option value="hr_HR">Croatian</option>
+					<option value="hu_HU">Hungarian</option>
+					<option value="is_IS">Icelandic</option>
+					<option value="it_IT">Italian</option>
+					<option value="id_ID">Indonesia</option>
+					<option value="ja_JP">Japanese</option>
+					<option value="ka_GE">Georgian</option>
+					<option value="ko_KR">Korean</option>
+					<option value="lv_LV">Latvian</option>
+					<option value="mk_MK">Macedonian</option>
+					<option value="nl_NL">Dutch</option>
+					<option value="nb_NO">Norwegian</option>
+					<option value="pl_PL">Polish</option>
+					<option value="pt_BR">Portuguese-Brazilian</option>
+					<option value="pt_PT">Portuguese</option>
+					<option value="ro_RO">Romanian</option>
+					<option value="ru_RU">Russian</option>
+					<option value="sh_RS">Serbian</option>
+					<option value="sk_SK">Slovak</option>
+					<option value="sl_SI">Slovenian</option>
+					<option value="sr_RS">Serbian</option>
+					<option value="sv_SE">Swedish</option>
+					<option value="th_TH">Thai</option>
+					<option value="tr_TR">Turkish</option>
+					<option value="uk_UA">Ukrainian</option>
+					<option value="vi_VN">Vietnamese</option>
+					<option value="zh_CN">Simplified Chinese</option>
+					<option value="zh_TW">Chinese</option>
+					<option value="zh_HK">Chinese (Hong kong)</option>
+					<option value="ta_IN">Tamil</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>install.php</exclude>
+		<exclude>install/*</exclude>
+		<exclude>install/*/*</exclude>
+		<exclude>install/*/*/*</exclude>
+		<exclude>install/*/*/*/*</exclude>
+	</files>
+</softinstall>

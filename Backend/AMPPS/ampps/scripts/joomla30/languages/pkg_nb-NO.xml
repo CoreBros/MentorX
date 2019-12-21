@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.8" method="upgrade">
+	<name>Norwegian Bokmål (nb-NO) Language Pack</name>
+	<packagename>nb-NO</packagename>
+	<version>3.8.11.1</version>
+	<creationDate>June 2018</creationDate>
+	<author>Norsk Joomla!</author>
+	<authorEmail>nobody@norskjoomla.no</authorEmail>
+	<authorUrl>www.norskjoomla.no</authorUrl>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! Project</packager>
+	<packagerurl>www.joomla.org</packagerurl>
+	<description><![CDATA[Norsk bokmål (nb-NO) språkpakke]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="nb-NO">site_nb-NO</folder>
+		<folder type="language" client="administrator" id="nb-NO">admin_nb-NO</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_3.xml
+		</server>
+	</updateservers>
+</extension>

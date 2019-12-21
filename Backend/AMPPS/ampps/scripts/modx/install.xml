@@ -1,0 +1,76 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="My MODx Site">
+				<head>{{site_name}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="modx_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="password">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en">English</option>
+					<option value="ar">Arabic</option>
+					<option value="be">Belarusian</option>
+					<option value="bg">Bulgarian</option>
+					<option value="cs">Czech</option>
+					<option value="da">Danish</option>
+					<option value="de">German</option>
+					<option value="el">Greek</option>
+					<option value="es">Spanish</option>
+					<option value="et">Estonian</option>
+					<option value="fa">Persian</option>
+					<option value="fi">Finnish</option>
+					<option value="fr">French</option>
+					<option value="he">Hebrew</option>
+					<option value="hi">Hindi</option>
+					<option value="hu">Hungarian</option>
+					<option value="id">Indonesian</option>
+					<option value="it">Italian</option>
+					<option value="ja">Japanese</option>
+					<option value="nl">Dutch</option>
+					<option value="pl">Polish</option>
+					<option value="pt">Portuguese</option>
+					<option value="ro">Romanian</option>
+					<option value="ru">Russian</option>
+					<option value="sv">Swedish</option>
+					<option value="th">Thai</option>
+					<option value="tr">Turkish</option>
+					<option value="uk">Ukrainian</option>
+					<option value="yo">Yoruba</option>
+					<option value="zh">Chinese</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>setup/*</exclude>
+		<exclude>setup/*/*</exclude>
+		<exclude>setup/*/*/*</exclude>
+		<exclude>setup/*/*/*/*</exclude>
+	</files>
+</softinstall>

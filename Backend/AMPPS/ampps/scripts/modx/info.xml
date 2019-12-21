@@ -1,0 +1,71 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/MODX
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/MODX
+	</ratings>
+	<space>
+		31819482
+	</space>
+	<support>
+		http://modxcms.com/
+	</support>
+	<version>
+		2.7.2-pl
+	</version>
+	<mod>68</mod>
+	<release_date>26-09-2019</release_date>
+	<admin>manager</admin>
+	<min_require>2.0.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.6.0" />
+	<requirement check="mysql" type="version" operator="ne" value="5.6.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="zlib" />
+	<requirement check="php" type="extension" name="SimpleXML" />
+	<requirement check="php" type="extension" name="pdo_mysql" />
+	<requirement check="php" type="extension" name="json" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">MODX</font> helps you take control of your online content. An Open Source PHP application framework, it frees you to build sites exactly how you want and make them 100% yours. Zero restrictions and fast to build. Super-simple templates in regular HTML/CSS/JS (any lib you want). Registered user systems and a killer community. Welcome to web-building nirvana.
+		<br /><br />
+		MODX is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" ><b>For Site Owners &amp; Companies</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Safe &amp; Secure</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Boardroom Friendly</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Total Creative Freedom</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Unparalleled Search Engine Optimization (SEO)</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Install Add-ons from Within the App</b></font><br /><br />
+<font size="2" color="#1281B6"><b>New Manager with Built-in Customization</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Enterprise-class Security, User Model &amp; Authentication</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Fluent in i18n and l10n</b></font><br /><br /><br /><br />
+<font size="2" ><b>For Site Admins &amp; Geeks</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Object-Oriented Core &amp; API</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Contexts</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Caching that Scales</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Content Filtering</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Content Parser with Partial Page Caching</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Extend without Resorting to Hacks</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Custom Everything</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Override Everything</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Native JSON &amp; Message Queue</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Core Logging</b></font><br /><br />
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-no_pass_encrypt>Could not encrypt admin password because the domain is not pointing to the correct server</english-no_pass_encrypt>
+	</languages>
+</soft>

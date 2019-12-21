@@ -1,0 +1,4 @@
+-DCREATEPROTO=unixproto -DEMPTYPROTO=unixproto -DMD5ENABLE="/etc/cram-md5.pwd" -DMAILSPOOL="/var/mail" -DANONYMOUSHOME="/var/mail/anonymous" -DACTIVEFILE="/usr/lib/news/active" -DNEWSSPOOL="/var/spool/news" -DRSHPATH="/usr/bin/rsh" -DLOCKPGM="" -DLOCKPGM1="/usr/libexec/mlock" -DLOCKPGM2="/usr/sbin/mlock" -DLOCKPGM3="/etc/mlock"
+-I/Applications/AMPPS/extra/include -DGSS_C_NT_HOSTBASED_SERVICE=gss_nt_service_name -DKRB5_DEPRECATED=1
+-DNOFSTATVFS64
+-I/Applications/AMPPS/extra/include/openssl -I/Applications/AMPPS/extra/include/openssl/openssl -DSSL_CERT_DIRECTORY="/Applications/AMPPS/extra/etc/openssl/certs" -DSSL_KEY_DIRECTORY="/Applications/AMPPS/extra/etc/openssl/private"

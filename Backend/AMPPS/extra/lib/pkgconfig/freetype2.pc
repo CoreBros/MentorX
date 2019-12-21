@@ -1,0 +1,12 @@
+prefix="/Applications/AMPPS/extra"
+exec_prefix="/Applications/AMPPS/extra"
+libdir="/Applications/AMPPS/extra/lib"
+includedir="/Applications/AMPPS/extra/include"
+
+Name: FreeType 2
+Description: A free, high-quality, and portable font engine.
+Version: 16.1.10
+Requires:
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -lbz2 
+Cflags: -I${includedir}/freetype2 -I${includedir}

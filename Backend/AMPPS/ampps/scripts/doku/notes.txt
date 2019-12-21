@@ -1,0 +1,6 @@
+1. Add [[language]] in local.php
+2. Choose License type 'Do not show any license information'. 
+3. Install three times i.e in Open Mode, Public mode & closed mode to check ACL values in install.php
+4. <vr search="2013-05-10a">2013-05-10+</vr> added for force upgrade by softaculous. So remove it in next version if not needed
+5. PHP REQUIREMENT LINK : https://www.dokuwiki.org/requirements
+6. "lib/exe/indexer.php?id=wiki%3Awelcome&timstamp" is ajax call made by "doku.php?id=wiki:welcome" link, provide in dokuwiki installer to visit after install, check if files are getting created in "data/index" after visit of link. ( added since 2017-02-19e )

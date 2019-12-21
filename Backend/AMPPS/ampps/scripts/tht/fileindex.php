@@ -1,0 +1,11 @@
+.htaccess
+COPYING.txt
+README.txt
+admin
+client
+includes
+index.php
+install
+order
+support
+themes

@@ -1,0 +1,14 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>ow_updates</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>ow_includes/config.php</exclude>
+		<exclude>ow_pluginfiles/base/lang_1.php</exclude>
+	</files>
+</softupgrade>

@@ -1,0 +1,16 @@
+<softedit xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_email" size="30" value="" softmail="true">
+				<head>{{ad_email}}</head>
+				<optional>true</optional>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="">
+				<head>{{ad_pass}}</head>
+				<exp>{{exp_ad_pass}}</exp>
+				<optional>true</optional>
+			</input>
+		</group>
+	</settings>
+</softedit>

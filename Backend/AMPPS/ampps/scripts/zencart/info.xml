@@ -1,0 +1,71 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Zen_Cart
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Zen_Cart
+	</ratings>
+	<space>
+		19883500
+	</space>
+	<support>
+		http://www.zen-cart.com/
+	</support>
+	<version>
+		1.5.6c
+	</version>
+	<mod>28</mod>
+	<mod_files>1</mod_files>
+	<release_date>16-07-2019</release_date>
+	<admin>zcadmin</admin>
+	<vr search="1.5.6c">1.5.6+</vr>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Zen Cart</font> truly is the art of e-commerce; free, user-friendly, open source shopping cart software. The ecommerce web site design program is being developed by group of like-minded shop owners, programmers, designers, and consultants that think ecommerce web design could be and should be done differently.
+		<br /><br />
+		Zen Cart is released under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<h2>Just a few of our features...</h2>
+<ul>
+	<li>easy installation</li>
+	<li>multiple customer modes</li>
+	<li>unlimited category depth</li>
+	<li>multiple sales and discounts</li>
+	<li>multiple display modes</li>
+</ul>
+<h3>and...</h3>
+<ul>
+	<li>XHTML template system</li>
+	<li>unlimited extra pages</li>
+	<li>multiple ad banner controller</li>
+	<li>multiple shipping options</li>
+	<li>multiple payment options</li>
+</ul>
+<h3>plus...</h3>
+<ul>
+	<li>newsletter manager</li>
+	<li>discount coupons</li>
+	<li>gift certificates</li>
+	<li>featured products</li>
+	<li>quantity discounts</li>
+</ul>
+<h3>...and more!</h3>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-no_pass_encrypt>Could not encrypt admin password because the domain is not pointing to the correct server</english-no_pass_encrypt>
+		<english-err_passlen7>The password length should be 7 or more characters</english-err_passlen7>
+	</languages>
+</soft>

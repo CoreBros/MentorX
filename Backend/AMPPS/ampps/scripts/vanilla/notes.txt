@@ -1,0 +1,6 @@
+1. REQUIREMENTS LINK :
+https://docs.vanillaforums.com/developer/installation/self-hosting/#requirements
+2. We have added $Configuration['Plugins']['GettingStarted']['Discussion'] = '1'; in config.php because it requires writable permission on creating discussion for the first time. Check and add this if we need to add this in next version.
+3. We have removed "build" directory from original package of vanilla 2.5.4 because it contains "vanilla 2.6.x vendor" directory. (Since 2.6.1)
+4. We have removed $Configuration['Garden']['InstallationID'] & $Configuration['Garden']['InstallationSecret'] from config.php. It creates after installation Settings->Statistics.
+5. We have kept min required version to upgrade as 2.3.0 because on versions < 2.3.0 password method was different and password backward compatibility is not handled by vendor in 2.6.1 package. Hence after completing upgrade successfully, we can not login into admin panel.

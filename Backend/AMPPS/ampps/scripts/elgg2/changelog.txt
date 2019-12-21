@@ -1,0 +1,51 @@
+2.3.14 (2019-07-24)
+Contributors
+
+    Jerôme Bakker (3)
+    Jeroen Dalsem (1)
+
+Bug Fixes
+
+    groups: no error on notification failure during membership request (2bd72ffc)
+    http: check object for toString function (1cd0809e)
+    installer: detect more https scenarios (05648781)
+
+2.3.13 (2019-06-12)
+Contributors
+
+    Jeroen Dalsem (1)
+
+Bug Fixes
+
+    blog: show correct last saved date (b888e7e1)
+
+2.3.12 (2019-04-16)
+Contributors
+
+    Jerôme Bakker (1)
+
+Bug Fixes
+
+    widgets: improved stability of widget title (904eefc1)
+
+2.3.11 (2019-04-04)
+Contributors
+
+    Jerôme Bakker (4)
+    Ismayil Khayredinov (1)
+
+Bug Fixes
+
+    gatekeeper: more consistency in resource gatekeepers (60a045a3)
+    livesearch: prevent PHP warning in switch statement (44e671d0)
+    notifications: fix faulty subscription list mutations (0edb38d1)
+    walled_garden: allow access to webapp manifest.json (73c36a13)
+
+2.3.10 (2018-12-21)
+Contributors
+
+    Jerôme Bakker (5)
+
+Bug Fixes
+
+    js: input datepicker can be cleared using delete or backspace (54b76928)

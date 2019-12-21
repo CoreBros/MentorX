@@ -1,0 +1,8 @@
+1. Change the value of config_error_display to "0" in ocart.sql
+2. Have disabled upgrade in 2.1.0.1 due to Errors in 2.0.3.1 to 2.1.0.1 upgarde and few tables are not generating after upgrade. ( same issue for 2.1.0.2, In next release plz check upgrade from 2.0.3.1 and check DB changes. ). Have mailed vendor.
+3. Try to add upgrade from 2.2.0.0 to 2.3.X.X. We have disabled it in 2.3.0.2 because front link is not loading due to change in extention path. http://forum.opencart.com/viewtopic.php?f=183&t=165958
+4. No Documentation available for 2.x to 3.0 upgrade.
+5. PHP REQUIREMENT LINK: http://docs.opencart.com/requirements/
+6. Move system/storage directory outside of web accesssible since 3.0.1.1. This was asked to do in manual installation post first login. Remove this folder from ocart2.zip and make data.zip. Also make changes in both config files as well for "define('DIR_STORAGE', '[[softdatadir]]/storage/');".
+7. Download language from https://www.opencart.com/index.php?route=marketplace/extension&filter_category_id=2
+8. If you add any new language then update its entry in install.php array.

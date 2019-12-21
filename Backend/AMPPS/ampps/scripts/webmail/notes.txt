@@ -1,0 +1,7 @@
+1. We have disabled upgrade from 7.7.0 because there is a change in password method and there is no backward compatibility for previous password so we cant login into system with old password. Contacted vendor even they can't provide any utility. (See point 10 in https://afterlogic.com/docs/webmail-pro/installation/upgrading-instructions) Try to add upgrade from 7.7.0 to 7.7.x (Enabled in 7.7.1)
+2. We have disabled upgrade from 7.7.x to 8.1.6 because it requires manual migration. (https://afterlogic.com/docs/webmail-lite-8/installation/migration-from-v7)
+3. install using superadmin as username, and an empty password, update "Admin Account","Database settings", "Common settings" and "Mail servers settings" and take dumps.
+4. Keep "*" in Any Domain.
+5. PHP REQUIREMENT LINK : https://afterlogic.com/docs/webmail-lite-8/system-requirements
+6. Release date : https://afterlogic.org/webmail-lite
+7. Don't click on "Update configuration" button of "Database settings" while manual installation.

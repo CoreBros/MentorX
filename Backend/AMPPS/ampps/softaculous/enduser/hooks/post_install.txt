@@ -1,0 +1,50 @@
+<?php
+
+/**
+ * This is a HOOK POINT in the Softaculous Installation process.
+ * NOTE : You must rename this file to post_install.php
+ */
+ 
+//////////////////////////////////////////////////////////////
+//===========================================================
+// post_install.php
+//===========================================================
+// SOFTACULOUS 
+// Version : 1.1
+// Inspired by the DESIRE to be the BEST OF ALL
+// ----------------------------------------------------------
+// Started by: Alons
+// Date:       10th Jan 2009
+// Time:       21:00 hrs
+// Site:       http://www.softaculous.com/ (SOFTACULOUS)
+// ----------------------------------------------------------
+// Please Read the Terms of use at http://www.softaculous.com
+// ----------------------------------------------------------
+//===========================================================
+// (c)Softaculous Inc.
+//===========================================================
+//////////////////////////////////////////////////////////////
+
+if(!defined('SOFTACULOUS')){
+
+	die('Hacking Attempt');
+
+}
+
+/**
+ * This function will be called whenever a script is installed.
+ * $software will have details of the script being installed.
+ *
+ * @package      hooks 
+ * @author       Pulkit Gupta
+ * @param        array $installation Will contain the details of the new installation made
+ * @return       bool
+ * @since     	 3.7
+ */
+function __post_install($installation){
+	global $soft, $software, $globals;
+	// Do stuff here e.g. is as follows
+	if($soft == 26){ /* Do things only if its WordPress */	}
+}
+
+?>

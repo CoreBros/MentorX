@@ -1,0 +1,34 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+		<group>
+			<heading>{{install_plugins}}</heading>
+			<input type="checkbox" name="loginizer" value="off">
+				<head>{{loginizer}}</head>
+				<exp>{{exp_loginizer}}{{exp_note}}</exp>
+				<admin type="checkbox" enabled="1"></admin>
+			</input>
+			<input type="checkbox" name="classic-editor" value="off">
+				<head>{{classic-editor}}</head>
+				<exp>{{exp_classic-editor}}</exp>
+				<admin type="checkbox" enabled="1"></admin>
+			</input>
+			<input type="checkbox" name="wp-central" value="off">
+				<head>{{wpcentral}}</head>
+				<exp>{{exp_wpcentral}}</exp>
+				<admin type="checkbox" enabled="1"></admin>
+			</input>
+		</group>
+	</settings>
+	<setuplocation>wp-admin/upgrade.php</setuplocation>
+	<auto_upgrade>1</auto_upgrade>
+	<footer_link>wp-content/themes/twentytwenty/footer.php</footer_link>
+	<footer_link>wp-content/themes/twentynineteen/footer.php</footer_link>
+	<footer_link>wp-content/themes/twentyseventeen/template-parts/footer/site-info.php</footer_link>
+	<footer_link>wp-content/themes/twentysixteen/footer.php</footer_link>
+	<footer_prefix> - </footer_prefix>
+</softupgrade>

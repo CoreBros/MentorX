@@ -1,0 +1,10 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>public/upgrade</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+</softupgrade>

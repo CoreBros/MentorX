@@ -1,0 +1,48 @@
+ <soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right; margin:10px" width="250" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Xoops
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Xoops
+	</ratings>
+	<space>
+		26989140
+	</space>
+	<support>
+		http://www.xoops.org/
+	</support>
+	<version>
+		2.5.10
+	</version>
+	<mod>22</mod>
+	<release_date>29-04-2019</release_date>
+	<admin>admin.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.7" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Xoops</font> is an easy to use dynamic web content management system written in PHP.
+		<br /><br />
+		XOOPS is an acronym of eXtensible Object Oriented Portal System. Though started as a portal system, XOOPS is in fact striving steadily on the track of Content Management System. It can serve as a web framework for use by small, medium and large sites.
+		<br /><br />
+		XOOPS is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a> and is free to use and modify.
+		</english-overview>		
+		<english-features>
+		<strong>Key features of XOOPS</strong><br /><br />- Database-driven<br />XOOPS uses a relational database (currently MySQL) to store data required for running
+a web-based content management system.<br /><br />- Fully Modularized<br />Modules can be installed/uninstalled/ativated/deactivated with a click using the XOOPS module administration system.<br /><br />- Personalization<br />Registered users can edit their profiles, select site themes, upload custom avatars, and much more!<br /><br />- User Management<br />The ability to search for users by
+various criteria, send email and private messages to users through a template-based messaging system.<br /><br />- Supported World-wide<br />XOOPS was created and is maintained by a team of several
+hard-working volunteers working from all over the world. The XOOPS community has more than dozen official support sites around the world for support of non-English speaking users.<br /><br />-
+Multi-byte Language Support<br />Fully supports multi-byte languages, including Japanese, Simplified and Traditional Chinese, Korean, etc.<br /><br />- Versatile Group Permissions System<br />Powerful
+and user-friendly permissions system which enables administrators to set permissions by group.<br /><br />- Theme-based skinnable interface<br />XOOPS is driven by a powerful theme system. Both admins
+and users can change the look of the entire web site with just a click of a mouse. There are also over 1000 themes <a href="http://www.xoops.org/modules/extgallery" target="_blank">available for download</a>!
+		</english-features>
+	</languages>
+</soft>

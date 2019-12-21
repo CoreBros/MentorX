@@ -1,0 +1,11 @@
+1. Download  from the client center :
+https://secure.visionhelpdesk.com/clientarea.php
+2. Copy the PHP 5.3 package as vision.zip and copy PHP 5.2 package to packages/vision_php52.zip and PHP 5.4 package as packages/vision_php54.zip (package should be ground zero zip)
+(Not required anymore since there is only one zip available and i.e for PHP 7.1, from version 5.x.x)
+3. (At the moment languages is disabled) To enable language we have changed "is_enabled" in avis_language table from 0 to 1 for all languages.
+4. Always check upgrade.php to change version
+5. Language is not supported in 4.0.2 so we have removed it. Please add it back once developer adds language packs.
+6. vision_php52.zip , vision_php54.zip , vision_php55.zip , vision_php56.zip are Removed because they are  removed from Download link.
+7. Zend Guard Loader is no more needed by the script(since version 5.x.x), so we have removed it from info.xml :
+https://www.visionhelpdesk.com/vision-helpdesks-v5-version-is-now-live.html
+8. PHP REQUIREMENT LINK: https://support.visionhelpdesk.com/index.php?/selfhelp/view-article/vision-helpdesk-server-requirements

@@ -1,0 +1,22 @@
+1) Rename 'admin' folder to 'zcadmin' and zip it because 'admin' folder is not allowed.
+
+2) zc_install/includes/classes/installer.php
+
+3) Please replace /admin to /zcadmin so that we can Upgrade properly in the following files in the zencart.zip:
+zc_install/includes/classes/installer.php
+zc_install/includes/modules/pages/inspect/header_php.php
+zc_install/includes/templates/template_default/templates/finished_default.php
+
+(Not required since 1.5.5)
+
+4) Make `reset_token` column blank in `prezc_admin` table for admin entry. If this is not blank then it will ask for password change after first login.
+
+5) Install without demo data
+
+6) Third link has been disabled for every security releases of 1.5.5 for upgrades : changes made in upgrade.php : 1.5.5 to 1.5.5f, 1.5.5a to 1.5.5f, 1.5.5b to 1.5.5f, 1.5.5c to 1.5.5f, 1.5.5d to 1.5.5f, 1.5.5e to 1.5.5f.
+
+Since 1.5.5a, 1.5.5b, 1.5.5c, 1.5.5d, 1.5.5e , 1.5.5f are just patches and have no database changes to be done. However the files needs to be replaced. Check in next version.
+
+7) Keep "Session Directory" [[softpath]]/cache in `[[dbprefix]]configuration` table.
+
+7) PHP REQUIREMENT LINK: https://www.zen-cart.com/content.php?48-what-are-the-server-requirements-to-run-zen-cart

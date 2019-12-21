@@ -1,0 +1,4 @@
+1. PHP REQUIREMENT LINK : https://www.boonex.com/trac/dolphin/wiki/DolTech#ServerRequirements
+2. Upgrade method https://www.boonex.com/trac/dolphin/wiki/7.3.5-7.4.0
+3. downlaod patch for upgrade and make ground zip upgrade.zip
+4. Upgrade is possible only from the last version. Update in info.xml and upgrade.php for the same.

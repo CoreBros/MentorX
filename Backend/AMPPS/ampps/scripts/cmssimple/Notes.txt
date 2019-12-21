@@ -1,0 +1,25 @@
+1. choose advance option 'yes' and send email for login info to 'no' in manual installation.
+2. Install with sample data
+3. select Timezone America/New_York
+4. (Not created anymore from 2.0) We need to set the default mail option to "mail" instead of "smtp"
+To do that change the following line in cmssimple.sql:
+('CMSMailer_mapi_pref_mailer', 'smtp', NULL, NULL)
+to 
+('CMSMailer_mapi_pref_mailer', 'mail', NULL, NULL)
+
+and add the following inserts in siteprefs table and also increase the auto increament:
+('mail_is_set', '1', NULL, NULL),
+('CMSMailer_mapi_pref_charset', 'utf-8', NULL, NULL)
+
+5. Select "MySQLi" for database.
+6. delete config.php and empty tmp/cache and tmp/templates_c directory (except index.html) and then make zip.
+7. add following line AS IT IS in 'userprefs' table
+(1, 'default_cms_language', '[[language]]', NULL)
+
+and add following line in 'siteprefs' table
+('frontendlang', '[[language]]', NULL, NULL);
+
+8. Upgrade is not possible to 2.0 since there is no upgrade utility. Please check for the same in the next version.
+9. In every update change <exclude>cmsms-2.1.2-install.php</exclude> in install.xml
+10. Select all languages in manual installation.
+11. PHP REQUIREMENT LINK: https://docs.cmsmadesimple.org/installation/requirements#technical-requirements

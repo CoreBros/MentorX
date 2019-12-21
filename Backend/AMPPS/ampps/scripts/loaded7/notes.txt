@@ -1,0 +1,5 @@
+1) Before manual installation provide proper writable permissions to directories(refer install.php or pre-install steps on loaded7 site).
+2) For manual installation install twice i.e. with SSL and without SSL. and check for difference in each installed files and SQL.
+3) Install with sample data.
+4) Please create function to check required PHP Settings of enduser PHP binary.
+5) Choose Database type : MySQL-InnoDB(Transaction-Safe)

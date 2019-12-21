@@ -1,0 +1,6 @@
+1) Use utf-8: check this button before installation.
+2) make data.zip from Original Downloaded zip i.e. everything except public_html and contents of public_html goes to geeklog.zip
+3) Language are available in the data.zip just check if the files are available.
+4) PHP REQUIREMENT LINK : https://www.geeklog.net/docs/english/install.html#preinstall
+5) Select Mysql with Innodb Support in manual installation.
+6) Select "Install with all Plugins" option in manual installation.

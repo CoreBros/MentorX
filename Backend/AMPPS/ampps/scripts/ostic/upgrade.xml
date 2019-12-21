@@ -1,0 +1,13 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>setup/upgrade.php</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>include/ost-config.php</exclude>
+	</files>
+</softupgrade>

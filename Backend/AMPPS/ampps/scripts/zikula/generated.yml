@@ -1,0 +1,22 @@
+#This is a dynamically generated configuration file. Do not touch!
+
+jms_i18n_routing:
+    default_locale: en
+    locales: [en]
+    strategy: prefix_except_default
+swiftmailer:
+    transport: mail
+    username: ''
+    password: ''
+    host: localhost
+    port: 25
+    encryption: null
+    auth_mode: null
+    delivery_addresses: []
+    disable_delivery: false
+parameters:
+    zikula.session.name: _zsid
+    zikula.session.handler_id: session.handler.native_file
+    zikula.session.storage_id: zikula_core.bridge.http_foundation.zikula_session_storage_file
+    zikula.session.save_path: '%kernel.cache_dir%/sessions'
+    multisites: { enabled: false, mainsiteurl: null, based_on_domains: null, protected.systemvars: [] }

@@ -1,0 +1,7 @@
+1.If the download link does not appear on their site you can download the community edition from Sourceforge:
+http://sourceforge.net/projects/jcow/files/jcow8/
+
+2. After Upgrade few tables are not getting created i.e jcow_topics_followed, jcow_topic_ids etc
+We have discussed with script vendor regarding this and they said that these tables are not required for CE. It will get created if client upgrades to PAID version.
+
+3. Release date : https://sourceforge.net/p/jcow/activity/?page=0&limit=100#59627546e88f3d1360a402b9

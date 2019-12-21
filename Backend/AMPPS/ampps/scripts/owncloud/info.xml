@@ -1,0 +1,76 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/ownCloud
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/files/ownCloud
+	</ratings>
+	<space>
+		93698448
+	</space>
+	<support>
+		http://owncloud.org/
+	</support>
+	<version>
+		10.3.2
+	</version>
+	<mod>75</mod>
+	<release_date>11-12-2019</release_date>
+	<admin>index.php</admin>
+	<min_require>9.0.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="7.0.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="intl" />
+	<requirement check="php" type="extension" name="zip" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="dom" />
+	<requirement check="php" type="extension" name="libxml" />
+	<requirement check="php" type="extension" name="ctype" />
+	<requirement check="php" type="extension" name="zlib" />
+	<requirement check="php" type="extension" name="iconv" />
+	<requirement check="php" type="extension" name="SimpleXML" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">ownCloud</font> gives you freedom and control over your own data.
+		<br /><br />
+		A personal cloud which runs on your own server. 
+		<br /><br />
+		ownCloud allows you to access your data wherever you are, when you need it.
+		<br /><br />
+		ownCloud is released under the <a href="http://www.gnu.org/licenses/agpl.html" target="_blank">GNU AFFERO GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="78ba91"><b>Access Your Data</b></font><br /><br />
+<font size="2" color="78ba91"><b>Sync Your Data</b></font><br /><br />
+<font size="2" color="78ba91"><b>Share Your Data</b></font><br /><br />
+<font size="2" color="78ba91"><b>Versioning</b></font><br /><br />
+<font size="2" color="78ba91"><b>Encryption</b></font><br /><br />
+<font size="2" color="78ba91"><b>Drag and Drop Upload</b></font><br /><br />
+<font size="2" color="78ba91"><b>Themeing</b></font><br /><br />
+<font size="2" color="78ba91"><b>Viewer for ODF Files</b></font><br /><br />
+<font size="2" color="78ba91"><b>Application API's</b></font><br /><br />
+<font size="2" color="78ba91"><b>Migration and Backup</b></font><br /><br />
+<font size="2" color="78ba91"><b>Tasks</b></font><br /><br />
+<font size="2" color="78ba91"><b>Application Store</b></font><br /><br />
+<font size="2" color="78ba91"><b>Calendars</b></font><br /><br />
+<font size="2" color="78ba91"><b>File Notifications</b></font><br /><br />
+<font size="2" color="78ba91"><b>Galleries</b></font><br /><br />
+<font size="2" color="78ba91"><b>External Storage</b></font><br /><br />
+<font size="2" color="78ba91"><b>Logging</b></font><br /><br />
+<font size="2" color="78ba91"><b>LDAP / Active Directory</b></font><br /><br />
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

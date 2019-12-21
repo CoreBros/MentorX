@@ -1,0 +1,98 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{settings}}</heading>
+			<input type="text" name="site_name" size="30" value="My Board">
+				<head>{{name}}</head>
+				<exp>{{name_exp}}</exp>
+			</input>
+			<input type="select">
+				<select name="visual_verification_type">
+					<option value="0">None</option>
+					<option value="1">Very Simple - Plain text on image</option>
+					<option value="2">Simple - Overlapping colored letters, no noise</option>
+					<option value="3" selected="selected">Medium - Overlapping colored letters, with noise/lines</option>
+					<option value="4">High - Angled letters, considerable noise/lines</option>
+					<option value="5">Extreme - Angled letters, noise, lines and blocks</option>
+				</select>
+				<head>{{visual_verification_type}}</head>
+				<exp>{{exp_visual_verification_type}}</exp>
+			</input>
+			<input type="text" name="board_email" size="30" value="board" softmail="true">
+				<head>{{email}}</head>
+				<exp>{{email_exp}}</exp>
+				<handle>__email_address</handle>
+			</input>
+			<input type="text" name="dbprefix" size="20" value="smf_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+				<handle>__admin_username</handle>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_realname" size="30" value="Administrator">
+				<head>{{real_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="english">English</option>
+					<option value="albanian-utf8">Albanian</option>
+					<option value="arabic-utf8">Arabic</option>
+					<option value="bulgarian-utf8">Bulgarian</option>
+					<option value="catalan-utf8">Catalan</option>
+					<option value="chinese_simplified-utf8">Chinese Simplified</option>
+					<option value="chinese_traditional-utf8">Chinese Traditional</option>
+					<option value="croatian-utf8">Croatian</option>
+					<option value="czech-utf8">Czech</option>
+					<option value="danish-utf8">Danish</option>
+					<option value="dutch-utf8">Dutch</option>
+					<option value="finnish-utf8">Finnish</option>
+					<option value="french-utf8">French</option>
+					<option value="galician-utf8">Galician</option>
+					<option value="german-utf8">German</option>
+					<option value="german_informal-utf8">German Informal</option>
+					<option value="greek-utf8">Greek</option>
+					<option value="hebrew-utf8">Hebrew</option>
+					<option value="hungarian-utf8">Hungarian</option>
+					<option value="italian-utf8">Italian</option>
+					<option value="japanese-utf8">Japanese</option>
+					<option value="lithuanian-utf8">Lithuanian</option>
+					<option value="norwegian-utf8">Norwegian</option>
+					<option value="persian-utf8">Persian</option>					
+					<option value="polish-utf8">Polish</option>
+					<option value="portuguese_pt-utf8">Portuguese</option>
+					<option value="portuguese_brazilian-utf8">Portuguese Brazilian</option>
+					<option value="romanian-utf8">Romanian</option>
+					<option value="russian-utf8">Russian</option>
+					<option value="slovak-utf8">Slovak</option>
+					<option value="spanish_es-utf8">Spanish</option>
+					<option value="swedish-utf8">Swedish</option>					
+					<option value="thai-utf8">Thai</option>
+					<option value="turkish-utf8">Turkish</option>
+					<option value="ukrainian-utf8">Ukrainian</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>install.php</exclude>
+		<exclude>upgrade.php</exclude>
+	</files>
+</softinstall>

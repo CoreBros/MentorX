@@ -1,0 +1,89 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		https://gitstable.yetiforce.com/index.php
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/YetiForce 
+	</ratings>
+	<space>
+		146892736
+	</space>
+	<support>
+		https://github.com/YetiForceCompany/YetiForceCRM
+	</support>
+	<version>
+		5.2.0
+	</version>
+	<mod>13</mod>
+	<release_date>06-09-2019</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="7.1.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.6.0" />
+	<requirement check="php" type="extension" name="mysqlnd" />
+	<requirement check="php" type="extension" name="pdo" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="imap" />
+	<requirement check="php" type="extension" name="zlib" />
+	<requirement check="php" type="extension" name="openssl" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="pcre" />
+	<requirement check="php" type="extension" name="xml" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="session" />
+	<requirement check="php" type="extension" name="dom" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="zip" />
+	<requirement check="php" type="extension" name="soap" />
+	<requirement check="php" type="extension" name="iconv" />
+	<requirement check="php" type="extension" name="fileinfo" />
+	<requirement check="php" type="extension" name="intl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">YetiForce</font> is an open high-class CRM (Customer Relationship Management)
+		system that helps to manage relations with customers, suppliers, partners and staff. It's an open, innovative and complex system that has become the key to efficient management within a company.<br /><br />
+		YetiForce can be easily enriched with add-ons. You can also modify its code as needed and keep it to yourself - no need to show it to anyone. It was created so you could achieve the impossible with your business<br /><br />
+		YetiForce is available under the <a href="https://yetiforce.com/en/yetiforce/license" target="_blank">YetiForce Public License v3</a>.
+		</english-overview>
+		<english-features>
+		<ul>
+			<li>Highest code quality in compliance with global standards</li>
+			<li>Operational at full performance with over 20000 users</li>
+			<li>Over 70 user modules and configuration panels</li>
+			<li>Intuitive navigation with responsive menu</li>
+			<li>Customer, sales, lead, logistic and inventory management</li>
+			<li>Calendar, Contacts, currency exchange rates</li>			
+			<li>Built-in notification by email and/or SMS</li>			
+			<li>Invoicing</li>
+			<li>Analytics with sales forecasting</li>
+			<li>Cloud based hosting</li>
+			<li>Time Control</li>
+			<li>Integration with LDAP, DAV, PBXManager and Open Street Maps</li>
+			<li>PBX and PBX Manager integration</li>
+			<li>API</li>
+			<li>Advanced permissions</li>
+			<li>Customizable dashboard</li>
+			<li>Workflow</li>
+			<li>Data coloring tools</li>
+			<li>Advanced search engine</li>
+			<li>Encrypting data</li>
+			<li>Brutus force</li>
+		</ul>
+		</english-features>
+		<english-select_dateformat>Date Format</english-select_dateformat>
+		<english-select_industry>Industry</english-select_industry>
+		<english-street_name>Street</english-street_name>
+		<english-city_name>City</english-city_name>
+		<english-post_code>Postcode</english-post_code>
+		<english-company_size>Company Size</english-company_size>
+		<english-select_currency>Select Currency</english-select_currency>
+	</languages>
+</soft>

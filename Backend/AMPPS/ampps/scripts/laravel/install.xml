@@ -1,0 +1,9 @@
+<softinstall xmlns="http://www.softaculous.com">
+		<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+</softinstall>

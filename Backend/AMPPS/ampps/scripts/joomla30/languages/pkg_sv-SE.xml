@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" version="3.9" method="upgrade">
+	<name>sv-SE_joomla_lang_full_3.9.14v1</name>
+	<packagename>sv-SE</packagename>
+	<version>3.9.14.1</version>
+	<creationDate>17/12/2019</creationDate>
+	<author>Svensk Joomla - Stefan Gagner, Sune Hultman</author>
+	<authorEmail>info@svenskjoomla.se</authorEmail>
+	<authorUrl>http://www.svenskjoomla.se</authorUrl>
+	<copyright>Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url></url>
+	<packager></packager>
+	<packagerurl></packagerurl>
+	<description><![CDATA[<h3><strong>Svensk översättning för Joomla! 3.9.14 version 1 </strong></h3><h4>Översatt av SvenskJoomla - Stefan Gagner, Sune Hultman och många fler som bidragit genom åren. Inget tidigare arbete har gått till spillo.</h4><hr /><h4>Besök gärna vår nya hemsida <a href="https://www.svenskjoomla.se">svenskjoomla.se och stöd vårt arbete.</a></h4><hr />]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<file type="language" client="site" id="sv-SE">site_sv-SE.zip</file>
+		<file type="language" client="administrator" id="sv-SE">admin_sv-SE.zip</file>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist_3.xml</server>
+	</updateservers>
+</extension>

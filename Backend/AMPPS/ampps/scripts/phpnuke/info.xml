@@ -1,0 +1,68 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PHP-Nuke
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/PHP-Nuke
+	</ratings>
+	<space>
+		21857546
+	</space>
+	<support>
+		http://www.phpnuke.org
+	</support>
+	<version>
+		8.3.2
+	</version>
+	<mod>8</mod>
+	<mod_files>5</mod_files>
+	<release_date>26-11-2013</release_date>
+	<admin>admin.php</admin>
+	<min_require>8.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PHP-Nuke</font> is a web-based automated news publishing and content management system based on PHP and MySQL. The system is fully controlled using a web-based user interface. PHP-Nuke was originally a fork of the Thatware news portal system.
+		<br /><br />
+		PHP-Nuke is a free software released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>Advertising -- Manages ads on the page layout (theme). Supports images/links, javacript/HTML, and flash</li>
+<li>Avantgo -- Provides mobile version of the last 10 news articles</li>
+<li>Content -- Manages the main content "pages" of the website</li>
+<li>Downloads -- Manages file downloads. It doesn't actually allow you to upload files, but it stores links to files you upload to your server or links to files on other public servers.</li>
+<li>Encyclopedia -- A simple module for managing phrases/words and their definitions.</li>
+<li>FAQ -- Manages the Frequently Asked Questions (FAQ) for your site.</li>
+<li>Feedback -- Allows site visitors to provide feedback to the webmaster. It is an online form, but provides the feedback via email.</li>
+
+<li>Forums -- Manages discussion forums for the site. It is based on bb2nuke, which is a PHP-Nuke port of the popular open-source PHPBB discussion board.</li>
+<li>Journal -- A simple module that allows users to maintain public and/or private notes.</li>
+<li>Members List -- Displays the members of your site.</li>
+<li>News -- Manages news stories for your site. It supports future-dating news to be released at a specific date and time.</li>
+<li>new feature</li>
+<li>Private Messages -- Allows your members to send private messages to you and others on the site. Members can chose to not allow other members to send them private messages.</li>
+<li>Recommend Us -- Form to send an email message recommending your site to others.</li>
+<li>Search -- Allows users to search your website to find information.</li>
+<li>Statistics -- Displays summary and detailed statistics regarding your site, including the number of page views by visitors.</li>
+
+<li>Stories (News) Archives -- Provides access to older news articles.</li>
+<li>Submit News -- A form to allow visitors to submit a news story to your site. Email notification is sent, but the news submission is stored in your administrator control panel. You can delete, edit, and/or post the article directly to your site without rekeying.</li>
+<li>Surveys (Polls) -- Allows you to create surveys that your visitors can respond to.</li>
+<li>Top -- Displays the top 10 (or other number specified by you) news articles, downloads, etc.</li>
+<li>Topics -- Displays news by topic. As the administrator you define what the topics are for your site and assign news articles to one or more topic. The news module also supports categories, which are similar, but a news article can only be assigned a single category.</li>
+<li>Web Links -- Manages a hierarchical directory of links to various websites of interest to your readers.</li>
+<li>Your Account -- Manages members "profile" information, including their preferred site theme (if you provide more than one), the number of news articles to display on their home page, etc.</li>
+</ul>
+
+		</english-features>
+	</languages>
+</soft>

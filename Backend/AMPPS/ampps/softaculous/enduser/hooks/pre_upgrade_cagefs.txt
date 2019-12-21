@@ -1,0 +1,209 @@
+<?php
+
+/**
+ * This is a HOOK POINT in the Softaculous Upgradation process.
+ * NOTE : You must rename this file to pre_upgrade_cagefs.php
+ */
+ 
+//////////////////////////////////////////////////////////////
+//===========================================================
+// pre_upgrade_cagefs.php
+//===========================================================
+// SOFTACULOUS 
+// Version : 1.1
+// Inspired by the DESIRE to be the BEST OF ALL
+// ----------------------------------------------------------
+// Started by: Alons
+// Date:       10th Jan 2009
+// Time:       21:00 hrs
+// Site:       http://www.softaculous.com/ (SOFTACULOUS)
+// ----------------------------------------------------------
+// Please Read the Terms of use at http://www.softaculous.com
+// ----------------------------------------------------------
+//===========================================================
+// (c)Softaculous Inc.
+//===========================================================
+//////////////////////////////////////////////////////////////
+
+if(!defined('SOFTACULOUS')){
+
+	die('Hacking Attempt');
+
+}
+
+/**
+ * This function will be called whenever an installation is upgraded.
+ *
+ * @package      CaggeFS hooks 
+ * @author       Pulkit Gupta
+ * @param        array $installation Will contain the details of the installation being upgraded
+ * @return       bool
+ * @since     	 4.3.0
+ */
+function __pre_upgrade_cagefs($installation){	
+
+	global $soft, $software, $globals, $scripts, $softpanel, $error, $__hooks;
+	
+	// Is CageFS enabled ?
+	if(file_exists('/usr/bin/selectorctl') && !defined('php_version')){
+		
+		/*// Lets check if the user is in the disabled list of CageFS
+		// This is allowed only for root
+		@exec("/usr/sbin/cagefsctl --list-disabled | grep ".$softpanel->user['name'], $dout, $dret);
+		if(preg_match('/'.$softpanel->user['name'].'/is', implode('', $dout))){
+			return true;
+		}*/
+		
+		// Lets check if CageFS is enabled for this user
+		@exec("/usr/bin/selectorctl --user-current --user=".(($globals['softpanel'] == 'plesk') ? $softpanel->user['login_name'] : $softpanel->user['name'])." 2>&1", $cout, $cret);
+		
+		if(preg_match('/ERROR/is', implode('', $cout))){
+			return true;
+		}
+			
+		// If it is native than we will find the verison using sphpversion()
+		if(preg_match('/native/is', implode('', $cout))){
+			$native = sphpversion();
+		}
+
+		
+		// Get the list of Default enabled extensions
+		$curr_version = str_replace('.', '', substr($cout[0],0,3));	//current php version
+		$cagefs_phpbin = '/opt/alt/php'.$curr_version.'/usr/bin/php';
+		
+		if(!empty($native)){
+			//Cannot define here as defining at the end fails if user attempts to change the PHP version via checkbox
+			//define(eu_php_bin, 'php');
+			$cagefs_phpbin = '/usr/bin/php';
+		}
+			
+		// What is the user's PHP version ?
+		@exec("/usr/bin/selectorctl --user-current --user=".(($globals['softpanel'] == 'plesk') ? $softpanel->user['login_name'] : $softpanel->user['name'])." | awk '{print $2}'", $out, $ret);
+
+		if(!empty($native)){
+			$tmp_out = $native;
+		}else{
+			$tmp_out = current($out);
+		}
+		
+		(!empty($tmp_out) ? $php_version = $tmp_out : '');
+		
+		//List of installed PHP versions in cageFS
+		exec("/usr/bin/selectorctl --list | awk '{print $2}'", $php_installed_vers, $pvret);
+		
+		sort($php_installed_vers);
+		if(!empty($scripts[$soft]['php_min'])){
+			
+			// Is it lower than the required version ?
+			if(sversion_compare($tmp_out, $scripts[$soft]['php_min'], '<')){
+				
+				foreach($php_installed_vers as $ver){
+					
+					if(sversion_compare($ver, $scripts[$soft]['php_min'], '>=')){
+						
+						// Ask for a confirmation
+						if(!checkbox('php_version_select')){
+							$error[] = 'PHP version is less than the required '.$scripts[$soft]['php_min'].'<br />
+										<input type="checkbox" name="php_version_select" '.POSTChecked('php_version_select').' /> 
+										Do you wish to enable PHP '.$ver.' ? (Might cause issues with your existing installations).';
+						// Lets enable the version for the user
+						}else{
+							$pid = strval(posix_getpid());
+							@exec("/usr/bin/selectorctl --set-user-current=".substr($ver, 0, 3)." --user=".(($globals['softpanel'] == 'plesk') ? $softpanel->user['login_name'] : $softpanel->user['name'])." --exclude-pid-list=".$pid , $sout, $sret);
+							
+							@exec("/usr/bin/selectorctl --user-current --user=".(($globals['softpanel'] == 'plesk') ? $softpanel->user['login_name'] : $softpanel->user['name'])." | awk '{print $2}'", $nout, $nret);
+							
+							$php_version = current($nout);
+							$opt_version = str_replace('.', '', substr($php_version,0,3));
+							$cagefs_phpbin = '/opt/alt/php'.$opt_version.'/usr/bin/php';
+						}
+						break;
+					}
+				}
+			}
+		}
+		
+		rsort($php_installed_vers);
+		if(!empty($scripts[$soft]['php_max'])){
+			
+			// Is it lower than the required version ?
+			if(sversion_compare($tmp_out, $scripts[$soft]['php_max'], '>')){
+				
+				foreach($php_installed_vers as $ver){
+					
+					if(sversion_compare($ver, $scripts[$soft]['php_max'], '<')){
+						
+						// Ask for a confirmation
+						if(!checkbox('php_max_version_select')){
+							$error[] = 'This script is not compatible with PHP version : '.$scripts[$soft]['php_max'].'+<br />
+										<input type="checkbox" name="php_max_version_select" '.POSTChecked('php_max_version_select').' /> 
+										Do you wish to enable PHP '.$ver.' ? (Might cause issues with your existing installations).';
+						// Lets enable the version for the user
+						}else{
+							$pid = strval(posix_getpid());
+							@exec("/usr/bin/selectorctl --set-user-current=".substr($ver, 0, 3)." --user=".(($globals['softpanel'] == 'plesk') ? $softpanel->user['login_name'] : $softpanel->user['name'])." --exclude-pid-list=".$pid , $sout, $sret);
+							
+							@exec("/usr/bin/selectorctl --user-current --user=".(($globals['softpanel'] == 'plesk') ? $softpanel->user['login_name'] : $softpanel->user['name'])." | awk '{print $2}'", $nout, $nret);
+							
+							$php_version = current($nout);
+							$opt_version = str_replace('.', '', substr($php_version,0,3));
+							$cagefs_phpbin = '/opt/alt/php'.$opt_version.'/usr/bin/php';
+						}
+						break;
+					}
+				}
+			}
+		}
+		
+		// Get the list of enabled extensions for this user
+		$command = '/usr/bin/selectorctl --list-user-extensions --user='.(($globals['softpanel'] == 'plesk') ? $softpanel->user['login_name'] : $softpanel->user['name']);
+		@exec($command, $extout, $extret);
+		
+		if(!empty($extout) && is_array($extout)){
+			
+			if(in_array('nd_mysqli', $extout)){
+				$__hooks['loaded_extension'][] = 'mysqli';
+			}
+			
+			if(in_array('nd_mysql', $extout)){
+				$__hooks['loaded_extension'][] = 'mysql';
+			}
+			
+			//added check for nd_pdo_mysql extension so that script that requires pdo_mysql extension enabled will find it as enabled
+			if(in_array('nd_pdo_mysql', $extout)){
+				$__hooks['loaded_extension'][] = 'pdo_mysql';
+			}			
+			
+			if(!empty($__hooks['loaded_extension']) && is_array($__hooks['loaded_extension'])){
+				$__hooks['loaded_extension'] = array_merge($__hooks['loaded_extension'], $extout);
+			}else{
+				$__hooks['loaded_extension'] = $extout;		
+			}
+		}
+		
+		// Get the list of compiled extensions in the selected PHP binary
+		@exec($cagefs_phpbin.' -n -m', $extout1, $extret1);
+		
+		if(!empty($extout1) && is_array($extout1)){
+			if(!empty($__hooks['loaded_extension']) && is_array($__hooks['loaded_extension'])){
+				$__hooks['loaded_extension'] = array_merge($__hooks['loaded_extension'], $extout1);
+			}else{
+				$__hooks['loaded_extension'] = $extout1;
+			}	
+		}
+		
+		// these extensions are returned by php and we need to convert it to CageFS format
+		foreach($__hooks['loaded_extension'] as $ke => $ve){
+			$__hooks['loaded_extension'][$ke] = strtolower(str_replace(' ', '_', $ve));
+		}
+		
+		// This indicates that the PHP extensions list loaded in $__hooks is exhaustive list
+		//If cageFS has native php installed, the loaded extensions return empty value
+		if(!empty($__hooks['loaded_extension']) && empty($native)){
+			define('PHP_EXT_EXHAUSTIVE', 1);
+		}
+	}
+	
+	if(!empty($php_version)) define('php_version', $php_version);
+	if(!empty($cagefs_phpbin)) define('eu_php_bin', $cagefs_phpbin);
+}

@@ -1,0 +1,15 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>zc_install/</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dbprefix" value="">
+				<handle>__dbprefix_find</handle>
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>zcadmin/includes/configure.php</exclude>
+		<exclude>includes/configure.php</exclude>
+	</files>
+</softupgrade>

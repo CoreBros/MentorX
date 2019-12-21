@@ -1,0 +1,162 @@
+OSSN - OPEN SOURCE SOCIAL NETWORK V5.1 
+* Fix bug if 'reposition' was clicked, but image not dragged #1415
+* Make left/right cover repositioning work in groups #1414
+* Prevent echoing of invalid cover image style #1413
+* Removed wrong attribute from textarea tag #1418
+* Display the version of a required component #1425
+* Pictures slightly overlapping right border #1423
+* Getting orphan like records on annotation bulk delete #1419
+* Added support for textareas #1417
+* Added 'Group About' and 'Requests' tab to group menu #1433
+* Display 'Group About' page on mobile devices #1430
+* Allow to set searchObject result params #1436
+* Fixed wrong logic sequence #1437
+* Hide Group page right sidebar on mobile devices #1432
+* Allow newlines for simple formatting #1431
+* Fix alignment of group name with other menu entries #1429
+* Long Links in ad description distort the UI #1456
+* ossn_delete_notification typo #1453
+* allow others passwords encryption algos #1457 (default is set to bcrypt)
+* Allow changing of group owner #1468
+* Make entire area of section submenu clickable #1461
+* Return existing object unconditionally (= independant of current page… #1455
+* Don't remove query from search menu if it includes a whitepace #1454
+* Prevent overwriting of already installed themes #1449
+* Prevent overwriting of already installed components #1448
+* Suppress php warning on entering a group you're not a member of #1446
+* Fix WYSIWYG issues of edited post #1469
+* Blocked user should be removed from friend list #1439
+* Confirmed friendship needs to be based on the existance of a '1 to 2' AND a '2 to 1' relation #1442
+* #1230 breaks when array is input #1474
+* Shows a red warning if can not validate email address #1481
+* Posts having friends privacy are visible to public using direct URL #1484
+* Allow the use of both to/from in ossn_get_relationships
+* Fixed hardcoded photos of user widget title #1482
+* If not set section menu name #1479
+* Add ossn-notification box or the ajax box and loading icon in admin css #1478
+* issues with ossn-viewer-comments #1411
+* Completed sanitizing in case a user of post has been deleted #1483
+* Support animated gif photos #1473 (use the provided component)
+* Optimize images #1487
+* Add wheres, in get_relationships #1475
+* Overwriting of php's default settings by Ossn not working on some servers #965
+
+OSSN - OPEN SOURCE SOCIAL NETWORK v5.0 LTS
+
+* Add missing <a> tag in notifications view #1233
+* Add class identifier for each wall item #1237
+* OssnNotifications improvement #1231
+* php mcrypt is deprecated in php 7.1 and removed in 7.2 #1240
+* Restrict empty name in group on update #1276 (Malik https://github.com/Lablnet)
+* Allow a bit flexibility in overriding the pagination
+  - Can set the name for offset arg : example default is ?offset=x you can set ?custom_offset=x
+  - Set URL before ?offset=x
+* Optimized the OssnMessages,  its load more faster now. #1277
+* Load only 10 messages in notification area and allow to view more by auto pagination. Fixes #1388 to #1397, #1377, #1382 
+* Support php 5.6 or larger remove support for < 5.6 #1287
+* When groupsub page isn't valid show the default page instead #1309
+* ossn.lib.entities.php seems to be not updated #1248 (https://github.com/dalilo2010)
+* Add hook to setup the password length #1317
+* load fetch query after count condition #1316
+* Load session start after classes #1318
+* Restrict calling system start file directly from browser #1315
+* Some Iphone devices unable to post #1295
+* Cache the locale files #1321
+* ossn_default_load_locales is called twice first in initialzie and second in components class.
+* add visibility of admin postings to friends-only wall? #1294
+* Allow the cache tag for the images #1314
+* Trigger callback upon component deletion, enable, installation #1111
+* Change the privacy button as per the privacy value #1289
+* Allow wheres clause to search entities.
+* Allow to add multiple images to album #1329.
+* Add the new photos added to wall on newsfeed page #1329. 
+   - The privacy of post will be same as privacy of the album.
+* disable autocomplete for passwords #1330
+* Allow to delete message that user own #1332
+* Enable cache after installation complete! #1338
+* Comments without text/image only can't be edited #1336
+* Fix html validation error because of unallowed child element #1343
+* Allow birth year starts from 1900 #1344
+* Removed explicit script type specification #1341
+* Language setting added to html tag #1342
+* Warnings when disabling/enabling a component #1346
+* Issues when visiting administrator/unvalidated_users #1355
+* Make message text appear in line with fa-reply icon #1380
+* Don't let camera icon appear on top of open notification window #1379
+* Don't let smiley icon appear on top of open notification window #1378
+* Handle message_from and message_to correctly #1377
+* Use same version requirement logic as with components #1371
+* Don't throw js error if sound is switched off #1391
+* Handle error cases correctly for wallposts #1400
+* Allow new posts with just digit "0" #1399
+* Keep bell on top of friendlist if ordering of friends changes #1403
+* Allow just sending '0' in messages #1405
+* OssnAds is calling pagination w/o count and page_limit #1406
+* Ads->getAds() needs a randomize = true or false parameter #1407
+
+OSSN - OPEN SOURCE SOCIAL NETWORK v4.6
+
+* input() didn't accept 0 as input and treat it as empty #1230 
+   Fixed only the inout,  the issue may still have effect in various places and will be fixed in v5.0
+* Emojii panel appears on bottom of page if you logout and cache is enabled. #1232
+
+OSSN - OPEN SOURCE SOCIAL NETWORK v4.5
+
+* (refactoring) add missing id #C2430
+* Fix system error caused by non breaking spaces #1128
+* Show confirmation before deleting groups #1133
+* Allow to change the params for query for searching object, annotation, entities #1140
+* Group by should be supported in OssnObject, Annotations, Entities #1139
+* (OssnDatabase): group_by should be before order_by #1138
+* OssnPhotos still exists when user delete #1142
+* m.youtube.com not being parsed by embed component #1132
+* Clicking close in system messages should close it complete #1137
+* If user didn't exists not wall item #1110
+* Broken wall posts upon deleting user #1129
+* URL being passed as text in CHAT #1068
+* Missing mcrypt module causes installation crash #941
+* Added 'order_by' parm to ossn_get_relationships() #1148
+* Added 'order_by' parm added to getFriends() #1147
+* (OssnPoke): `OssnDatabaseException: Incorrect integer value #1151
+* display online friends on top friends list #1154
+* Added 3 hooks for easier configurable placement of ads #1165 - #1168
+* Disable the input field for website url upon installation #1174
+* Display online friends on top of friends list #1178
+* Make toolbar button-row responsive #1180
+* Making more icons available for usage in sidebar, etc. #1183
+* No sound in case OssnMessages is disabled/not available #1186
+* Logging out reloads newsfeed/main wall #1153
+* Fixes slashes within the wall post #1216
+* Handling of components with too long ids #1152
+* Allow External On Redirect Function #1150
+* Emoticon window/modal stays open after "post" #1173
+* Expression of SELECT list is not in GROUP BY clause and contains nonaggregated column #1218
+* Auto Save default notification email (noreply@host) to avoid users to enter their personal emails.
+* Cover smaller then required size still sent to upload #1219
+
+Thanks to Zet Man <https://www.opensource-socialnetwork.org/u/zetman> for his efforts and hard working for v4.5
+
+OSSN - OPEN SOURCE SOCIAL NETWORK 4.4
+
+* Embedded videos didn't show up in post #997
+* Avoid the multiple db connections #1001
+* Trim function used with uninitalized var #1010
+* Make friend_picker list friends according to input #1011
+    - tagging input is matched with friend's first_name now
+    - first typed in char will be matched upper and lower case
+    - asterisk * may be used as wildcard to show complete friend' list when typed in as first char
+* Enable admin to delete any member's comment #1028
+* Sidebar menu item takes to top of page #1029
+* Private posts becoming disclosed on still unconfirmed friend requests #1039
+* Location autocomplete not working over https #1043
+* Trigger a callback on object, entity, annotation creation #1042
+* Gallery view is added for photos.
+* Walltag friend notification not working #1021
+* Add support for emoji #1049
+* Use of btn-link with btn in post-menu #1050
+* Re-initializing of token input for friend tagging #1015
+* Add Emoji for comments refactoring the #1049 
+* Correct filesize of both original and resized image in header #1058 #1057
+* Code of comment picture preview ignores EXIF header #1056
+* Ad should open in new tab #1013
+* Fix orphan notification records when un-liking #1079

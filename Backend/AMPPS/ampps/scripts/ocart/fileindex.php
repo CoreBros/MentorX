@@ -1,0 +1,11 @@
+.htaccess.txt
+admin
+catalog
+config-dist.php
+download
+image
+index.php
+install
+php.ini
+system
+config.php

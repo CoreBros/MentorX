@@ -1,0 +1,53 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{store_set}}</heading>
+			<input type="text" name="store_name" size="30" value="My Store">
+				<head>{{store_name}}</head>
+			</input>
+			<input type="textarea">
+				<textarea name="store_address" cols="30" rows="5">Store Name,
+Address,
+Phone</textarea>
+				<head>{{store_address}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="admin_folder" value="" save="true">
+			</input>
+		</group>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="cc_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_realname" size="30" value="Admin">
+				<head>{{real_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>setup/*</exclude>
+		<exclude>setup/*/*</exclude>
+		<exclude>setup/*/*/*</exclude>
+		<exclude>setup/*/*/*/*</exclude>
+		<exclude>setup/*/*/*/*/*</exclude>
+	</files>
+</softinstall>

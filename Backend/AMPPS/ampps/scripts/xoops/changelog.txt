@@ -1,0 +1,207 @@
+XOOPS 2.5.x Changelog (Language changes: see: /docs/lang_diff.txt)
+
+===================================
+2.5.10 Final             2019/04/29
+===================================
+- fix version check in module administration (mage)
+- fix notification template in boostrap based themes (mage)
+- fix incorrect message in protector prefix manager (mage)
+- Warn in admin if using an unsupported version of PHP (security concern)
+- Add method XoopsLists::getFileListByExtension()
+- Fix missing jpeg extension in XoopsLists::getImgListAsArray()
+- Optimize images (mamba)
+- Allow multiple files in XoopsMediaUploader (luciorota)
+- change declaration of SystemFineUploadHandler class to abstract in #618
+- Add basic support for MySQL 8.0
+- Fix potential redirect loop when start module in use
+- Pass JWT for fineuploader in POST body instead of header (goffy, geekwright)
+- Change meta_robots config to textbox instead of select
+- Move protector config files to XOOPS_VAR_PATH/protector
+- Use Request to access $_SERVER variable in XoopsPageNav
+- Add Smarty modifiers truncateHtml and a UTF-8 safe truncate
+- Update protector add overview chart, ip ban button to log
+- Fix bug in image.php when resizing transparent png (luciorota)
+- Fix typo error in profile and system userform templates (mamba)
+- Fix issues in install/page_dbsettings.php (blogged by Nguyen Thanh Nguyen)
+- Fix stylesheet inclusion in ModuleAdmin
+- Misplaced MAX_FILE_SIZE (cadch)
+
+Updated libraries and assets:
+ - Smarty to v2.6.31 (mamba)
+ - phpmailer to 5.2.26 (mamba)
+ - phpThumb to 1.7.15-201810050741 (mamba)
+ - TinyMCE to 3.5.12 (mamba)
+ - jQuery 3.3.1 (mamba)
+ - jGrowl to 1.4.6 (mamba)
+ - jQuery Form to 4.2.2 (mamba)
+ - jQuery Tablesorter to 2.31.0 (mamba)
+ - HTML Purifier to 4.10 (mamba)
+
+===================================
+2.5.9 Final              2017-08-01
+===================================
+- fix issue with establishing database character set under mysqli
+- Add PHP4 same name constructor shim in XoopsMailer (geekwright)
+- Some cleanup in xBootstrap to reduce setup for users, especially with publisher
+- fix with pre-install reporting (zyspec)
+- Streamline setup for publisher with xBootstrap (geekwright)
+- various "Assign by reference" issues in PHP 7 (geekwright/mamba/ggoffy)
+- Icons for Edit, Delete, Download (bleekk)
+- use HTML5 br tags consistently (mamba)
+- Publisher templates cleanup in xBootstrap (geekwright)
+- Change set charset behavior for mysqli
+- bug in mysqldatabase.php in XOOPS_DB_CHARSET for PHP < 5.5 (mamba)
+- Update makedata.php (luciorota)
+- Backport Smarty securityToken plugin (geekwright)
+- Add a table property to handlers  (geekwright)
+- Fix occasional issues using xoops_loadLanguage('locale') (geekwright)
+- Docblock fix for getHandler functions (geekwright)
+- Correct help/module_index in system (geekwright)
+- fixed missing language constants (mamba)
+- Fix Bug #141 for avatar, userrank, smilies(mage)
+- improved upload class (mage)
+- fix Report error on database connection (geekwright)
+- fix Correct protector connection  (geekwright)
+- Update help.tpl (cesagonchu)
+- Module Changelog in UTF-8 (mamba)
+- update system_siteclosed for xbootstrap (liomj)
+- make clean exit after delivering file in browse.php (geekwright)
+- fix XoopsObjectTree issues  (geekwright)
+- various CSS and template tweaks  (geekwright)
+- xos_kernel_Xoops2 reference issues (geekwright)
+- Implement Footer Blocks in xbootstrap theme (liamj/geekwright)
+- Bug in ProfileProfileHandler::get() (geekwright)
+- XoopsFormDateTime - time only option(geekwright)
+- Move to HTML5 syntax (geekwright)
+- changing icons in User Admin for consistency (mamba)
+- fixes for Publisher templates in xBootstrap (mamba)
+- Highlight Update System Module in upgrade(geekwright)
+- add recaptch2 support (mage)
+- fix login over IPv6 during upgrade (mage)
+- fix display of HTML5 banners in admin (mage)
+- profile module, hide ICQ, AIM, YIM and MSNM fields by default
+- profile module, us dhtml editor for signatures
+- use public suffix list when determining cookie domain
+- add polyfill for mb string, most functions always available if without extension
+- new admin theme - Transition (bitcero)
+- add XoopsObjectTree::makeSelectElement(), return tree as XoopsFormSelect (geekwright, mage)
+- Bootstrap form support with XoopsFormRenderer (geekwright, mage)
+- new templates to allow more consistent theme overrides (geekwright, mage)
+  (system_comments_controls.tpl system_search.tpl system_popup_header.tpl, system_popup_footer.tpl)
+- Multi-file uploads for Image Manager, Avatars (mage)
+- PHP 7.1 compatibility fixes (mamba, geekwright)
+- set XOOPS_COOKIE_DOMAIN during install and set in mainfile.php
+- recommend Intl extension
+- add 'rendered' key to XoopsForm::assign(), allows template to choose rendered or by element
+- add lexikon templates for xBootstrap (bleekk)
+- removed extras/modules/system/admin/filemanager/
+- installer updated
+- upgrader updated
+- theme changes: removed sucio and zetagenesis, added xswatch
+- error in search links (mage)
+- multiple issues in profile module (mage, trabis, geekwright)
+- issue with xBootstrap slider (mage)
+- XoopsFormSelectUsers issues
+- fix theme selection in install (mage)
+- Update \ModuleAdmin::renderAbout() PayPal donations (zyspec)
+- xbootstrap updates (mamba)
+- XoopsObject returns integer for XOBJ_DTYPE_INT vars
+- some accessibility fixed (tad0616)
+- fix serialization issues with XOBJ_DTYPE_ARRAY
+- deprecate system module "Cookie" class
+- fix issues reported by JPCERT/CC
+- fix issues reported by Mustafa Hasan
+- fix regressions in system theme select block
+- fix template search order issues
+- fix white screen issue with text sanitiser wiki support
+- fix extgallery template issues (mamba)
+- added missing tooltip.js in transition GUI (ihackcode)
+- fix issues with transition admin theme (bitcero)
+- fix moduleadmin message formatting (mage)
+- move iconv extension from optional to required in install
+- fix issues publicly posted by jgj212, ADLab of Venustech
+
+Updated libraries and assets:
+ - jQuery 3.2.1 (mamba)
+ - jQuery UI 1.12.1 (mamba)
+ - jGrowl to 1.4.5 (mamba)
+ - Tabs jQuery Tools to 1.2.7 (mamba)
+ - jQuery Lightbox to 1.2.3 (mamba)
+ - jQuery Form to 3.5.1 (mamba)
+ - jQuery Tablesorter to 2.26.6 (mamba)
+ - phpThumb to 1.7.14-201607141354 (mamba)
+ - Bootstrap 3.3.7 in xBootstrap theme (geekwright, mamba)
+ - HTML Purifier to 4.9.3 (mamba)
+ - PHPMailer to 5.2.21
+ - XMF to 1.2.10
+ - Font Awesome 4.7.0 now included
+
+=================================
+2016/12/31: Version 2.5.8.1 Final
+=================================
+
+This patch for XOOPS 2.5.8 corrects security issues including the PHPMailer vulnerabilities.
+
+All XOOPS 2.5.8 users are advised to apply this patch as soon as possible. Any users that are running an older XOOPS version are advised to update to XOOPS 2.5.8.1 now.
+
+===================================
+2.5.8 Final            2016-05-27
+===================================
+- replaced "dirname(__FILE__)" with "__DIR__" since the min. PHP is now 5.3.7, and __DIR__ is faster  (mamba)
+- updating some copyright notices (mamba)
+- fix issues when protector 'id_forceintval' preference is enabled, that manifests as an error when deleting private messages.  (rgriffith)
+- fix for Update setting Template import date to 0 (timgno/mamba)
+- Adding language constants for Protector's Prefix Manager (slider84/mamba)
+- allowing for "https" URL in YouTube links in Textsanitizer (mamba)
+- converting $i++ to ++$i for improved performance (mamba)
+- reverting couple of $i++ conversions (zyspec/mamba)
+- updated xBootstrap to Bootstrap 3.3.1 (Angelo Rocha)
+- Some code cleanup for private messages (Dingjie （Daniel） Yang/rgriffith)
+- Adding Footer blocks (timgno/mamba)
+- fixing a bug in xmlrpc.php (wppd/rgriffith)
+- remove addrFormat override in XoopsMultiMailer (rgriffith)
+- patch from Xoops 2.5.6 XoopsFormSelectUser is not compatible with some old modules like xNews (luciorota)
+- fix "setExtra" in moduleadmin.php, Admin buttons can now use "onClick" assignments (mamba)
+- updated XOOPS copyright to 2016, changed links to http://xoops.org (mamba)
+- replaced intval() with (int) (mamba)
+- added possibility to include full icon URL in module's menu.php (mamba)
+- added strong { font-weight: bold; } to reset.css (mamba)
+- added .tpl option for module Help files (mamba)
+- fix moved "count($tagsArray)" and "count($attrArray)" outside of FOR loop in xoopsfilterinput.php (mamba)
+- add option to set height of Themes block (mamba)
+- fix: Invalid argument supplied for foreach() (cesagonchu/mamba)
+- removed -khtml CSS properties (mamba)
+- fix profile/search (cesagonchu/slider84)
+- changed minimum image sizes in Image Manager to: 800x600, 1MB (mamba)
+- added image sort order in TinyMCE image-manager plugin (elpaksu/Peekay)
+- added Youtube handling enhancements (xd9527/geekwright)
+- fix system module update issue (zyspec)
+- fixed multiple issues (CSRF, weak password hash, and directory traversal) reported by hyp3rlinx (geekwright)
+- fix privileged information disclosure issue reported by Cédric MONTUY (geekwright)
+- Move to supported PHP mysqli extension for database access (redheadedrod/geekwright)
+- IPv6 safe in comments, protector, sessions and online
+- Include XMF library (geekwright)
+
+Updated:
+ - TinyMCE to 3.5.11 (mamba)
+ - PHPMailer to 5.2.14 (mamba)
+ - jQuery to 1.12.4 (mamba)
+ - jQuery UI 1.11.4 (mamba)
+ - jGrowl to 1.4.4 (mamba)
+ - phpThumb to 1.7.14-201603240806  (mamba)
+ - HTML Purifier to 4.7.0 (mamba)
+ - Bootstrap to 3.3.6 (mamba)
+ - Snoopy to 1.2.5 (zyspec)
+ - SWF banners to HTML5 (mamba)
+ - extra banners (mamba)
+
+=================================
+2016/02/02: Version 2.5.7.2 Final
+=================================
+
+This patch for XOOPS 2.5.7 corrects the following issues:
+
+- multiple issues reported by Tim Coen (Curesec GmbH)
+
+All XOOPS 2.5.7.1 users are advised to apply this patch as soon as possible. Any users that are running an older XOOPS version are advised to update to XOOPS 2.5.7.2 now.
+

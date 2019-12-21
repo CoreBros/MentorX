@@ -1,0 +1,24 @@
+1) Except watchdog Install all the plugins during manual installation.
+2) Dont use dbprefix
+3) Copy the following folders from manual to zip:
+ow_userfiles/plugins/notifications/
+ow_userfiles/plugins/newsfeed/
+ow_userfiles/plugins/mailbox/
+ow_userfiles/plugins/friends/
+(and also if they create any new folders)
+
+ow_static/themes (with js files)
+ow_static/plugins/newsfeed/* (with js files)
+ow_static/plugins/mailbox/* (with js files)
+(and also if they create any new folders)
+
+ow_pluginfiles/notifications/
+ow_pluginfiles/newsfeed/
+ow_pluginfiles/mailbox/
+ow_pluginfiles/friends/
+(and also if they create any new folders)
+
+4) Download the Update pack and the install pack and check the missing files (if any add it to the updater folder and make necessary changes in upgrade.php)
+
+5) In 1.6.0 we have copied ow_pluginfiles/base/wurfl/persistence/ folder from manual only 1 file "ow_pluginfiles/base/wurfl/persistence/b/e/ec06e0c6b7972ffb0d022a64716aae" is not copied bcoz timestamp changes in every install in that file. Kindly check the same in next version
+

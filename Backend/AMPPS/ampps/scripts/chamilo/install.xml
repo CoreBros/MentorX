@@ -1,0 +1,114 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="My Chamilo">
+				<head>{{site_name}}</head>
+			</input>
+			<input type="text" name="site_desc" size="30" value="My Chamilo E-Learning">
+				<head>{{site_desc}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_fname" size="30" value="System">
+				<head>{{f_name}}</head>
+			</input>
+			<input type="text" name="admin_lname" size="30" value="Administrator">
+				<head>{{l_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="english">English</option>
+					<option value="arabic">Arabic</option>
+					<option value="asturian">Asturian</option>
+					<option value="basque">Basque</option>
+					<option value="bengali">Bengali</option>
+					<option value="bosnian">Bosnian</option>
+					<option value="brazilian">Brazilian</option>
+					<option value="bulgarian">Bulgarian</option>
+					<option value="catalan">Catalan</option>
+					<option value="croatian">Croatian</option>
+					<option value="czech">Czech</option>
+					<option value="danish">Danish</option>
+					<option value="dari">Dari</option>
+					<option value="dutch">Dutch</option>
+					<option value="esperanto">Esperanto</option>
+					<option value="finnish">Finnish</option>
+					<option value="french">French</option>
+					<option value="friulian">Friulian</option>
+					<option value="galician">Galician</option>
+					<option value="georgian">Georgian</option>
+					<option value="german">German</option>	
+					<option value="greek">Greek</option>
+					<option value="hebrew">Hebrew</option>
+					<option value="hindi">Hindi</option>
+					<option value="hungarian">Hungarian</option>
+					<option value="indonesian">Indonesian</option>
+					<option value="italian">Italian</option>
+					<option value="japanese">Japanese</option>
+					<option value="korean">Korean</option>
+					<option value="latvian">Latvian</option>
+					<option value="lithuanian">Lithuanian</option>
+					<option value="macedonian">Macedonian</option>
+					<option value="malay">Malay</option>
+					<option value="norwegian">Norwegian</option>
+					<option value="occitan">Occitan</option>
+					<option value="pashto">Pashto</option>
+					<option value="persian">Persian</option>
+					<option value="polish">Polish</option>
+					<option value="portuguese">Portuguese</option>
+					<option value="quechua_cusco">Quechua Cusco</option>
+					<option value="romanian">Romanian</option>
+					<option value="russian">Russian</option>
+					<option value="serbian">Serbian</option>
+					<option value="simpl_chinese">Simpl Chinese</option>
+					<option value="slovak">Slovak</option>
+					<option value="slovenian">Slovenian</option>
+					<option value="somali">Somali</option>
+					<option value="spanish">Spanish</option>
+					<option value="spanish_latin">Spanish (Latin)</option>
+					<option value="swahili">Swahili</option>
+					<option value="swedish">Swedish</option>
+					<option value="thai">Thai</option>
+					<option value="trad_chinese">Trad Chinese</option>
+					<option value="turkish">Turkish</option>
+					<option value="ukrainian">Ukrainian</option>
+					<option value="vietnamese">Vietnamese</option>
+					<option value="yoruba">Yoruba</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<cron>
+		<min>{rand(0,59)}</min>
+		<hour>*</hour>
+		<day>*</day>
+		<month>*</month>
+		<weekday>*</weekday>
+		<command>wget -O - -q -t 1 [[softurl]]/main/cron/run.php</command>
+	</cron>
+	<files>
+		<exclude>main/install/*</exclude>
+		<exclude>main/install/*/*</exclude>
+		<exclude>main/install/*/*/*</exclude>
+		<exclude>main/install/*/*/*/*</exclude>
+		<exclude>main/install/*/*/*/*/*</exclude>
+	</files>
+</softinstall>

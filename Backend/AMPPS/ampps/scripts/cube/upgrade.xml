@@ -1,0 +1,16 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>setup/</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			<handle>__upgrade_files</handle>
+			</input>
+		</group>
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="admin_folder" value="" save="true">
+			</input>
+		</group>	
+	</settings>
+</softupgrade>

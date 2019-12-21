@@ -1,0 +1,863 @@
+body{background-color: #FFF;
+color: #000;
+font-size: 11px;
+padding: 0px 5px;
+margin:0px;
+font-family: Verdana, Tahoma, Arial, "Trebuchet MS", "Times New Roman", Georgia, sans-serif, serif;
+}
+
+.body{
+-moz-box-shadow: 0 0 5px 5px #EEE;
+-webkit-box-shadow: 0 0 5px 5px #EEE;
+box-shadow: 0 0 5px 5px #EEE;
+border:1px solid #CCC;
+}
+
+input, select{
+font-family:Verdana, Arial, Helvetica, sans-serif;font-size: 12px;
+}
+
+textarea{
+font-family:Verdana, Arial, Helvetica, sans-serif;font-size: 12px;
+overflow: auto;
+}
+
+table,tr,td{
+background-color: transparent;
+color: #000;
+font-size: 11px;
+}
+
+form{
+border: 0px solid #000;
+display: inline;
+margin: 0px;
+padding: 0px;
+}
+
+img{
+border: 0px solid #000;
+vertical-align: middle;
+}
+
+a:link,
+a:visited,
+a:active{
+	background-color: transparent;
+	color: #333333;
+	text-decoration: underline;
+}
+
+a:hover{
+	background-color: transparent;
+	color: #000000;
+	text-decoration: underline;
+}
+
+/* ADMIN Headers*/
+.adminheader{
+background:url(../images/adminheader.gif) no-repeat;
+height:150px;
+}
+
+.wadminheader{
+background:url(../images/webuzo/adminheader.jpg) no-repeat;
+height:150px;
+}
+
+.aadminheader{
+background:url(../images/ampps/adminheader.jpg) no-repeat;
+height:150px;
+}
+
+/*END OF ADMIN Headers*/
+
+/* ADMIN MENU STYLING*/
+.adminmenu{
+height:32px;
+}
+
+.adminmenutd{
+background:url(../images/mac.png);
+}
+
+
+.tabicons a:link, .tabicons a:visited, .tabicons a:active, .tabicons a:hover{
+font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+text-decoration:none;
+color: #000;
+line-height:200%;
+}
+
+.tabgrey a:link, .tabgrey a:visited, .tabgrey a:active, .tabgrey a:hover{
+font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+color: #363636;
+background:url(../images/macact.png);
+-moz-box-shadow: inset 0 0 10px 3px #C0C0C0;
+-webkit-box-shadow: inset 0 0 10px 3px #C0C0C0;
+box-shadow: inset 0 0 10px 3px #C0C0C0;
+}
+
+.tabgrey a:hover, .tabicons a:hover{
+background:url(../images/machov.png);	
+color: #1A1A1A;
+-moz-box-shadow: 0 0 1px 5px #A0D2E2;
+-webkit-box-shadow: 0 0 5px 1px #A0D2E2;
+box-shadow: 0 0 5px 1px #A0D2E2;
+}
+
+.tabgrey a:active, .tabicons a:active{
+background:url(../images/macact.png);	
+color: #1A1A1A;
+-moz-box-shadow: 0 0 1px 5px #A0D2E2;
+-webkit-box-shadow: 0 0 5px 1px #A0D2E2;
+box-shadow: 0 0 5px 1px #A0D2E2;
+}
+/*END OF ADMIN MENU STYLING*/
+
+/*ADMIN SUBMENU STYLING*/
+.sub_menus{
+display: none;
+color: #333333;
+}
+
+.sub_menus a:link, .sub_menus a:visited, .sub_menus a:active, .sub_menus a:hover{
+font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+text-decoration:none;
+color: #333333;
+}
+
+.subheads{
+position:absolute;
+display:none;;
+background: #F7F7F7 repeat-x 0 0;
+font-size:12px;
+border: solid 1px #F3F3F3;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0 5px 15px -3px #BFBFBF;
+-moz-box-shadow: 0 5px 15px -3px #BFBFBF;
+box-shadow: 0 5px 15px -3px #BFBFBF;
+z-index:1000;
+
+}
+
+.subheads tr:hover td{	
+background: #92BFF1;
+width:180px;
+color: #FFF;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+cursor:pointer;
+
+}
+
+.subheads tr td a {
+text-decoration:none;
+display:block;
+height:100%;
+width:100%;
+}
+/*END OF ADMIN SUBMENU STYLING*/
+
+/* adminindex_theme.php the top row*/
+.header{
+background:url(../images/greybg.gif);
+height:30px;
+color:#565656;
+font-size:13px;
+font-weight:bold;
+font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.infohead{
+font-size:20px;
+color: #333333;
+}
+
+/* End of adminindex_theme.php the top row*/
+
+/*News Display on Admin Index Page*/
+.softinfo{
+color: #333333;
+line-height:180%;
+}
+
+.softnews{
+overflow:auto;
+display:block;
+height:200px;
+}
+
+.softnews a:link, .softnews a:visited, .softnews a:active{
+color: #4D7CC4;
+text-decoration: none;
+}
+
+.softnews a:hover{
+color: #4D7CC4;
+text-decoration:underline;
+}
+
+.softnewshead{
+border:1px solid #CCCCCC;
+padding:2px;
+margin:2px;
+background: #EFF1F1;
+}
+
+.softnewsblock{
+font-size:10px;
+padding-left:10px;
+}
+
+/*End of News Display on Admin Index Page*/
+
+.sai_heading{
+font-size:20px;
+font-weight:bold;
+color:#333333;
+margin-top:20px;
+font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.sai_ribbonhead{
+font-size:15px;
+font-weight:bold;
+color:#FFF3;
+margin-top:20px;
+font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+/*Used For Form Details and Heads*/
+.sai_head{
+font-weight:bold;
+color:#333333;
+}
+
+.sai_exp{
+color: #777777;
+}
+
+/*End of Form heads and Explanation*/
+
+.sai_bottom{
+background-color: #DFDFDF;
+}
+
+.sai_cbor{
+border: 1px solid #d6d6d6;background-color: #FFFFFF;
+}
+
+.sai_cbg{
+background-image: url(../images/cbg.gif);
+font-weight: bold;
+font-size:13px;
+color: #FFFFFF;
+height:26px;
+}
+.sai_cbg a:link, .sai_cbg a:visited, .sai_cbg a:active{color: #FFFFFF;
+text-decoration: none;}
+.sai_cbg a:hover{color: #FFFFFF;
+text-decoration: underline;
+}
+
+.sai_bg{
+background-image: url(../images/bg.gif);
+}
+
+
+/* All forms error handler */
+.sai_error{
+height:auto;
+background-image:url(../images/supbloimg.gif);
+background-position:center;
+background-repeat:repeat;
+-webkit-box-shadow: 0 5px 15px -3px #F5F5F5;
+-moz-box-shadow: 0 5px 15px -3px #F5F5F5;
+box-shadow: 0 5px 15px -3px #F5F5F5;
+-webkit-box-shadow: 0 5px 15px -3px #BFBFBF;
+-moz-box-shadow: 0 5px 15px -3px #BFBFBF;
+box-shadow: 0 5px 15px -3px #BFBFBF;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border:1px solid #D2D2D2;
+padding:10px;
+}
+
+
+/* Category Reorder */
+.catreo{
+border:1px solid #CCCCCC;
+background: #EFF1F1;
+padding:4px 0px;
+position:absolute;
+top:0px;
+left:0px;
+z-index:0;
+visibility:hidden;
+cursor:move;
+}
+
+.catreo:hover{
+border:1px solid #8CC1F2;
+background: #C6E1F9;
+padding:4px 0px;
+position:absolute;
+-webkit-box-shadow: 0px 0px 2px #75D2FF;
+-moz-box-shadow: 0px 0px 2px #75D2FF;
+box-shadow: 0px 0px 2px #75D2FF;
+transition: all 0.5s ease-in-out;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+}
+
+/*LIST INSTALLATION STYLING*/
+.lihead{
+font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
+color: #000000;
+font-size:14px;
+text-decoration:none;
+color:#FFFFFF;
+background:url(../images/cbg.gif);
+text-align:center;
+}
+
+.lione{
+background-color: #F2F2F2;
+
+}
+
+
+.litwo{
+background-color: #E7F2FA;
+}
+
+.lioutdated{
+background-color: #F99468;
+}
+
+.lirealver{
+background-color: #6CF;
+}
+
+/*END OF LIST INSTALLATION STYLING*/
+
+.sai_notice, .sai_success{
+background-color: #FAFBD9;
+font-size:13px;
+padding:8px;
+text-align:center;
+width:90%;
+margin:0px auto;
+}
+
+input.sai_submit, a.sai_abut{
+background:url(../images/submitbg.gif);
+border:1px solid #A4B7FB;
+padding:5px 8px;
+font-size:12px;
+font-family:Arial, Verdana, Helvetica, sans-serif;
+font-weight: bold;
+color: #555555;
+-moz-border-radius: 4px;
+text-decoration: none;
+}
+
+input.sai_submiton, .sai_abut:hover{
+background:url(../images/submitbg.gif);
+border:1px solid #5F97F5;
+padding:5px 8px;
+font-size:12px;
+font-family:Arial, Verdana, Helvetica, sans-serif;
+font-weight: bold;
+color: #555555;
+-moz-border-radius: 4px;
+text-decoration: none;
+}
+
+
+
+/*********************************/
+/*   topscripts css              */
+/********************************/
+
+#all_users
+{
+	font-size: 0.8em;
+	background: #FFF;
+	color: #666;
+	line-height: 2.4em;
+	padding-left:5px;
+	margin: 0px;
+	border-top: 1px solid #666;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #666;
+	width: 273px;
+	height: 282px;
+	resize: none;
+	float:left;
+	overflow:auto;
+}
+#all_users .innertxt
+{
+	font-size: 0.8em;
+	color:#666666;
+	display:inherit;
+	border-bottom: dashed 1px #cccccc;
+	cursor:pointer;
+	height:40px;
+}
+
+#all_users .innertxt strong
+{
+	color:#666666;
+	font-size:13px;
+	color:#333333;
+	margin-top:20px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+}
+	
+#selected_users
+{
+	font-size: 0.8em;
+	background: #FFF;
+	color: #666;
+	line-height: 2.4em;
+	padding-left: 5px;
+	margin: 0px 0px 0px 10px;
+	border-top: 1px solid #666;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #666;
+	width: 273px;
+	height: 282px;
+	resize: none;
+	float:left;
+	overflow:auto;
+}
+#selected_users .innertxt2
+{
+	font-size: 0.8em;
+	color:#666666;
+	display:inherit;
+	border-bottom: dashed 1px #cccccc;
+	cursor:pointer;
+	height:40px;
+}
+
+#selected_users .innertxt2 strong
+{
+	color:#666666;
+	font-size:13px;
+	color:#333333;
+	margin-top:20px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+}
+
+.float_break
+{
+    margin:0;
+	padding: 0;
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0;	
+}
+
+/************************************/
+/*CODE FOR DISPLAYING ALTERNATE ROWS*/
+/************************************/
+
+.sai_altrowstable {
+font-family: verdana,arial,sans-serif;
+font-size:11px;
+border: 1px #EEEEEE solid;
+}
+
+.sai_altrowstable th {	
+background: url(../images/gradient_silver.gif) repeat-x scroll 0 0 #FFFFFF;
+color: #555555;
+text-align: left;
+font-size:13px;
+font-family: arial,verdana,sans-serif;
+font-weight: bold;
+}
+
+.sai_tr_bgcolor {
+background: rgb(235, 245, 255);
+}
+
+.sai_oddrowcolor{
+background-color:#FCFCFC;
+}
+
+.sai_evenrowcolor{
+background-color:#F5F5F5;
+}
+
+/************************************/
+/*CODE FOR MESSAGE BOX*/
+/************************************/
+
+.sai_message_box {
+width: 300px;
+background: #fff;
+border: 4px solid #E8E8E8;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+position: absolute;
+top: 100px;
+left: 50%;
+margin-left: -150px;
+text-align: center;
+z-index: 1000;
+display: none;
+}
+
+.msg_tr1{
+font-size: 15px;
+font-weight: bold;
+text-align:left;
+}
+
+.msg_tr2{
+vertical-align:text-top;
+}
+
+.msg_tr3{
+margin-left:200px;
+background-color: #E8E8E8;
+}
+
+.message_bar input[type="button"] {
+margin-top: 30px;
+}
+
+a.sai_insbut:link, a.sai_insbut:visited, a.sai_insbut:active, a.sai_insbut:hover{
+padding:5px 0px;
+text-decoration: none;
+color: #FFFFFF;
+display:inline-block;
+font-weight:bold;
+text-align:center;
+width:80px;
+background: url(../images/insbut.gif) 0 -0px no-repeat;
+}
+
+a.sai_insbutclicked:link, a.sai_insbutclicked:visited, a.sai_insbutclicked:active, a.sai_insbutclicked:hover{
+padding:5px 0px;
+text-decoration: none;
+color: #FFFFFF;
+display:inline-block;
+font-weight:bold;
+text-align:center;
+width:80px;
+background: url(../images/insbut.gif) 0 -26px no-repeat;
+}
+
+/*Basic Font used everywhere*/
+.sai_bboxtxt{
+font-size:13px;
+font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color: #454545;
+line-height:140%;
+}
+
+
+/*Box shadows Everywhere*/
+.sai_divroundshad{
+-moz-box-shadow: 0 0 15px 5px #E2E2E2;
+-webkit-box-shadow: 0 0 15px 5px #E2E2E2;
+box-shadow: 0 0 15px 5px #E2E2E2;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border:1px solid #D2D2D2;
+}
+
+/*Alternate row color scheme*/
+.sai_altrow{
+background-color:#F8F8F8;
+}
+
+.sai_naltrow{	
+background-color:#FFF;
+}
+
+.sai_naltrow:hover, .sai_altrow:hover{	
+background-color:#C9E3FA;
+cursor:pointer;
+-webkit-transition: background 0.3s linear;
+outline:none;
+}
+/*END OF Alternate row color scheme*/
+
+
+/*Ribbon effect on the tables*/
+.sai_ribboneffect{
+background-image:url(../images/ribbon.png);
+position:relative;
+left: -33px;
+background-repeat:no-repeat;
+height:59px;
+}
+
+.sai_graybluebut{
+padding:8px 15px;
+font-family:Helvetica,arial,freesans,clean,sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#666;
+text-shadow:0 1px rgba(255,255,255,0.9);
+background:#f5f5f5;
+background:-moz-linear-gradient(#f5f5f5,#e5e5e5);
+background:-webkit-linear-gradient(#f5f5f5,#e5e5e5);
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5',endColorstr='#e5e5e5')";
+border-radius:3px;
+border-bottom-color:#bbb;
+box-shadow:0 1px 3px rgba(0,0,0,0.1);
+cursor:pointer;
+border:1px solid #ddd;
+}
+
+.sai_graybluebut:hover{
+color:#337797;
+text-decoration:none;
+background:#f0f7fa;
+background:-moz-linear-gradient(#f0f7fa,#d8eaf2);
+background:-webkit-linear-gradient(#f0f7fa,#d8eaf2);
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f7fa',endColorstr='#d8eaf2')";
+border-color:#cbe3ee;
+border-bottom-color:#97c7dd;
+}
+
+.sai_graybluebut:active{
+background:#f0f7fa;
+color:#337797;
+background:-moz-linear-gradient(#f0f7fa,#d8eaf2);
+background:-webkit-linear-gradient(#f0f7fa,#d8eaf2);
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f7fa',endColorstr='#d8eaf2')";
+border-color:#cbe3ee;	
+-moz-box-shadow: inset 0 0 2px 1px #78B9D1;
+-webkit-box-shadow: inset 0 0 2px 1px #78B9D1;
+box-shadow: inset 0 0 2px 1px #78B9D1;
+}
+
+	
+/*New Button Created And used*/
+.smallgraybut {
+background-image:url(../images/smallgraybut.png);
+background-repeat:repeat-x;
+background-position:0px 0px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius: 3px;
+border:1px solid #dcdcdc;
+display:inline-block;
+font-family:arial;
+font-size:12px;
+text-decoration:none;
+text-shadow:1px 1px 0px #ffffff;
+text-align:center;
+display:block;
+-webkit-box-shadow: 0px 0px 2px #EBEBEB;
+-moz-box-shadow: 0px 0px 2px #EBEBEB;
+box-shadow: 0px 0px 2px #EBEBEB;
+padding: 8px 15px;
+}
+
+.smallgraybut:hover {
+background-image:url(../images/smallgraybut.png);
+background-repeat:repeat-x;
+background-position:0px -44px;
+background-color:#ffffff;
+border:#75D2FF 1px solid;
+-webkit-box-shadow: 0px 0px 2px #75D2FF;
+-moz-box-shadow: 0px 0px 2px #75D2FF;
+box-shadow: 0px 0px 2px #75D2FF;
+cursor:pointer;
+}
+
+.smallgraybut:active {
+background-image:url(../images/smallgraybut.png);
+background-repeat:repeat-x;
+background-position:0px -90px;
+background-color:#ffffff;
+}
+/*End of the button*/
+
+/*Windows like Background used for Softwares Table Menu*/
+.sai_purplegrad{
+background-image:url(../images/windgrad.png);
+background-repeat:repeat-x;
+}
+
+/*FORM STYLING AND GLOW EFFECT*/
+.sai_reviewform{
+border: 1px solid #ddd;
+margin: 0px 0 0 0;
+background: #fff;
+		
+/* -- CSS3 - define rounded corners for the form -- */	
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;		
+
+/* -- CSS3 - create a background graident -- */
+background: -webkit-gradient(linear, 0% 0%, 0% 40%, from(#F8F8F8), to(#FFFFFF));
+background: -moz-linear-gradient(0% 40% 90deg,#FFF, #F8F8F8);
+
+/* -- CSS3 - add a drop shadow -- */
+-webkit-box-shadow:0px 0 30px #E1E1E1;
+-moz-box-shadow:0px 0 30px #E1E1E1;
+box-shadow:0px 0 30px #E1E1E1;		 		
+}
+
+.sai_reviewform input[type=text], textarea, select, input[type=password]{
+padding: 3px;
+background: #fff;
+font-size: 12px;
+color: #333;
+border: 1px #CCCCCC solid;
+
+/* -- CSS3 Transition - define what the transition will be applied to (i.e. the background) -- */		
+-webkit-transition: background 0.3s linear;						
+outline:none;
+}
+
+.sai_reviewform input[type=text]:hover,  textarea:hover, select:hover, input[type=password]:hover { 
+background: #FAFCFE;
+border-color: rgba(82, 168, 236, 0.8);
+-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+-moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+transition: all 0.25s ease-in-out;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+}
+
+
+.sai_reviewform input[type=text]:focus, textarea:focus, select:focus, input[type=password]:focus{
+background: #FAFCFE;
+border-color: rgba(82, 168, 236, 0.8);
+-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+-moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);transition: all 0.25s ease-in-out;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+}
+
+/*END OF FORM STYLING AND GLOW EFFECT*/
+
+/*NOTE BOX EFFECT*/
+.sai_notebox 
+{
+position: relative;
+width: 60%;
+background: #F3F3F3;
+-moz-border-radius: 4px;
+border-radius: 4px;
+padding: 2em 1.5em;
+color: rgba(0,0,0, .8);
+text-shadow: 0 1px 0 #fff;
+line-height: 1.5;
+margin: 10px auto;
+}
+
+
+.sai_notebox:before, .sai_notebox:after 
+{
+z-index: -1;
+position: absolute;
+content: "";
+bottom: 15px;
+left: 10px;
+width: 50%;
+top: 80%;
+max-width:300px;
+background: rgba(0, 0, 0, 0.7);
+-webkit-box-shadow: 0 15px 10px rgba(0,0,0, 0.7);  
+-moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+-webkit-transform: rotate(-3deg);   
+-moz-transform: rotate(-3deg);  
+-o-transform: rotate(-3deg);
+-ms-transform: rotate(-3deg);
+transform: rotate(-3deg);
+}
+
+.sai_notebox:after 
+{
+-webkit-transform: rotate(3deg);
+-moz-transform: rotate(3deg);
+-o-transform: rotate(3deg);
+-ms-transform: rotate(3deg);
+transform: rotate(3deg);
+right: 10px;
+left: auto;
+}
+/*END OF NOTE BOX EFFECT*/
+
+.adv_cat {
+font-family: verdana,arial,sans-serif;
+font-size:11px;
+color:#333333;
+moz-box-shadow: 0 0 15px 5px #E2E2E2;
+-webkit-box-shadow: 0 0 15px 5px #E2E2E2;
+box-shadow: 0 0 15px 5px #E2E2E2;
+border:1px solid #D2D2D2;
+}
+
+.adv_cat th {	
+background: url(../images/adv_silver.gif) repeat-x scroll 0 0 #FFFFFF;
+color: #555555;
+text-align: left;
+font-size:13px;
+font-family: arial,verdana,sans-serif;
+font-weight: bold; 
+}
+
+/* Suggest */
+.suggestbox{
+visibility:hidden;
+position:absolute;
+border:solid 1px #CCCCCC;
+background-color:#FFFFFF;
+color:#1E61A4;
+top:0px;
+left:0px;
+width:280px;
+z-index:1;
+line-height:150%;
+}
+
+a.suga:link, a.suga:visited, a.suga:active, a.suga:hover{
+width:100%;
+display:block;
+text-decoration: none;
+color:#1E61A4;
+background-color: #FFFFFF;
+}
+ 
+a.sugaon:link, a.sugaon:visited, a.sugaon:active, a.sugaon:hover{
+background-color: #E3EAE9;
+width:100%;
+display:block;
+text-decoration: none;
+color:#1E61A4;
+}
+
+/* Ending - Suggest */
+
+

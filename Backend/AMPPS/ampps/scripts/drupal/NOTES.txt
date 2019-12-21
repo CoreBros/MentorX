@@ -1,0 +1,22 @@
+1) Disable Clean URL while installing - Check in the Database for 'clean_url' - it should be 's:1:"0";' 
+2) Default Timezone should be ZERO I.e UTC +0000 and keep default country NONE
+3) Leave "Check for updates automatically ", "Email notifications"  as it is.
+4) Delete cache_menu item INSERT (not table) 
+5) Delete all watchdog INSERTS And also change its AUTO INCREMENT =1 ; 
+6) We copy the original update.php from zip and add the following lines for upgrading from Drupal 6: 
+
+// Softaculous Change :
+$update_free_access = true;
+7) Change the version of Drupal 6 in the upgrade.php and <min_require> tag in info.xml if there is an upgrade in Drupal 6 branch.
+8) Dont change 'datestamp' to timestamp in DB. It is the launch date
+9) We do not copy .htaccess from /sites/default/files/.htaccess because Drupal creates it. (Added scopy since 7.53 as it was not created automatically)
+10) In next update change the datestamp to a variable  [[datestamp]] and update the datestamp everytime in install.php
+11) Try to detect if Clean URL will work and update accordingly in database
+12) Delete INSERTS only from the below mentioned tables from next version (i.e post 7.50) onwards :
+
+cache
+cache_bootstrap
+cache_update
+
+These INSERTS should get generated on visits of the installation. Confirmed by Drupal team via email.
+13) PHP REQUIREMENT LINK: https://www.drupal.org/docs/7/system-requirements/php

@@ -1,0 +1,2 @@
+1. Download Source code (zip) from github
+2. PHP REQUIREMENT LINK : README.md

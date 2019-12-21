@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: [[relativeurl]]/albums/
+Allow: [[relativeurl]]/cache/
+Allow: [[relativeurl]]/cache_html/
+Disallow: [[relativeurl]]/plugins/
+Disallow: [[relativeurl]]/themes/
+Disallow: [[relativeurl]]/zp-core/
+Disallow: [[relativeurl]]/zp-data/
+Disallow: [[relativeurl]]/page/search/
+Disallow: [[relativeurl]]/uploaded/
+Disallow: [[relativeurl]]/backup/
+
+# Link to the sitemap file if using teh sitemap-extended plugin.
+# Change it to your domain and uncomment the line to use it:
+# sitemap: http://www.yourdomain.com/cache_html/sitemap/sitemapindex.xml

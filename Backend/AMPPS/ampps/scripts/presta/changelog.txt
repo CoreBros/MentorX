@@ -1,0 +1,50 @@
+Changes for 1.6.1.24:
+
+- Core:
+  - Bug fix:
+    - #13607: Forbid URLs to be inserted into Name fields
+    - #13574: Improve name validation
+    - #13559: Forbid URLs to be inserted into Name fields
+    - #10859: Fixed keywords disappear from search index
+	
+Changes for 1.6.1.23:
+
+- Back Office:
+  - Bug fix:
+    - #11286: Fix filemanager security breaches
+
+Changelog in version 1.6.1.22 - stable
+- Core:
+  - Bug fix:
+    - #10921: Missing class const on cert refresh
+	
+Changelog in version 1.6.1.21 - stable
+- Back Office:
+  - Bug fix:
+    - #8321: Fix Module configure permission
+    - #8274: Disallow the negative discounts in orders
+    - #8786: Replace serialize with json_encode
+- Front Office:
+  - Improvement:
+    - #8658: Removed duplicate expressions
+  - Bug fix:
+    - #8828: Stop sending a copy of the contact message to the "author" (avoid spam)
+- Core:
+  - Bug fix:
+    - #5378: Add a fallback to curl when file_get_content() return an empty response
+    - #10680: Hide arguments in debug trace page
+    - #8758: Fix the possibility to create a customer with "¤" or "
+    - #8763: Catch all Swift exceptions in Mail::Send()
+	
+Changelog in version 1.6.1.20 - stable
+Fixed bugs:
+
+BO: Improve cookie encryption
+BO: PHP 7.2 compat - Fix fatal error
+BO: Fix undefined property key on Rijndael
+
+FO: Control if customer is the owner of the selected order in contact form
+
+CO: Use https no http employee class
+
+WS: FIX PHP 7.1 compat in WebserviceOutputBuilder

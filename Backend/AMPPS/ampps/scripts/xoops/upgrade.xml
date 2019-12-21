@@ -1,0 +1,17 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>upgrade/</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>mainfile.php</exclude>
+		<exclude>install/*</exclude>
+		<exclude>install/*/*</exclude>
+		<exclude>install/*/*/*</exclude>
+		<exclude>install/*/*/*/*</exclude>
+	</files>
+</softupgrade>

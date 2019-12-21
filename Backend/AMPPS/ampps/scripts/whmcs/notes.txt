@@ -1,0 +1,22 @@
+1. data.zip is made by zipping the following folders from the package:
+/downloads/
+/templates_c/
+/attachments/
+2. Languages are seperate for admin account and enduser site. The files are there in the /lang/ folder for enduser and /admin/lang/ folder for admin languages.
+Check if the languages we provide the files exists in the respective folders.
+3. In sql keep 'SMTPPassword', 'FTPBackupPassword' and 'License' fields blank in `tblconfiguration` table.
+4. We have disabled 5.3.10 on windows as it gives "Admin Directory Conflict" error even on manual installation. We have opened ticket to WHMCS for the same. Check in next version if it works then remove the check.(removed from 5.3.11)
+5. In SQL `tbladmins` table we set only one password since we do not know the password hash. WHMCS creates the other password hash on 1st login.
+6. Use config.php from crons/config.php.new. We explicitly do this to set Custom Crons Directory
+7. Do not change uuid from tbladmins table as it is same for all installations.
+8. We have removed below sql inserts from v7.2.1 and have confirmed with the WHMCS team via ticket, no need longer
+	INSERT INTO `tbltransientdata` VALUES
+	(1, 'RewriteBackup', '[{"before":[],"whmcs":[],"after":[]}]', 1525758986),
+	(2, 'detect-route-environment', 'El9q4', [[timestamp]]),
+9. Also set the value for "InstanceID" to ''{blank} in "tblconfiguration" table since v7.2.1.
+10. PHP REQUIREMENT LINK: https://docs.whmcs.com/System_Requirements
+11. The below entries were added from 7.6.0 under tblconfiguration table. Check this in next version as well.
+('domainLookupProvider', 'WhmcsDomains', '[[regtime]]', '[[regtime]]'),
+('ReCAPTCHAForms', '{"checkoutCompletion":false}', '[[regtime]]', '[[regtime]]'),
+('MDEFromTime', '[[regtime]]', '[[regtime]]', '[[regtime]]')
+12. Value for "EulaAgreementAccepted" hash in `tblconfiguration` table is same for all installations. Hence we have kept it as it is. (Since 7.7.0)

@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase [[relativeurl]]/[[test_dir]]/
+  	RewriteRule ^ index.php [L]
+</IfModule>

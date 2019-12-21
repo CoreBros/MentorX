@@ -1,0 +1,837 @@
+<?php
+
+/**
+ * This is a FILTER POINT in Softaculous.
+ * NOTE : You must rename this file to filter.php
+ */
+ 
+//////////////////////////////////////////////////////////////
+//===========================================================
+// filter.php
+//===========================================================
+// SOFTACULOUS 
+// Version : 1.1
+// Inspired by the DESIRE to be the BEST OF ALL
+// ----------------------------------------------------------
+// Started by: Alons
+// Date:       10th Jan 2009
+// Time:       21:00 hrs
+// Site:       http://www.softaculous.com/ (SOFTACULOUS)
+// ----------------------------------------------------------
+// Please Read the Terms of use at http://www.softaculous.com
+// ----------------------------------------------------------
+//===========================================================
+// (c)Softaculous Inc.
+//===========================================================
+//////////////////////////////////////////////////////////////
+
+if(!defined('SOFTACULOUS')){
+
+	die('Hacking Attempt');
+
+}
+
+/*
+// Use this filter to trigger your function when an error is triggered in Softaculous
+insert_filter('error_handle', 'my_error_handle', 1, 1);
+
+// @param	array $error Errors occurred
+function my_error_handle($error){
+	// Add your custom code here
+	
+	$error['my_cust_err'] = 'My Custom Error';
+	
+	return $error;
+}
+*/
+
+/*
+// Use this filter to trigger your function when Install form settings are loaded in Softaculous
+insert_filter('post_load_settings', 'my_post_load_settings', 1, 1);
+
+// @param	array $settings Contains Install Form Fields
+function my_post_load_settings($settings){
+	// Add your custom code here
+}
+*/
+
+/*
+// Use this filter to trigger your function when Upgrade form settings are loaded in Softaculous
+insert_filter('post_load_settings_upgrade', 'my_post_load_settings_upgrade', 1, 1);
+
+// @param	array $settings Contains Upgrade Form Fields
+function my_post_load_settings_upgrade($settings){
+	// Add your custom code here
+}
+*/
+
+/* 
+// Use this filter to trigger your function before Softaculous Upgrade function is called
+insert_filter('pre_softaculous_upgrade', 'my_pre_softaculous_upgrade', 1);
+
+function my_pre_softaculous_upgrade(){
+	// Add your custom code here
+}
+*/
+
+/* 
+// Use this filter to trigger your function after Softaculous Upgrade function is called
+insert_filter('post_softaculous_upgrade', 'my_post_softaculous_upgrade', 1);
+
+function my_post_softaculous_upgrade(){
+	// Add your custom code here
+}
+*/
+
+/*
+// Use this filter to trigger your function after a package is unzipped
+insert_filter('post_unzip', 'my_post_unzip', 1);
+
+function my_post_unzip(){
+	// Add your custom code here
+}
+*/
+
+/* 
+// Use this filter whenever you want to disable/add some of your navbar links in Enduser Panel (top right hand corner)
+insert_filter('navbar_links', 'my_navbar_links', 1, 1);
+
+// @param	array $navbar contains the navbar links
+function my_navbar_links($navbar){
+	// Add your custom code here
+	
+	// unset($navbar['goto_email_settings']); //Example to disable email settings link
+	// unset($navbar['goto_backups']); //Example to disable backups link
+	
+	return $navbar;
+}
+*/
+
+/*
+// Use this filter to define the php binary path if you want to use custom php binary path
+insert_filter('eu_php_bin', 'my_eu_php_bin', 1, 1);
+
+// @param	string $php_bin Path of php binary
+function my_eu_php_bin($php_bin){
+	// Add your custom code here
+	
+	$php_bin = '/PATH/TO/PHPBIN';
+	
+	return $php_bin;
+}
+*/
+
+/* 
+// This filter will be called whenever an UPDATE becomes available for a script AND before an email is sent to the user informing him about the update
+insert_filter('pre_update_email', 'my_pre_update_email', 1);
+
+function my_pre_update_email(){
+	global $globals, $ins_list, $updated_scripts, $scripts;
+	
+	// $ins_list		 	 - Will contain the details of the OUTDATED installations of all users immediately
+							when an update becomes available
+	// $updated_scripts	 - The scripts which just got updated
+	// $scripts			 - Detailed information about all the scripts.
+	
+	foreach($ins_list as $username => $scriptwise){
+		// Do what needs to be done !
+		
+		// $scriptwise will now contain the list of installations in the format of array(SCRIPTID => array());
+		foreach($scriptwise as $_sid => $_ins){
+			
+			// Loop through the installations
+			foreach($_ins as $kk => $vv){
+							
+			}
+			
+		}
+		
+	}
+}
+*/
+
+/* 
+// This filter will be called after a Domain is added
+insert_filter('post_adddomain', 'my_post_adddomain', 1, 1);
+
+// @param	string $did Domain ID of the domain added
+function my_post_adddomain($did){
+	global $softpanel, $globals;
+	
+	// Do stuff here
+	// e.g. is for if you want to perform action only for apache
+	
+}
+*/
+
+/* 
+// This filter will be called after a Domain is edited.
+insert_filter('post_editdomain', 'my_post_editdomain', 1, 1);
+
+// @param	string $did Domain ID of the domain edited
+function my_post_editdomain($did){
+	
+	global $softpanel, $globals;
+	
+	// Do stuff here
+	// e.g. is for if you want to perform action only for apache
+	
+}
+*/
+
+/* 
+// This filter will be called before an installation process is started.
+insert_filter('pre_install', 'my_pre_install', 1);
+
+function my_pre_install(){
+	global $soft, $software, $globals;
+	
+	// Do stuff here e.g. is as follows
+	if($soft == 26){ 
+		//Do things only if its WordPress 
+	}
+	
+}
+*/
+
+/* 
+// This filter will be called after a script is installed.
+insert_filter('post_install', 'my_post_install', 1, 1);
+
+// @param	array $installation Details of the new installation
+function my_post_install($installation){
+	global $soft, $software, $globals;
+	
+	// Do stuff here e.g. is as follows
+	if($soft == 26){ 
+		//Do things only if its WordPress 
+	}
+	
+}
+*/
+
+/* 
+// This filter will be called whenever any mail is sent (e.g installing scripts, removing scripts, etc)
+insert_filter('pre_mail', 'my_pre_mail', 1, 1);
+
+// @param	array $array Details of the email to be sent.
+function my_pre_mail($array){
+	global $globals;
+	
+	// Do stuff here
+	
+	return $array;
+}
+*/
+
+/* 
+// This filter will be called right before an installation is being imported from enduser panel.
+insert_filter('pre_import', 'my_pre_import', 1);
+
+function my_pre_import(){
+	global $soft, $software, $globals;
+	
+	// Do stuff here e.g. is as follows
+	if($soft == 26){ 
+		//Do things only if its WordPress 
+	}
+	
+}
+*/
+
+/* 
+// This filter will be called after an installation is imported from enduser panel.
+insert_filter('post_import', 'my_post_import', 1, 1);
+
+// @param	array $installation Details of the installation imported
+function my_post_import($installation){
+	global $soft, $software, $globals;
+	
+	// Do stuff here e.g. is as follows
+	if($soft == 26){ 
+		//Do things only if its WordPress 
+	}
+}
+*/
+
+/* 
+// This flter will be called right before an installation is upgraded.
+insert_filter('pre_upgrade', 'my_pre_upgrade', 1, 1);
+
+// @param	array $installation Details of the installation being upgraded
+function my_pre_upgrade($installation){
+	global $soft, $software, $globals;
+	
+	// Do stuff here e.g. is as follows
+	if($soft == 26){ 
+		//Do things only if its WordPress 
+	}
+	
+}
+*/
+
+/* 
+// This filter will be called after an installation is upgraded.
+insert_filter('post_upgrade', 'my_post_upgrade', 1, 1);
+
+// @param	array $installation Details of the installation upgraded
+function my_post_upgrade($installation){
+	global $soft, $software, $globals;
+	
+	// Do stuff here e.g. is as follows
+	if($soft == 26){
+		//Do things only if its WordPress
+	}
+	
+}
+*/
+
+/* 
+// This filter will be called right before an installation is removed.
+insert_filter('pre_remove', 'my_pre_remove', 1, 1);
+
+// @param	array $installation Details of the installation being removed
+function my_pre_remove($installation){
+	global $soft, $software, $globals;
+	
+	// Do stuff here e.g. is as follows
+	if($soft == 26){ 
+		//Do things only if its WordPress 
+	}
+	
+}
+*/
+
+/* 
+// This filter will be called after an installation is removed.
+insert_filter('post_remove', 'my_post_remove', 1, 1);
+
+// @param	array $installation Details of the installation removed
+function my_post_remove($installation){
+	global $soft, $software, $globals;
+	
+	// Do stuff here e.g. is as follows
+	if($soft == 26){
+		//Do things only if its WordPress
+	}
+	
+}
+*/
+
+/* 
+// Use this filter when you wish to do stuff before an installation is cloned
+insert_filter('pre_clone', 'my_pre_clone', 1);
+
+function my_pre_clone(){
+	global $soft, $software, $globals;
+	
+	// Do stuff here e.g. is as follows
+	if($soft == 26){
+		//Do things only if its WordPress
+	}
+	
+}
+*/
+
+/* 
+// This filter will be called after an installation is cloned.
+insert_filter('post_clone', 'my_post_clone', 1, 1);
+
+// @param	array $installation Details of the installation cloned
+function my_post_clone($installation){
+	global $soft, $software, $globals;
+	
+	// Do stuff here e.g. is as follows
+	if($soft == 26){
+		//Do things only if its WordPress	
+	}
+	
+}
+*/
+
+/*
+// Use this filter to modify the id of the script to be installed.
+insert_filter('post_load_soft', 'my_post_load_soft', 1, 1);
+
+// @param	array $soft Contains softid
+// Since 4.8.0
+function my_post_load_soft($soft){
+	// Add your custom code here
+	
+	return $soft;
+}
+*/
+
+/*
+// Use this filter to trigger your function to set database details to be prefilled on install form
+insert_filter('post_load_dbdetails', 'my_post_load_dbdetails', 1, 1);
+
+// @param	array $dbdetails Prefilled DB details for the installation
+function my_post_load_dbdetails($dbdetails){
+	// Add your custom code here	
+	
+	//$dbdetails['dbname'] = '';
+	//$dbdetails['dbusername'] = ''; // This can be used only in Softaculous Remote
+	//$dbdetails['dbuserpass'] = ''; // This can be used only in Softaculous Remote
+	//$dbdetails['dbhost'] = ''; // This can be used only in Softaculous Remote
+	
+	return $dbdetails;
+}
+*/
+
+/*
+// Use this filter if you want to use custom URLs for softaculous remote calls to perform tasks such as install, etc. 
+insert_filter('remote_exec_url', 'my_remote_exec_url', 1, 1);
+
+// @param	array $url URL where the script is to be installed
+// Since 4.8.0
+function my_remote_exec_url($url){
+	
+	// Add your custom code here
+	//echo $url; //http://example.com/sreq.php
+	$parse = parse_url($url);
+	$custom_url = 'domain.com';//This url should point to the location where the current domain being installed is pointing
+	$url = str_replace($parse['host'], $custom_url, $url);
+	//echo $url; //http://domain.com/sreq.php
+	return $url;
+}
+*/
+
+/*
+// This filter will be called before the cron is added.
+insert_filter('pre_addcron', 'my_pre_addcron', 1, 1);
+
+function my_pre_addcron($cron){
+	global $soft, $software, $globals;
+	
+	//Add your custom cron command in $cron array.
+	$cron['cron_min'] = '';
+	$cron['cron_hour'] = ''; 
+	$cron['cron_day'] = '';
+	$cron['cron_month'] = '';
+	$cron['cron_weekday'] = '';
+	$cron['cron_command'] = '';
+	
+	return $cron;
+}
+*/
+
+/*
+// This filter will be called after the cron is added.
+insert_filter('post_addcron', 'my_post_addcron', 1, 1);
+
+function my_post_addcron($cron){
+	global $soft, $software, $globals;
+	
+	//Add your custom code here.
+}
+*/
+
+/*
+// Use this filter to trigger your function and define which version of Softaculous you want to upgrade to
+// Make sure you pass correct version of Softaculous you want to upgrade to, otherwise you will be upgraded to latest version
+insert_filter('upgrade_softaculous_to_version', 'my_upgrade_softaculous_to_version', 1);
+function my_upgrade_softaculous_to_version(){
+	//return '4.8.9'; // this example will upgrade Softaculous to 4.8.9
+}
+*/
+
+/* 
+// Use this filter to trigger your function and perform some tasks before Softaculous Upgrade check is performed
+insert_filter('pre_softaculous_upgrade_check', 'my_pre_softaculous_upgrade_check', 1);
+
+function my_pre_softaculous_upgrade_check(){
+	// Add your custom code here
+}
+*/
+
+/*
+//Use this filter to unset the exist files from your domain root
+insert_filter('check_files_exist', 'my_check_files_exist', 1, 1);
+
+function my_check_files_exist($exists){
+	
+	//e.g if you want to unset .htaccess 
+	
+	if(in_array('.htaccess', $exists)){
+		$htaccess_key = array_search('.htaccess', $exists);
+		unset($exists[$htaccess_key]);
+	}
+	
+	return $exists;
+}
+*/
+
+/* 
+//Use this filter to pass the path to PHP binary which should be used to perform operations like Clone, Remote Import, etc.
+insert_filter('soft_php_bin', 'my_soft_php_bin', 1, 1);
+
+// @param	string $phpbin Path of php binary
+function my_soft_php_bin($phpbin){
+	
+	// Note : The PHP binary should be a CLI PHP binary
+	$phpbin = '/PATH/TO/PHPBIN'; //Define your php binary here
+	
+	return $phpbin;
+}
+*/
+
+
+/* 
+//Use this filter to make some changes in the installation details of the installation.
+insert_filter('post_loadinstallations', 'my_post_loadinstallations', 1, 1);
+
+// @param	array $data List of installations
+function my_post_loadinstallations($data){
+	
+	// The below example is to update the database user and/or database password of the installations. 
+	// Similarly you can use this filter to make changes to any installation details
+	
+	// Use your API to fetch the database login details
+	$dbuser = '';
+	$dbpass = '';
+		
+	foreach($data as $insid => $values){
+		
+		if(!empty($dbuser) && $dbuser != $values['softdbuser']){
+			
+			$data[$insid]['softdbuser'] = $dbuser;
+			$tosave = 1;
+		
+		}
+		
+		if(!empty($dbpass) && $dbpass != $values['softdbpass']){
+			
+			$data[$insid]['softdbpass'] = $dbpass;
+			$data[$insid]['display_softdbpass'] = $dbpass;
+			$tosave = 1;
+		
+		}
+	}
+	
+	//r_print($data);
+	if(!empty($tosave)){
+		saveinstallations($data);
+	}
+	
+	return $data;
+}
+*/
+
+/*
+//Use this filter to make any changes to the list of outdated plugins received.
+insert_filter('pre_upgrade_outdated_plugins', 'my_pre_upgrade_outdated_plugins', 1, 1);
+
+// @param	array $plugins List of outdated plugins
+function my_pre_upgrade_outdated_plugins($plugins){
+	
+	//Filter the list as per your need
+	//Example of the plugins list you will get here
+	//var_dump($plugins);
+	
+	return $plugins;
+}
+*/
+
+/* 
+//Use this filter to make any changes to the outdated theme's data.
+insert_filter('pre_upgrade_outdated_theme', 'my_pre_upgrade_outdated_theme', 1, 1);
+
+// @param	object $theme_data Theme's data
+function my_pre_upgrade_outdated_theme($theme_data){
+	
+	//Make changes as per your need
+	//Example of the theme's api data you will get here
+	//var_dump($theme_data);
+	
+	return $theme_data;
+}
+*/
+
+/*
+//Use this filter to define the IP where your domain should point in case the DNS is not propogated yet and the domain is pointing to old server
+insert_filter('dns_server_ip', 'my_dns_server_ip', 1, 1);
+
+// @param	string $domain The Domain to which the call will be made
+function my_dns_server_ip($domain){
+	
+	$ip = '1.2.3.4'; //Define the IP where your domain should point
+	
+	return $ip;
+}
+*/
+
+/*
+//Use this filter to execute any code after the database is created during installation of a script
+insert_filter('post_createdb', 'my_post_createdb', 1);
+
+function my_post_createdb(){
+	
+	global $__settings;
+	
+	// Execute your code here
+	// Database Name : $__settings['softdb']
+	// Database Host : $__settings['softdbhost']
+	// Database User : $__settings['softdbuser']
+	// Database Pass : $__settings['softdbpass']
+	// Table Prefix : $__settings['dbprefix']
+	
+}
+*/
+
+/*
+// Use this filter to modify the list of domain(s). 
+insert_filter('domains_list', 'my_domains_list', 1, 1);
+
+// @param	string $domains Domains list with domain name in the key and path to the domain in value
+function my_domains_list($domains){
+	
+	// example to remove a domain name from the domains list
+	unset($domains['example.com']);
+	
+	// example to add a domain name
+	// Note : In case of Softaculous Remote and Enterprise, the domain you are adding here should be added in the panel
+	$domains['example.com'] = '/home/example/public_html';
+	
+	// Return the list of domains
+	return $domains;
+}
+*/
+
+/* 
+// Use this filter when you wish to do stuff before an installation is staged
+insert_filter('pre_staging', 'my_pre_staging', 1);
+
+function my_pre_staging(){
+	global $soft, $software, $globals;
+	
+	// Do stuff here e.g. is as follows
+	if($soft == 26){
+		//Do things only if its WordPress
+	}
+	
+}
+*/
+
+/* 
+// This filter will be called after an installation is staged.
+insert_filter('post_staging', 'my_post_staging', 1, 1);
+
+// @param	array $installation Details of the installation staged
+function my_post_staging($installation){
+	global $soft, $software, $globals;
+	
+	// Do stuff here e.g. is as follows
+	if($soft == 26){
+		//Do things only if its WordPress	
+	}
+	
+}
+*/
+
+/* 
+// Use this filter when you wish to do stuff before a staging installation is pushed to live
+insert_filter('pre_pushtolive', 'my_pre_pushtolive', 1);
+
+function my_pre_pushtolive(){
+	global $soft, $software, $globals;
+	
+	// Do stuff here e.g. is as follows
+	if($soft == 26){
+		//Do things only if its WordPress
+	}
+	
+}
+*/
+
+/* 
+// This filter will be called after an installation is pushed to live.
+insert_filter('post_pushtolive', 'my_post_pushtolive', 1, 1);
+
+// @param	array $installation Details of the installation pushed to live
+function my_post_pushtolive($installation){
+	global $soft, $software, $globals;
+	
+	// Do stuff here e.g. is as follows
+	if($soft == 26){
+		//Do things only if its WordPress	
+	}
+	
+}
+*/
+
+/*
+// This filter will be called before the auto backup cron is added.
+insert_filter('pre_addcron_auto_backup', 'my_pre_addcron_auto_backup', 1, 1);
+
+function my_pre_addcron_auto_backup($cron){
+	global $soft, $software, $globals;
+	
+	//Add your custom cron command in $cron array.
+	$cron['min'] = '';
+	$cron['hour'] = ''; 
+	$cron['day'] = '';
+	$cron['month'] = '';
+	$cron['weekday'] = '';
+	$cron['command'] = '';
+	
+	return $cron;
+}
+*/
+
+/*
+// This filter will be called after the auto backup cron is added.
+insert_filter('post_addcron_auto_backup', 'my_post_addcron_auto_backup', 1, 1);
+
+function my_post_addcron_auto_backup($cron){
+	global $soft, $software, $globals;
+	
+	//Add your custom code here.
+}
+*/
+
+/*
+// This filter will be called before backup.
+insert_filter('pre_backup', 'my_pre_backup', 1, 1);
+
+function my_pre_backup($data){
+	
+	//r_print($data);
+	//Add your custom code here.
+}
+*/
+
+/*
+// This filter will be called after backup.
+insert_filter('post_backup', 'my_post_backup', 1, 1);
+
+function my_post_backup($data){
+	
+	//r_print($data);
+	//Add your custom code here.
+}
+*/
+
+/*
+// This filter will be called before starting the backup process, after the posted data is loaded.
+insert_filter('post_load_backup_data', 'my_post_load_backup_data', 1, 1);
+
+// @param	array $ins Details of the installation
+function my_post_load_backup_data($ins){
+	// Do stuff here
+}
+*/
+
+/* 
+// This filter will be called before starting the restore process of an installation.
+insert_filter('pre_restore', 'my_pre_restore', 1, 2);
+
+// @param	array $res_data Posted data for restore
+// @param	array $backupinfo Details of the backups
+function my_pre_restore($res_data, $backupinfo){
+	// Do stuff here
+}
+*/
+
+/*
+//This filter can be used to modify the act in Softaculous. $act refers to the page that will be processed by Softaculous
+insert_filter('pre_handle_acts', 'my_pre_handle_acts', 1, 1);
+
+// @param	string $act act parameter in the URL
+function my_pre_handle_acts($act){
+	
+	return $act;
+}
+*/
+
+/*
+// This filter can be used to determine if an action (e.g. clone, staging, pushtolive, manage_sets, etc) can be performed
+insert_filter('can_perform_action', 'my_can_perform_action', 1, 1);
+
+// @param	string $action Action name
+function my_can_perform_action($action){
+	global $l, $error;
+	
+	// Do stuff here
+}
+*/
+
+/* 
+// This filter will be called before the CLI process starts.
+insert_filter('pre_cli_exec', 'my_pre_cli_exec', 1);
+
+function my_pre_cli_exec(){
+	global $globals;
+	
+	// Do stuff here
+}
+*/
+
+/* 
+// This filter can be used to change the Return To link on success pages
+insert_filter('return_link', 'my_return_link', 1, 2);
+
+// @param	string $return default return link on the page accessed. This is an html link, eg. <a href="">Return</a>
+// @param	string $act act of the page accessed
+function my_return_link($return, $act){
+	
+	// Do stuff here	
+	return $return;
+}
+*/
+
+/* 
+// Use this filter to trigger your function before loading the ftp connection for the domain in Softaculous Remote
+insert_filter('pre_loadftp', 'my_pre_loadftp', 1, 3);
+
+// @param	array $res Domain data fetched from the database
+// @param	string $softdomain domain data whose data is required
+// @param	string $insid Installation id
+function my_pre_loadftp($res, $softdomain, $insid){
+	// Add your custom code here
+	global $user, $__settings;
+	
+	// Do stuff here
+	return $res;
+}
+*/
+
+/* 
+// This filter can be used to show a different local backup folder in the list of Backup locations on Enduser Settings page
+insert_filter('show_local_backup_dir', 'my_show_local_backup_dir', 1, 1);
+
+// @param	string $dir current local backup directory of the user
+function my_show_local_backup_dir($dir){
+	
+	// Do stuff here
+	return $dir;
+}
+ */
+
+/* 
+// This filter can be used to modify the existing list of FAQs displayed in enduser panel
+insert_filter('faqs', 'my_faqs', 1, 1);
+
+// @param	array $faqs current list of faqs
+function my_faqs($faqs){
+	
+	// Add a FAQ
+	//$faqs['custom_faq_1']['question'] = 'Customized Question';
+	//$faqs['custom_faq_1']['answer'] = 'Customized Answer';
+	
+	// Unset an existing FAQ
+	//unset($faqs['softaculous_intro']);
+	
+	return $faqs;
+}
+ */
+ 
+/*  //Use this filter to skip directory exist check.
+insert_filter('check_softpath_exist', 'my_check_softpath_exist', 1, 1);
+
+function check_softpath_exist($softpath_exist, $softpath){
+	
+	//Return false so Softaculous will skip the existing directory check.
+	return false;
+	
+} */

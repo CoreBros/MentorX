@@ -1,0 +1,79 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Concrete5
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Concrete5
+	</ratings>
+	<space>
+		102052152
+	</space>
+	<support>
+		http://www.concrete5.org/
+	</support>
+	<version>
+		8.5.2
+	</version>
+	<mod>15</mod>
+	<release_date>02-10-2019</release_date>
+	<admin>index.php/login</admin>
+	<branch>593</branch>
+	<branch>174</branch>
+	<branch>498</branch>
+	<min_require>5.7.5.13</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.9" /> 
+	<requirement check="php" type="extension" name="dom" />
+	<requirement check="php" type="extension" name="SimpleXML" />
+	<requirement check="php" type="extension" name="fileinfo" />
+	<requirement check="php" type="extension" name="zip" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="openssl" />
+	<requirement check="php" type="extension" name="iconv" />
+	<requirement check="php" type="extension" name="json" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a"> Concrete5 </font>makes running a website easy. Go to any page in your site, and a editing toolbar gives you all the controls you need to update your website. No intimidating manuals, no complicated administration interfaces - just point and click.
+		<br /><br />
+		Concrete5 is released under the <a href="http://www.opensource.org/licenses/mit-license.php" target="_blank">MIT license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li> WYSIWYG text editor </li>
+<li> In-context editing 	toolbar – change your website as you surf! </li>
+<li> Automatic 	navigations – add a page anywhere and it's updated everywhere </li>
+<li> Preview your 	changes before publishing </li>
+<li> Track versions, 	and compare differences between them </li>
+<li> File manager with 	bulk upload and image manipulation using Picnik (Picnik integration 	in v5.3) </li>
+
+<li> Detailed 	permissions – create editor groups, approve content, and see 	an audit trail </li>
+<li> Drag-n-Drop 	content around your pages. </li>
+<li> Scrapbook lets you 	copy content and functionality from one part of your site to another </li>
+<li> Integrated 	spellchecker </li>
+<li> Flexible meta data 	&amp; vanity URLs for Search Engine Optimization (SEO) </li>
+
+<li> Easy Google 	Analytics integration </li>
+<li> Integrated help 	system with commercial support options (v5.3) </li>
+<li> Automatic add-on &amp; 	theme installation (v5.3) </li>
+<li> An open 	marketplace of add-ons </li>
+<li> Content scheduling 	– write something now, and have it go live automatically later </li>
+
+<li> Out of the box 	includes a photo slide show, You Tube integration, guestbook, Flash 	support, polls, surveys, search, RSS, secure file distribution, 	Google Maps, and a form generation tool </li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-no_pass_encrypt>Could not encrypt admin password because the domain is not pointing to the correct server</english-no_pass_encrypt>
+	</languages>
+</soft>

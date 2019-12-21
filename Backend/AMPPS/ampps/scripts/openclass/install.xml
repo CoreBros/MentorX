@@ -1,0 +1,77 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="Yclas">
+				<head>{{site_name}}</head>
+			</input>
+			<input type="text" name="dbprefix" size="20" value="yc_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en_US">English</option>
+					<option value="ar">Arabic</option>
+					<option value="bn_BD">Bengali</option>
+					<option value="bg_BG">Bulgarian</option>
+					<option value="ca_ES">Catalan</option>
+					<option value="cs_CZ">Czech</option>
+					<option value="da_DK">Danish</option>
+					<option value="nl_NL">Dutch</option>
+					<option value="fr_FR">French</option>
+					<option value="de_DE">German</option>
+					<option value="el_GR">Greek</option>
+					<option value="hi_IN">Hindi</option>
+					<option value="hr_HR">Croatian</option>
+					<option value="hu_HU">Hungarian</option>
+					<option value="it_IT">Italian</option>
+					<option value="ja_JP">Japanese</option>
+					<option value="ml_IN">Malayalam</option>
+					<option value="no_NO">Norwegian</option>
+					<option value="pl_PL">Polish</option>
+					<option value="pt_PT">Portuguese</option>
+					<option value="ro_RO">Romanian</option>
+					<option value="ru_RU">Russian</option>
+					<option value="sn_ZW">Shona,Zimbabwe</option>
+					<option value="sk_SK">Slovak</option>
+					<option value="sq_AL">Albanian</option>
+					<option value="sv_SE">Swedish</option>
+					<option value="es_ES">Spanish</option>
+					<option value="ta_IN">Tamil</option>
+					<option value="tl_PH">Tagalog</option>
+					<option value="tr">Turkish</option>
+					<option value="ur_PK">Urdu</option>
+					<option value="vi_VN">Vietnamese</option>
+					<option value="zh_CN">Chinese (Simplified)</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>install/*</exclude>
+		<exclude>install/*/*</exclude>
+		<exclude>install/*/*/*</exclude>
+		<exclude>install/*/*/*/*</exclude>
+		<exclude>install.lock</exclude>
+	</files>
+</softinstall>

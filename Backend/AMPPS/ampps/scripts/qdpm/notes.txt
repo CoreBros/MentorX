@@ -1,0 +1,3 @@
+1. Keep Short name: and Email label: as it is while manual installation.
+2. Try to restore the upgrade functionality
+3. PHP REQUIREMENT LINK: http://qdpm.net/installation-qdpm-free-project-management

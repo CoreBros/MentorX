@@ -1,0 +1,5 @@
+Install without Sample data
+
+As it's posted by developer Start upgrade after release of 1.1.8.4
+Upgrade process provided in following link doesn't delete piwik tables. So we dont provide upgrade until we get proper upgrade process or confirmation from developer.
+http://blog.tomatocart.com/tutorials/tomatocart-v1-1-8-1-to-v1-1-8-4-upgrade-guide.html

@@ -1,0 +1,22 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<setuplocation>update.php</setuplocation>
+	<files>
+		<exclude>albums/*</exclude>
+		<exclude>albums/*/*</exclude>
+		<exclude>albums/*/*/*</exclude>
+		<exclude>albums/*/*/*/*</exclude>
+		<exclude>albums/*/*/*/*/*</exclude>
+		<exclude>albums/*/*/*/*/*/*</exclude>
+		<exclude>albums/*/*/*/*/*/*/*</exclude>
+		<exclude>include/config.inc.php</exclude>
+		<exclude>anycontent.php</exclude>
+	</files>
+	<auto_upgrade>1</auto_upgrade>
+</softupgrade>

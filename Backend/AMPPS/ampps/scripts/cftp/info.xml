@@ -1,0 +1,62 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/ProjectSend
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/files/ProjectSend
+	</ratings>
+	<space>
+		15067424
+	</space>
+	<support>
+		http://www.projectsend.org/
+	</support>
+	<version>
+		r1070
+	</version>
+	<mod>20</mod>
+	<release_date>25-04-2019</release_date>
+	<min_require>r180</min_require>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.6.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="zip" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">ProjectSend</font> (previously cFTP) is a clients-oriented file uploading utility. Clients are created and assigned a username and a password. Then you can upload as much files as you want under each account, with the ability to add a title and description to each one. 
+		<br /><br />
+		ProjectSend provides easy and secure multi-file uploading and unlimited file size on ANY server! Even on common hostings shared accounts. When the client logs in, he will see a web page that contains your company logo, and a sortable list of every file uploaded under his name, with description, time, date, etc. It also works as a history of "sent" files. They can check the differences between versions, the time that it took to do that, and so on. 
+		<br /><br />
+		Additional benefits include saving hundreds of mb. on email accounts since every file remains on your server until you decide to delete it, and they can be accessed from any browser anywhere. 
+		<br /><br />
+		ProjectSend is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Unlimited file size uploading! (thanks to plupload, uploding in "chunks" allows you to overcome any server restriction on file and post sizes). </li>
+<li>Upload several files at a time and then add the information to all of them on a single screen. </li>
+<li>Upload from the web interface directly or by FTP, and then import the files into ProjectSend.</li>
+<li>Possibility to hide or show files from clients after they were uploaded.</li>
+<li>Really simple and attractive design. Ease of use for both users and clients!</li>
+<li>User roles (Administrator. Account Manager, Uploader).</li>
+<li>Sortable full lists of files, users and clients. </li>
+<li>Options for localization (you can select your timezone and date format). This is reflected inmediatly on every list.</li>
+<li>Templates system allows you to easily change the files list features and appearance. </li>
+<li>Two templates included: Default and Gallery.</li>
+<li>Options and branding selection pages. Your company logo is seen on the clients lists.</li>
+<li>Can be translated easily via .po files</li>
+</ul>
+		</english-features>
+		<english-err_adminlen8>The username length should be 8 or more characters.</english-err_adminlen8>
+		
+	</languages>
+</soft>

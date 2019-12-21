@@ -1,0 +1,132 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/qdPM
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/qdPM
+	</ratings>
+	<space>
+		29613038
+	</space>
+	<support>
+		http://qdpm.net/
+	</support>
+	<version>
+		9.1
+	</version>
+	<mod>7</mod>
+	<mod_files>1</mod_files>
+	<release_date>01-03-2018</release_date>
+	<admin>index.php</admin>
+	<min_require>8.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">qdPM</font> is a free web-based project management tool suitable for a small team working on multiple projects.<br /><br />
+		It is fully configurable. You can easy manage Projects, Tasks and People.<br /><br />
+		Customers interact using a Ticket System that is integrated into Task management.  
+		<br /><br />
+		qdPM is released under the <a href="http://www.gnu.org/licenses/gpl.txt" target="_blank">GNU General Public License </a>.
+		</english-overview>		
+		<english-features>
+<ul> 
+	<li> 
+		<strong>Projects :</strong> <br />
+		Allows you  manage projects, configure project access, create custom project reports and export projects.<br /><br />
+	</li> 
+	<li> 
+		<strong>Tasks :</strong> <br />
+		Allows you to manage tasks, configure tasks access, group tasks, filter tasks and create custom task reports.<br /><br />
+	</li> 
+	<li> 
+		<strong>Support Tickets :</strong> <br />
+		Customers interact using a Ticket System that is integrated into Task management.<br /><br />
+	</li> 
+	<li> 
+		<strong>Discussions :</strong> <br />
+		You can  create discussion between project team.<br /><br />
+	</li> 
+	<li> 
+		<strong>Users :</strong> <br />
+		Allows you manage users, configure user right, send email to user groups <br /><br />
+	</li> 
+	<li> 
+		<strong>Scheduler :</strong> <br />
+		Scheduler is a tool for planning and managing all of your activities <br /><br />
+	</li> 
+	<li> 
+		<strong>Multi-lingual :</strong> <br />
+		qdPM is multilangual &amp; already comes with various language files. <br /><br />
+	</li> 
+	<li> 
+		<strong>Skins :</strong> <br />
+		qdPM has multiple skins  <br /><br />
+	</li> 
+	<li> 
+		<strong>General Configuration :</strong> <br />
+		Allows you configure common things in qdPM <br /><br />
+	</li> 
+	<li> 
+		<strong>Users Access Controls :</strong> <br />
+		Users Access Controls allows you to assign Users to Groups such as Customer, Manager, Programmer and configure the rights for each Group to control what they have access to. <br /><br />
+	</li> 
+	<li> 
+		<strong>Projects configuration :</strong> <br />
+		Allows you configure projects status, type, phase and custom extra fields for projects <br /><br />
+	</li> 
+	<li> 
+		<strong>Tasks configuration :</strong> <br />
+		Allows you configure tasks status, labels, types, priority and custom extra fields for tasks <br /><br />
+	</li> 
+	<li> 
+		<strong>Tickets configuration :</strong> <br />
+		Allows you configure tickets status, types, departments  and custom extra fields for tickets <br /><br />
+	</li> 
+	<li> 
+		<strong>Extra fields :</strong> <br />
+		Unlimited extra fields for Projects, Tasks, Tickets &amp; Users <br /><br />
+	</li> 
+	<li> 
+		<strong>Projects Reports :</strong> <br />
+		Allows you create custom project reports and display it on home dashboard or top menu <br /><br />
+	</li> 
+	<li> 
+		<strong>Tasks reports :</strong> <br />
+		Allows you create custom tasks reports and display it on home dashboard or top menu <br /><br />
+	</li> 
+	<li> 
+		<strong>Tickets reports :</strong> <br />
+		Allows you create custom tickets reports and display it on home dashboard or top menu <br /><br />
+	</li> 
+	<li> 
+		<strong>Discussions reports :</strong> <br />
+		Allows you create custom discussions reports and display it on home dashboard or top menu <br /><br />
+	</li> 
+	<li> 
+		<strong>Users Time Report :</strong> <br />
+		You can see worked hours statistic by users, estimated and actual time statistic per task and filter data by users, projects, task status or dates <br /><br />
+	</li> 
+	<li> 
+		<strong>Gantt Chart :</strong> <br />
+		You can see Gantt chart for each project or for overall projects <br /><br />
+	</li> 
+	<li> 
+		<strong>Sends Emals via SMTP :</strong> <br />
+		Allows you send all email from qdPM via SMTP <br /><br />
+	</li> 
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_email>Please provide the email to reset the password</english-err_no_email>
+		<english-err_no_such_email>The Admin email is incorrect and does not exist!</english-err_no_such_email>
+	</languages>
+</soft>

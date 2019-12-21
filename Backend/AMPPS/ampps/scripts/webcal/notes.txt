@@ -1,0 +1,3 @@
+1. PHP REQUIREMENT LINK : install/index.php line 955
+2. Vendor has asked us to keep min PHP version 7.0(Since version 1.3.0).
+3. Add webcal_user_pref insert in sql for language

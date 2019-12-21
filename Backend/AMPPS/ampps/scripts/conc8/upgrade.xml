@@ -1,0 +1,36 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<setuplocation>index.php/ccm/system/upgrade</setuplocation>
+	<files>
+		<exclude>application/config/app.php</exclude>
+		<exclude>application/config/database.php</exclude>
+		<exclude>application/config/generated_overrides/concrete.php</exclude>
+		<exclude>application/config/generated_overrides/site.php</exclude>
+		<exclude>application/*</exclude>
+		<exclude>application/*/*</exclude>
+		<exclude>application/*/*/*</exclude>
+		<exclude>application/*/*/*/*</exclude>
+		<exclude>application/*/*/*/*/*</exclude>
+		<exclude>packages/*</exclude>
+		<exclude>packages/*/*</exclude>
+		<exclude>packages/*/*/*</exclude>
+		<exclude>packages/*/*/*/*</exclude>
+		<exclude>packages/*/*/*/*/*</exclude>
+		<exclude>updates/*</exclude>
+		<exclude>updates/*/*</exclude>
+		<exclude>updates/*/*/*</exclude>
+		<exclude>updates/*/*/*/*</exclude>
+		<exclude>updates/*/*/*/*/*</exclude>
+		<exclude>index.php</exclude>
+		<exclude>robots.txt</exclude>
+		<exclude>LICENSE.TXT</exclude>
+		<exclude>composer.json</exclude>
+		<exclude>composer.lock</exclude>
+	</files>
+</softupgrade>

@@ -1,0 +1,7 @@
+1) Add the elggdata folder to data.zip BUT delete all files of root folders of that elggdata
+2) Take the data.zip after logging in the manual installation.
+3) At the moment there is no upgrade to 1.12.x to 2.x
+4) Add a trailing slash '/' for datadir path in manual installation. (Not required since 2.1.2)
+5) Timezone = America/New_York
+6) We have disabled auto upgrade since version 2.3.0 (since it requires logging in to upgrade the database , to make changes to database schema).
+7) PHP REQUIREMENT LINK: http://learn.elgg.org/en/2.3/intro/install.html#requirements

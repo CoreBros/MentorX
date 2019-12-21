@@ -1,0 +1,66 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Open_eShop
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Open_eShop
+	</ratings>
+	<space>
+		13733143
+	</space>
+	<support>
+		https://github.com/belherdigital/open-eshop
+	</support>
+	<version>
+		2.7.0
+	</version>
+	<mod>17</mod>
+	<mod_files>2</mod_files>
+	<release_date>10-01-2017</release_date>
+	<admin>oc-panel/auth/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.6.0" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="gettext" />
+	<requirement check="php" type="extension" name="gd" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Open eShop</font> is a PHP script which allows you to start selling any digital good, like MP3, eBooks, Movies, Software.. or any Service you offer. Just within minutes in your own hosting.
+		<br /><br />
+		With OE you will be able to give support to your customers from the panel and notify of new updates to your buyers. You can also auto generate license numbers to your sales. 
+		<br /><br />
+		Open eShop is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL Version 3</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li><b>PAYPAL AND CARD:</b> Get Paid directly via Paypal or Card (using Paymill). Products are protected and downloadable only by paid users.</li>
+<li><b>SUPPORT TICKETS:</b> Provide support to your clients form a easy interface, get notified of any new ticket.</li>
+<li><b>DISCOUNT COUPONS:</b> Offer to your clients discount coupons or price Offers. Limit by time or availability.</li>
+<li><b>ECOMMERCE:</b> Get your site with categories and listing of products. Or use the Minimal View of a product if you just want to promote that one.</li>
+<li><b>SALE STATS:</b> Full stats to panel to see how you are doing this month. How many sales I've made? What's the most popular product? How many visitors did we have?</li>
+<li><b>LICENSES:</b> Generate licenses for your purchases and check them with our simple API.</li>
+<li><b>MOBILE READY:</b> Did you know that 20% traffic comes from mobile devices? be ready to sell via mobile!</li>
+<li><b>SOCIAL AUTH:</b> Anyone can easily register in your site or login with; Facebook, Twitter, Google, Yahoo..</li>
+<li><b>CUSTOMIZABLE:</b> Change the Theme add new sidebar Widgets, or create a header menu. Easy to do within clicks!</li>
+<li><b>BLOGGING &amp; CMS:</b> Out of the box CMS for your pages, contact form and a built in blogging system.</li>
+<li><b>NEWSLETTERS:</b> Send newsletters to all your users or notify some of them for a new version of your product available.</li>
+<li><b>TRANSLATIONS:</b> Translated in English and Spanish. Easy translate emails, or any text to any language from our panel.</li>
+<li><b>SEO FRIENDLY:</b> Sitemap auto generated, RSS for your products/blog, Friendly URL's, Auto generated descriptions ..</li>
+<li><b>LATEST TECHNOLOGY:</b> HTML5, CSS3, PHP 5.3, MySQL and Software auto updates to latest version!.</li>
+<li><b>DASHBOARD:</b> Super easy to administer panel that will addapt to your device, mobile, tablet or desktop. Comes with hundreds of configurations so you can tweak anything you want.</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_email>Please provide the email to reset the password</english-err_no_email>
+		<english-err_no_such_email>The Admin email is incorrect and does not exist!</english-err_no_such_email>
+	</languages>
+</soft>

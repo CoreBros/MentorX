@@ -1,0 +1,87 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="My Joomla">
+				<head>{{site_name}}</head>
+			</input>
+			<input type="text" name="site_desc" size="30" value="My Joomla CMS">
+				<head>{{site_desc}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="jos_">
+				<head>{{db_pre}}</head>
+			</input>
+			<input type="select">
+				<select name="sample_data">
+					<option value="none">None</option>
+					<option value="sample_blog">Blog English (GB)</option>
+					<option value="sample_brochure">Brochure English (GB)</option>
+					<option value="sample_data">Default English (GB)</option>
+					<option value="sample_learn">Learn Joomla English (GB)</option>
+				</select>
+				<head>{{sample_data}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_realname" size="30" value="Administrator">
+				<head>{{real_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en-GB">English</option>
+					<option value="zh-CN">Chinese</option>
+					<option value="fr-FR">French</option>
+					<option value="ru-RU">Russian</option>
+					<option value="nl-NL">Dutch</option>
+					<option value="de-DE">German</option>
+					<option value="da-DK">Danish</option>
+					<option value="pl-PL">Polish</option>
+					<option value="es-ES">Spanish</option>
+					<option value="it-IT">Italian</option>
+					<option value="pt-PT">Portuguese</option>
+					<option value="pt-BR">Portuguese (Brazil)</option>
+					<option value="ar-AA">Arabic</option>
+					<option value="el-GR">Greek</option>
+					<option value="ja-JP">Japanese</option>
+					<option value="ko-KR">Korean</option>
+					<option value="nb-NO">Norwegian</option>
+					<option value="sv-SE">Swedish</option>
+					<option value="th-TH">Thai</option>
+					<option value="tr-TR">Turkish</option>
+					<option value="he-IL">Hebrew</option>
+					<option value="cs-CZ">Czech</option>
+					<option value="hu-HU">Hungarian</option>
+					<option value="sk-SK">Slovak</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>installation/*</exclude>
+		<exclude>installation/*/*</exclude>
+		<exclude>installation/*/*/*</exclude>
+		<exclude>installation/*/*/*/*</exclude>
+		<exclude>installation/*/*/*/*/*</exclude>
+		<exclude>installation/*/*/*/*/*/*</exclude>
+	</files>
+</softinstall>

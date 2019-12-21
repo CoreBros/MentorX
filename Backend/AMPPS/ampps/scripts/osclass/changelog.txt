@@ -1,0 +1,45 @@
+Osclass 3.8.0 2018-07-25
+------------------------
+
+- Fixed several vulnerabilities found by Zekvan Arslan ( https://www.netsparker.com )
+- Support for MariaDB (mysql community) for Categories
+- Hooks at category insert & edit ('edited_category', 'add_category')
+- Filter at search page ('search_pattern')
+- mb_strlen missing at installation has been fixed
+- meta_title() fixed missing page (recover & forgot)
+- fixed issue with filter 'pre_item_add_error' 
+- Updated HTML Purifier to 4.10.0
+- Updated PHPMailer to 5.2-stable
+- Fixed DateInterval custom field issues
+- Invalid email address verification on resend password request has been fixed
+- Multiple minor fixes and improvements
+
+Osclass 3.7.4 2017-07-24
+------------------------
+
+- Improved admin security
+- Minor fixes and improvements
+
+Osclass 3.7.3 2017-04-26
+------------------------
+
+- Improved compatibility with MariaDB
+- Using openssl functions instead of mcrypt (if available)
+- Improved Imagick usage, falling back to GD when not available. Can now be disabled on admin panel too.
+- Fixed duplication of indexes on upgrade
+- Search alerts correctly being sent to unregistered users
+- Fixed issue with session's id being invalid
+- Multiple minor fixes and improvements
+
+Osclass 3.7.2 2017-01-03
+------------------------
+
+- Fixed PHPMailer's CVE-2016-10033
+
+Osclass 3.7.1 2016-12-27
+------------------------
+
+- Fixed URL params error
+- Blocked upgrade on demo sites
+- Fixed some minor details
+

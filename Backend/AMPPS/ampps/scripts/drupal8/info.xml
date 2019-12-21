@@ -1,0 +1,71 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Drupal
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Drupal
+	</ratings>
+	<space>
+		74380120
+	</space>
+	<support>
+		http://www.drupal.org
+	</support>
+	<version>
+		8.8.0
+	</version>
+	<mod>73</mod>
+	<release_date>04-12-2019</release_date>
+	<admin>user/login</admin>
+	<branch>543</branch>
+	<branch>30</branch>
+	<branch>12</branch>
+	<min_require>8.0.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="7.0.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.5.3" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="date" />
+	<requirement check="php" type="extension" name="dom" />
+	<requirement check="php" type="extension" name="filter" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="hash" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="pcre" />
+	<requirement check="php" type="extension" name="PDO" />
+	<requirement check="php" type="extension" name="session" />
+	<requirement check="php" type="extension" name="SimpleXML" />
+	<requirement check="php" type="extension" name="SPL" />
+	<requirement check="php" type="extension" name="tokenizer" />
+	<requirement check="php" type="extension" name="xml" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Drupal</font> is an open-source platform and content management system for building dynamic web sites offering a broad range of features and services including user administration, publishing workflow, discussion capabilities, news aggregation, metadata functionalities using controlled vocabularies and XML publishing for content sharing purposes. 
+		<br /><br />
+		Equipped with a powerful blend of features and configurability, Drupal can support a diverse range of web projects ranging from personal weblogs to large community-driven sites.
+		<br /><br />
+		Drupal is free, open, and available to anyone under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+		<font color="#0678BE" size="3">Simplicity for editors</font><br />
+		Turn great ideas into great experiences. Leave your desktop behind and create compelling content on more modern devices than ever. Work efficiently with better previews and drag-and-drop image uploads. And when you need to make quick changes, choose in-context editing and use only the tools you need.
+		<br /><br />
+		<font color="#0678BE" size="3">Power for administrators</font><br />
+		It's easier to customize components—views, lists, blocks, admin tools, and more—than ever before. Control how data is displayed without using a single line of code. Structure content with more field types, and add SEO-friendly meaning with native Schema.org markup. Make creating and managing content a great experience too.<br /><br />
+		<font color="#0678BE" size="3">Accessibility for everyone</font><br />
+		Drupal 8 ships with extensive support for accessibility standards, and not only for color contrast and font sizes. Semantic HTML5 helps you create interactions—even ones with dynamic content—that are more usable. Plus, Drupal now adopts more WAI-ARIA practices. You can make content structures easier to understand for people with disabilities.
+		<br /><br />
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

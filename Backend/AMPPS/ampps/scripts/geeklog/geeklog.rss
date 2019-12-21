@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>[[site_name]]</title>
+<link>[[softurl]]</link>
+<description>[[site_desc]]</description>
+<managingEditor>[[admin_email]] ([[site_name]])</managingEditor>
+<webMaster>[[admin_email]] ([[site_name]])</webMaster>
+<copyright>Copyright 2018 [[site_name]]</copyright>
+<generator>Geeklog</generator>
+<pubDate>[[pubDate]]</pubDate>
+<language>en-gb</language>
+ <atom:link href="[[softurl]]/backend/geeklog.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Welcome to Geeklog!</title>
+<link>[[softurl]]/article.php?story=welcome</link>
+<guid isPermaLink="true">[[softurl]]/article.php?story=welcome</guid>
+<pubDate>[[pubDate]]</pubDate>
+<comments>[[softurl]]/article.php?story=welcome#comments</comments>
+<description>&lt;p&gt;Welcome and let me be the first to congratulate you on installing Geeklog. Please take the time to read everything in the &lt;a href=&quot;docs/english/index.html&quot;&gt;docs directory&lt;/a&gt;. Geeklog now has enhanced, user-based security.  You should thoroughly understand how these work before you run a production Geeklog Site.&lt;/p&gt;
+&lt;p&gt;To log into your new Geeklog site, please use this account:&lt;/p&gt;
+&lt;p&gt;Username: &lt;b&gt;Admin&lt;/b&gt;&lt;br /&gt;
+Password: &lt;b&gt;password&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;And don&#039;t forget to &lt;a href=&quot;usersettings.php&quot;&gt;change your password&lt;/a&gt; after logging in!&lt;/b&gt;&lt;/p&gt;
+</description>
+<trackback:ping>[[softurl]]/trackback.php?id=welcome</trackback:ping>
+</item>
+</channel>
+</rss>

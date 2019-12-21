@@ -1,0 +1,18 @@
+1) Select Database for saving session storage while installation on manual
+2) Select Timezone America/NewYork
+3) Just check that "USING BTREE" should be on the left i.e. not at the end
+4) Always check the file permissions
+5) take mysqldump from command line
+6) Following three files are deleted in upgrade.php becuase SUPEE-8788 patch is applied since v1.9.3.0 package by magento. However the below mentioned guide says that these three files are not deleted and need to be deleted.
+
+/skin/adminhtml/default/default/media/flex.swf, uploader.swf, uploaderSingle.swf
+
+Guide is mentioned here :
+http://devdocs.magento.com/guides/m1x/ce19-ee114/ce1.9_release-notes.html#ce19-1930
+https://support.hypernode.com/knowledgebase/magento-patch-supee-8788-release-1-9-3/
+
+The installation can be checked if the patch was applied successfully here :
+https://www.magereport.com
+
+(This issue was reported by a user via ticket who found this vulnerability at http://magereport.com)
+7) PHP REQUIREMENT LINK: http://docs.magento.com/m1/ce/user_guide/magento/system-requirements.html

@@ -1,0 +1,116 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/WebCalendar
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/calendars/WebCalendar
+	</ratings>
+	<space>
+		5605833
+	</space>
+	<support>
+		http://www.k5n.us/webcalendar.php
+	</support>
+	<version>
+		1.3.0
+	</version>
+	<mod>14</mod>
+	<release_date>16-03-2019</release_date>
+	<admin>admin.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="7.0.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">WebCalendar</font> is a PHP-based calendar application that can be configured as a single-user calendar, a multi-user calendar for groups of users, or as an event calendar viewable by visitors.<br /><br />
+
+WebCalendar can be setup in a variety of ways, such as...<br />
+
+    * A schedule management system for a single person<br />
+    * A schedule management system for a group of people, allowing one or more assistants to manage the calendar of another user<br />
+    * An events schedule that anyone can view, allowing visitors to submit new events<br />
+    * A calendar server that can be viewed with iCalendar-compliant calendar applications like Mozilla Sunbird, Apple iCal or GNOME Evolution or RSS-enabled applications like Firefox, Thunderbird, RSSOwl, FeedDemon, or BlogExpress.<br />
+		<br /><br />
+		Web Calendar is released under the <a href="http://www.gnu.org/licenses/gpl.html">GNU/GPL</a> terms.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>XHTML/CSS compliance </li>
+<li>Multi-user support </li>
+<li>30 supported languages:
+Basque,
+Bulgarian,
+Chinese-Big5,
+Chinese-GB2312,
+Czech,
+Danish,
+Dutch,
+English-US,
+Estonian,
+Finnish,
+French,
+Galician,
+German,
+Greek,
+Holo-Big5,
+Hungarian,
+Icelandic,
+Italian,
+Japanese,
+Korean,
+Norwegian,
+Polish,
+Portuguese_BR,
+Portuguese,
+Romanian,
+Russian,
+Spanish,
+Swedish,
+Turkish,
+Welsh </li>
+
+<li>Auto-detect user's language preference from browser settings </li>
+<li>View calendars by day, week, month or year </li>
+<li>View another user's calendar </li>
+<li>View one or more users' calendar via layers on top of your own calendar </li>
+
+<li>Add/Edit/Delete users </li>
+<li>Add/Edit/Delete events </li>
+<li>Repeating events including support for overriding or deleting (exceptions) </li>
+<li>Configurable custom event fields </li>
+<li>User-configurable preferences for colors, 12/24 time format, Sun/Mon week start </li>
+<li>Online help </li>
+<li>Checks for scheduling conflicts </li>
+<li>Email reminders for upcoming events </li>
+<li>Email notifications for new/updated/deleted events </li>
+
+<li>Export events to iCalendar, vCalendar or Palm </li>
+<li>Import from iCalendar, vCalendar or Palm </li>
+<li>Optional general access (no login required) to allow
+  calendar to be viewed by people without a login (useful
+  for event calendars) </li>
+<li>Users can make their calendar available publicly to anyone
+  with an iCalendar-compliant calendar program (such as
+  Apple's iCal, Mozilla Calendar or Sunbird)
+  </li>
+<li>Publishing of free/busy schedules (part of the iCalendar standard)
+   </li>
+<li>RSS support that puts a user's calendar into RSS
+    (WebCalendar 1.1+)
+</li><li>Subscribe to "remote" calendars (hosted elsewhere on the net)
+    in either iCalendar or hCalendar formats
+    (WebCalendar 1.1+)
+    </li>
+<li>User authentication: Web-based, HTTP, LDAP or NIS </li>
+
+</ul>
+		</english-features>		
+	</languages>
+</soft>

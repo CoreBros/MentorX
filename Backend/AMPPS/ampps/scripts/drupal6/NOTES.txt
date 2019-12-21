@@ -1,0 +1,6 @@
+1) Disable Clean URL while installing
+2) Default Timezone should be ZERO
+3) Delete all watchdog INSERTS And also change its AUTO INCREMENT =1 ;
+4) We check the latest Drupal 6 version in Drupal 7 upgrade.php so when there is an update in Drupal 6 change the version in the __requirements() in Drupal 7 and in the info.xml of Drupal 7 <min_require> tag.
+5) Dont change 'datestamp' to timestamp in DB. It is the launch date
+6) We do not copy .htaccess from /sites/default/files/.htaccess because Drupal creates it

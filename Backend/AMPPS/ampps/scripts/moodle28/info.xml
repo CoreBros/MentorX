@@ -1,0 +1,64 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Moodle_3.5
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/educational/Moodle_3.5
+	</ratings>
+	<space>
+		175114930
+	</space>
+	<support>
+		http://moodle.org/
+	</support>
+	<version>
+		3.5.9
+	</version>
+	<mod>18</mod>
+	<release_date>11-11-2019</release_date>
+	<admin>admin</admin>
+	<min_require>3.1.0</min_require>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="7.0.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.5.31" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<requirement check="php" type="extension" name="iconv" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="openssl" />
+	<requirement check="php" type="extension" name="ctype" />
+	<requirement check="php" type="extension" name="zip" />
+	<requirement check="php" type="extension" name="zlib" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="SimpleXML" />
+	<requirement check="php" type="extension" name="SPL" />
+	<requirement check="php" type="extension" name="pcre" />
+	<requirement check="php" type="extension" name="dom" />
+	<requirement check="php" type="extension" name="xml" />
+	<requirement check="php" type="extension" name="xmlreader" />
+	<requirement check="php" type="extension" name="intl" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="hash" />
+	<requirement check="php" type="extension" name="fileinfo" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Moodle</font> is a Course Management System (CMS), also known as a Learning Management System (LMS) or a Virtual Learning Environment (VLE). It is a Free web application that educators can use to create effective online learning sites.
+		<br /><br />
+		Moodle is released under the <a href="http://docs.moodle.org/en/License" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+The word Moodle was originally an acronym for Modular Object-Oriented Dynamic Learning Environment, which is mostly useful to programmers and education theorists. It's also a verb that describes the process of lazily meandering through something, doing things as it occurs to you to do them, an enjoyable tinkering that often leads to insight and creativity. As such it applies both to the way Moodle was developed, and to the way a student or teacher might approach studying or teaching an online course. Anyone who uses Moodle is a Moodler. 
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-no_pass_encrypt>Could not encrypt admin password because the domain is not pointing to the correct server</english-no_pass_encrypt>
+	</languages>
+</soft>

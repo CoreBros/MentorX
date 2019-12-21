@@ -1,0 +1,62 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" width="250" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Vision_Helpdesk
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/customersupport/Vision_Helpdesk
+	</ratings>
+	<space>
+		62345002
+	</space>
+	<support>
+		http://support.visionhelpdesk.com/
+	</support>
+	<version>
+		5.5.2
+	</version>
+	<mod>43</mod>
+	<release_date>08-08-2019</release_date>
+	<admin>manage/</admin>
+	<min_require>4.0.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="7.1.0" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="ionCube Loader" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Vision Helpdesk</font> offers customer service solutions for every size business, It offers three customer support solutions
+		<br /><br /><b>1. Help Desk Software :</b> Multi channel customer support ticketing help desk that allows you to manage various channels like E-MAIL, WEB-FORMS, TWITTER, FACEBOOK, CHATS, CALLS everything under single roof.
+		<br /><br /><b>2. Satellite / Multi Company Help Desk :</b> Manage your multiple brands or different companies customer support at centralized place, Setup different customer portal for each brand. Manage staff in different timezones and offer global customer support. 
+		<br /><br /><b>3. IT Service Desk :</b> Service Desk software is enterprise level IT Help Desk that includes features from Help Desk and Satellite Help Desk additionally it offers ITIL / ITSM Modules - Incident, Problem, Change, Release, Contract, Financial Management, Service and Product Catalog, Vendor Management and more..
+		<br /><br />
+		You will need a Valid License key to install and run Vision Helpdesk.
+		<br /><br />
+		Vision Helpdesk is licensed under their <a href="https://www.visionhelpdesk.com/terms-and-conditions" target="_blank">Software License Agreement</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#6F8128"><b>Online Issue Tracker</b></font><br />
+Track issues online, Ticket creation using web interface and Email Parsing. Fetch emails using email piping, POP3, IMAP, POP3 SSL, IMAP SSL. Advance features like Two Way Email Parsing | Catch All Rules | Pre and Post Email parsing | manage Break-Lines<br /><br />
+<font size="2" color="#6F8128"><b>Ticket Billing</b></font><br />
+Prepaid and Postpaid Billing | Manage Credit | Create Invoice | Taxation | Bill Tickets Per Minute | Per Hour| Per Ticket | Per Post, Track Bill Time, Multi-Currency | Automation and much more..<br /><br />
+<font size="2" color="#6F8128"><b>Blabby - Staff Collaboration </b></font><br />
+Private Social Hub for your staff members to communicate, share knowledge | files | presentations | collaborate on ticket issues.<br /><br />
+<font size="2" color="#6F8128"><b>Task Management</b></font><br />
+simplified way to create, track and assign project tasks to multiple staff agents and link them to incidents.<br /><br />
+<font size="2" color="#6F8128"><b>Help Desk Gamification</b></font><br />
+Gamify your help desk platform by setting up agent achievement levels and quests<br /><br />
+<font size="2" color="#6F8128"><b>Knowledge-base Management</b></font><br />
+Predefined Replies for Staff, Manage Knowledgebase for Clients and Staff, Create Forums, Question and Answer, Bug Submission, Feature Requests, Manage Downloads and more..<br /><br />
+<font size="2" color="#6F8128"><b>Help Desk Automation</b></font><br />
+Work Flow | SLA and Escalations — Automate your tickets work using rule based criteria and decide what action system should take on matching specific criteria conditions. Setup SLA's and offer timely response to tickets.
+		</english-features>
+		<english-exp_license>You can get free trial license <a href="http://www.visionhelpdesk.com/free-trial" target="_blank">here.</a></english-exp_license>
+	</languages>
+</soft>

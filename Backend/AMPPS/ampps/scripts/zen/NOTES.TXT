@@ -1,0 +1,18 @@
+1) MODIFY the zp-core/index.php and recopy the original for the installSignature(); and change the Offset from 0 to 2 in the same file.
+2) In the DB zenphoto_install should be '' (blank) as the first change here makes the Signature
+3) If you are unable to login after Upgrade place the following code in zp-core/setup/setup-option-defaults.php near line 36
+
+	add '$oldhash = getOption('extra_auth_hash_text');'
+		and edit 'setOptionDefault('extra_auth_hash_text', NULL);'
+	to 'setOptionDefault('extra_auth_hash_text', (empty($oldhash) ? NULL : $oldhash));'
+
+4) In sql file Gallery Title and Description are serialized so the serialization is done in our install.php
+5) Copy the favicon.ico, robots.txt and /zp-data/.htaccess from the manual and configure them
+6) In zenphoto.cfg keep ($conf['CHMOD'] = 0755;) not 775 not 0777 (If it is there)
+7) In sql for every install it keep zenphoto_captcha_key same so NO need to change
+8) Choose MySQLi as database engine in manual installation.
+9) Always check for languages.
+10) We rename /themes/default folder(if exists) during upgrade because after upgrading to 1.4.6 we get deprecated error message on end user page.
+11) We configure "zenphoto.cfg.bak.php" because installation creates it.
+12) PHP REQUIREMENT LINK : https://www.zenphoto.org/news/installation-and-upgrading/#--requirements ( While installation they have mentioned that it requires minimum PHP 5.6)
+13) We don't support languages that are outdated.(Check this in every update in admin panel under 'Options->General' and add support only for languages that are checked by default)

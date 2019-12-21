@@ -1,0 +1,24 @@
+1) Install twice i.e with and without sampledata and give the name of sql file accordingly.
+2) Copy the whole application/files folder from manual installed with sampledata and then make data.zip (DONT FORGET TO EMPTY the contents of cache folder)
+3) Add following line for language in concrete.php (Not required since 8.3.0 as they can now be downloaded during installation or through the dashboard from the site as required by the user confirmed with vendor)
+	"locale" => "[[language]]", and 
+    "i18n" => array(
+        "choose_language_login" => null
+    )
+4) Include /application/config/doctrine/ from manual with sample data to the zip (Make sure that there is proxies folder and php files inside it)
+5) If user forgets to login before upgrade then Login can be disabled by adding following code in concrete.php ( This is only for our knowledge)
+
+return array(
+    'updates' => array(
+        'enable_permissions_protection' => false
+    )
+);
+6) Table 'ExpressForm170ExpressSearchIndexAttributes' is not getting generated after upgrading from 5.7.5.11. (Confirmed with Vendor)
+7) Changes in Constraints of "ExpressEntities" table were not reflected post upgrade from 8.0.3 to 8.1.0. Do check this in next version. (Confirmed by vendor)
+8) PHP REQUIREMENT LINK: https://documentation.concrete5.org/developers/installation/system-requirements
+9) We have applied upgrade fix given by vendor in this release i.e 8.4.1 as we were getting error on testing cross upgrade from 5.7.x.x to 8.4.1. Vendor shall update the same patch in next release. https://github.com/concrete5/concrete5/commit/0379b0cb3f32b798cd62599589d51afe426052ba
+10) We are excluding all files and folders in upgrade because only the concrete folder needs to be updated.
+Also we have confirmed this with vendor via email and they said we need to delete concrete folder first, then unzip the updated folder. Please check if any new folders/files are added in future version in root folder then we will have to add it to exclude. Since (8.4.1).
+11) "mcrypt" php extension removed from requirements as is does not work in php 7.2.
+12) Ignore the Mysql upgrade warning in manual installation. Confirmed with vendor.
+13) we have disabled upgrade from 5.7.x.x because it is giving error. We have emailed this issue to the vendor. (Enabled from 8.5.2)

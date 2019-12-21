@@ -1,0 +1,63 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PHP-Fusion
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/PHP-Fusion
+	</ratings>
+	<space>
+		30562142
+	</space>
+	<support>
+		http://www.php-fusion.co.uk
+	</support>
+	<version>
+		9.03.00
+	</version>
+	<mod>9</mod>
+	<release_date>14-02-2019</release_date>
+	<admin>home.php</admin>
+	<min_require>7.02.07</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.6.39" />
+	<requirement check="php" type="function_exists" name="mb_get_info" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PHP-Fusion</font> is a light-weight open-source content management system (CMS) written in PHP 5. It utilises a MySQL database to store your site content and includes a simple, comprehensive administration system. PHP-Fusion includes the most common features you would expect to see in many other CMS packages.
+		<br /><br />
+		PHP-Fusion is free, open, and available to anyone under the <a href="http://www.gnu.org/licenses/agpl-3.0.html">GNU Affero GPL </a>v3 License.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>Data Management </li>
+<li>User Preferences</li>
+<li>Member Management</li>
+<li>Flood Control</li>
+<li>Admin Management</li>
+<li>User Management</li>
+<li>Customizations</li>
+<li>Aritcles/News</li>
+<li>Forum Management</li>
+<li>Photo Gallery</li>
+<li>Themes</li>
+<li>Infusions</li>
+<li>3rd party components</li>
+<li>Output Handling</li>
+<li>IPv6 Support:</li>
+</ul>
+		</english-features>
+		<english-user_pass>User Password</english-user_pass>
+		<english-err_samepwd>User Password and Admin Password must be different</english-err_samepwd>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

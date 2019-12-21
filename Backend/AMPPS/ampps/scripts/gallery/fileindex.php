@@ -1,0 +1,14 @@
+.htaccess
+LICENSE
+README
+application
+bin
+index.php
+installer
+lib
+modules
+php.ini
+robots.txt
+system
+themes
+var

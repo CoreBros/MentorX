@@ -1,0 +1,2 @@
+1. Change the value of config_error_display to "0" in ocart.sql
+2. There is a bug in upgrade from 1.5.4.1 to 1.5.5.1. For next version hence we have added that upgrade is not possible from version less than 1.5.5.1.

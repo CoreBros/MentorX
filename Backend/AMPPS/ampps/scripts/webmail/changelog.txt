@@ -1,0 +1,45 @@
+[8.3.14]
+[*] BUG - Remote Stored XSS in attachment’s name
+[*] BUG - Sometimes Reply All adds sender in CC field
+[*] BUG - Attachments are not attached on compose
+
+[8.3.10]
+[*] Various bugfixes
+[+] User activity logs: password change
+[*] Closed CVE-2019-16238 vulnerability
+
+[8.3.9]
+[+] Password changes are recorded in user activity log
+[*] Autocreating accounts fixed for mail login form
+[*] LDAP password change plugin updated
+[*] Various bugfixes
+
+[8.3.8]
+[+] Implemented HTTP Digest Authentication on DAV-server
+[*] Various bugfixes
+
+[8.3.7]
+[+] Methods of handling contacts and groups rewritten and improved
+[+] OnlyUserEmailsInIdentities setting that allows only user emails in identities
+[+] AlwaysTryUseImageWhilePasting setting is added
+[*] Web API of Core module for admin panel entities management improved
+[*] Various bugfixes
+
+[8.3.6]
+[*] Message parsing performance is improved (PHP)
+[*] Prefetch for messages is improved
+[*] Reducing the amount of memory leaks in JS
+[+] Security header for all cookies
+[+] Delete all users that belong to the mail server to be deleted.
+[+] SieveCheckScript setting is added
+[*] Minor bugfixes
+
+[8.3.5]
+[+] Authorization header adjustments in .htaccess file
+[*] Minor bugfixes
+
+[8.3.4]
+[*] Various bugfixes
+[*] Minor keyboard shortcuts improvements
+[*] IE bugfixes
+

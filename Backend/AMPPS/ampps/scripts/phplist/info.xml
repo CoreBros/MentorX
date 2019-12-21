@@ -1,0 +1,51 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpList
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/mail/phpList
+	</ratings>
+	<space>
+		79566801
+	</space>
+	<support>
+		http://www.phplist.com/
+	</support>
+	<version>
+		3.4.9
+	</version>
+	<mod>59</mod>
+	<release_date>11-12-2019</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpList</font> is an open-source newsletter manager. phplist is free to download, install and use, and is easy to integrate with any website. phplist is downloaded more than 10 000 times per month.
+		<br /><br />
+		phpList is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul> 
+<li>double opt-in subscription mechanism</li>
+<li>scheduling</li>
+<li>RSS</li>
+<li>list segmentation</li>
+<li>click-tracking</li>
+<li>attachments</li>
+<li>bounce management </li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

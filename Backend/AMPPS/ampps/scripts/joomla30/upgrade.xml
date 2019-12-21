@@ -1,0 +1,21 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>administrator/index.php?option=com_installer&amp;view=database</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<auto_upgrade>1</auto_upgrade>
+	<files>
+		<exclude>INSTALL.php</exclude>
+		<exclude>installation/*</exclude>
+		<exclude>installation/*/*</exclude>
+		<exclude>installation/*/*/*</exclude>
+		<exclude>installation/*/*/*/*</exclude>
+		<exclude>installation/*/*/*/*/*</exclude>
+		<exclude>installation/*/*/*/*/*/*</exclude>
+	</files>
+	<notes>Please login to the above URL and click on the <b>Fix</b> Button to Upgrade the Database.</notes>
+</softupgrade>

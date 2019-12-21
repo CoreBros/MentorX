@@ -1,0 +1,6 @@
+1) while installtion choose Advanced Settings for dbprefix (Select advance settings to enter dbprefix in database settings page while manual installation)
+2) Choose Table type InnoDB on database settings page under advanced settings
+3) Select MySQLi in manual installation. 
+4) Select Timezone America/NewYork
+5) Add '/plugins', '/www/admin/plugins', '/var/plugins' folder of manual install in zip package
+6) PHP REQUIREMENT LINK: https://www.revive-adserver.com/support/requirements/

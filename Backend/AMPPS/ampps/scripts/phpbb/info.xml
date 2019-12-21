@@ -1,0 +1,67 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="phpbb_logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpBB
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/forums/phpBB
+	</ratings>
+	<space>
+		24385183
+	</space>
+	<support>
+		http://www.phpbb.com/
+	</support>
+	<version>
+		3.2.8
+	</version>
+	<mod>39</mod>
+	<release_date>20-09-2019</release_date>
+	<admin>index.php</admin>
+	<min_require>3.0.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="php" type="function_exists" name="getimagesize" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="json" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpBB</font> is used by millions of people on a daily basis, making it the most widely used opensource bulletin board system in the world. Whether you want to stay in touch with a small group of friends or are looking to set up a large multi-category board for a corporate website, phpBB has the features you need built in.
+		<br /><br />
+Newer users will appreciate phpBB's extensive administration panel, which allows the customization of even the most intricate features without having to edit code directly, while advanced users will value the ease with which phpBB can be integrated into existing systems.
+		<br /><br />
+		phpBB is released under the <a href="http://www.phpbb.com/downloads/license/" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+Some of phpBB3's major features include:
+<ul>
+<li>Modular design for the Admin Control Panel, Moderator Control Panel, and User Control Panel</li>
+<li>Support for multiple database management systems, including MySQL, Microsoft SQL Server, Oracle, PostgreSQL, SQLite, Firebird, OpenLink Virtuoso, and other ODBC-accessible DBMS</li>
+<li>Support for unlimited levels of subforums</li>
+<li>Ability to create custom-defined BBCode</li>
+<li>Ability to create custom profile fields</li>
+<li>Permissions system</li>
+<li>UTF-8 Support</li>
+<li>User Preferences</li>
+<li>Moderation</li>
+<li>Administration</li>
+<li>Search Engine spider Handling</li>
+<li>Unread message tracking</li>
+<li>Private Message System</li>
+<li>Statistics</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-err_no_dbprefix>Could not determine the database prefix</english-err_no_dbprefix>
+	</languages>
+</soft>

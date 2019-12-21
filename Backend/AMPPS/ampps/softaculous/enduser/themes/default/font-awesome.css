@@ -1,0 +1,274 @@
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+	font-family: 'soft';
+	src:url('fonts/soft.eot?mje4hl');
+	src:url('fonts/soft.eot?#iefixmje4hl') format('embedded-opentype'),
+		url('fonts/soft.woff?mje4hl') format('woff'),
+		url('fonts/soft.ttf?mje4hl') format('truetype'),
+		url('fonts/soft.svg?mje4hl#soft') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="sai-"], [class*=" sai-"] {
+	font-family: 'soft';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 soft;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-lg {
+  font-size: 1.333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fa-1x {
+  font-size: 1.5em;
+}
+.fa-2x {
+  font-size: 2em;
+}
+.fa-3x {
+  font-size: 3em;
+}
+.fa-4x {
+  font-size: 4em;
+}
+.fa-5x {
+  font-size: 5em;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.fa-ul > li {
+  position: relative;
+}
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.fa-li.fa-lg {
+  left: -1.85714286em;
+}
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.fa.pull-left {
+  margin-right: .3em;
+}
+.fa.pull-right {
+  margin-left: .3em;
+}
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none;
+}
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.fa-stack-1x,
+.fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.fa-stack-1x {
+  line-height: inherit;
+}
+.fa-stack-2x {
+  font-size: 2em;
+}
+.fa-inverse {
+  color: #ffffff;
+}
+
+.sai-www:before{content: "\e63d";}
+.sai-dbtools:before{content: "\e64f";}
+.sai-mail:before{content: "\e650";}
+.sai-settings:before{content: "\e651";}
+.sai-polls:before{content: "\e652";}
+.sai-customersupport:before{content: "\e600";}
+.sai-dashboard:before{content: "\e601";}
+.sai-databases:before{content: "\e602";}
+.sai-delete:before{content: "\e603";}
+.sai-demo:before{content: "\e604";}
+.sai-disk:before{content: "\e605";}
+.sai-download:before{content: "\e606";}
+.sai-ecommerce:before{content: "\e607";}
+.sai-educational:before{content: "\e608";}
+.sai-emptystar:before{content: "\e609";}
+.sai-erp:before{content: "\e60a";}
+.sai-external:before{content: "\e60b";}
+.sai-file:before{content: "\e60c";}
+.sai-files:before{content: "\e60d";}
+.sai-film:before{content: "\e60e";}
+.sai-firstpage:before{content: "\e60f";}
+.sai-folder:before{content: "\e610";}
+.sai-forums:before{content: "\e611";}
+.sai-frameworks:before{content: "\e612";}
+.sai-fullstar:before{content: "\e613";}
+.sai-galleries:before{content: "\e614";}
+.sai-games:before{content: "\e615";}
+.sai-graph:before{content: "\e616";}
+.sai-gridview:before{content: "\e617";}
+.sai-guestbooks:before{content: "\e618";}
+.sai-halfstar:before{content: "\e619";}
+.sai-home:before{content: "\e61a";}
+.sai-info:before{content: "\e61b";}
+.sai-installations:before{content: "\e61c";}
+.sai-lastpage:before{content: "\e61d";}
+.sai-leftarrow:before{content: "\e61e";}
+.sai-list:before{content: "\e61f";}
+.sai-logout:before{content: "\e620";}
+.sai-message_queue:before{content: "\e621";}
+.sai-menu:before{content: "\e622";}
+.sai-microblogs:before{content: "\e623";}
+.sai-music:before{content: "\e624";}
+.sai-others:before{content: "\e625";}
+.sai-pen:before{content: "\e626";}
+.sai-pfx_icon:before{content: "\e627";}
+.sai-statistics:before{content: "\e628";}
+.sai-print:before{content: "\e629";}
+.sai-process:before{content: "\e62a";}
+.sai-projectman:before{content: "\e62b";}
+.sai-question:before{content: "\e62c";}
+.sai-remove:before{content: "\e62d";}
+.sai-restore:before{content: "\e62e";}
+.sai-rightarrow:before{content: "\e62f";}
+.sai-rss:before{content: "\e630";}
+.sai-search:before{content: "\e631";}
+.sai-settinground:before{content: "\e632";}
+.sai-utilities:before{content: "\e633";}
+.sai-shuffle:before{content: "\e634";}
+.sai-socialnetworking:before{content: "\e635";}
+.sai-success:before{content: "\e636";}
+.sai-sync:before{content: "\e637";}
+.sai-twitch:before{content: "\e638";}
+.sai-upload:before{content: "\e639";}
+.sai-video:before{content: "\e63a";}
+.sai-warning:before{content: "\e63b";}
+.sai-wikis:before{content: "\e63c";}
+.sai-admanager:before{content: "\e63e";}
+.sai-apps:before{content: "\e63f";}
+.sai-java_containers:before{content: "\e640";}
+.sai-java_tools:before{content: "\e641";}
+.sai-modules:before{content: "\e642";}
+.sai-server_side_scripting:before{content: "\e643";}
+.sai-stacks:before{content: "\e644";}
+.sai-version_control:before{content: "\e645";}
+.sai-backup:before{content: "\e646";}
+.sai-bell:before{content: "\e647";}
+.sai-blogs:before{content: "\e648";}
+.sai-calendars:before{content: "\e649";}
+.sai-cms:before{content: "\e64a";}
+.sai-comment:before{content: "\e64b";}
+.sai-control_panel:before{content: "\e64c";}
+.sai-copy:before{content: "\e64d";}
+.sai-security:before{content: "\e653";}
+.sai-web_servers:before{content: "\e64e";}
+.sai-widgets:before{content: "\e612";}
+.sai-libraries:before{content: "\e618";}
+.sai-list-add:before{content: "\e901";}
+.sai-view-show:before{content: "\e902";}
+.sai-plus:before{content: "\ea0a";}
+.sai-chart-pie:before{content: "\e900";}
+.sai-newspaper:before{content: "\e904";}
+.sai-stack:before{content: "\e92e";}
+.sai-download-new:before{content: "\e960";}
+.sai-cogs:before{content: "\e995";}

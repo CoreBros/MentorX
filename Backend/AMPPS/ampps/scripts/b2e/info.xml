@@ -1,0 +1,62 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="b2evolution8.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/b2evolution
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/blogs/b2evolution
+	</ratings>
+	<space>
+		55377270
+	</space>
+	<support>
+		http://www.b2evolution.net
+	</support>
+	<version>
+		6.11.4
+	</version>
+	<mod>68</mod>
+	<release_date>28-11-2019</release_date>
+	<admin>admin.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.6.0" />
+	<requirement check="php" type="extension" name="xml" />
+	<requirement check="php" type="extension" name="gd" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">b2evolution</font> is an advanced weblog tool, i-e software allowing you to run your own blogs, newsfeeds or even photo stream. 
+		<br /><br />
+		b2evolution is a medium scale CMS centered around the Blog concept, fully featured with multiple blogs, content/presentation separation, full user management, full internationalization (i18n), workflow management... and extending towards features normally provided by Wikis, Trackers or hierarchy driven CMSes.
+		<br /><br />
+		b2evolution is free, open, and available to anyone under the <a href="http://b2evolution.net/about/license.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+		b2evolution includes all the features of traditional blog tools, and extends them with evolved features such as file and photo management, advanced skinning, multiple blogs support as well as detailed user permissions...
+		<ul>
+<li>AntiSpam Deluxe</li>
+<li>Multiple blogs</li>
+<li>Blog skins</li>
+<li>Multiple users and authors</li>
+<li>Integrated stats</li>
+<li>Plugin framework</li>
+<li>Advanced categorization</li>
+<li>Localized in several languages</li>
+<li>Web standards compliance</li>
+<li>True workflow</li>
+<li>Easy install and upgrade</li>
+<li>Threaded comments</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-err_no_dbprefix>Could not determine the database prefix</english-err_no_dbprefix>
+	</languages>
+</soft>

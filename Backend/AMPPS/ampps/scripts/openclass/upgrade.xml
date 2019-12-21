@@ -1,0 +1,27 @@
+<softupgrade xmlns="http://www.softaculous.com">
+<setuplocation>oc-panel/update/database?from_version=2.0.3</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>oc/config/database.php</exclude>
+		<exclude>oc/config/auth.php</exclude>
+		<exclude>.htaccess</exclude>
+		<exclude>robots.txt</exclude>
+		<exclude>install.lock</exclude>
+		<exclude>install/*</exclude>
+		<exclude>install/*/*</exclude>
+		<exclude>install/*/*/*</exclude>
+		<exclude>install/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*</exclude>
+		<exclude>images/*</exclude>
+		<exclude>images/*/*</exclude>
+		<exclude>images/*/*/*</exclude>
+		<exclude>images/*/*/*/*</exclude>
+	</files>
+</softupgrade>

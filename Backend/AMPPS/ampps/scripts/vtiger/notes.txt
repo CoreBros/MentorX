@@ -1,0 +1,32 @@
+1. Choose "Other" in "Please let us know your Industry" while installing manually.
+
+** Give recursive writable permissions to all folders which are needed to be moved from manual to zip during manual installation.
+
+2. in cache compare and move following folders from manual to zip
+manifest.xml
+Project.zip
+ProjectMilestone.zip
+ProjectTask.zip
+
+3. in cron/modules compare and move following folders from manual to zip
+PBXManager
+VtigerBackup
+Import
+
+4. Move /languages, /layouts, /modules folders from manual to zip
+
+5. Copy and replace Smarty/templates/modules from manual to zip (Not Reqd since 7.0.0)
+
+6. Copy and replace tabdata.php and parent_tabdata.php from manual to zip
+
+7. vtlib/ModuleDir copy from manual to zip (Not Reqd since 7.0.0)
+
+8. Copy the extra folders and files from /include and add to zip from manual
+
+9. Download the upgrade patch file and then update the upgrade.php with the appropriate condition to unzip the patch
+
+For reference purpose: realpath() function is added to $__setings['softpath'] in install.php
+
+10. We only offer incremental upgrade (vendor confirmed that It requires step by step patch unzip i.e first from 6.0 to 6.1, then from 6.1 to 6.2 and from 6.2 to 6.3 which we can't offer) so change version in <min_require> and make relevant changes in upgrade.php in every update.
+
+11. PHP REQUIREMENT LINK: http://community.vtiger.com/help/vtigercrm/administrators/installation.html

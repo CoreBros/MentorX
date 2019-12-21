@@ -1,0 +1,76 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" width="250" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Roundcube
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/mail/Roundcube
+	</ratings>
+	<space>
+		27099940
+	</space>
+	<support>
+		http://roundcube.net/
+	</support>
+	<version>
+		1.4.1
+	</version>
+	<mod>48</mod>
+	<release_date>22-11-2019</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.1" />
+	<requirement check="php" type="extension" name="pdo_mysql" />
+	<requirement check="php" type="extension" name="pcre" />
+	<requirement check="php" type="extension" name="dom" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="xml" />
+	<requirement check="php" type="extension" name="session" />
+	<requirement check="php" type="extension" name="sockets" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="openssl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Roundcube</font> - Free webmail for the masses.
+		<br /><br />
+		Roundcube webmail is a browser-based multilingual IMAP client with an application-like user interface. 
+		<br /><br />
+		It provides full functionality you expect from an e-mail client, including MIME support, address book, folder manipulation, message searching and spell checking.
+		<br /><br />
+		Roundcube is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Available in over 70 languages</li>
+<li>Drag-&amp;-drop message management</li>
+<li>Full support for MIME and HTML messages</li>
+<li>Sophisticated privacy protection</li>
+<li>Compose messages with attachments</li>
+<li>Multiple sender identities</li>
+<li>Full featured address book with groups and LDAP connectors</li>
+<li>Find-as-you-type address book integration</li>
+<li>Richtext/HTML message composing</li>
+<li>Forwarding messages with attachments</li>
+<li>Searching messages and contacts</li>
+<li>Threaded message listing</li>
+<li>IDNA support</li>
+<li>Spell checking</li>
+<li>IMAP folder management</li>
+<li>Shared/global IMAP folders</li>
+<li>Support for external SMTP server</li>
+<li>Support for access control lists (ACL)</li>
+<li>Built-in caching for fast mailbox access</li>
+<li>Unlimited users and messages</li>
+<li>Template system for custom skins</li>
+<li>Plug-in API for flexible exensions</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

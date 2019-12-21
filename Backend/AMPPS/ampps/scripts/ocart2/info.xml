@@ -1,0 +1,70 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/OpenCart
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/OpenCart
+	</ratings>
+	<space>
+		44929296
+	</space>
+	<support>
+		http://www.opencart.com
+	</support>
+	<version>
+		3.0.3.2
+	</version>
+	<mod>16</mod>
+	<release_date>09-04-2019</release_date>
+	<admin>admin</admin>
+	<branch>499</branch>
+	<branch>611</branch>
+	<branch>70</branch>
+	<min_require>3.0.0.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="zip" />
+	<requirement check="php" type="extension" name="zlib" />
+	<requirement check="php" type="extension" name="xml" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">OpenCart</font> is an open source PHP-based online shopping cart system. A robust e-commerce solution for Internet merchants with the ability to create their own online business and participate in e-commerce at a minimal cost.
+		<br /><br />
+OpenCart is designed feature rich, easy to use, search engine friendly and with a visually appealing interface.
+		<br /><br />
+		OpenCart is released under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Unlimited Categories</li>
+<li>Open Souce</li>
+<li>Unlimited Products</li>
+<li>Free Documentation</li>
+<li>Unlimited Manufacturers</li>
+<li>Templatable</li>
+<li>Multi Currency</li>
+<li>Automatic Image Resize</li>
+<li>Multi Language</li>
+<li>20+ Payment Gateways</li>
+<li>Product Reviews</li>
+<li>8+ Shipping Methods</li>
+<li>Product Ratings</li>
+</ul> 
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-err_no_dbprefix>Could not determine the database prefix</english-err_no_dbprefix>
+	</languages>
+</soft>

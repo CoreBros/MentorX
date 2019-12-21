@@ -1,0 +1,114 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Zenphoto
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/galleries/Zenphoto
+	</ratings>
+	<space>
+		41656827
+	</space>
+	<support>
+		http://www.zenphoto.org/
+	</support>
+	<version>
+		1.5.6
+	</version>
+	<mod>62</mod>
+	<release_date>09-11-2019</release_date>
+	<admin>zp-core/admin.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.6.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Zenphoto</font> is a CMS for selfhosted, gallery focused websites. Our focus lies on being easy to use and having all the features there when you need them. Zenphoto features support for various media formats and integrated blog and custom pages. Zenphoto is the ideal CMS for personal websites of illustrators, artists, designers, photographers, film makers and musicians.
+		<br /><br />
+	 Zenphoto features support for images, video and audio formats, and the Zenpage CMS plugin provides a fully integrated news section (blog) and custom pages to run entire websites.
+		<br /><br />
+		Zenphoto is free, open, and available to anyone under the <a href="https://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GPL v2 or later</a>.
+		</english-overview>		
+		<english-features>
+<h2><font color="#396">Manage image, video and audio files!</font></h2>
+<ul>
+	<li>File system based: Upload files and folders via the administration or directly via FTP</li>
+	<li>Search engine with boolean expressions</li>
+	<li>Dynamic albums based on "saved searches" </li>
+	<li>Multifile upload </li>
+	<li>Scheduled publishing </li>
+	<li>RSS</li>
+	<li>Watermarks</li>
+	<li>Automatically generated sized images</li>
+	<li>EXIF/IPTC metadata support</li>
+	<li>Drag &amp; Drop sorting of albums and images</li>
+	<li>Moving, copying, renaming of albums and images</li>
+	<li>Supported formats:
+		<ul>
+			<li>Images: .jpg, .gif, .png (generally all formats your server's graphics libary supports)</li>
+			<li>Videos: .mp4*, .m4a*, .flv*, .mov**, .3gp**, .ogv****, .webm****</li>
+			<li>Audio: .mp3*, .m4a*, .fla*, .webma****, .oga****</li>
+			<li>Other formats (basic support only): .txt*,.html*, .pdf*, .pps*</li>
+		</ul>
+	</li>
+<li>Slideshow*</li>
+<li>Comments*</li>
+<li>Tags</li>
+<li>Statistics</li>
+<li>Rating</li>
+</ul>
+<h2><font color="#396">Manage blog and pages!</font></h2>	
+<ul>
+	<li>Custom pages management including nested subpages</li>
+	<li>Custom menu's</li>
+	<li>Drag &amp; drop sorting of pages and categories</li>
+	<li>News section (blog) with nested categories</li>
+	<li>Post of new gallery items in the news section (blog)</li>
+	<li>File manager for none gallery files*</li>
+	<li>Scheduled publishing</li>
+	<li>Comments*</li>
+	<li>RSS*</li>
+	<li>Tags</li>
+	<li>Statistics</li>
+	<li>Rating</li>
+</ul>
+<h2><font color="#396">Multi-user management</font></h2>	
+<ul>
+	<li>User managment</li>
+	<li>User groups</li>
+	<li>Per user rights assignment</li>
+	<li>Password protection for albums and pages</li>
+</ul>
+<h2><font color="#396">International sites with multiple languages!</font></h2>	
+<ul>
+	<li>Admin backend translatable (gettext server support required)</li>
+	<li> Many backend translations included (gettext server support required): Chinese, Dutch, French, Galician, German, Hebrew, Japanese, Polish, Spanish, Swedish (See also Current language repository)</li>
+	<li>Multilingual sites with subdomain support for separate language sites (e.g. fr.domain.com, en.domain.com)</li>
+</ul>
+<h2><font color="#396">Create your own website design!</font></h2>	
+<ul>
+	<li>Highly customizable theme engine (HTML5, CSS, PHP)</li>
+	<li>Five standard themes included, more themes available</li>
+	<li>Object model framework for advanced theming and flexibility</li>
+	<li>Multiple layouts/album themes</li>
+	<li>Separate theme translations</li>
+</ul>
+<h2><font color="#396">Extend Zenphoto with features you need!</font></h2>	
+<ul>
+	<li>Sophisticated plugin system</li>
+	<li>Frontend and backend filters</li>
+	<li>Object model framework for advanced coding</li>
+	<li>Many plugins included plus more 3rd party ones available</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>		
+	</languages>
+</soft>

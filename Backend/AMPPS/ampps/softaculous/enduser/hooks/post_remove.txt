@@ -1,0 +1,49 @@
+<?php
+
+/**
+ * This is a HOOK POINT in the Softaculous Remove process.
+ * NOTE : You must rename this file to post_remove.php
+ */
+ 
+//////////////////////////////////////////////////////////////
+//===========================================================
+// post_remove.php
+//===========================================================
+// SOFTACULOUS 
+// Version : 1.1
+// Inspired by the DESIRE to be the BEST OF ALL
+// ----------------------------------------------------------
+// Started by: Alons
+// Date:       10th Jan 2009
+// Time:       21:00 hrs
+// Site:       http://www.softaculous.com/ (SOFTACULOUS)
+// ----------------------------------------------------------
+// Please Read the Terms of use at http://www.softaculous.com
+// ----------------------------------------------------------
+//===========================================================
+// (c)Softaculous Inc.
+//===========================================================
+//////////////////////////////////////////////////////////////
+
+if(!defined('SOFTACULOUS')){
+
+	die('Hacking Attempt');
+
+}
+
+/**
+ * This function will be called whenever an installation is removed.
+ *
+ * @package      hooks 
+ * @author       Pulkit Gupta
+ * @param        array $installation Will contain the details of the installation being removed
+ * @return       bool
+ * @since     	 4.1.5
+ */
+function __post_remove($installation){
+	global $soft, $software, $globals;
+	// Do stuff here e.g. is as follows
+	if($soft == 26){ /* Do things only if its WordPress */	}
+}
+
+?>

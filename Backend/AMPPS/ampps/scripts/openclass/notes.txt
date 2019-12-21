@@ -1,0 +1,11 @@
+1) install the database with sample data.
+2) to generate sitemap.xml visit manual installation once (it is removed from version 2.0)
+3) in manual installation - Delete install.lock file after installation. If not removed then home URL will point to install directory even if the Install directory is removed.
+4) Select Timezone America/New_York while manual installation.
+5) IMPORTANT : Upgrade from 2.0 is allowed. From every upgrade go through upgrade procedure and make changes to upgrade.php if required
+( Added condition in 2.5.1 version i.e in 2.5.1 it requires oc-panel/update/database?from_version=2.5.1 ) For older version from_version should be the version from which we are upgrading ) 
+6) Removed auto upgrade as it require to visit a url for database upgrade. Do check setuplocation for next version upgrade, whether it gets upgraded from 2.0.1 onwards
+7) Change the location of USING BTREE in the sql file (It should be to the left and not to the end of line).
+8) Always provide dbprefix in "Advance Option" in manual installation.
+9) PHP REQUIREMENT LINK: https://docs.yclas.com/requirements-yclas-self-hosted/
+(We have kept php 7.1 as requiement though site shows PHP 7, Since script installer shows requirement to be PHP 7.1, Check in install/class.install.php)

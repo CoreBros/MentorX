@@ -1,0 +1,61 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/AEF
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/forums/AEF
+	</ratings>
+	<space>
+		3790950
+	</space>
+	<support>
+		http://www.anelectron.com
+	</support>
+	<version>
+		1.0.9
+	</version>
+	<mod>9</mod>
+	<mod_files>3</mod_files>
+	<release_date>17-05-2011</release_date>
+	<admin>index.php?act=admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">AEF</font>s full name is Advanced Electron Forum. This bulletin board software is free software. It is written in PHP and MySQL. AEF has a very simple and easy to use Administration Panel and installing this software is a piece of cake! <br /><br />
+		You can install new themes, customize themes the way you want. The User Control Panel has a simple yet beautiful interface where users can set their preferences for the board. 
+		<br /><br />This Bulletin board or forum software has all the general features that a forum software should have. Yet it is so Fast!
+		</english-overview>		
+		<english-features>
+		This Bulletin board or forum software has all the general features that a forum software should have. It also includes features such as :<br />
+- <b>UTF-8 Supported</b><br />
+- <b>Search Engine Optimization</b> Tools<br />
+- <b>IP Ban</b><br />
+- <b>W3C Validated</b><br />
+- <b>News System</b> with articles<br />
+- <b>ShoutBox</b><br />
+- <b>Threaded Mode</b> for topics <br />
+- <b>JS DOCK</b> for easy navigation(A first from AEF)<br />
+- <b>WYSIWYG Editors</b><br />
+- <b>Customizable Themes</b><br />
+- <b>Multiple Languages</b> supported<br />
+- <b>Time Zone Adjustment</b><br />
+- <b>Automatic Updates </b><br />
+- <b>Export Files and Database</b><br />
+- <b>Suggest Framework</b> for usernames while writing PM's <br />
+- <b>Domdrag for reordering Categories, Forums, emoticons</b> (A new feature included for the first time ever in a forum software.)<br />
+- And much more!
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-err_no_dbprefix>Could not determine the database prefix</english-err_no_dbprefix>
+	</languages>
+</soft>

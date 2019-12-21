@@ -1,0 +1,68 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		https://www.opensource-socialnetwork.org/demo
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/socialnetworking/Open_Source_Social_Network
+	</ratings>
+	<space>
+		4457051
+	</space>
+	<support>
+		https://www.opensource-socialnetwork.org/community
+	</support>
+	<version>
+		5.1
+	</version>
+	<mod>20</mod>
+	<mod_files>2</mod_files>
+	<release_date>25-07-2019</release_date>
+	<admin>administrator</admin>
+	<min_require>2.3</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.6.0" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Open Source Social Network</font> also know as OSSN is a social networking software written in PHP. 
+		<br /><br />
+		Open Source Social Network allows you to make a social networking website, helps your members build social relationships with people who share similar professional or personal interests.
+		<br /><br />
+		Open Source Social Network is released under the <a href="http://www.opensource-socialnetwork.org/licence/" target="_blank">GPL ( GNU General Public License ) version 2</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Realtime activity notifications, newsfeed, instant chat</li>
+<li>Photo, Video sharing</li>
+<li>Blogs, forums, wiki</li>
+<li>Groups, events, friends</li>
+<li>Comment, tag, rate any kind of content</li>
+<li>Privacy and profile customization</li>
+<li>Collaboration, file sharing, video-conference tools</li>
+</ul>
+		</english-features>
+		<english-gender>Gender</english-gender>
+		<english-b_date>Birth Date</english-b_date>
+		<english-b_date_exp>Please enter the Birth Date in DD-MM-YYYY format.</english-b_date_exp>
+		<english-err_adminlen5>The username length should be 5 or more characters.</english-err_adminlen5>
+		<english-err_no_hyphen>The username cannot contain '-' </english-err_no_hyphen>
+		<english-err_date>The date has to be in DD-MM-YYYY format.</english-err_date>
+		<english-err_birthday>Birth Date has to be between 1 and 31.</english-err_birthday>
+		<english-err_birthm>Birth Month has to be between 1 and 12.</english-err_birthm>
+		<english-err_birthy>Birth Year has to be between 1915 and 2018.</english-err_birthy>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

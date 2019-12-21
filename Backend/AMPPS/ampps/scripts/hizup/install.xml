@@ -1,0 +1,57 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="PH7CMS">
+				<head>{{site_name}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="ph7_">
+				<head>{{db_pre}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="Password1">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_fname" size="30" value="System">
+				<head>{{f_name}}</head>
+			</input>
+			<input type="text" name="admin_lname" size="30" value="Administrator">
+				<head>{{l_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+			<input type="text" name="bug_email" size="30" value="bug" softmail="true">
+				<head>{{bug_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+			<input type="text" name="noreply_email" size="30" value="noreply" softmail="true">
+				<head>{{noreply_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+			<input type="text" name="feedback_email" size="30" value="feedback" softmail="true">
+				<head>{{feedback_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>_install/*</exclude>
+		<exclude>_install/*/*</exclude>
+		<exclude>_install/*/*/*</exclude>
+		<exclude>_install/*/*/*/*</exclude>
+		<exclude>_install/*/*/*/*/*</exclude>
+		<exclude>_install/*/*/*/*/*/*</exclude>
+	</files>	
+</softinstall>

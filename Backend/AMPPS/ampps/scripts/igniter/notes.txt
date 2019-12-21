@@ -1,0 +1,1 @@
+PHP REQUIREMENT LINK : https://codeigniter.com/user_guide/general/requirements.html#server-requirements

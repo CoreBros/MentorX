@@ -1,0 +1,5 @@
+1. choose Advanced. Your database of choice (should be installed on the/a server): mySQL 5.5.3+ (mysqli driver) in manual installation.
+2. PHP REQUIREMENT LINK: https://compo.sr/docs/tut-webhosting.htm#title__3
+3. Add This inserts in Config table to enable site 
+('site_name', 1, '[[sitename]]', '', 0),
+('site_closed', 1, '0', '', 0);

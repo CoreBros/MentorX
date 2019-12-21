@@ -1,0 +1,14 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<setuplocation>upgrade/upgrade.php</setuplocation>
+	<files>
+		<exclude>configurations/ossn.config.db.php</exclude>
+		<exclude>configurations/ossn.config.site.php</exclude>
+	</files>
+</softupgrade>

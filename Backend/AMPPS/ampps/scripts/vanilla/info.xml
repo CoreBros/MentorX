@@ -1,0 +1,66 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Vanilla
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/forums/Vanilla
+	</ratings>
+	<space>
+		53411227
+	</space>
+	<support>
+		http://vanillaforums.org/
+	</support>
+	<version>
+		3.3
+	</version>
+	<mod>55</mod>
+	<release_date>28-10-2019</release_date>
+	<admin>dashboard/settings/gettingstarted</admin>
+	<min_require>2.3.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="7.1.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.6.0" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="PDO" />
+	<requirement check="php" type="extension" name="openssl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Vanilla</font> Forums are open-source, standards-compliant, customizable discussion forums. 			<br /><br />
+	It is specially made to help small communities grow larger through SEO mojo, totally customizable social tools, and great user experience. Vanilla is also built with integration at the forefront, so it can seamlessly integrate with your existing website, blog, or custom-built application. <br /><br />
+	Vanilla is released under the <a href="http://www.opensource.org/licenses/gpl-2.0.php" target="_blank">GNU/GPL LICENSE</a>.
+		</english-overview>		
+		<english-features>
+Here are just a few killer features Vanilla Forums have to offer.
+<ul>
+<li>Rich User Experience</li>
+<li>Slick Administration Capabilities</li>
+<li>Limitless Add-ons</li>
+<li>Custom Themes</li>
+<li>Change Title of add custom logo with one-click</li>
+<li>Easily Import old Forum</li>
+<li>Vanilla API</li>
+<li>Social Connect</li>
+<li>Vanilla Mobile</li>
+<li>Vanilla Connect</li>
+<li>Banner</li>
+<li>File Upload</li>
+</ul>
+		</english-features>
+		<english-no_domain_verify>Could not access your domain. Please make sure your domain is pointing to this server and there is no .htaccess file restricing access to your domain</english-no_domain_verify>
+		<english-err_usernamecheck>Username can only contain letters, numbers, underscores, and must be between 3 and 20 characters long.</english-err_usernamecheck>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-no_pass_encrypt>Could not encrypt admin password because the domain is not pointing to the correct server</english-no_pass_encrypt>
+	</languages>
+</soft>

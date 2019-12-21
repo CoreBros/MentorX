@@ -1,0 +1,14 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>includes/configure.php</exclude>
+		<exclude>ext/piwik/config/config.ini.php</exclude>
+		<exclude>templates/glass_gray</exclude>
+	</files>
+</softupgrade>

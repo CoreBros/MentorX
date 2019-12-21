@@ -1,0 +1,59 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/SugarCRM
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/SugarCRM
+	</ratings>
+	<space>
+		65812436
+	</space>
+	<support>
+		https://community.sugarcrm.com/welcome
+	</support>
+	<version>
+		6.5.26
+	</version>
+	<mod>56</mod>
+	<mod_files>2</mod_files>
+	<release_date>28-06-2017</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.2" />
+	<requirement check="php" type="version" operator="lt" value="7.0.0" />
+	<requirement check="php" type="function_exists" name="xml_parser_create" />
+	<requirement check="php" type="function_exists" name="mb_strlen" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Sugar CRM</font> is the world's leading provider of commercial open source customer relationship management (CRM) software. Founded as an open source project in 2004, SugarCRM applications have been downloaded over five million times and currently serve over 500,000 users in 75 languages.
+		<br /><br />
+		Sugar CRM is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Core Sales, Marketing</li>
+<li>Dashboards</li>
+<li>Reporting</li>
+<li>Access Control by Team</li>
+<li>Workflow</li>
+<li>Sales Forecasting</li>
+<li>Customer Portal</li>
+<li>Web To Lead Forms</li>
+<li>Lead Management</li>
+<li>Marketing Analytics</li>
+<li>Support and Collaboration</li>
+<li>Customer Profiles</li>
+<li>And Much More!</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

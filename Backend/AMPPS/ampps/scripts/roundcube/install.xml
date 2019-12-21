@@ -1,0 +1,110 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="rc_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="My Roundcube Mail">
+				<head>{{site_name}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{imap}}</heading>
+			<input type="text" name="imap" size="30" value="imap.site.com" quick_install="1">
+				<head>{{imap_ser}}</head>
+				<exp>{{exp_imap_ser}}</exp>
+				<optional>true</optional>
+			</input>
+			<input type="select">
+				<select name="imap_conn_prefix" quick_install="1">
+					<option value="ssl://">SSL</option>
+					<option value="tls://">TLS</option>
+					<option value="">None</option>
+				</select>
+				<head>{{conn_type}}</head>
+				<optional>true</optional>
+			</input>
+			<input type="text" name="imap_port" size="30" value="143" quick_install="1">
+				<head>{{imap_port}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{smtp}}</heading>
+			<input type="text" name="smtp" size="30" value="smtp.site.com" quick_install="1">
+				<head>{{smtp_ser}}</head>
+				<exp>{{exp_imap_ser}}</exp>
+				<optional>true</optional>
+			</input>
+			<input type="select">
+				<select name="smtp_conn_prefix" quick_install="1">
+					<option value="ssl://">SSL</option>
+					<option value="tls://">TLS</option>
+					<option value="">None</option>
+				</select>
+				<head>{{conn_type}}</head>
+				<optional>true</optional>
+			</input>
+			<input type="text" name="smtp_port" size="30" value="25" quick_install="1">
+				<head>{{smtp_port}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en_US">English</option>
+					<option value="en_GB">English (GB)</option>
+					<option value="ar_SA">Arabic</option>
+					<option value="bs_BA">Bosnian</option>
+					<option value="bg_BG">Bulgarian</option>
+					<option value="ca_ES">Catalan</option>
+					<option value="zh_CN">Simplified Chinese</option>
+					<option value="zh_TW">Traditional Chinese</option>
+					<option value="hr_HR">Croatian</option>
+					<option value="cs_CZ">Czech</option>
+					<option value="da_DK">Danish</option>
+					<option value="de_DE">German</option>
+					<option value="nl_NL">Dutch</option>
+					<option value="fi_FI">Finnish</option>
+					<option value="fr_FR">French</option>
+					<option value="ka_GE">Georgian</option>
+					<option value="el_GR">Greek</option>
+					<option value="he_IL">Hebrew</option>
+					<option value="hu_HU">Hungarian</option>
+					<option value="id_ID">Indonesian</option>
+					<option value="it_IT">Italian</option>
+					<option value="ja_JP">Japanese</option>
+					<option value="ko_KR">Korean</option>
+					<option value="nb_NO">Norwegian</option>
+					<option value="fa">Persian</option>
+					<option value="pl_PL">Polish</option>
+					<option value="pt_BR">Portuguese (Brasil)</option>
+					<option value="pt_PT">Portuguese (Português)</option>
+					<option value="ro_RO">Romanian</option>
+					<option value="ru_RU">Russian</option>
+					<option value="sr_CS">Serbian</option>
+					<option value="sk_SK">Slovak</option>
+					<option value="es_ES">Spanish</option>
+					<option value="sv_SE">Swedish</option>
+					<option value="th_TH">Thai</option>
+					<option value="tr_TR">Turkish</option>
+					<option value="uk_UA">Ukrainian</option>
+					<option value="vi_VN">Vietnamese</option>					
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>installer/*</exclude>
+		<exclude>installer/*/*</exclude>
+		<exclude>installer/*/*/*</exclude>
+		<exclude>installer/*/*/*/*</exclude>
+	</files>
+</softinstall>

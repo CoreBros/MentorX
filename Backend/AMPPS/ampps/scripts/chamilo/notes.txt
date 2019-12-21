@@ -1,0 +1,8 @@
+1. Choose SHA1 as encryption type in manual installation.
+2. On first visit to installation via [[softurl]]/index.php it gives error messages. It is a bug in the script itself and happens in manual installation as well. Mentioned at https://support.chamilo.org/issues/4869
+3. Due to error we have disabled upgrade from 1.9 to 1.10. They have mentioned that upgrade will work from 1.10.2 so kidly enable and check upgrade from 1.9.x to 1.10.x. (upgrade is enabled from 1.10.2)
+4. Replace the following line in configuration.php and uncomment it.
+$_configuration['packager'] = 'chamilo'; to $_configuration['packager'] = 'Softaculous';
+5. Some of the database changes are not applied and version number in config file is not updating post upgrade hence we are disabling upgrade from 1.11.4. Do check and try to add it from next release.
+6. PHP REQUIREMENT LINK: https://11.chamilo.org/documentation/installation_guide.html#1._Pre-requisites
+7. Change upgrade condition for every major version to update version number in configuration.php

@@ -1,0 +1,8 @@
+1. Install with demo data
+2. Try to add upgrade if possible.
+3. Below link explains why we dont give upgrades to abantecart:
+http://docs.abantecart.com/pages/upgrade/manual.html
+(i.e. it need to modify dbprefix in upgrade.sql file provided in upgrade package)
+4. Remove the INSERTS FROM `messages` table which states to delete the install directory
+5. select mysqli
+6. PHP REQUIREMENT LINK : http://docs.abantecart.com/pages/install/system_requirements.html#

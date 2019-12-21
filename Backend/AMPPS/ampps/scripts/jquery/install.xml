@@ -1,0 +1,16 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>{{version}}</heading>
+			<input type="select">
+				<select name="select_version">
+					<option value="3.0.0">3.4.1</option>
+					<option value="2.0.0">2.2.4</option>
+					<option value="1.12.4">1.12.4</option>
+				</select>
+				<head>{{choose_version}}</head>
+				<exp>{{choose_version_exp}}</exp>
+			</input>
+		</group>
+	</settings>
+</softinstall>

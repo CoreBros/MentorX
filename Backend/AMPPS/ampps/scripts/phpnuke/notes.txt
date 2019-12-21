@@ -1,0 +1,1 @@
+1. add error_reporting(E_PARSE); in mainfile.php

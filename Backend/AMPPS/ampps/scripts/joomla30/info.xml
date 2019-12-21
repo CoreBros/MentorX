@@ -1,0 +1,67 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Joomla
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Joomla
+	</ratings>
+	<space>
+		37001782
+	</space>
+	<support>
+		http://www.joomla.org/3/
+	</support>
+	<version>
+		3.9.14
+	</version>
+	<mod>73</mod>
+	<release_date>17-12-2019</release_date>
+	<admin>administrator</admin>
+	<branch>413</branch>
+	<branch>18</branch>
+	<min_require>3.3.0</min_require>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.10" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Joomla</font> is an award-winning content management system (CMS), which enables you to build Web sites and powerful online applications. Many aspects, including its ease-of-use and extensibility, have made Joomla the most popular Web site software available. Best of all, Joomla is an open source solution that is freely available to everyone.
+		<br /><br />
+		Joomla is free, open, and available to anyone under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+	<font size="2" color="#1281B6"><b>Joomla 3.0</b></font> is a whole new exciting world. Joomla3 took a little from the top, bottom, and side to create a whole brand new look and feel, along with many other dynamic features; features that bring Joomla to the forefront of the content management system world.<br />
+	<ul>
+		<li>Incorporation of Bootstrap into a jui media package.</li>
+		<li>A new responsive administrator template Isis and interface.</li>
+		<li>A new frontend template Protostar built using Bootstrap and updated accessible template called Beez3</li>
+		<li>PostgreSQL Driver. You will be able to run Joomla 3.0 sites using the PostgreSQL database.</li>
+		<li>PHP Memcached Driver</li>
+		<li>Use of JFeed for feed management rather than SimplePie</li>
+		<li>Installation of language packages directly from the extension manager</li>
+		<li>Guest user group present by default</li>
+		<li>Saving blank articles allowed</li>
+		<li>New administrator statistics module</li>
+		<li>Update TinyMCE to version 3.5.6</li>
+		<li>Continued clean up of older unused code, files and database fields and tables and improved standardization of tables.</li>
+		<li>Improvements to Smart Search</li>
+		<li>Extensive work on code style standardisation and consistency</li>
+		<li>Unit testing in the CMS</li>
+		<li>Updated system tests in the CMS</li>
+	</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-no_pass_encrypt>Could not encrypt admin password because the domain is not pointing to the correct server</english-no_pass_encrypt>
+	</languages>
+</soft>

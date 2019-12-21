@@ -1,0 +1,42 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="evo_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+			<input type="checkbox" name="sample_data" checked="checked">
+				<head>{{sample_data}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+				<handle>__ad_username</handle>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="password">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en-US">English (US)</option>
+					<option value="fr-FR">French</option>
+					<option value="de-DE">German</option>
+					<option value="ru-RU">Russian</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+</softinstall>
