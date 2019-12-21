@@ -1,1 +1,0 @@
-ar rc c-client.a osdep.o mail.o misc.o newsrc.o smanager.o utf8.o utf8aux.o siglocal.o dummy.o pseudo.o netmsg.o flstring.o fdstring.o rfc822.o nntp.o smtp.o imap4r1.o pop3.o unix.o mbx.o mmdf.o tenex.o mtx.o news.o phile.o mh.o mx.o mix.o;ranlib c-client.a

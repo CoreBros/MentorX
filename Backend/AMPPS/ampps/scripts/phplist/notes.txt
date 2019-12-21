@@ -1,9 +1,0 @@
-1) Remove php_flag from .htaccess in the package
-2) define ("TEST",1); to define ("TEST",0); in config.php use config_extended.php
-3) After DB dump from manual Installation Go to System -> Upgrade phplist and then again take a dump. Check the differece and add ('version', '...', 0, NULL),
-4) We have configured the _index.php with our changes and we replace it at /admin/index.php for auto upgrade and the we revert the changes after the upgrade. Since version 3.3.3 we change $GLOBALS['require_login'] = 1; to $GLOBALS['require_login'] = 0;.
-
-Please make sure the _index.php and index.php are updated in the package from the latest zip package /admin/index.php
-
-5) Please edit your config file and change "mysql.inc" to "mysqli.inc" to avoid future PHP incompatibility
-6) PHP REQUIREMENT LINK : https://resources.phplist.com/system/start ( Does not work on PHP 5.3 so we have kept min req 5.4. Check in next version )

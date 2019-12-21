@@ -1,3 +1,0 @@
-
--L/Applications/AMPPS/extra/lib -lgssapi_krb5 -lkrb5 -lcrypto -lcom_err
--L/Applications/AMPPS/extra/lib -lssl /Applications/AMPPS/extra/lib/libcrypto.a

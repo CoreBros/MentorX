@@ -1,9 +1,0 @@
-1. For upgrade download Upgrade package and Copy upgrade files from that zip (Large Upgrade package)
-2. To add the Language files just download the files from the following URL :
-http://download.simplemachines.org/?smflanguages
-3. The files should be the latest SMF version
-4. Download the utf-8 files for all Languages
-5. Copy all the zip files to /languages folder
-6. Rename if language is not in "language-utf8.zip" format from "smf_version_language-utf8.zip"
-7. PHP REQUIREMENT LINK: https://download.simplemachines.org/requirements.php
-8. Uncheck "Allow Stat Collection" in manual installation. This can be changed from admin->configuration->server settings->general->Allow Stat Collection

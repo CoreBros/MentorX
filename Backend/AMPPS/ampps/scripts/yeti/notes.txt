@@ -1,5 +1,0 @@
-1. Select Currency as "USA, Dollars" and Time zone as "(UTC-05:00) Eastern Time (US & Canada)"
-2. Keep Company name "YetiForce" in manual Installation.
-3. PHP Requirement Link: https://yetiforce.com/pl/component/zoo/item/web-server-requirements
-4. Release date : https://github.com/YetiForceCompany/YetiForceCRM/releases (released xx days ago)
-5. We have moved few folders in config from manual to zip because it does not create after install. (Since 5.0.0)

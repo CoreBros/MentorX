@@ -1,4 +1,0 @@
-1. Download full package and upgrade package from sourceforge i.e http://e107.org/get-started
-2. Upgrade is allowed for all 1.x to 2.1. Check the files and folders that needs to be deleted in next version. This can be checked while logging into admin after upgrade.
-3. kindly check and add upgrade method when there is update in 2.x branch. (Current upgrade method support only 1.x to 2.x)
-4. PHP REQUIREMENT LINK : http://e107.org/get-started

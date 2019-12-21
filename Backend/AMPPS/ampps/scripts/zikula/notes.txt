@@ -1,3 +1,0 @@
-1) We have created empty userdata directory in upgrade to pass the requirement of upgrade script.
-2) PHP REQUIREMENT LINK: https://github.com/zikula/core/blob/2.0/README.md
-3) Move web/themes from manual to zip (Not required fom 2.0.12)

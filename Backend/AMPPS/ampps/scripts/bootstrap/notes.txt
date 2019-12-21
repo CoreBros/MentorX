@@ -1,1 +1,0 @@
-Download precompiled Bootstrap i.e version-dist.zip

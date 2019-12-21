@@ -1,3 +1,0 @@
-1. use install/automated-install.html for manual installation to check post params
-2. NO need to copy.htaccess. We have managed it in install.php with 'htaccess' => 'skip'.
-3. PHP REQUIREMENT LINK: /readme.html

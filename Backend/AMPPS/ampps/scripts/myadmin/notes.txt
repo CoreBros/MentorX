@@ -1,2 +1,0 @@
-1) Download All Language package.
-2) PHP REQUIREMENT LINK : https://www.phpmyadmin.net/downloads/ OR https://docs.phpmyadmin.net/en/latest/require.html#requirements

@@ -1,2 +1,0 @@
-1. PHP REQUIREMENT LINK : https://www.opensource-socialnetwork.org/wiki/view/706/how-to-install-open-source-social-network
-2. Take database dump on login page.

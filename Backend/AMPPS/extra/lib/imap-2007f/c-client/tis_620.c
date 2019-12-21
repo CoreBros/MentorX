@@ -1,1 +1,0 @@
-/Applications/AMPPS/extra/lib/imap-2007f/src/charset/tis_620.c

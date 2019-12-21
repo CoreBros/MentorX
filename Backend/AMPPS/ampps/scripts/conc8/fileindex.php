@@ -1,9 +1,0 @@
-LICENSE.TXT
-application
-composer.json
-composer.lock
-concrete
-index.php
-packages
-robots.txt
-updates

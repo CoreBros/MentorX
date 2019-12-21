@@ -1,2 +1,0 @@
-1. Set the value of "demo_mode" in config table to "off". Because if this is on the emails wont be sent.
-2. Release date : pommo.zip/docs/RELEASE file
