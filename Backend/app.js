@@ -23,6 +23,10 @@ app.get("/login", function(req,res){
 	res.render("login");
 });
 
+app.get("/homepage", function(req,res){
+	res.render("HomePage");
+});
+
 
 
 let port = process.env.PORT;
